@@ -1,5 +1,5 @@
 {
-    whisper_core: "openai",
+    whisper_core: "faster-whisper",
     gradio_language: "Korean",
     whisper_model_name: "large-v2",
     whisper_language: "English",
