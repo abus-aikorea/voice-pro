@@ -1,15 +1,15 @@
-# Voice-Gulliver
+# Voice-Pro
 
 🌍 [한국어](docs/README.kor.md) ∙ [English](docs/README.eng.md) ∙ [日本語](docs/README.jpn.md)
 
-[![GitHub License](https://img.shields.io/github/license/abus-aikorea/voice-gulliver)](LICENSE)
-[![GitHub Release](https://img.shields.io/github/v/release/abus-aikorea/voice-gulliver)](https://github.com/abus-aikorea/voice-gulliver/releases )
+[![GitHub License](https://img.shields.io/github/license/abus-aikorea/voice-pro)](LICENSE)
+[![GitHub Release](https://img.shields.io/github/v/release/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/releases )
 
-The best gradient web-ui for asr, translation and tts. Easy one click installation. Fully portable.
+The best gradient web-ui for transcription, translation and tts. Easy one click installation. Fully portable.
 
 
 ## Introduction
-* Voice Gulliver is an integrated solution for **subtitles**, **translation**, and **dubbing**. 
+* Voice Gulliver is an integrated solution for **transcription**, **translation**, and **dubbing**. 
 * Add multilingual subtitles to your video with Voice Gulliver. Expansion into the global market is possible!
 * You watch world news every morning? Then, try using the live translation function. It supports real-time translation, just like what you see on YouTube.
 * Voice Gulliver is equipped with **Vocal Remover** provided by UVR5 and Meta's **Demucs** engine. 
@@ -21,7 +21,7 @@ The best gradient web-ui for asr, translation and tts. Easy one click installati
 ## Main function
 
 * `VOD` tab
-  - Provides integrated environment for YouTube downloader, noise removal, subtitles, translation, and dubbing
+  - Provides integrated environment for YouTube downloader, transcription, translation, and dubbing
   - All video/audio formats supported by ffmpeg can be used
   - Selectable output audio format (wav, flac, mp3)
   - Speech recognition and subtitle creation for 100 languages
@@ -68,15 +68,15 @@ The best gradient web-ui for asr, translation and tts. Easy one click installati
 
 ### step 1. Package preparation
 * A. Paid version
-    + Unzip the compressed file (**voice-gulliver-x.zip**) included in the USB to an appropriate location on your computer.
-    + Or, copy the already unzipped folder (**voice-gulliver-x**) to an appropriate location on your computer.
+    + Unzip the compressed file (**voice-pro-x.zip**) included in the USB to an appropriate location on your computer.
+    + Or, copy the already unzipped folder (**voice-pro-x**) to an appropriate location on your computer.
 
 * B. Free version
-  + [![GitHub Release](https://img.shields.io/github/v/release/abus-aikorea/voice-gulliver)](https://github.com/abus-aikorea/voice-gulliver/ Download and unzip the latest release (**Source code (zip)**) from 
+  + [![GitHub Release](https://img.shields.io/github/v/release/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/ Download and unzip the latest release (**Source code (zip)**) from 
   + Or, download source code with git clone
     
 ```bash
-git clone https://github.com/abus-aikorea/voice-gulliver.git
+git clone https://github.com/abus-aikorea/voice-pro.git
 ```
 
 ### step 2. Install and run the program
@@ -84,9 +84,9 @@ git clone https://github.com/abus-aikorea/voice-gulliver.git
    - Install ffmpeg and CUDA (if using NVIDIA GPU) on Windows. 
    - You only need to run it the first time.
 2. Run `start.bat`
-   - Start Voice-Gulliver. Web-UI will run automatically. 
-   - When running for the first time, Voice-Gulliver is installed first. 
-   - Voice-Gulliver installation requires an Internet connection, and depending on the system, installation may take more than an hour. 
+   - Start Voice-Pro. Web-UI will run automatically. 
+   - When running for the first time, Voice-Pro is installed first. 
+   - Voice-Pro installation requires an Internet connection, and depending on the system, installation may take more than an hour. 
    - Never close the Windows-Command window during installation.
    - If a problem occurs during installation, delete the installer_files folder and run start.bat again.
 
@@ -94,7 +94,7 @@ git clone https://github.com/abus-aikorea/voice-gulliver.git
 
 ### Run screen
 
-https://github.com/abus-aikorea/voice-gulliver/assets/161691694/bb7dd2f2-9863-49e3-bd3e-59b0b8315fca
+https://github.com/abus-aikorea/voice-pro/assets/161691694/bb7dd2f2-9863-49e3-bd3e-59b0b8315fca
 
 
 ### step 3. Uninstall program
@@ -102,7 +102,7 @@ https://github.com/abus-aikorea/voice-gulliver/assets/161691694/bb7dd2f2-9863-49
   - Remove the installer_files folder.
   - Remove ffmepg and CUDA packages installed on Windows (if selected)
 
-* Voice-Gulliver has **portable** installation as standard. To uninstall the program, deleting the installation folder is sufficient.
+* Voice-Pro has **portable** installation as standard. To uninstall the program, deleting the installation folder is sufficient.
 
 
 
