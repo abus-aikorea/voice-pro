@@ -1,56 +1,75 @@
-# Voice-Gulliver
+# Voice-Pro
 
 🌍 [韓国語](README.kor.md) ∙ [English](README.eng.md) ∙ [日本語](README.jpn.md)
 
-[![GitHub License](https://img.shields.io/github/license/abus-aikorea/voice-gulliver)](LICENSE)
-[![GitHub Release](https://img.shields.io/github/v/release/abus-aikorea/voice-gulliver)](https://github.com/abus-aikorea/voice-gulliver/releases )
+[![GitHub License](https://img.shields.io/github/license/abus-aikorea/voice-pro)](LICENSE)
+[![GitHub Release](https://img.shields.io/github/v/release/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/releases )
 
 The best gradio web-ui for asr, translation and tts. Easy one click installation. Fully portable.
 
 
 ## はじめに
-* ボイスガリバーは**字幕、翻訳、ダビング**統合ソリューションです。 
-* ボイスガリバーで映像に多言語字幕を追加してみてください。グローバル進出安心！
-* 朝毎にワールドニュースを視聴していますか？では、ライブ翻訳機能をご利用ください。 YouTubeで見たまさに、リアルタイム翻訳をサポートします。
-* ボイスガリバーは、UVR5が提供する**ボーカルリムーバー**とMetaの**Demucs**エンジンを搭載しています。 
-* ボイスガリバーは**OpenAI Whisper**と**Microsoft Azure AI**を使用します。      
-* ボイスガリバーは**ワンクリック**で簡単にインストールでき、Gradio Web-UIを提供します。 
+* Voice-Proは**字幕、翻訳、TTS**統合ソリューションです。 
+* Voice-Proで映像に多言語字幕と多言語音声を追加してみてください。グローバル進出安心！
+* 朝毎にワールドニュースを視聴していますか？では、ライブ翻訳機能をご利用ください。 YouTubeで見たまさにその、リアルタイム翻訳をサポートします。
+* Voice-ProはUVR5が提供する**ボーカルリムーバー**とMetaの**Demucs**エンジンを搭載しています。 
+* Voice-Proは**OpenAI Whisper**と無料**Open-Source Translator**と**Open-Source TTS**を使用します。      
+* Voice-Proは**ワンクリック**で簡単にインストールでき、Gradio Web-UIを提供します。 
 * 最高レベルの**On-Device AI Voice**技術を体験してください。
 
 
 ## 主な機能
 
-* `VOD`タブ
-  - YouTubeダウンローダ、ノイズ除去、字幕、翻訳、ダビング統合環境で提供
+* `Studio`タブ
+  - YouTubeダウンローダ、ノイズ除去、字幕、翻訳、TTS統合環境で提供
   - ffmpegがサポートするすべてのビデオ/オーディオフォーマットが利用可能
   - 出力オーディオフォーマット（wav、flac、mp3）選択可能
   - 100言語の音声認識、字幕生成
   - PC性能に合わせた字幕生成オプションを選択可能(Whisper Model & Compute Type)
-  - オリジナル映像のBGMと効果音をダビング映像でもそのまま維持
-  - ダビング音声の速度、音量、ピッチ調整をサポート  
+  - 100以上の言語への翻訳とTTSによる音声生成
+  - オリジナル映像のBGMと効果音を多言語映像でもそのまま維持
+  - TTS音声の速度、音量、ピッチ調整をサポート
   
 <p align="center">
   <img style="width: 90%; height: 90%" src="images/main_page.kor.png?raw=true" alt=""/>
 </p>  
 
 
-* `Live`タブ
+* `Whisper字幕`タブ
+  - 字幕作成専用タブ。 90以上の言語をサポート
+  - 映像とともに生成された字幕表示
+  - World-Level Highlight機能を提供
+  - Denoise機能を提供(1-Demucs、2-MDXNet)
+
+* `翻訳`タブ
+  - 翻訳専用タブ。 100以上の言語をサポート
+  - 字幕ファイル（ass、ssa、srt、mpl2、tmp、vtt、microdvd、json）をサポート
+  - テキスト直接入力も可能
+  - アップロードしたファイルの言語を自動的に検出
+
+* `TTS`タブ
+  - TTS専用タブ。 100以上の言語、400以上のボイスをサポート
+  - 字幕ファイル（ass、ssa、srt、mpl2、tmp、vtt、microdvd、json）をサポート
+  - テキスト直接入力も可能
+  - アップロードしたファイルの言語を自動的に検出
+  - ピッチ、音量、速度調整可能
+
+
+* `Live Translation`タブ
   - リアルタイム音声認識＆翻訳サポート
   - Mic、Speakerなどのオーディオ入力ソースを選択可能
   - キャプチャされたオーディオ、認識された字幕、翻訳された字幕保存機能を提供
 
 * `Batch`タブ
-  - 大量のファイルをバッチ処理
-
-* `Garage`タブ
-  - 字幕ファイルをアップロードし、翻訳して吹き替えることができます。
-  - AIによって自動生成された字幕を校正する必要がある場合に便利です。
-  - サポートされている字幕形式: '.ass'、'.ssa'、'.srt'、'.mpl2'、'.tmp'、'.vtt'、'.microdvd'、'.json'
+  - 大量のファイルのバッチ処理
+  - 字幕、翻訳、TTS
 
 
 ## 特徴
 * YouTube動画（mp4、webm）をダウンロードし、オーディオファイル（mp3、wav、flac）として保存できます。
-* ノイズ除去＆ボーカル分離により、音声認識の精度を高めることができます。 **MDX-Net**とMetaの**Demucs**を利用します。
+* ノイズ除去＆ボーカル分離により、音声認識の精度を高めることができます。 **MDX-Net** と Meta の **Demucs** を利用します。
+* AI音声認識による自動字幕制作、機械翻訳、TTS機能を提供します。
+* 多言語映像を簡単に制作できます。
 * **ワンクリックインストール**。一度インストールすると、追加料金なしで**永続**として使用できます。 （※Freeバージョンは利用時間**30分制限**あり）
 * **Web-UI**を提供します。 Google Chromeブラウザをお勧めします。
 
@@ -68,15 +87,15 @@ The best gradio web-ui for asr, translation and tts. Easy one click installation
 
 ### step 1. パッケージの準備
 * A.有料バージョン
-    + USBに含まれる圧縮ファイル（**voice-gulliver-x.zip**）をコンピュータの適切な場所に解凍する
-    + またはすでに解凍されているフォルダ（**voice-gulliver-x**）をコンピュータの適切な場所にコピーする
+    + USBに含まれる圧縮ファイル（**voice-pro-x.zip**）をコンピュータの適切な場所に解凍する
+    + またはすでに解凍されているフォルダ（**voice-pro-x**）をコンピュータの適切な場所にコピーする
 
 * B. 無料版
-  + [![GitHub Release](https://img.shields.io/github/v/release/abus-aikorea/voice-gulliver)](https://github.com/abus-aikorea/voice-gulliver/ releases) から最新リリース (**Source code (zip)**) ダウンロード後に解凍 
+  + [![GitHub Release](https://img.shields.io/github/v/release/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/ releases) から最新リリース (**Source code (zip)**) ダウンロード後に解凍 
   + または、git cloneでソースコードをダウンロードする
     
 ``` bash
-git clone https://github.com/abus-aikorea/voice-gulliver.git
+git clone https://github.com/abus-aikorea/voice-pro.git
 ```
 
 ### step 2. プログラムのインストールと実行
@@ -84,9 +103,9 @@ git clone https://github.com/abus-aikorea/voice-gulliver.git
    - WindowsにffmpegとCUDA（NVIDIA GPUを使用している場合）をインストールします。
    - 最初の1回だけ実行するだけです。
 2. `start.bat`の実行
-   - Voice-Gulliverを起動します。 Web-UIが自動的に起動します。
-   - 最初の実行時には、Voice-Gulliverのインストール作業を先に進めます。
-   - Voice-Gulliverインストールはインターネット接続を必要とし、システムによってはインストールに1時間以上かかることがあります。
+   - Voice-Proを起動します。 Web-UIが自動的に起動します。
+   - 最初の実行時には、Voice-Proのインストール作業を先に進めます。
+   - Voice-Proインストールはインターネット接続を必要とし、システムによってはインストールに1時間以上かかることがあります。
    - インストール中は絶対にWindowsコマンドウィンドウを終了しないでください。
    - インストール中に問題が発生した場合は、installer_filesフォルダを削除してstart.batを再実行してください。
 
@@ -94,7 +113,7 @@ git clone https://github.com/abus-aikorea/voice-gulliver.git
 
 ### 実行画面
 
-https://github.com/abus-aikorea/voice-gulliver/assets/161691694/bb7dd2f2-9863-49e3-bd3e-59b0b8315fca
+https://github.com/abus-aikorea/voice-pro/assets/161691694/bb7dd2f2-9863-49e3-bd3e-59b0b8315fca
 
 
 
@@ -103,7 +122,7 @@ https://github.com/abus-aikorea/voice-gulliver/assets/161691694/bb7dd2f2-9863-49
   - installer_filesフォルダを削除します。
   - Windowsにインストールしたffmepg、CUDAパッケージを削除します（選択した場合）
 
-* Voice-Gulliverは**ポータブル**インストールがデフォルトです。プログラムの削除は、インストールフォルダを削除するだけで十分です。
+* Voice-Proは**ポータブル**インストールがデフォルトです。プログラムの削除は、インストールフォルダを削除するだけで十分です。
 
 
 ## ヒントとコツ

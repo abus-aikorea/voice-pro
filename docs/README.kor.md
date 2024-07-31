@@ -69,7 +69,7 @@ The best gradio web-ui for transcription, translation and tts. Easy one click in
 * YouTube 동영상(mp4, webm)을 다운로드하고, 오디오 파일(mp3, wav, flac)로 저장할 수 있습니다.
 * 노이즈 제거 & 보컬 분리를 통해 음성인식의 정확도를 높일 수 있습니다. **MDX-Net** 과 Meta의 **Demucs**를 이용합니다.
 * AI 음성인식을 통한 자동 자막 제작, 기계 번역, TTS 기능을 제공합니다.
-* 이를 통해, 다국어 영상을 제작할 수 있습니다.
+* 다국어 영상을 손쉽게 제작할 수 있습니다.
 * **원클릭 설치**. 한 번 설치하면 추가 비용 없이 **영구적**으로 사용할 수 있습니다. ( ※ Free버전은 이용시간 **30분제한** 있음)
 * **Web-UI**를 제공합니다. Google Chrome 브라우저를 권장합니다.
 
