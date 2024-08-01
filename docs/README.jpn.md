@@ -31,7 +31,7 @@ The best gradio web-ui for asr, translation and tts. Easy one click installation
   - TTS音声の速度、音量、ピッチ調整をサポート
   
 <p align="center">
-  <img style="width: 90%; height: 90%" src="images/main_page.kor.png?raw=true" alt=""/>
+  <img style="width: 90%; height: 90%" src="images/main_page.jpn.png?raw=true" alt=""/>
 </p>  
 
 
@@ -113,7 +113,7 @@ git clone https://github.com/abus-aikorea/voice-pro.git
 
 ### 実行画面
 
-https://github.com/abus-aikorea/voice-pro/assets/161691694/bb7dd2f2-9863-49e3-bd3e-59b0b8315fca
+
 
 
 

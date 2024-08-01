@@ -112,7 +112,7 @@ git clone https://github.com/abus-aikorea/voice-pro.git
 
 ### 실행 화면
 
-https://github.com/abus-aikorea/voice-pro/assets/161691694/bb7dd2f2-9863-49e3-bd3e-59b0b8315fca
+
 
 
 
