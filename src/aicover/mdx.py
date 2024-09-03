@@ -77,8 +77,20 @@ class MDX:
         self.model = params
 
         # Load the ONNX model using ONNX Runtime
-        self.ort = ort.InferenceSession(model_path, providers=['CUDAExecutionProvider', 'CPUExecutionProvider'])
-        logger.debug(f'MDX onnx device is {ort.get_device()}')
+        # self.ort = ort.InferenceSession(model_path, providers=['CUDAExecutionProvider', 'CPUExecutionProvider'])
+    
+        opts = ort.SessionOptions()
+        opts.log_severity_level = 3
+
+        opts.inter_op_num_threads = 1
+        opts.intra_op_num_threads = 1
+        
+        if 'CPUExecutionProvider' in ort.get_available_providers():
+            self.ort = ort.InferenceSession(model_path, providers=['CPUExecutionProvider'], sess_options=opts)
+        else:
+            self.ort = ort.InferenceSession(model_path, providers=['CUDAExecutionProvider'], sess_options=opts)
+                
+        logger.warning(f'MDX onnx device is {ort.get_device()}')
         # Preload the model for faster performance
         self.ort.run(None, {'input': torch.rand(1, 4, params.dim_f, params.dim_t).numpy()})
         self.process = lambda spec: self.ort.run(None, {'input': spec.cpu().numpy()})[0]

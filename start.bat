@@ -1,6 +1,27 @@
 @echo off
 setlocal enabledelayedexpansion
 
+
+:: Check if we're running in SysWOW64
+if /i "%PROCESSOR_ARCHITECTURE%"=="x86" (
+    if defined PROCESSOR_ARCHITEW6432 (
+        :: We're running in 32-bit mode on a 64-bit system
+        :: Re-launch using 64-bit cmd.exe
+        %SystemRoot%\Sysnative\cmd.exe /c "%~dpnx0" %*
+        exit /b
+    )
+)
+
+:: At this point, we're running in 64-bit mode
+:: Check if the script is being run directly or through another cmd instance
+if /i "%~dp0"=="%SystemRoot%\SysWOW64\" (
+    :: We're running from SysWOW64, re-launch using System32 cmd.exe
+    %SystemRoot%\System32\cmd.exe /c "%~dpnx0" %*
+    exit /b
+)
+
+
+
 echo =========================================================================
 echo.
 echo   ABUS Launcher [Version 3.0]
@@ -8,6 +29,14 @@ echo   contact: abus.aikorea@gmail.com
 echo.
 echo =========================================================================
 echo.
+
+:: If we've reached here, we're running in the correct environment
+:: Your actual batch file commands start here
+echo Running in 64-bit mode from System32
+echo Current directory: %CD%
+echo Command line: %*
+
+
 
 cd /D "%~dp0"
 set PATH=%PATH%;%SystemRoot%\system32
