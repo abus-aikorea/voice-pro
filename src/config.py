@@ -16,7 +16,7 @@ class UserConfig:
     def __init__(self, user_config_path):
         self.user_config_path = user_config_path
         self.default_user_config = {
-            "whisper_core": "faster-whisper",
+            "whisper_core": "openai",
             "gradio_language": "Korean",
             "whisper_model_name": "medium",            
             "whisper_language": "korean",
