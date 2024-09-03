@@ -62,7 +62,7 @@ local-attention
 fairseq==0.12.2
 wget
 
-# PyTorch
+# PyTorch 2.4.0
 --extra-index-url https://download.pytorch.org/whl/cu121
 torch==2.4.0+cu121
 --extra-index-url https://download.pytorch.org/whl/cu121

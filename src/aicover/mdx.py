@@ -80,11 +80,16 @@ class MDX:
         # self.ort = ort.InferenceSession(model_path, providers=['CUDAExecutionProvider', 'CPUExecutionProvider'])
         
         if 'CUDAExecutionProvider' in ort.get_available_providers():
-            providers = [("CUDAExecutionProvider", {"device_id": torch.cuda.current_device(),
-                                                    "user_compute_stream": str(torch.cuda.current_stream().cuda_stream)})]
+            # providers = [("CUDAExecutionProvider", {"device_id": torch.cuda.current_device(),
+            #                                         "user_compute_stream": str(torch.cuda.current_stream().cuda_stream)})]
+            # sess_options = ort.SessionOptions()
+            # self.ort = ort.InferenceSession(model_path, sess_options=sess_options, providers=providers)             
+
             sess_options = ort.SessionOptions()
-            self.ort = ort.InferenceSession(model_path, sess_options=sess_options, providers=providers)             
-            # self.ort = ort.InferenceSession(model_path, providers=['CUDAExecutionProvider'], sess_options=opts)
+            sess_options.log_severity_level = 3
+            sess_options.inter_op_num_threads = 1
+            sess_options.intra_op_num_threads = 1            
+            self.ort = ort.InferenceSession(model_path, sess_options=sess_options, providers=['CUDAExecutionProvider'])
         else:
             sess_options = ort.SessionOptions()
             sess_options.log_severity_level = 3
