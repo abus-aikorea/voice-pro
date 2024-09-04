@@ -1,5 +1,5 @@
 {
-    whisper_core: "openai",
+    whisper_core: "faster-whisper",
     gradio_language: "Korean",
     whisper_model_name: "tiny",
     whisper_language: "korean",
@@ -52,7 +52,7 @@
     rvc_clean_strength: 0,
     tts_language: "English",
     tts_voice: "UNITED STATES-Christopher-Male",
-    tts_pitch: 50,
-    tts_rate: 30,
+    tts_pitch: 0,
+    tts_rate: 0,
     tts_volume: 0,
 }
