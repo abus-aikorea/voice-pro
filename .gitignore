@@ -172,3 +172,5 @@ cython_debug/
 /rvc/configs
 /model/demucs
 /model/mdxnet-model
+/voice-pro/requirements-cpu.txt
+/voice-pro/requirements-gpu.txt
