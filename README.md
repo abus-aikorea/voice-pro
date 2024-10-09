@@ -1,6 +1,6 @@
 # Voice-Pro
 
-🌍 [한국어](docs/README.kor.md) ∙ [English](docs/README.eng.md) ∙ [日本語](docs/README.jpn.md)
+🌍 [한국어](docs/README.kor.md) ∙ [English](docs/README.eng.md) ∙ [中文简体](docs/README.zh.md) ∙ [中文繁體](docs/README.tw.md) ∙ [日本語](docs/README.jpn.md)
 
 [![GitHub License](https://img.shields.io/github/license/abus-aikorea/voice-pro)](LICENSE)
 [![GitHub Release](https://img.shields.io/github/v/release/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/releases )
@@ -179,5 +179,5 @@ When Windows Defender mistakenly recognizes a batch file as a Trojan, this is of
 
 
 ## Copyright
-  <img src="docs/images/AbUS-logo.jpg" width="100" height="100"> by [ABUS](https://abuskorea.imweb.me)
+  <img src="docs/images/ABUS-logo.jpg" width="100" height="100"> by [ABUS](https://abuskorea.imweb.me)
 

@@ -1,6 +1,6 @@
 # Voice-Pro
 
-🌍 [韓国語](README.kor.md) ∙ [English](README.eng.md) ∙ [日本語](README.jpn.md)
+🌍 [한국어](README.kor.md) ∙ [English](README.eng.md) ∙ [中文简体](README.zh.md) ∙ [中文繁體](README.tw.md) ∙ [日本語](README.jpn.md)
 
 [![GitHub License](https://img.shields.io/github/license/abus-aikorea/voice-pro)](LICENSE)
 [![GitHub Release](https://img.shields.io/github/v/release/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/releases )
@@ -182,4 +182,4 @@ Windows Defenderが誤ってバッチファイルをトロイの木馬として�
 
 
 ## 著作権
-  <img src="images/AbUS-logo.jpg" width="100" height="100"> by [ABUS](https://abuskorea.imweb.me)
+  <img src="images/ABUS-logo.jpg" width="100" height="100"> by [ABUS](https://abuskorea.imweb.me)

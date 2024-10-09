@@ -5,6 +5,9 @@ from pathlib import Path
 
 def load_language_list(language):
     # json_path = os.path.join(Path(__file__).resolve().parent, f"locale/ja_JP.json")
+    # json_path = os.path.join(Path(__file__).resolve().parent, f"locale/en_US.json")
+    # json_path = os.path.join(Path(__file__).resolve().parent, f"locale/zh_CN.json")
+    # json_path = os.path.join(Path(__file__).resolve().parent, f"locale/zh_TW.json")    
     json_path = os.path.join(Path(__file__).resolve().parent, f"locale/{language}.json")
     with open(json_path, "r", encoding="utf-8") as f:
         language_list = json.load(f)
