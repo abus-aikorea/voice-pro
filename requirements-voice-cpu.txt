@@ -57,12 +57,12 @@ uuid
 
 # rvc cli
 noisereduce
-praat-parselmouth==0.4.2
-torchcrepe==0.0.22
-pyworld==0.3.4
-faiss-cpu==1.7.3
-local-attention
-fairseq==0.12.2
+# praat-parselmouth==0.4.2
+# torchcrepe==0.0.22
+# pyworld==0.3.4
+# faiss-cpu==1.7.3
+# local-attention
+# fairseq==0.12.2
 wget
 
 # PyTorch 2.4.0
