@@ -156,17 +156,18 @@ When Windows Defender mistakenly recognizes a batch file as a Trojan, this is of
 ## Contact us
 * e-mail: <abus.aikorea@gmail.com>
 * homepage(Korean): <https://abuskorea.imweb.me>
+* Amazon(US): <https://www.amazon.com/dp/B0DBR69JPL>
+* Amazon(Japan): <https://www.amazon.co.jp/dp/B0DBVRJ542>
+* Amazon(Singapore): <https://www.amazon.sg/dp/B0DCGKL8R4>
+* Amazon(UAE): <https://www.amazon.ae/dp/B0DCGKM7FF>
 * 네이버 스마트스토어 (S/W): <https://smartstore.naver.com/abus/products/10385660040>
 * 네이버 스마트스토어 (Solution): <https://smartstore.naver.com/abus/products/10298346364>
-* Coupang(Korean): <https://www.coupang.com/vp/products/7875503674>
-* Amazon(US): <https://www.amazon.com/dp/B0D5H8Z4FL>
-* Amazon(Japan): <https://www.amazon.co.jp/dp/B0CTHT2JH3>
-
 
 ## YouTube
-* Product Information: <https://youtu.be/heEN4UIQLjc>
-* Automatic Subtitle∙Translation: <https://youtu.be/uQ14hoEiI4c?si=Io9K_vIDYyeu9Z8_>
-* Home Karaoke: <https://youtube.com/playlist?list=PLwx5dnMDVC9bVxfGo58U-R-w3fUHqwiD6&si=TZBh5AFjcr7_dyiI>
+* Product Information: <https://youtube.com/playlist?list=PLwx5dnMDVC9Y7dAjm9r26CZUw1uU5VIeq&si=873MgzUtu4POE9jO>
+* Home Karaoke (Pop): <https://youtube.com/playlist?list=PLwx5dnMDVC9bVxfGo58U-R-w3fUHqwiD6&si=aWRDfF8TxFp2oAR0>
+* Home Karaoke (K-Pop): <https://youtube.com/playlist?list=PLwx5dnMDVC9Z8kB01tQKfzTysaCCxC3C8&si=1_-9p722rd_JXpzv>
+* Home Karaoke (J-Pop): <https://youtube.com/playlist?list=PLwx5dnMDVC9apyxrP9LE9PiT821G7lJXk&si=0a474CP7ZIjMoGN9>
   
 
 

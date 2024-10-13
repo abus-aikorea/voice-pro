@@ -148,16 +148,22 @@ git clone https://github.com/abus-aikorea/voice-pro.git
 ## 聯絡我們
 * 電子郵件：<abus.aikorea@gmail.com>
 * 主頁（韓語）：<https://abuskorea.imweb.me>
+* Amazon（美國）：<https://www.amazon.com/dp/B0DBR69JPL>
+* Amazon（日本）：<https://www.amazon.co.jp/dp/B0DBVRJ542>
+* Amazon(Singapore): <https://www.amazon.sg/dp/B0DCGKL8R4>
+* Amazon(UAE): <https://www.amazon.ae/dp/B0DCGKM7FF>
 * Naver 智慧商店（軟體）：<https://smartstore.naver.com/abus/products/10385660040>
 * Naver 智慧商店（解決方案）：<https://smartstore.naver.com/abus/products/10298346364>
-* Coupang（韓國）：<https://www.coupang.com/vp/products/7875503674>
-* Amazon（美國）：<https://www.amazon.com/dp/B0D5H8Z4FL>
-* Amazon（日本）：<https://www.amazon.co.jp/dp/B0CTHT2JH3>
+
 
 ## YouTube
-* 產品資訊：<https://youtu.be/heEN4UIQLjc>
-* 自動字幕∙翻譯：<https://youtu.be/uQ14hoEiI4c?si=Io9K_vIDYyeu9Z8_>
-* 家庭卡拉 OK：<https://youtube.com/playlist?list=PLwx5dnMDVC9bVxfGo58U-R-w3fUHqwiD6&si=TZBh5AFjcr7_dyiI>
+* 產品資訊：<https://youtube.com/playlist?list=PLwx5dnMDVC9Y7dAjm9r26CZUw1uU5VIeq&si=873MgzUtu4POE9jO>
+* 家庭卡拉 OK (POP)：<https://youtube.com/playlist?list=PLwx5dnMDVC9bVxfGo58U-R-w3fUHqwiD6&si=aWRDfF8TxFp2oAR0>
+* 家庭卡拉 OK (K-Pop): <https://youtube.com/playlist?list=PLwx5dnMDVC9Z8kB01tQKfzTysaCCxC3C8&si=1_-9p722rd_JXpzv>
+* 家庭卡拉 OK (J-Pop): <https://youtube.com/playlist?list=PLwx5dnMDVC9apyxrP9LE9PiT821G7lJXk&si=0a474CP7ZIjMoGN9>
+
+
+
 
 ## 鳴謝
 * FacebookResearch Demucs：<https://github.com/facebookresearch/demucs>

@@ -161,17 +161,18 @@ Windows Defenderが誤ってバッチファイルをトロイの木馬として�
 ## 製品お問い合わせ
 * メール: <abus.aikorea@gmail.com>
 * ホームページ(韓国語): <https://abuskorea.imweb.me>
+* Amazon(アメリカ): <https://www.amazon.com/dp/B0DBR69JPL>
+* Amazon(日本): <https://www.amazon.co.jp/dp/B0DBVRJ542>
+* Amazon(Singapore): <https://www.amazon.sg/dp/B0DCGKL8R4>
+* Amazon(UAE): <https://www.amazon.ae/dp/B0DCGKM7FF>
 * 네이버 스마트스토어 (S/W): <https://smartstore.naver.com/abus/products/10385660040>
 * 네이버 스마트스토어 (솔루션): <https://smartstore.naver.com/abus/products/10298346364>
-* Amazon(アメリカ): <https://www.amazon.com/dp/B0D5H8Z4FL>
-* Amazon(日本): <https://www.amazon.co.jp/dp/B0CTHT2JH3>
-
 
 ## YouTube
-* 商品説明: <https://youtu.be/heEN4UIQLjc>
-* 自動字幕・翻訳: <https://youtu.be/uQ14hoEiI4c?si=Io9K_vIDYyeu9Z8_>
-* ホームカラオケ: <https://youtube.com/playlist?list=PLwx5dnMDVC9bd6y3wXs-bOas2cXIi-GAq&si=B4S8HJr8gmeAw8hw>
-
+* 商品説明: <https://youtube.com/playlist?list=PLwx5dnMDVC9Y7dAjm9r26CZUw1uU5VIeq&si=873MgzUtu4POE9jO>
+* ホームカラオケ (Pop): <https://youtube.com/playlist?list=PLwx5dnMDVC9bVxfGo58U-R-w3fUHqwiD6&si=aWRDfF8TxFp2oAR0>
+* ホームカラオケ (K-Pop): <https://youtube.com/playlist?list=PLwx5dnMDVC9Z8kB01tQKfzTysaCCxC3C8&si=1_-9p722rd_JXpzv>
+* ホームカラオケ (J-Pop): <https://youtube.com/playlist?list=PLwx5dnMDVC9apyxrP9LE9PiT821G7lJXk&si=0a474CP7ZIjMoGN9>
 
 ## Credits
 * FacebookResearch Demucs: <https://github.com/facebookresearch/demucs>
