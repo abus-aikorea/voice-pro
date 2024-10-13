@@ -16,6 +16,9 @@ The best gradio web-ui for transcription, translation and tts. Easy one click in
 * Voice-Pro can be easily installed with **one click** and provides Gradio Web-UI. 
 * Experience the highest level of **On-Device AI Voice** technology.
 
+### Run screen
+
+https://github.com/user-attachments/assets/27b4e79c-7b29-4efd-80c3-5757fa5f71e4
 
 
 ## main function
@@ -106,14 +109,6 @@ git clone https://github.com/abus-aikorea/voice-pro.git
    - Voice-Pro installation requires an Internet connection, and depending on the system, installation may take more than an hour. 
    - Never close the Windows-Command window during installation.
    - If a problem occurs during installation, delete the installer_files folder and run start.bat again.
-
-
-
-### Run screen
-
-
-
-
 
 ### step 3. Uninstall program
 * Run `uninstall.bat`:
