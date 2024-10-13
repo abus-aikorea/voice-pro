@@ -17,6 +17,10 @@ The best gradio web-ui for transcription, translation and tts. Easy one click in
 * 보이스-Pro는 **원클릭**으로 손쉽게 설치할 수 있으며, Gradio Web-UI 를 제공합니다. 
 * 최고 수준의 **On-Device AI보이스** 기술을 경험해 보세요.  
 
+### 실행 화면
+
+https://github.com/user-attachments/assets/27b4e79c-7b29-4efd-80c3-5757fa5f71e4
+
 
 ## 주요 기능
 
@@ -108,12 +112,6 @@ git clone https://github.com/abus-aikorea/voice-pro.git
    - Voice-Pro 설치는 인터넷 연결을 필요로 하며, 시스템에 따라 설치에 1시간 이상이 소요될 수 있습니다. 
    - 설치 중에는 절대 Windows-Command 창을 종료하지 마세요.
    - 설치중 문제가 발생한 경우, installer_files 폴더를 삭제하고 start.bat를 다시 실행하세요.
-
-
-### 실행 화면
-
-
-
 
 
 ### step 3. 프로그램 제거
