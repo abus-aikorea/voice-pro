@@ -16,6 +16,13 @@
 * Voice-Pro 可以通过**一键**轻松安装，并提供 Gradio 网页界面。
 * 体验最高水平的**设备端 AI 语音**技术。
 
+
+### 运行画面
+
+https://github.com/user-attachments/assets/27b4e79c-7b29-4efd-80c3-5757fa5f71e4
+
+
+
 ## 主要功能
 
 * `Studio` 标签页
@@ -102,9 +109,6 @@ git clone https://github.com/abus-aikorea/voice-pro.git
    - 安装过程中切勿关闭 Windows 命令窗口。
    - 如果安装过程中出现问题，请删除 installer_files 文件夹并重新运行 start.bat。
 
-### 运行界面
-
-[此处应该有一张图片，但在文本格式中无法显示]
 
 ### 步骤 3. 卸载程序
 * 运行 `uninstall.bat`：
