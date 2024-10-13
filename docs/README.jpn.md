@@ -18,6 +18,10 @@ The best gradio web-ui for asr, translation and tts. Easy one click installation
 * 最高レベルの**On-Device AI Voice**技術を体験してください。
 
 
+### 実行画面
+
+https://github.com/user-attachments/assets/27b4e79c-7b29-4efd-80c3-5757fa5f71e4
+
 ## 主な機能
 
 * `Studio`タブ
@@ -108,12 +112,6 @@ git clone https://github.com/abus-aikorea/voice-pro.git
    - Voice-Proインストールはインターネット接続を必要とし、システムによってはインストールに1時間以上かかることがあります。
    - インストール中は絶対にWindowsコマンドウィンドウを終了しないでください。
    - インストール中に問題が発生した場合は、installer_filesフォルダを削除してstart.batを再実行してください。
-
-
-
-### 実行画面
-
-
 
 
 
