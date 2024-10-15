@@ -1,27 +1,30 @@
-# Voice-Pro
+# Voice-Pro: The best gradio web-ui for transcription, translation and text-to-speech 🔊
 
 🌍 [한국어](docs/README.kor.md) ∙ [English](docs/README.eng.md) ∙ [中文简体](docs/README.zh.md) ∙ [中文繁體](docs/README.tw.md) ∙ [日本語](docs/README.jpn.md)
 
 [![GitHub License](https://img.shields.io/github/license/abus-aikorea/voice-pro)](LICENSE)
 [![GitHub Release](https://img.shields.io/github/v/release/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/releases )
 
-The best gradio web-ui for transcription, translation and tts. Easy one click installation. Fully portable.
 
-## Introduction
-* Voice-Pro is an integrated solution for **subtitles, translation, and TTS**. 
-* Add multilingual subtitles and multilingual audio to your video with Voice-Pro. Expansion into the global market is possible!
-* You watch world news every morning? Then, try using the live translation feature. It supports real-time translation, just like what you see on YouTube.
-* Voice-Pro is equipped with **Vocal Remover** provided by UVR5 and Meta's **Demucs** engine. 
-* Voice-Pro uses **OpenAI Whisper** and the free **Open-Source Translator** and **Open-Source TTS**.      
-* Voice-Pro can be easily installed with **one click** and provides Gradio Web-UI. 
-* Experience the highest level of **On-Device AI Voice** technology.
 
-### Run screen
+**Voice-Pro is the best gradio web-ui for transcription, translation and text-to-speech.** It can be easily installed with one click. Create a virtual environment using Miniconda, running completely separate from the Windows system (fully portable). Supports real-time transcription and translation, as well as batch mode.
+
+
+- **YouTube Downloader**: You can download YouTube videos and extract the audio (mp3, wav, flac).
+- **Vocal Remover**: Use MDX-Net supported in UVR5 and the Demucs engine developed by Meta for voice separation.
+- **STT**: Supports speech-to-text conversion with Whisper, Faster-Whisper, and whisper-timestamped.
+- **Translator**: Google Translator.
+- **TTS**: Text to Speech. Edge TTS.
+- more...
+
+
+
+### 🚄 Run screen
 
 https://github.com/user-attachments/assets/27b4e79c-7b29-4efd-80c3-5757fa5f71e4
 
 
-## main function
+## ⭐ Key Features
 
 * `Studio` tab
   - Provides integrated environment for YouTube downloader, noise removal, subtitles, translation, and TTS
@@ -66,59 +69,52 @@ https://github.com/user-attachments/assets/27b4e79c-7b29-4efd-80c3-5757fa5f71e4
   - Batch processing for large amounts of files
   - Subtitles, translation, TTS
 
-## Features
-* You can download YouTube videos (mp4, webm) and save them as audio files (mp3, wav, flac).
-* You can increase the accuracy of voice recognition by removing noise and separating vocals. **MDX-Net** and Meta's **Demucs** are used.
-* Provides automatic subtitle creation, machine translation, and TTS functions through AI voice recognition.
-* You can easily produce multilingual videos.
-* **One-click installation**. Once installed, you can use it **permanently** at no additional cost. (※ Free version has **30 minute limit** on usage time)
-* Provides **Web-UI**. Google Chrome browser is recommended.
 
 
-## Execution environment
+## 💻 Execution environment
 * OS: Windows 10/11 (64bits) **※ Linux and Mac OS are not supported.**
-* CPU: Intel processor 2GHz or higher (or equivalent compatible)
+* GPU: **NVIDIA** graphics card supporting CUDA 12.1 recommended. 
+* VRAM: 4GB or more. 8GB or more recommended.
 * RAM: 4GB or more
 * HDD: At least 20GB of free space during installation
-* GPU: **NVIDIA** graphics card supporting CUDA 12.1 recommended. VRAM 4GB or more. 8GB or more recommended.
 * Internet connection required (installation and translation work)
 
 
-## Install and run
+
+## 📀 Installation
+
+Voice-Pro can be easily installed with one click. Just run 🚀**configure.bat** and 🚀**start.bat**
+
 
 ### step 1. Package preparation
 * A. Paid version
     + Unzip the compressed file (**voice-pro-x.zip**) included in the USB to an appropriate location on your computer.
     + Or, copy the already unzipped folder (**voice-pro-x**) to an appropriate location on your computer.
-
 * B. Free version
-  + [![GitHub Release](https://img.shields.io/github/v/release/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/ Download and unzip the latest release (**Source code (zip)**) from 
-  + Or, download source code with git clone
-    
-```bash
-git clone https://github.com/abus-aikorea/voice-pro.git
-```
+  + Clone or download the latest release (**Source code (zip)**) from  [![GitHub Release](https://img.shields.io/github/v/release/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/)
+  
 
 ### step 2. Install and run the program
-1. Run `configure.bat`
-   - Install ffmpeg and CUDA (if using NVIDIA GPU) on Windows. 
+1. 🚀 Run `configure.bat`
+   - Install git, ffmpeg and CUDA (if using NVIDIA GPU) on Windows. 
    - You only need to run it the first time.
-2. Run `start.bat`
+   - An internet connection is required, and it may take over an hour depending on the system.
+   - Never close the Windows-Command window during installation.
+2. 🚀 Run `start.bat`
    - Start Voice-Pro. Web-UI will run automatically. 
    - When running for the first time, Voice-Pro is installed first. 
-   - Voice-Pro installation requires an Internet connection, and depending on the system, installation may take more than an hour. 
+   - An internet connection is required, and it may take over an hour depending on the system. 
    - Never close the Windows-Command window during installation.
-   - If a problem occurs during installation, delete the installer_files folder and run start.bat again.
+   - If a problem occurs during installation, delete the **installer_files** folder and run start.bat again.
 
 ### step 3. Uninstall program
 * Run `uninstall.bat`:
-  - Remove the installer_files folder.
-  - Remove ffmepg and CUDA packages installed on Windows (if selected)
-
+  - Remove the **installer_files** folder.
+  - Remove ffmepg, git and CUDA packages installed on Windows (if selected)
 * Voice-Pro has **portable** installation as standard. To uninstall the program, deleting the installation folder is sufficient.
 
 
-## Tips & Tricks
+## ❓Tips & Tricks
 
 #### If Browser does not run automatically
 - Close the Windows-Commnad window and run start.bat again.
@@ -135,7 +131,17 @@ git clone https://github.com/abus-aikorea/voice-pro.git
 - If you increase the denoise level, more background sounds will be removed, and only the remaining voice will be used for voice recognition. It does not always guarantee good results.
   
 
-## caution
+## 📢 caution
+
+Windows Defender may give a warning about untrusted application and disallow further execution of Voice-Pro.
+If SmartScreen security level is set to "Warn", just click "More info" and then click "Run anyway". 
+If SmartScreen is set to level "Block" there will be no button to run the installation. In this case, open the properties of the start.bat file, and check "Unblock", apply the change and run the start.bat again.
+
+<p align="center">
+  <img style="width: 60%; height: 60%" src="docs/images/windows_smartscreen_warning.png?raw=true" alt=""/>
+</p>  
+
+
 When Windows Defender mistakenly recognizes a batch file as a Trojan, this is often called a 'False Positive'. To solve this problem, you can go through the following steps:
 
 1. File exception handling: In Windows Defender, you can set certain files or processes to skip security scanning. To do this, follow the steps below:
@@ -149,7 +155,7 @@ When Windows Defender mistakenly recognizes a batch file as a Trojan, this is of
 3. Report the problem to anti-virus software: If you are sure that the file is not a Trojan horse, you can report it to Microsoft as a False Positive. Microsoft will review this and take any necessary action.
 
 
-## Contact us
+## 📬 Contact us
 * e-mail: <abus.aikorea@gmail.com>
 * homepage(Korean): <https://abuskorea.imweb.me>
 * Amazon(US): <https://www.amazon.com/dp/B0DBR69JPL>
@@ -159,7 +165,7 @@ When Windows Defender mistakenly recognizes a batch file as a Trojan, this is of
 * 네이버 스마트스토어 (S/W): <https://smartstore.naver.com/abus/products/10385660040>
 * 네이버 스마트스토어 (Solution): <https://smartstore.naver.com/abus/products/10298346364>
 
-## YouTube
+## 👍 YouTube
 * Product Information: <https://youtube.com/playlist?list=PLwx5dnMDVC9Y7dAjm9r26CZUw1uU5VIeq&si=873MgzUtu4POE9jO>
 * Home Karaoke (Pop): <https://youtube.com/playlist?list=PLwx5dnMDVC9bVxfGo58U-R-w3fUHqwiD6&si=aWRDfF8TxFp2oAR0>
 * Home Karaoke (K-Pop): <https://youtube.com/playlist?list=PLwx5dnMDVC9Z8kB01tQKfzTysaCCxC3C8&si=1_-9p722rd_JXpzv>
@@ -167,13 +173,13 @@ When Windows Defender mistakenly recognizes a batch file as a Trojan, this is of
   
 
 
-## Credits
+## 🙏 Credits
 * FacebookResearch Demucs: <https://github.com/facebookresearch/demucs>
 * yt-dlp: <https://github.com/yt-dlp/yt-dlp>
 * gradio: <https://github.com/gradio-app/gradio>
 
 
 
-## Copyright
+## ©️ Copyright
   <img src="docs/images/ABUS-logo.jpg" width="100" height="100"> by [ABUS](https://abuskorea.imweb.me)
 

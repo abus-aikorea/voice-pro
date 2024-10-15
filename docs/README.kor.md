@@ -1,28 +1,28 @@
-# Voice-Pro
+# Voice-Pro: The best gradio web-ui for transcription, translation and text-to-speech 🔊
 
 🌍 [한국어](README.kor.md) ∙ [English](README.eng.md) ∙ [中文简体](README.zh.md) ∙ [中文繁體](README.tw.md) ∙ [日本語](README.jpn.md)
 
 [![GitHub License](https://img.shields.io/github/license/abus-aikorea/voice-pro)](LICENSE)
-[![GitHub Release](https://img.shields.io/github/v/release/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/releases)
-
-The best gradio web-ui for transcription, translation and tts. Easy one click installation. Fully portable.
+[![GitHub Release](https://img.shields.io/github/v/release/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/releases )
 
 
-## 소개
-* 보이스-Pro는  **자막, 번역, TTS** 통합 솔루션입니다. 
-* 보이스-Pro로 영상에 다국어 자막과 다국어 음성을 추가해 보세요. 글로벌 진출 쌉가능!
-* 아침마다 월드뉴스를 시청하신다고요? 그럼, 라이브 번역기능을 이용해 보세요. 유튜브에서 보던 바로 그, 실시간 번역을 지원합니다.
-* 보이스-Pro는 UVR5에서 제공하는 **보컬 리무버** 와 Meta의 **Demucs** 엔진을 탑재하고 있습니다. 
-* 보이스-Pro는 **OpenAI Whisper** 와 무료 **Open-Source Translator** 및 **Open-Source TTS** 를 사용합니다.      
-* 보이스-Pro는 **원클릭**으로 손쉽게 설치할 수 있으며, Gradio Web-UI 를 제공합니다. 
-* 최고 수준의 **On-Device AI보이스** 기술을 경험해 보세요.  
+**Voice-Pro는 음성인식, 번역 및 음성합성을 위한 최고의 gradio Web UI입니다.** 원클릭으로 간편하게 설치할 수 있습니다. Miniconda를 사용하여 가상 환경을 만들고, Windows 시스템과 완전히 분리되어 실행됩니다. 실시간 전사 및 번역과 배치 모드를 지원합니다.
 
-### 실행 화면
+
+- **YouTube Downloader**: YouTube 비디오를 다운로드하고 오디오를 추출할 수 있습니다(mp3, wav, flac).
+- **Vocal Remover**: UVR5에서 지원하는 MDX-Net과 Meta에서 개발한 Demucs 엔진을 사용하여 음성을 분리합니다.
+- **STT**: Whisper, Faster-Whisper, whisper-timestamped를 사용한 음성-텍스트 변환을 지원합니다.
+- **Translator**: Google Translator.
+- **TTS**: Text to Speech. Edge TTS.
+- more...
+
+
+### 🚄 실행 화면
 
 https://github.com/user-attachments/assets/27b4e79c-7b29-4efd-80c3-5757fa5f71e4
 
 
-## 주요 기능
+## ⭐ Key Features
 
 * `Studio` 탭
   - YouTube 다운로더, 노이즈 제거, 자막, 번역, TTS 통합환경으로 제공
@@ -69,44 +69,33 @@ https://github.com/user-attachments/assets/27b4e79c-7b29-4efd-80c3-5757fa5f71e4
  
 
 
-## 특징
-* YouTube 동영상(mp4, webm)을 다운로드하고, 오디오 파일(mp3, wav, flac)로 저장할 수 있습니다.
-* 노이즈 제거 & 보컬 분리를 통해 음성인식의 정확도를 높일 수 있습니다. **MDX-Net** 과 Meta의 **Demucs**를 이용합니다.
-* AI 음성인식을 통한 자동 자막 제작, 기계 번역, TTS 기능을 제공합니다.
-* 다국어 영상을 손쉽게 제작할 수 있습니다.
-* **원클릭 설치**. 한 번 설치하면 추가 비용 없이 **영구적**으로 사용할 수 있습니다. ( ※ Free버전은 이용시간 **30분제한** 있음)
-* **Web-UI**를 제공합니다. Google Chrome 브라우저를 권장합니다.
-
-
-## 실행 환경
+## 💻 Execution environment
 * OS : Windows 10/11 (64bits) **※ Linux, Mac OS는 지원하지 않습니다.**
-* CPU: Intel 프로세서 2GHz 이상(또는 동급 호환)
+* GPU: CUDA 12.1을 지원하는 **NVIDIA** 그래픽 카드 권장. 
+* VRAM: 4GB 이상. 8GB이상 권장.
 * RAM: 4GB 이상
 * HDD: 설치 중 최소 20GB의 여유 공간
-* GPU: CUDA 12.1을 지원하는 **NVIDIA** 그래픽 카드 권장. VRAM 4GB 이상. 8GB이상 권장.
 * 인터넷 연결 필요(설치 및 번역 작업)
 
 
-## 설치 와 실행
+## 📀 설치 와 실행
+
+Voice-Pro can be easily installed with one click. Just run 🚀**configure.bat** and 🚀**start.bat**
 
 ### step 1. 패키지 준비
 * A. 유료버전
     + USB에 포함된 압축파일(**voice-pro-x.zip**)을 컴퓨터의 적당한 위치에 압축해제
     + 혹은, 이미 압축이 해제된 폴더(**voice-pro-x**)를 컴퓨터의 적당한 위치에 복사
-
 * B. 무료버전
-  + [![GitHub Release](https://img.shields.io/github/v/release/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/releases) 로부터 최신 릴리즈 (**Source code (zip)**) 다운로드 후 압축 해제 
-  + 혹은, git clone 으로 소스코드 다운로드
-    
-```bash
-git clone https://github.com/abus-aikorea/voice-pro.git
-```
+  + Clone or download the latest release (**Source code (zip)**) from  [![GitHub Release](https://img.shields.io/github/v/release/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/)
 
 ### step 2. 프로그램 설치 및 실행
-1. `configure.bat` 실행
-   - Windows에 ffmpeg 과 CUDA(NVIDIA GPU를 사용하는 경우)를 설치합니다. 
+1. 🚀 `configure.bat` 실행
+   - Windows에 ffmpeg, git 과 CUDA(NVIDIA GPU를 사용하는 경우)를 설치합니다. 
    - 최초 1회만 실행하면 됩니다.
-2. `start.bat` 실행
+   - 인터넷 연결을 필요로하며, 시스템에 따라 설치에 1시간 이상 소요될 수 있음.
+   - 설치 중에는 절대 Windows-Command 창을 종료하지 마세요.
+2. 🚀 `start.bat` 실행
    - Voice-Pro 를 시작합니다. Web-UI가 자동으로 실행됩니다. 
    - 최초 실행시에는 Voice-Pro 설치 작업을 먼저 진행합니다. 
    - Voice-Pro 설치는 인터넷 연결을 필요로 하며, 시스템에 따라 설치에 1시간 이상이 소요될 수 있습니다. 
@@ -118,12 +107,11 @@ git clone https://github.com/abus-aikorea/voice-pro.git
 * `uninstall.bat` 실행: 
   - installer_files 폴더를 제거합니다. 
   - Windows 에 설치한 ffmepg, CUDA 패키지를 제거합니다(선택할 경우)
-
 * Voice-Pro는 **포터블** 설치가 기본입니다. 프로그램의 제거는 설치 폴더를 삭제하는 것으로 충분합니다.
 
 
 
-## 사용팁
+## ❓사용팁
 
 #### Browser가 자동으로 실행되지 않는 경우
 - Windows-Commnad 창을 종료하고, start.bat 을 다시 실행하거나
@@ -142,7 +130,17 @@ git clone https://github.com/abus-aikorea/voice-pro.git
 
 
 
-## 주의사항
+## 📢 주의사항
+
+Windows Defender가 신뢰할 수 없는 애플리케이션에 대한 경고를 표시하고 Voice-Pro의 추가 실행을 허용하지 않을 수 있습니다.
+SmartScreen 보안 수준이 "경고"로 설정되어 있다면 "More info"를 클릭한 후 "어쨌든 실행"을 클릭하세요.
+SmartScreen이 "차단" 수준으로 설정되어 있으면 설치를 실행할 수 있는 버튼이 없습니다. 이 경우, start.bat 파일의 속성을 열고 "차단 해제"를 체크한 후 변경 사항을 적용하고 다시 start.bat 파일을 실행하세요.
+
+<p align="center">
+  <img style="width: 60%; height: 60%" src="images/windows_smartscreen_warning.png?raw=true" alt=""/>
+</p>  
+
+
 Windows Defender가 실수로 batch 파일을 트로이 목마로 인식하는 경우, 이는 종종 'False Positive'라고 불립니다. 이런 문제를 해결하기 위해서는 다음과 같은 과정을 거칠 수 있습니다.
 
 1. 파일 예외 처리: Windows Defender에서 특정 파일이나 프로세스가 보안 검사를 건너뛰도록 설정할 수 있습니다. 이를 위해 아래의 단계를 따르세요.
@@ -156,7 +154,7 @@ Windows Defender가 실수로 batch 파일을 트로이 목마로 인식하는 �
 3. 백신 소프트웨어에 문제 제보: 만약 파일이 트로이 목마가 아니라는 확신이 있다면, Microsoft에 False Positive로 제보할 수 있습니다. Microsoft는 이를 검토한 후 필요한 조치를 취할 것입니다.
 
 
-## 제품 문의
+## 📬 제품 문의
 * 이메일 문의: <abus.aikorea@gmail.com>
 * 홈페이지: <https://abuskorea.imweb.me>
 * Amazon(US): <https://www.amazon.com/dp/B0DBR69JPL>
@@ -167,19 +165,19 @@ Windows Defender가 실수로 batch 파일을 트로이 목마로 인식하는 �
 * 네이버 스마트스토어 (솔루션): <https://smartstore.naver.com/abus/products/10298346364>
 
 
-## YouTube
+## 👍 YouTube
 * Product Information: <https://youtube.com/playlist?list=PLwx5dnMDVC9Y7dAjm9r26CZUw1uU5VIeq&si=873MgzUtu4POE9jO>
 * Home Karaoke (Pop): <https://youtube.com/playlist?list=PLwx5dnMDVC9bVxfGo58U-R-w3fUHqwiD6&si=aWRDfF8TxFp2oAR0>
 * Home Karaoke (K-Pop): <https://youtube.com/playlist?list=PLwx5dnMDVC9Z8kB01tQKfzTysaCCxC3C8&si=1_-9p722rd_JXpzv>
 * Home Karaoke (J-Pop): <https://youtube.com/playlist?list=PLwx5dnMDVC9apyxrP9LE9PiT821G7lJXk&si=0a474CP7ZIjMoGN9>
 
 
-## Credits
+## 🙏 Credits
 * FacebookResearch Demucs: <https://github.com/facebookresearch/demucs>
 * yt-dlp: <https://github.com/yt-dlp/yt-dlp>
 * gradio: <https://github.com/gradio-app/gradio>
 
 
-## 저작권 정보
+## ©️ 저작권 정보
   <img src="images/ABUS-logo.jpg" width="100" height="100"> by [ABUS](https://abuskorea.imweb.me)
 

@@ -1,174 +1,164 @@
-# Voice-Pro
+# Voice-Pro: The best gradio web-ui for transcription, translation and text-to-speech 🔊
 
 🌍 [한국어](README.kor.md) ∙ [English](README.eng.md) ∙ [中文简体](README.zh.md) ∙ [中文繁體](README.tw.md) ∙ [日本語](README.jpn.md)
 
 [![GitHub License](https://img.shields.io/github/license/abus-aikorea/voice-pro)](LICENSE)
-[![GitHub Release](https://img.shields.io/github/v/release/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/releases)
+[![GitHub Release](https://img.shields.io/github/v/release/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/releases )
 
-用於轉錄、翻譯和文字轉語音的最佳 gradio 網頁界面。一鍵安裝簡便。完全可攜。
 
-## 簡介
-* Voice-Pro 是一個整合了**字幕、翻譯和文字轉語音**的解決方案。
-* 使用 Voice-Pro 為您的影片添加多語言字幕和多語言音訊。讓全球市場擴展成為可能！
-* 您每天早晨都看世界新聞嗎？那麼，試試使用即時翻譯功能。它支援即時翻譯，就像您在 YouTube 上看到的那樣。
-* Voice-Pro 配備了 UVR5 提供的**人聲移除器**和 Meta 的 **Demucs** 引擎。
-* Voice-Pro 使用 **OpenAI Whisper** 和免費的**開源翻譯器**以及**開源文字轉語音**。
-* Voice-Pro 可以透過**一鍵**輕鬆安裝，並提供 Gradio 網頁界面。
-* 體驗最高水準的**設備端 AI 語音**技術。
+**Voice-Pro是最佳的轉錄、翻譯和文字轉語音的gradio網頁界面。**它可以一鍵安裝。使用Miniconda創建虛擬環境，完全獨立於Windows系統運行（完全便攜）。支持實時轉錄和翻譯，以及批處理模式。
 
-### 運行畫面
+- **YouTube下載器**：您可以下載YouTube視頻並提取音頻（mp3、wav、flac）。
+- **人聲分離**：使用UVR5支持的MDX-Net和Meta開發的Demucs引擎進行語音分離。
+- **STT**：支持使用Whisper、Faster-Whisper和whisper-timestamped進行語音轉文字。
+- **翻譯器**：Google翻譯。
+- **TTS**：文字轉語音。Edge TTS。
+- 更多...
+
+### 🚄 運行畫面
 
 https://github.com/user-attachments/assets/27b4e79c-7b29-4efd-80c3-5757fa5f71e4
 
+## ⭐ 主要功能
 
-
-## 主要功能
-
-* `Studio` 標籤頁
-  - 提供 YouTube 下載器、降噪、字幕、翻譯和文字轉語音的整合環境
-  - 支援所有 ffmpeg 可用的影片/音訊格式
-  - 可選擇輸出音訊格式（wav、flac、mp3）
-  - 支援 100 種語言的語音識別和字幕建立
-  - 選擇適合 PC 效能的字幕建立選項（Whisper 模型和計算類型）
-  - 翻譯成 100 多種語言，並透過文字轉語音生成語音
-  - 多語言影片中保留原始影片的背景音樂和音效
-  - 支援調整文字轉語音的語速、音量和音調
+* `Studio`標籤頁
+  - 提供YouTube下載器、噪音去除、字幕、翻譯和TTS的集成環境
+  - 支持所有ffmpeg支持的視頻/音頻格式
+  - 可選擇輸出音頻格式（wav、flac、mp3）
+  - 支持100種語言的語音識別和字幕創建
+  - 選擇適合PC性能的字幕創建選項（Whisper模型和計算類型）
+  - 翻譯成100多種語言並通過TTS生成語音
+  - 原始視頻的背景音樂和音效在多語言視頻中保持不變
+  - 支持TTS語音速度、音量和音調調整
 
 <p align="center">
   <img style="width: 90%; height: 90%" src="images/main_page.eng.png?raw=true" alt=""/>
 </p>  
 
-* `Whisper Caption` 標籤頁
-  - 專門用於建立字幕的標籤頁。支援 90 多種語言
-  - 顯示與影片一起建立的字幕
+* `Whisper Caption`標籤頁
+  - 專用於創建字幕的標籤頁。支持90多種語言
+  - 顯示與視頻一起創建的字幕
   - 提供單詞級高亮功能
-  - 提供降噪功能（1-Demucs，2-MDXNet）
+  - 提供降噪功能（1-Demucs、2-MDXNet）
 
-* `Translate` 標籤頁
-  - 專門用於翻譯的標籤頁。支援 100 多種語言
-  - 支援字幕檔案（ass、ssa、srt、mpl2、tmp、vtt、microdvd、json）
-  - 也可以直接輸入文字
-  - 自動檢測上傳檔案的語言
+* `Translate`標籤頁
+  - 專用於翻譯的標籤頁。支持100多種語言
+  - 支持字幕文件（ass、ssa、srt、mpl2、tmp、vtt、microdvd、json）
+  - 也可以直接輸入文本
+  - 自動檢測上傳文件的語言
 
-* `TTS` 標籤頁
-  - 專門用於文字轉語音的標籤頁。支援 100 多種語言和 400 種聲音
-  - 支援字幕檔案（ass、ssa、srt、mpl2、tmp、vtt、microdvd、json）
-  - 也可以直接輸入文字
-  - 自動檢測上傳檔案的語言
-  - 可調節音調、音量和語速
+* `TTS`標籤頁
+  - 只用於TTS的標籤頁。支持100多種語言和400多種聲音
+  - 支持字幕文件（ass、ssa、srt、mpl2、tmp、vtt、microdvd、json）
+  - 也可以直接輸入文本
+  - 自動檢測上傳文件的語言
+  - 可調節音調、音量和速度
 
-* `Live Translation` 標籤頁
-  - 支援即時語音識別和翻譯
-  - 選擇音訊輸入源，如麥克風、揚聲器等
-  - 提供儲存捕獲的音訊、識別的字幕和翻譯的字幕的功能
+* `Live Translation`標籤頁
+  - 支持實時語音識別和翻譯
+  - 選擇麥克風、揚聲器等音頻輸入源
+  - 提供保存捕獲的音頻、識別的字幕和翻譯的字幕的功能
 
-* `Batch` 標籤頁
-  - 批次處理大量檔案
-  - 字幕、翻譯、文字轉語音
+* `Batch`標籤頁
+  - 大量文件的批處理
+  - 字幕、翻譯、TTS
 
-## 特點
-* 您可以下載 YouTube 影片（mp4、webm）並將其儲存為音訊檔案（mp3、wav、flac）。
-* 透過去除噪音和分離人聲，可以提高語音識別的準確性。使用 **MDX-Net** 和 Meta 的 **Demucs**。
-* 透過 AI 語音識別提供自動字幕建立、機器翻譯和文字轉語音功能。
-* 您可以輕鬆製作多語言影片。
-* **一鍵安裝**。安裝後，無需額外費用即可**永久**使用。（※ 免費版有 **30 分鐘**使用時間限制）
-* 提供**網頁界面**。推薦使用 Google Chrome 瀏覽器。
+## 💻 執行環境
+* 操作系統：Windows 10/11（64位）**※不支持Linux和Mac OS。**
+* GPU：推薦支持CUDA 12.1的**NVIDIA**顯卡。
+* VRAM：4GB或以上。推薦8GB或以上。
+* RAM：4GB或以上
+* 硬碟：安裝時至少需要20GB的可用空間
+* 需要網絡連接（安裝和翻譯工作）
 
-## 執行環境
-* 作業系統：Windows 10/11（64位）**※ 不支援 Linux 和 Mac OS。**
-* CPU：Intel 處理器 2GHz 或更高（或同等相容處理器）
-* 記憶體：4GB 或更多
-* 硬碟：安裝時至少需要 20GB 的可用空間
-* 顯示卡：推薦支援 CUDA 12.1 的 **NVIDIA** 顯示卡。顯示記憶體 4GB 或更多，建議 8GB 或更多。
-* 需要網際網路連線（用於安裝和翻譯工作）
+## 📀 安裝
 
-## 安裝和執行
+Voice-Pro可以輕鬆地一鍵安裝。只需運行🚀**configure.bat**和🚀**start.bat**即可。
 
-### 步驟 1. 準備套件
+### 步驟1. 準備包
 * A. 付費版
-    + 將 USB 中包含的壓縮檔（**voice-pro-x.zip**）解壓到電腦上的適當位置。
-    + 或者，將已解壓的資料夾（**voice-pro-x**）複製到電腦上的適當位置。
-
+    + 將USB中包含的壓縮文件（**voice-pro-x.zip**）解壓到電腦的適當位置。
+    + 或者，將已解壓的文件夾（**voice-pro-x**）複製到電腦的適當位置。
 * B. 免費版
-  + 從 [![GitHub Release](https://img.shields.io/github/v/release/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/) 下載並解壓最新版本（**Source code (zip)**）
-  + 或者，使用 git clone 下載原始碼
-    
-```bash
-git clone https://github.com/abus-aikorea/voice-pro.git
-```
+  + 從[![GitHub Release](https://img.shields.io/github/v/release/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/)克隆或下載最新版本（**Source code (zip)**）。
 
-### 步驟 2. 安裝和執行程式
-1. 執行 `configure.bat`
-   - 在 Windows 上安裝 ffmpeg 和 CUDA（如果使用 NVIDIA GPU）。
-   - 您只需要在第一次執行時執行此操作。
-2. 執行 `start.bat`
-   - 啟動 Voice-Pro。網頁界面將自動執行。
-   - 首次執行時，會先安裝 Voice-Pro。
-   - Voice-Pro 安裝需要網際網路連線，根據系統情況，安裝可能需要一個多小時。
-   - 安裝過程中切勿關閉 Windows 命令視窗。
-   - 如果安裝過程中出現問題，請刪除 installer_files 資料夾並重新執行 start.bat。
+### 步驟2. 安裝和運行程序
+1. 🚀 運行`configure.bat`
+   - 在Windows上安裝git、ffmpeg和CUDA（如果使用NVIDIA GPU）。
+   - 只需要在第一次運行時執行。
+   - 需要網絡連接，根據系統情況可能需要一個多小時。
+   - 安裝過程中切勿關閉Windows命令窗口。
+2. 🚀 運行`start.bat`
+   - 啟動Voice-Pro。網頁界面將自動運行。
+   - 首次運行時，會先安裝Voice-Pro。
+   - 需要網絡連接，根據系統情況可能需要一個多小時。
+   - 安裝過程中切勿關閉Windows命令窗口。
+   - 如果安裝過程中出現問題，請刪除**installer_files**文件夾並再次運行start.bat。
 
+### 步驟3. 卸載程序
+* 運行`uninstall.bat`：
+  - 刪除**installer_files**文件夾。
+  - 刪除安裝在Windows上的ffmpeg、git和CUDA包（如果選擇）。
+* Voice-Pro默認為**便攜式**安裝。要卸載程序，只需刪除安裝文件夾即可。
 
-### 步驟 3. 解除安裝程式
-* 執行 `uninstall.bat`：
-  - 刪除 installer_files 資料夾。
-  - 刪除在 Windows 上安裝的 ffmpeg 和 CUDA 套件（如果選擇）
+## ❓ 提示和技巧
 
-* Voice-Pro 預設為**可攜式**安裝。要解除安裝程式，刪除安裝資料夾即可。
+#### 如果瀏覽器沒有自動運行
+- 關閉Windows命令窗口並再次運行start.bat。
+- 直接運行瀏覽器並在地址欄輸入Windows命令窗口中顯示的地址（例如**http://127.0.0.1:7892**）。
 
-## 技巧與竅門
+#### 如果出現CUDA內存不足錯誤
+- 在Windows任務管理器的性能選項卡中檢查GPU內存狀態。
+- 將降噪級別設置為0或1。降噪級別2至少需要8GB的GPU內存。
+- 將計算類型設置為int類型。float類型質量更好，但需要更多GPU內存。
 
-#### 如果瀏覽器沒有自動執行
-- 關閉 Windows 命令視窗並重新執行 start.bat。
-- 直接執行瀏覽器，並在網址列中輸入 Windows 命令視窗中顯示的網址（例如 **http://127.0.0.1:7892**）。
+#### 如何提高字幕質量？
+- 字幕質量通常隨著更大的Whisper模型而提高，但並非總是如此。large > medium > small > base > tiny
+- 在計算類型中，float類型性能較好。int類型是通過模型量化減少GPU使用並提高速度的模型。另一方面，性能會下降。
+- 如果增加降噪級別，將會去除更多背景聲音，只使用剩餘的聲音進行語音識別。這並不總是保證好的結果。
 
-#### 如果出現 CUDA 記憶體不足錯誤
-- 在 Windows 工作管理員 - 效能標籤中檢查 GPU 記憶體狀態。
-- 將降噪級別設定為 0 或 1。降噪級別 2 需要至少 8GB 的 GPU 記憶體。
-- 將計算類型設定為 int 類型。float 類型品質更好，但需要更多 GPU 記憶體。
+## 📢 注意
 
-#### 如何提高字幕品質？
-- 字幕品質往往隨著更大的 Whisper 模型而提高，但並非總是如此。large > medium > small > base > tiny 
-- 在計算類型中，float 類型效能較好。int 類型是透過模型量化來減少 GPU 使用並提高速度的模型。然而，效能會降低。
-- 如果增加降噪級別，會去除更多背景聲音，只使用剩餘的語音進行語音識別。這並不總是保證好的結果。
+Windows Defender 可能會發出有關不受信任的應用程式的警告，並禁止進一步執行 Voice-Pro。
+如果 SmartScreen 的安全級別設置為「警告」，只需點擊「更多資訊」，然後點擊「仍然要執行」。
+如果 SmartScreen 設置為「阻止」級別，則不會有按鈕來運行安裝。在這種情況下，打開 start.bat 文件的屬性，檢查「解除封鎖」，應用更改後再次運行 start.bat。
 
-## 注意事項
-當 Windows Defender 錯誤地將批次處理檔案識別為特洛伊木馬時，這通常被稱為「誤報」。要解決這個問題，您可以透過以下步驟：
+<p align="center">
+  <img style="width: 60%; height: 60%" src="images/windows_smartscreen_warning.png?raw=true" alt=""/>
+</p>  
 
-1. 檔案例外處理：在 Windows Defender 中，您可以設定某些檔案或程序跳過安全掃描。操作如下：
-   * 點擊「開始」按鈕，進入「設定」。
-   * 點擊「更新和安全性」。
-   * 選擇「Windows 安全性」，進入「病毒與威脅防護」。
-   * 點擊「管理病毒與威脅防護設定」。
-   * 在「病毒與威脅防護設定」中選擇「新增或移除排除項目」。
-   * 選擇「檔案或資料夾」，找到相關的批次處理檔案並將其新增為例外。
-2. 暫時停用 Windows Defender：這可能是一個暫時解決方案。但是，使用這種方法時必須小心，因為它可能會使您的電腦面臨其他威脅。
-3. 向防毒軟體報告問題：如果您確定該檔案不是特洛伊木馬，可以將其報告給 Microsoft 作為誤報。Microsoft 將對此進行審查並採取必要的行動。
+當Windows Defender錯誤地將批處理文件識別為特洛伊木馬時，這通常被稱為"誤報"。要解決這個問題，您可以按照以下步驟操作：
 
-## 聯絡我們
+1. 文件例外處理：在Windows Defender中，您可以設置某些文件或進程跳過安全掃描。要做到這一點，請按照以下步驟：
+   * 點擊"開始"按鈕並進入"設置"。
+   * 點擊"更新與安全"。
+   * 選擇"Windows安全中心"並進入"病毒和威脅防護"。
+   * 點擊"管理病毒和威脅防護設置"。
+   * 在"病毒和威脅防護設置"中選擇"添加或刪除排除項"。
+   * 選擇"文件或文件夾"，找到相關的批處理文件並將其添加為例外。
+2. 暫時禁用Windows Defender：這可能是一個臨時解決方案。但是，使用此方法時必須小心，因為它可能會使您的計算機暴露於其他威脅中。
+3. 向防病毒軟件報告問題：如果您確定該文件不是特洛伊木馬，可以將其作為誤報向Microsoft報告。Microsoft將審查此問題並採取必要的行動。
+
+## 📬 聯繫我們
 * 電子郵件：<abus.aikorea@gmail.com>
 * 主頁（韓語）：<https://abuskorea.imweb.me>
-* Amazon（美國）：<https://www.amazon.com/dp/B0DBR69JPL>
-* Amazon（日本）：<https://www.amazon.co.jp/dp/B0DBVRJ542>
-* Amazon(Singapore): <https://www.amazon.sg/dp/B0DCGKL8R4>
-* Amazon(UAE): <https://www.amazon.ae/dp/B0DCGKM7FF>
-* Naver 智慧商店（軟體）：<https://smartstore.naver.com/abus/products/10385660040>
-* Naver 智慧商店（解決方案）：<https://smartstore.naver.com/abus/products/10298346364>
+* 亞馬遜（美國）：<https://www.amazon.com/dp/B0DBR69JPL>
+* 亞馬遜（日本）：<https://www.amazon.co.jp/dp/B0DBVRJ542>
+* 亞馬遜（新加坡）：<https://www.amazon.sg/dp/B0DCGKL8R4>
+* 亞馬遜（阿聯酋）：<https://www.amazon.ae/dp/B0DCGKM7FF>
+* Naver智能商店（S/W）：<https://smartstore.naver.com/abus/products/10385660040>
+* Naver智能商店（解決方案）：<https://smartstore.naver.com/abus/products/10298346364>
 
-
-## YouTube
+## 👍 YouTube
 * 產品資訊：<https://youtube.com/playlist?list=PLwx5dnMDVC9Y7dAjm9r26CZUw1uU5VIeq&si=873MgzUtu4POE9jO>
-* 家庭卡拉 OK (POP)：<https://youtube.com/playlist?list=PLwx5dnMDVC9bVxfGo58U-R-w3fUHqwiD6&si=aWRDfF8TxFp2oAR0>
-* 家庭卡拉 OK (K-Pop): <https://youtube.com/playlist?list=PLwx5dnMDVC9Z8kB01tQKfzTysaCCxC3C8&si=1_-9p722rd_JXpzv>
-* 家庭卡拉 OK (J-Pop): <https://youtube.com/playlist?list=PLwx5dnMDVC9apyxrP9LE9PiT821G7lJXk&si=0a474CP7ZIjMoGN9>
+* 家庭卡拉OK（流行音樂）：<https://youtube.com/playlist?list=PLwx5dnMDVC9bVxfGo58U-R-w3fUHqwiD6&si=aWRDfF8TxFp2oAR0>
+* 家庭卡拉OK（K-Pop）：<https://youtube.com/playlist?list=PLwx5dnMDVC9Z8kB01tQKfzTysaCCxC3C8&si=1_-9p722rd_JXpzv>
+* 家庭卡拉OK（J-Pop）：<https://youtube.com/playlist?list=PLwx5dnMDVC9apyxrP9LE9PiT821G7lJXk&si=0a474CP7ZIjMoGN9>
 
-
-
-
-## 鳴謝
+## 🙏 鳴謝
 * FacebookResearch Demucs：<https://github.com/facebookresearch/demucs>
 * yt-dlp：<https://github.com/yt-dlp/yt-dlp>
 * gradio：<https://github.com/gradio-app/gradio>
 
-## 版權
+## ©️ 版權
   <img src="images/ABUS-logo.jpg" width="100" height="100"> by [ABUS](https://abuskorea.imweb.me)
