@@ -35,10 +35,6 @@ edge-tts
 python-iso639
 deep-translator
 pysubs2
-# coqui-tts[languages]==0.24.1
-# cutlet
-# fugashi[unidic-lite]
-# pysrt 
 lingua-language-detector
 # live
 # PyAudio
@@ -55,20 +51,10 @@ azure-ai-translation-text==1.0.0b1
 azure-cognitiveservices-speech
 uuid
 
-# rvc cli
-# noisereduce
-# praat-parselmouth==0.4.2
-# torchcrepe==0.0.22
-# pyworld==0.3.4
-# faiss-cpu==1.7.3
-# local-attention
-# fairseq==0.12.2
 wget
 
-# PyTorch 2.4.0
+# PyTorch 2.5.1
 --extra-index-url https://download.pytorch.org/whl/cu121
-torch==2.4.0+cu121
---extra-index-url https://download.pytorch.org/whl/cu121
-torchvision==0.19.0+cu121
---extra-index-url https://download.pytorch.org/whl/cu121
-torchaudio==2.4.0+cu121
+torch==2.5.1+cu121
+torchvision==0.20.1+cu121
+torchaudio==2.5.1+cu121

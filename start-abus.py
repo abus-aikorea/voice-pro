@@ -14,21 +14,6 @@ if __name__ == '__main__':
     app_name = sys.argv[1]
     print(f"app_name: {app_name}")
     
-    # copy requirements-appname.txt to requirements.txt
-    requirements_file = f'requirements-{app_name}-gpu.txt'
-    if os.path.exists(requirements_file):
-        shutil.copyfile(requirements_file, 'requirements-gpu.txt')
-    else:
-        print(f"File not found - {requirements_file}")
-        sys.exit(1)
-
-    requirements_file = f'requirements-{app_name}-cpu.txt'
-    if os.path.exists(requirements_file):
-        shutil.copyfile(requirements_file, 'requirements-cpu.txt')
-    else:
-        print(f"File not found - {requirements_file}")
-        sys.exit(1)
-
         
     # check start-appname.py    
     python_filename = f'start-{app_name}.py'
@@ -36,7 +21,7 @@ if __name__ == '__main__':
         print(f"File not found - {python_filename}")
         sys.exit(1)
             
-    
+   
     
     check_env()
 
@@ -46,7 +31,7 @@ if __name__ == '__main__':
 
 
     if not is_installed():
-        install_webui()
+        install_webui(app_name)
         os.chdir(script_dir)
 
     if os.environ.get("LAUNCH_AFTER_INSTALL", "").lower() in ("no", "n", "false", "0", "f", "off"):

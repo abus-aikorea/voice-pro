@@ -40,6 +40,18 @@ echo Current directory: %CD%
 echo Command line: %*
 
 
+:: LongPathsEnabled 값 설정
+echo Enabling long paths support...
+reg add "HKLM\SYSTEM\CurrentControlSet\Control\FileSystem" /v LongPathsEnabled /t REG_DWORD /d 1 /f
+if %ERRORLEVEL% == 0 (
+    echo Long paths have been enabled successfully.
+) else (
+    echo Failed to enable long paths.
+    pause
+    exit /b 1
+)
+
+
 
 cd /D "%~dp0"
 SET "CHOCPATH=%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\powershell.exe"

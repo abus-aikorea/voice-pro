@@ -65,15 +65,15 @@ set CONDA_ROOT_PREFIX=%cd%\installer_files\conda
 set INSTALL_ENV_DIR=%cd%\installer_files\env
 
 :: ABUS miniconda fo python 3.9
-set MINICONDA_DOWNLOAD_URL=https://repo.anaconda.com/miniconda/Miniconda3-py39_24.1.2-0-Windows-x86_64.exe
-set MINICONDA_CHECKSUM=6128825cdcde8ec0c0a5a9ed3dc021cc920040905dee39e58e827bc27fea0bee
-set conda_exists=F
+@REM set MINICONDA_DOWNLOAD_URL=https://repo.anaconda.com/miniconda/Miniconda3-py39_24.1.2-0-Windows-x86_64.exe
+@REM set MINICONDA_CHECKSUM=6128825cdcde8ec0c0a5a9ed3dc021cc920040905dee39e58e827bc27fea0bee
+@REM set conda_exists=F
 
 
 :: ABUS miniconda fo python 3.10
-@REM set MINICONDA_DOWNLOAD_URL=https://repo.anaconda.com/miniconda/Miniconda3-py310_24.5.0-0-Windows-x86_64.exe
-@REM set MINICONDA_CHECKSUM=978114c55284286957be2341ad0090eb5287222183e895bab437c4d1041a0284
-@REM set conda_exists=F
+set MINICONDA_DOWNLOAD_URL=https://repo.anaconda.com/miniconda/Miniconda3-py310_24.5.0-0-Windows-x86_64.exe
+set MINICONDA_CHECKSUM=978114c55284286957be2341ad0090eb5287222183e895bab437c4d1041a0284
+set conda_exists=F
 
 
 :: figure out whether git and conda needs to be installed
@@ -113,20 +113,20 @@ if "%conda_exists%" == "F" (
 )
 
 :: ABUS python 3.9 - create the installer env
-set abus_genuine_installed=T
-if not exist "%INSTALL_ENV_DIR%" (
-	set abus_genuine_installed=F
-	echo Packages to install: %PACKAGES_TO_INSTALL%
-	call "%CONDA_ROOT_PREFIX%\_conda.exe" create --no-shortcuts -y -k --prefix "%INSTALL_ENV_DIR%" python=3.9 || ( echo. && echo Conda environment creation failed. && goto end )
-)
-
-:: ABUS python 3.10 - create the installer env
 @REM set abus_genuine_installed=T
 @REM if not exist "%INSTALL_ENV_DIR%" (
 @REM 	set abus_genuine_installed=F
 @REM 	echo Packages to install: %PACKAGES_TO_INSTALL%
-@REM 	call "%CONDA_ROOT_PREFIX%\_conda.exe" create --no-shortcuts -y -k --prefix "%INSTALL_ENV_DIR%" python=3.10 || ( echo. && echo Conda environment creation failed. && goto end )
+@REM 	call "%CONDA_ROOT_PREFIX%\_conda.exe" create --no-shortcuts -y -k --prefix "%INSTALL_ENV_DIR%" python=3.9 || ( echo. && echo Conda environment creation failed. && goto end )
 @REM )
+
+:: ABUS python 3.10 - create the installer env
+set abus_genuine_installed=T
+if not exist "%INSTALL_ENV_DIR%" (
+	set abus_genuine_installed=F
+	echo Packages to install: %PACKAGES_TO_INSTALL%
+	call "%CONDA_ROOT_PREFIX%\_conda.exe" create --no-shortcuts -y -k --prefix "%INSTALL_ENV_DIR%" python=3.10 || ( echo. && echo Conda environment creation failed. && goto end )
+)
 
 
 
