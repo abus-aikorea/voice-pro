@@ -175,3 +175,4 @@ cython_debug/
 requirements-cpu.txt
 requirements-gpu.txt
 temp_requirements.txt
+/model/whisper
