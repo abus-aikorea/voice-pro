@@ -126,5 +126,10 @@
     "Secondary Stem": "次要音軌",
     "Synthesis": "合成",
     "Using the free API": "使用免費API",
-    "Using Azure": "使用Azure"
+    "Using Azure": "使用Azure",
+    "Only for faster-whisper": "僅適用於faster-whisper",
+    "Placeholder for Source Text": "上傳的字幕檔案將顯示在這裡。\n如果沒有字幕檔案，請嘗試直接輸入文字。\n輸入的字幕和文字都可以編輯。",
+    "Placeholder for Source VTT": "Whisper模型下載完成後將開始工作。\n請在Windows命令提示符中查看工作進度。\n即時翻譯需要高性能NVIDIA顯示卡。\n\n== 低配置電腦推薦設置 ==\nWhisper引擎：Faster-Whisper\nWhisper模型：medium, small, base\n計算類型：int8或int8_float16"
+
+
 }

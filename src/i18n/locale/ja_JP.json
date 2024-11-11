@@ -126,6 +126,11 @@
     "Secondary Stem": "セカンダリーステム",
     "Synthesis": "合成",
     "Using the free API": "無料APIを利用中",
-    "Using Azure": "Azure利用中"
+    "Using Azure": "Azure利用中",
+    "Only for faster-whisper": "faster-whisper専用",
+    "Placeholder for Source Text": "アップロードした字幕ファイルがここに表示されます。\n字幕ファイルがない場合は、テキストを直接入力してみてください。\n入力した字幕とテキストは編集することができます。",
+    "Placeholder for Source VTT": "Whisperモデルのダウンロードが完了後、作業が開始されます。\n作業の進行状況はWindowsコマンドプロンプトでご確認ください。\nリアルタイム翻訳には高性能のNVIDIAグラフィックカードが必要です。\n\n== 低スペックPC推奨設定 ==\nWhisperエンジン：Faster-Whisper\nWhisperモデル：medium, small, base\n計算タイプ：int8またはint8_float16"
+
+
 
 }
