@@ -129,7 +129,8 @@
     "Using Azure": "Azure利用中",
     "Only for faster-whisper": "faster-whisper専用",
     "Placeholder for Source Text": "アップロードした字幕ファイルがここに表示されます。\n字幕ファイルがない場合は、テキストを直接入力してみてください。\n入力した字幕とテキストは編集することができます。",
-    "Placeholder for Source VTT": "Whisperモデルのダウンロードが完了後、作業が開始されます。\n作業の進行状況はWindowsコマンドプロンプトでご確認ください。\nリアルタイム翻訳には高性能のNVIDIAグラフィックカードが必要です。\n\n== 低スペックPC推奨設定 ==\nWhisperエンジン：Faster-Whisper\nWhisperモデル：medium, small, base\n計算タイプ：int8またはint8_float16"
+    "Placeholder for Source VTT": "Whisperモデルのダウンロードが完了後、作業が開始されます。\n作業の進行状況はWindowsコマンドプロンプトでご確認ください。\nリアルタイム翻訳には高性能のNVIDIAグラフィックカードが必要です。\n\n== 低スペックPC推奨設定 ==\nWhisperエンジン：Faster-Whisper\nWhisperモデル：medium, small, base\n計算タイプ：int8またはint8_float16",
+    "Placeholder for Source SRT": "Whisper が認識した字幕がここに表示されます。\nすでに字幕を持っている場合は、内容をコピーして貼り付けることができます。\n字幕は編集可能で、編集された内容は翻訳および音声合成に反映されます。"
 
 
 

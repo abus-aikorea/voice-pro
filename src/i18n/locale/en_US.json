@@ -129,6 +129,7 @@
     "Using Azure": "Using Azure",
     "Only for faster-whisper": "Only for faster-whisper",
     "Placeholder for Source Text": "The uploaded subtitle file will be displayed here.\nIf there is no subtitle file, try entering text directly.\nBoth entered subtitles and text can be edited.",
-    "Placeholder for Source VTT": "The process will begin after the Whisper model download is complete.\nPlease check the Windows Command Prompt for the work progress.\nHigh-performance NVIDIA Graphics Card is required for real-time translation.\n\n== Recommended Settings for Low-end PCs ==\nWhisper Engine: Faster-Whisper\nWhisper Model: medium, small, base\nCompute Type: int8 or int8_float16"
+    "Placeholder for Source VTT": "The process will begin after the Whisper model download is complete.\nPlease check the Windows Command Prompt for the work progress.\nHigh-performance NVIDIA Graphics Card is required for real-time translation.\n\n== Recommended Settings for Low-end PCs ==\nWhisper Engine: Faster-Whisper\nWhisper Model: medium, small, base\nCompute Type: int8 or int8_float16",
+    "Placeholder for Source SRT": "The subtitles recognized by Whisper will be displayed here.\nIf you already have subtitles, you can copy and paste the content.\nThe subtitles can be edited, and the edited content will be reflected in the translation and speech synthesis."
 
 }
