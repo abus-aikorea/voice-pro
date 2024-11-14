@@ -181,3 +181,4 @@ temp_requirements.txt
 /model/f5-tts/F5TTS_Base
 /model/vocos-mel-24khz
 app/config-user.json5
+model/f5-tts/voice_15s.json5

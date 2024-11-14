@@ -61,11 +61,11 @@ https://github.com/user-attachments/assets/27b4e79c-7b29-4efd-80c3-5757fa5f71e4
   <img style="width: 90%; height: 90%" src="images/tts_f5_multi.png?raw=true" alt=""/>
 </p>  
 
-<div style="text-align: center;">
-  <audio controls>
-    <source src="audio/f5-tts-multi-sample-1115.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
-  </audio>
+<div style="text-align: center;"> 
+  <video width="360" height="240" controls> 
+  <source src="https://github.com/user-attachments/assets/dde5a922-43ca-4dee-80bb-e50feb2c2ee4" type="video/mp4">
+  Your browser does not support the video tag. 
+  </video> 
 </div>
 
 * `Live Translation` 탭
