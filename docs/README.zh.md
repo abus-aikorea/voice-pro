@@ -12,7 +12,7 @@
 - **人声分离**：使用UVR5支持的MDX-Net和Meta开发的Demucs引擎进行语音分离。
 - **STT**：支持使用Whisper、Faster-Whisper和whisper-timestamped进行语音转文字。
 - **翻译器**：Google翻译。
-- **TTS**：文字转语音。Edge TTS。
+- **TTS**：文字转语音。Edge-TTS 和 F5-TTS。
 - 更多...
 
 ### 🚄 运行画面
@@ -48,11 +48,23 @@ https://github.com/user-attachments/assets/27b4e79c-7b29-4efd-80c3-5757fa5f71e4
   - 自动检测上传文件的语言
 
 * `TTS`标签页
-  - 只用于TTS的标签页。支持100多种语言和400多种声音
-  - 支持字幕文件（ass、ssa、srt、mpl2、tmp、vtt、microdvd、json）
-  - 也可以直接输入文本
-  - 自动检测上传文件的语言
-  - 可调节音调、音量和速度
+  - 支持 Edge-TTS 和 F5-TTS。
+  - Edge-TTS 支持超過 100 種語言和 400 種以上的聲音。
+  - 可以調整音高、音量和速度。
+  - F5-TTS 支持零樣本語音克隆。
+  - 可以使用 Celeb Voice 製作播客。
+
+<p align="center">
+  <img style="width: 90%; height: 90%" src="images/tts_f5_multi.png?raw=true" alt=""/>
+</p>  
+
+<div style="text-align: center;">
+  <audio controls>
+    <source src="audio/f5-tts-multi-sample-1115.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+</div>
+
 
 * `Live Translation`标签页
   - 支持实时语音识别和翻译
@@ -156,9 +168,11 @@ Windows Defender 可能会发出有关不受信任的应用程序的警告，并
 * 家庭卡拉OK（J-Pop）：<https://youtube.com/playlist?list=PLwx5dnMDVC9apyxrP9LE9PiT821G7lJXk&si=0a474CP7ZIjMoGN9>
 
 ## 🙏 鸣谢
-* FacebookResearch Demucs：<https://github.com/facebookresearch/demucs>
-* yt-dlp：<https://github.com/yt-dlp/yt-dlp>
-* gradio：<https://github.com/gradio-app/gradio>
+* Demucs: <https://github.com/facebookresearch/demucs>
+* yt-dlp: <https://github.com/yt-dlp/yt-dlp>
+* gradio: <https://github.com/gradio-app/gradio>
+* edge-TTS: <https://github.com/rany2/edge-tts>
+* F5-TTS: <https://github.com/SWivid/F5-TTS.git>
 
 ## ©️ 版权
   <img src="images/ABUS-logo.jpg" width="100" height="100"> by [ABUS](https://abuskorea.imweb.me)

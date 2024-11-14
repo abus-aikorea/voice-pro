@@ -13,7 +13,7 @@
 - **ボーカルリムーバー**: UVR5でサポートされているMDX-NetとMetaが開発したDemucsエンジンを使用して音声分離を行います。
 - **STT**: Whisper、Faster-Whisper、whisper-timestampedを使用して音声からテキストへの変換をサポートします。
 - **翻訳**: Google翻訳を使用します。
-- **TTS**: テキスト読み上げ。Edge TTSを使用します。
+- **TTS**: テキスト読み上げ。Edge-TTSとF5-TTSを使用します。
 - その他...
 
 ### 🚄 実行画面
@@ -50,12 +50,22 @@ https://github.com/user-attachments/assets/27b4e79c-7b29-4efd-80c3-5757fa5f71e4
   - アップロードしたファイルの言語を自動的に検出
 
 * `TTS`タブ
-  - TTS専用タブ。 100以上の言語、400以上のボイスをサポート
-  - 字幕ファイル（ass、ssa、srt、mpl2、tmp、vtt、microdvd、json）をサポート
-  - テキスト直接入力も可能
-  - アップロードしたファイルの言語を自動的に検出
-  - ピッチ、音量、速度調整可能
+  - Edge-TTS と F5-TTS がサポートされています。
+  - Edge-TTS は100以上の言語と400以上の声をサポートしています。
+  - ピッチ、ボリューム、スピードを調整できます。
+  - F5-TTS はゼロショットボイスクローンをサポートしています。
+  - Celeb Voice を使ってポッドキャストを制作できます。
 
+<p align="center">
+  <img style="width: 90%; height: 90%" src="images/tts_f5_multi.png?raw=true" alt=""/>
+</p>  
+
+<div style="text-align: center;">
+  <audio controls>
+    <source src="audio/f5-tts-multi-sample-1115.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+</div>
 
 * `Live Translation`タブ
   - リアルタイム音声認識＆翻訳サポート
@@ -164,9 +174,11 @@ Windows Defenderがバッチファイルを誤ってトロイの木馬と認識�
 * ホームカラオケ (J-Pop): <https://youtube.com/playlist?list=PLwx5dnMDVC9apyxrP9LE9PiT821G7lJXk&si=0a474CP7ZIjMoGN9>
 
 ## 🙏 Credits
-* FacebookResearch Demucs: <https://github.com/facebookresearch/demucs>
+* Demucs: <https://github.com/facebookresearch/demucs>
 * yt-dlp: <https://github.com/yt-dlp/yt-dlp>
 * gradio: <https://github.com/gradio-app/gradio>
+* edge-TTS: <https://github.com/rany2/edge-tts>
+* F5-TTS: <https://github.com/SWivid/F5-TTS.git>
 
 
 ## ©️ 著作権

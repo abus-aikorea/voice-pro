@@ -14,7 +14,7 @@
 - **Vocal Remover**: Use MDX-Net supported in UVR5 and the Demucs engine developed by Meta for voice separation.
 - **STT**: Supports speech-to-text conversion with Whisper, Faster-Whisper, and whisper-timestamped.
 - **Translator**: Google Translator.
-- **TTS**: Text to Speech. Edge TTS.
+- **TTS**: Text to Speech. Edge-TTS, F5-TTS.
 - more...
 
 
@@ -54,12 +54,25 @@ https://github.com/user-attachments/assets/27b4e79c-7b29-4efd-80c3-5757fa5f71e4
   - Automatically detects the language of uploaded files
 
 * `TTS` tab
-  - TTS-only tab. Supports over 100 languages ​​and 400 voices
-  - Supports subtitle files (ass, ssa, srt, mpl2, tmp, vtt, microdvd, json)
-  - Direct text input is also possible
-  - Automatically detects the language of uploaded files
-  - Pitch, volume, and speed adjustable
+  - Edge-TTS and F5-TTS are supported.
+  - Edge-TTS supports over 100 languages and more than 400 voices.
+  - Pitch, Volume, and Speed can be adjusted.
+  - F5-TTS supports Zero-Shot Voice Cloning.
+  - You can create podcasts using Celeb Voices.
+
+<p align="center">
+  <img style="width: 90%; height: 90%" src="docs/images/tts_f5_multi.png?raw=true" alt=""/>
+</p>  
   
+<div style="text-align: center;">
+  <audio controls>
+    <source src="docs/audio/f5-tts-multi-sample-1115.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+</div>
+
+
+
 * `Live Translation` tab
   - Real-time voice recognition & translation support
   - Select audio input source such as Mic, Speaker, etc.
@@ -174,9 +187,11 @@ When Windows Defender mistakenly recognizes a batch file as a Trojan, this is of
 
 
 ## 🙏 Credits
-* FacebookResearch Demucs: <https://github.com/facebookresearch/demucs>
+* Demucs: <https://github.com/facebookresearch/demucs>
 * yt-dlp: <https://github.com/yt-dlp/yt-dlp>
 * gradio: <https://github.com/gradio-app/gradio>
+* edge-TTS: <https://github.com/rany2/edge-tts>
+* F5-TTS: <https://github.com/SWivid/F5-TTS.git>
 
 
 

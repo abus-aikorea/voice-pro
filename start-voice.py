@@ -18,6 +18,8 @@ from app.abus_path import path_workspace_folder, path_gradio_folder
 genuine_init()
 AbusHuggingFace.hf_download_models(file_type='mdxnet-model', level=0)
 AbusHuggingFace.hf_download_models(file_type='demucs', level=0)
+AbusHuggingFace.hf_download_models(file_type='f5-tts', level=0)
+AbusHuggingFace.hf_download_models(file_type='vocos-mel-24khz', level=0)
 
 path_workspace_folder()
 path_gradio_folder()

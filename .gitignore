@@ -176,3 +176,8 @@ requirements-cpu.txt
 requirements-gpu.txt
 temp_requirements.txt
 /model/whisper
+/model/f5-tts/voice_15s
+/model/f5-tts/E2TTS_Base
+/model/f5-tts/F5TTS_Base
+/model/vocos-mel-24khz
+app/config-user.json5

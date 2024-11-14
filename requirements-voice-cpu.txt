@@ -1,4 +1,6 @@
 structlog
+py-cpuinfo==9.0.0
+
 # for Whisper
 openai-whisper==20240930 #20231117
 faster-whisper==1.0.3

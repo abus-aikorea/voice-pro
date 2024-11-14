@@ -130,7 +130,8 @@
     "Only for faster-whisper": "仅适用于faster-whisper",
     "Placeholder for Source Text": "上传的字幕文件将显示在这里。\n如果没有字幕文件，请尝试直接输入文本。\n输入的字幕和文本都可以编辑。",
     "Placeholder for Source VTT": "Whisper模型下载完成后将开始工作。\n请在Windows命令提示符中查看工作进度。\n实时翻译需要高性能NVIDIA显卡。\n\n== 低配置电脑推荐设置 ==\nWhisper引擎：Faster-Whisper\nWhisper模型：medium, small, base\n计算类型：int8或int8_float16",
-    "Placeholder for Source SRT": "Whisper 识别的字幕将在这里显示。\n如果您已经有字幕，可以复制并粘贴内容。\n字幕可以编辑，编辑的内容将反映在翻译和语音合成中。"
+    "Placeholder for Source SRT": "Whisper 识别的字幕将在这里显示。\n如果您已经有字幕，可以复制并粘贴内容。\n字幕可以编辑，编辑的内容将反映在翻译和语音合成中。",
+    "Placeholder for Podcast script": "请输入播客脚本。请遵循下面的示例格式。目前仅支持英语和中文。\n您可以直接上传参考音频。请使用15秒以内的wav或mp3文件。\n\nExample Scripts\n{spk1} Welcome to our podcast! I'm Alex.\n{spk2} And I'm Jamie. Today, we’re exploring the future of AI.\n{spk1} It’s a fascinating topic! Many experts believe AI will revolutionize industries. What do you think, Jamie?\n{spk2} Absolutely, Alex. From healthcare to transportation, AI has the potential to improve efficiency and accuracy."
 
     
 }

@@ -33,6 +33,8 @@ if __name__ == '__main__':
     if not is_installed():
         install_webui(app_name)
         os.chdir(script_dir)
+        
+    install_extra_packages(app_name)        
 
     if os.environ.get("LAUNCH_AFTER_INSTALL", "").lower() in ("no", "n", "false", "0", "f", "off"):
         print_big_message("Will now exit due to LAUNCH_AFTER_INSTALL.")

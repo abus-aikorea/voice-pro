@@ -13,7 +13,7 @@
 - **Vocal Remover**: UVR5에서 지원하는 MDX-Net과 Meta에서 개발한 Demucs 엔진을 사용하여 음성을 분리합니다.
 - **STT**: Whisper, Faster-Whisper, whisper-timestamped를 사용한 음성-텍스트 변환을 지원합니다.
 - **Translator**: Google Translator.
-- **TTS**: Text to Speech. Edge TTS.
+- **TTS**: Text to Speech. Edge-TTS 와 F5-TTS.
 - more...
 
 
@@ -51,12 +51,22 @@ https://github.com/user-attachments/assets/27b4e79c-7b29-4efd-80c3-5757fa5f71e4
   - 업로드한 파일의 언어를 자동으로 감지
 
 * `TTS` 탭
-  - TTS 전용 탭. 100여개 언어, 400여개 보이스 지원
-  - 자막파일(ass, ssa, srt, mpl2, tmp, vtt, microdvd, json) 지원
-  - 텍스트 직접 입력도 가능
-  - 업로드한 파일의 언어를 자동으로 감지
-  - 피치, 음량, 속도 조절 가능
+  - Edge-TTS 와 F5-TTS 를 지원합니다.
+  - Edge-TTS 는 100 개 이상의 언어, 400개 이상의 보이스를 지원합니다.
+  - Pitch, Volume, Speed 조절이 가능합니다.
+  - F5-TTS 는 Zero-Shot Voice Cloning 을 지원합니다.
+  - Celeb Voice 를 이용하여 PodCast 를 제작할 수 있습니다.
 
+<p align="center">
+  <img style="width: 90%; height: 90%" src="images/tts_f5_multi.png?raw=true" alt=""/>
+</p>  
+
+<div style="text-align: center;">
+  <audio controls>
+    <source src="audio/f5-tts-multi-sample-1115.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+</div>
 
 * `Live Translation` 탭
   - 실시간 음성 인식 & 번역 지원
@@ -173,9 +183,11 @@ Windows Defender가 실수로 batch 파일을 트로이 목마로 인식하는 �
 
 
 ## 🙏 Credits
-* FacebookResearch Demucs: <https://github.com/facebookresearch/demucs>
+* Demucs: <https://github.com/facebookresearch/demucs>
 * yt-dlp: <https://github.com/yt-dlp/yt-dlp>
 * gradio: <https://github.com/gradio-app/gradio>
+* edge-TTS: <https://github.com/rany2/edge-tts>
+* F5-TTS: <https://github.com/SWivid/F5-TTS.git>
 
 
 ## ©️ 저작권 정보

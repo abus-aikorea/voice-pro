@@ -59,6 +59,18 @@ https://github.com/user-attachments/assets/27b4e79c-7b29-4efd-80c3-5757fa5f71e4
   - Direct text input is also possible
   - Automatically detects the language of uploaded files
   - Pitch, volume, and speed adjustable
+
+<p align="center">
+  <img style="width: 90%; height: 90%" src="images/tts_f5_multi.png?raw=true" alt=""/>
+</p>  
+
+<div style="text-align: center;">
+  <audio controls>
+    <source src="audio/f5-tts-multi-sample-1115.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+</div>
+
   
 * `Live Translation` tab
   - Real-time voice recognition & translation support
@@ -174,9 +186,11 @@ When Windows Defender mistakenly recognizes a batch file as a Trojan, this is of
 
 
 ## 🙏 Credits
-* FacebookResearch Demucs: <https://github.com/facebookresearch/demucs>
+* Demucs: <https://github.com/facebookresearch/demucs>
 * yt-dlp: <https://github.com/yt-dlp/yt-dlp>
 * gradio: <https://github.com/gradio-app/gradio>
+* edge-TTS: <https://github.com/rany2/edge-tts>
+* F5-TTS: <https://github.com/SWivid/F5-TTS.git>
 
 
 
