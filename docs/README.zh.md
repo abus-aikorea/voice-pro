@@ -17,7 +17,14 @@
 
 ### 🚄 运行画面
 
-https://github.com/user-attachments/assets/27b4e79c-7b29-4efd-80c3-5757fa5f71e4
+* `TTS`标签页 : 使用F5-TTS的播客制作 
+<video src="https://github.com/user-attachments/assets/2d4b7d84-ca19-4efd-a847-a66fa0db616e" width="100%" style="max-width: 720px;" controls="controls" muted="muted"></video>
+
+* `Studio`标签页 : 转录、翻译和语音合成
+<video src="https://github.com/user-attachments/assets/27b4e79c-7b29-4efd-80c3-5757fa5f71e4" width="100%" style="max-width: 720px;" controls="controls" muted="muted"></video>
+
+
+
 
 ## ⭐ 主要功能
 

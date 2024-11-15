@@ -19,7 +19,14 @@
 
 ### 🚄 실행 화면
 
-https://github.com/user-attachments/assets/27b4e79c-7b29-4efd-80c3-5757fa5f71e4
+* `TTS` tab : F5-TTS를 이용한 Podcast 제작
+<video src="https://github.com/user-attachments/assets/2d4b7d84-ca19-4efd-a847-a66fa0db616e" width="100%" style="max-width: 720px;" controls="controls" muted="muted"></video>
+
+* `Studio` tab : Transcription, Translation & Text-to-Speech
+<video src="https://github.com/user-attachments/assets/27b4e79c-7b29-4efd-80c3-5757fa5f71e4" width="100%" style="max-width: 720px;" controls="controls" muted="muted"></video>
+
+
+
 
 
 ## ⭐ Key Features

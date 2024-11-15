@@ -21,7 +21,12 @@
 
 ### 🚄 Run screen
 
-https://github.com/user-attachments/assets/27b4e79c-7b29-4efd-80c3-5757fa5f71e4
+* `TTS` tab : Podcast Production using F5-TTS
+<video src="https://github.com/user-attachments/assets/2d4b7d84-ca19-4efd-a847-a66fa0db616e" width="100%" style="max-width: 720px;" controls="controls" muted="muted"></video>
+
+* `Studio` tab : Transcription, Translation & Text-to-Speech
+<video src="https://github.com/user-attachments/assets/27b4e79c-7b29-4efd-80c3-5757fa5f71e4" width="100%" style="max-width: 720px;" controls="controls" muted="muted"></video>
+
 
 
 ## ⭐ Key Features
