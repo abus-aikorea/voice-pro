@@ -11,9 +11,9 @@
 - **YouTube下载器**：您可以下载YouTube视频并提取音频（mp3、wav、flac）。
 - **人声分离**：使用UVR5支持的MDX-Net和Meta开发的Demucs引擎进行语音分离。
 - **STT**：支持使用Whisper、Faster-Whisper和whisper-timestamped进行语音转文字。
-- **翻译器**：Google翻译。
-- **TTS**：文字转语音。Edge-TTS 和 F5-TTS。
-- 更多...
+- **翻译器**：Google翻译。短文翻译，字幕文件翻译。
+- **TTS**：文字转语音。Edge-TTS。zero-shot语音克隆的E2和F5-TTS。
+- 我们免费提供Celeb声音。试着制作自己的播客。您可以在F5-TTS标签中查看。
 
 ### 🚄 运行画面
 
@@ -65,13 +65,6 @@
   <img style="width: 90%; height: 90%" src="images/tts_f5_multi.png?raw=true" alt=""/>
 </p>  
 
-<div style="text-align: center;"> 
-  <video width="360" height="240" controls> 
-  <source src="https://github.com/user-attachments/assets/dde5a922-43ca-4dee-80bb-e50feb2c2ee4" type="video/mp4">
-  Your browser does not support the video tag. 
-  </video> 
-</div>
-
 
 * `Live Translation`标签页
   - 支持实时语音识别和翻译
@@ -95,11 +88,11 @@
 Voice-Pro可以轻松地一键安装。只需运行🚀**configure.bat**和🚀**start.bat**即可。
 
 ### 步骤1. 准备包
-* A. 付费版
-    + 将USB中包含的压缩文件（**voice-pro-x.zip**）解压到计算机的适当位置。
-    + 或者，将已解压的文件夹（**voice-pro-x**）复制到计算机的适当位置。
-* B. 免费版
   + 从[![GitHub Release](https://img.shields.io/github/v/release/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/)克隆或下载最新版本（**Source code (zip)**）。
+
+```bash
+git clone https://github.com/abus-aikorea/voice-pro.git
+```
 
 ### 步骤2. 安装和运行程序
 1. 🚀 运行`configure.bat`

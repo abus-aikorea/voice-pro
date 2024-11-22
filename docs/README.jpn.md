@@ -7,14 +7,14 @@
 
 
 
-**Voice-Proは、文字起こし、翻訳、テキスト読み上げのための最高のgradio web-uiです。** ワンクリックで簡単にインストールできます。Minicondaを使用して仮想環境を作成し、Windowsシステムとは完全に分離して実行します（完全にポータブル）。リアルタイムの文字起こしと翻訳、およびバッチモードをサポートしています。
+**Voice-Proは、文字起こし、翻訳、テキスト読み上げのための最高のgradio WebUIです。** ワンクリックで簡単にインストールできます。Minicondaを使用して仮想環境を作成し、Windowsシステムとは完全に分離して実行します（完全にポータブル）。リアルタイムの文字起こしと翻訳、およびバッチモードをサポートしています。
 
 - **YouTubeダウンローダー**: YouTubeの動画をダウンロードし、音声を抽出できます（mp3、wav、flac）。
 - **ボーカルリムーバー**: UVR5でサポートされているMDX-NetとMetaが開発したDemucsエンジンを使用して音声分離を行います。
 - **STT**: Whisper、Faster-Whisper、whisper-timestampedを使用して音声からテキストへの変換をサポートします。
-- **翻訳**: Google翻訳を使用します。
-- **TTS**: テキスト読み上げ。Edge-TTSとF5-TTSを使用します。
-- その他...
+- **翻訳**: Google翻訳を使用します。短文翻訳、字幕ファイル翻訳。
+- **TTS**: テキスト読み上げ。Edge-TTS。ゼロショット音声クローンをサポートするE2とF5-TTS。
+- Celebボイスを無料で提供しています。自分のポッドキャストを作成してみましょう。F5-TTSタブで確認できます。
 
 ### 🚄 実行画面
 
@@ -65,12 +65,6 @@
   <img style="width: 90%; height: 90%" src="images/tts_f5_multi.png?raw=true" alt=""/>
 </p>  
 
-<div style="text-align: center;"> 
-  <video width="360" height="240" controls> 
-  <source src="https://github.com/user-attachments/assets/dde5a922-43ca-4dee-80bb-e50feb2c2ee4" type="video/mp4">
-  Your browser does not support the video tag. 
-  </video> 
-</div>
 
 * `Live Translation`タブ
   - リアルタイム音声認識＆翻訳サポート
@@ -96,11 +90,10 @@
 Voice-Proはワンクリックで簡単にインストールできます。🚀**configure.bat**と🚀**start.bat**を実行するだけです。
 
 ### ステップ1. パッケージの準備
-* A. 有料版
-    + USBに含まれる圧縮ファイル（**voice-pro-x.zip**）をコンピューターの適切な場所に解凍します。
-    + または、すでに解凍されているフォルダ（**voice-pro-x**）をコンピューターの適切な場所にコピーします。
-* B. 無料版
   + [![GitHub Release](https://img.shields.io/github/v/release/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/)から最新リリース（**Source code (zip)**）をクローンまたはダウンロードします。
+```bash
+git clone https://github.com/abus-aikorea/voice-pro.git
+```
 
 ### ステップ2. プログラムのインストールと実行
 1. 🚀 `configure.bat`を実行

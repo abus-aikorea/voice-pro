@@ -7,15 +7,15 @@
 
 
 
-**Voice-Pro is the best gradio web-ui for transcription, translation and text-to-speech.** It can be easily installed with one click. Create a virtual environment using Miniconda, running completely separate from the Windows system (fully portable). Supports real-time transcription and translation, as well as batch mode.
+**Voice-Pro is the best gradio WebUI for transcription, translation and text-to-speech.** It can be easily installed with one click. Create a virtual environment using Miniconda, running completely separate from the Windows system (fully portable). Supports real-time transcription and translation, as well as batch mode.
 
 
 - **YouTube Downloader**: You can download YouTube videos and extract the audio (mp3, wav, flac).
 - **Vocal Remover**: Use MDX-Net supported in UVR5 and the Demucs engine developed by Meta for voice separation.
 - **STT**: Supports speech-to-text conversion with Whisper, Faster-Whisper, and whisper-timestamped.
-- **Translator**: Google Translator.
-- **TTS**: Text to Speech. Edge TTS.
-- more...
+- **Translator**: Google Translator. Short text translation, subtitle file translation.
+- **TTS**: Text to Speech. Edge TTS. E2 and F5-TTS that support zero-shot voice cloning.
+- We provide Celeb voices for free. Try creating your own podcast. You can check it in the F5-TTS tab.
 
 
 
@@ -69,13 +69,6 @@
   <img style="width: 90%; height: 90%" src="images/tts_f5_multi.png?raw=true" alt=""/>
 </p>  
 
-<div style="text-align: center;"> 
-  <video width="360" height="240" controls> 
-  <source src="https://github.com/user-attachments/assets/dde5a922-43ca-4dee-80bb-e50feb2c2ee4" type="video/mp4">
-  Your browser does not support the video tag. 
-  </video> 
-</div>
-
   
 * `Live Translation` tab
   - Real-time voice recognition & translation support
@@ -104,11 +97,10 @@ Voice-Pro can be easily installed with one click. Just run 🚀**configure.bat**
 
 
 ### step 1. Package preparation
-* A. Paid version
-    + Unzip the compressed file (**voice-pro-x.zip**) included in the USB to an appropriate location on your computer.
-    + Or, copy the already unzipped folder (**voice-pro-x**) to an appropriate location on your computer.
-* B. Free version
   + Clone or download the latest release (**Source code (zip)**) from  [![GitHub Release](https://img.shields.io/github/v/release/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/)
+```bash
+git clone https://github.com/abus-aikorea/voice-pro.git
+```
   
 
 ### step 2. Install and run the program

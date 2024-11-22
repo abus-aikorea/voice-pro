@@ -6,15 +6,15 @@
 [![GitHub Release](https://img.shields.io/github/v/release/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/releases )
 
 
-**Voice-Pro는 음성인식, 번역 및 음성합성을 위한 최고의 gradio Web UI입니다.** 원클릭으로 간편하게 설치할 수 있습니다. Miniconda를 사용하여 가상 환경을 만들고, Windows 시스템과 완전히 분리되어 실행됩니다. 실시간 전사 및 번역과 배치 모드를 지원합니다.
+**Voice-Pro는 음성인식, 번역 및 음성합성을 위한 최고의 gradio WebUI입니다.** 원클릭으로 간편하게 설치할 수 있습니다. Miniconda를 사용하여 가상 환경을 만들고, Windows 시스템과 완전히 분리되어 실행됩니다. 실시간 전사 및 번역과 배치 모드를 지원합니다.
 
 
 - **YouTube Downloader**: YouTube 비디오를 다운로드하고 오디오를 추출할 수 있습니다(mp3, wav, flac).
 - **Vocal Remover**: UVR5에서 지원하는 MDX-Net과 Meta에서 개발한 Demucs 엔진을 사용하여 음성을 분리합니다.
 - **STT**: Whisper, Faster-Whisper, whisper-timestamped를 사용한 음성-텍스트 변환을 지원합니다.
-- **Translator**: Google Translator.
-- **TTS**: Text to Speech. Edge-TTS 와 F5-TTS.
-- more...
+- **Translator**: Google Translator. 단문 번역, 자막파일 번역.
+- **TTS**: Text to Speech. Edge-TTS. zero-shot voice cloning 을 지원하는 E2, F5-TTS.
+- Celeb 보이스를 무료로 제공합니다. 직접 PodCast 를 제작해 보세요. F5-TTS 탭에서 확인가능
 
 
 ### 🚄 실행 화면
@@ -68,12 +68,6 @@
   <img style="width: 90%; height: 90%" src="images/tts_f5_multi.png?raw=true" alt=""/>
 </p>  
 
-<div style="text-align: center;"> 
-  <video width="360" height="240" controls> 
-  <source src="https://github.com/user-attachments/assets/dde5a922-43ca-4dee-80bb-e50feb2c2ee4" type="video/mp4">
-  Your browser does not support the video tag. 
-  </video> 
-</div>
 
 * `Live Translation` 탭
   - 실시간 음성 인식 & 번역 지원
@@ -100,11 +94,12 @@
 Voice-Pro can be easily installed with one click. Just run 🚀**configure.bat** and 🚀**start.bat**
 
 ### step 1. 패키지 준비
-* A. 유료버전
-    + USB에 포함된 압축파일(**voice-pro-x.zip**)을 컴퓨터의 적당한 위치에 압축해제
-    + 혹은, 이미 압축이 해제된 폴더(**voice-pro-x**)를 컴퓨터의 적당한 위치에 복사
-* B. 무료버전
+
   + Clone or download the latest release (**Source code (zip)**) from  [![GitHub Release](https://img.shields.io/github/v/release/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/)
+
+```bash
+git clone https://github.com/abus-aikorea/voice-pro.git
+```
 
 ### step 2. 프로그램 설치 및 실행
 1. 🚀 `configure.bat` 실행
