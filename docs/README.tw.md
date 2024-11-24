@@ -17,11 +17,12 @@
 
 ### 🚄 運行畫面
 
-* `TTS`標籤頁 : 使用F5-TTS的播客製作
+* `TTS` tab : Podcast Production using F5-TTS
 <video src="https://github.com/user-attachments/assets/2d4b7d84-ca19-4efd-a847-a66fa0db616e" width="100%" style="max-width: 720px;" controls="controls" muted="muted"></video>
 
-* `Studio`標籤頁 : 轉錄、翻譯和語音合成
-<video src="https://github.com/user-attachments/assets/27b4e79c-7b29-4efd-80c3-5757fa5f71e4" width="100%" style="max-width: 720px;" controls="controls" muted="muted"></video>
+* `Studio` tab : Transcription, Translation & Text-to-Speech
+<video src="https://github.com/user-attachments/assets/f18e7f54-7bc0-4c26-96f9-9f6b70c7114c" width="100%" style="max-width: 720px;" controls="controls" muted="muted"></video>
+
 
 
 
