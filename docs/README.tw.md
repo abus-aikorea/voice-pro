@@ -163,10 +163,11 @@ Windows Defender 可能會發出有關不受信任的應用程式的警告，並
 * Naver智能商店（解決方案）：<https://smartstore.naver.com/abus/products/10298346364>
 
 ## 👍 YouTube
-* 產品資訊：<https://youtube.com/playlist?list=PLwx5dnMDVC9Y7dAjm9r26CZUw1uU5VIeq&si=873MgzUtu4POE9jO>
-* 家庭卡拉OK（流行音樂）：<https://youtube.com/playlist?list=PLwx5dnMDVC9bVxfGo58U-R-w3fUHqwiD6&si=aWRDfF8TxFp2oAR0>
-* 家庭卡拉OK（K-Pop）：<https://youtube.com/playlist?list=PLwx5dnMDVC9Z8kB01tQKfzTysaCCxC3C8&si=1_-9p722rd_JXpzv>
-* 家庭卡拉OK（J-Pop）：<https://youtube.com/playlist?list=PLwx5dnMDVC9apyxrP9LE9PiT821G7lJXk&si=0a474CP7ZIjMoGN9>
+* 產品資訊：<https://www.youtube.com/watch?v=z8g8LMhoh_o&list=PLwx5dnMDVC9Y7dAjm9r26CZUw1uU5VIeq>
+* 家庭卡拉OK（流行音樂）：<https://www.youtube.com/watch?v=MqQP3ewvJUk&list=PLwx5dnMDVC9bVxfGo58U-R-w3fUHqwiD6>
+* 家庭卡拉OK（K-Pop）：<https://www.youtube.com/watch?v=v6qjf_ELsLA&list=PLwx5dnMDVC9Z8kB01tQKfzTysaCCxC3C8>
+* 家庭卡拉OK（J-Pop）：<https://www.youtube.com/watch?v=KKLzoWHFAxw&list=PLwx5dnMDVC9bd6y3wXs-bOas2cXIi-GAq>
+
 
 ## 🙏 鳴謝
 * Demucs: <https://github.com/facebookresearch/demucs>
@@ -174,6 +175,9 @@ Windows Defender 可能會發出有關不受信任的應用程式的警告，並
 * gradio: <https://github.com/gradio-app/gradio>
 * edge-TTS: <https://github.com/rany2/edge-tts>
 * F5-TTS: <https://github.com/SWivid/F5-TTS.git>
+* openai-whisper: <https://github.com/openai/whisper>
+* faster-whisper: <https://github.com/SYSTRAN/faster-whisper>
+* whisper-timestamped: <https://github.com/linto-ai/whisper-timestamped>
 
 ## ©️ 版權
   <img src="images/ABUS-logo.jpg" width="100" height="100"> by [ABUS](https://abuskorea.imweb.me)

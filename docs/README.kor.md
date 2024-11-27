@@ -178,10 +178,11 @@ Windows Defender가 실수로 batch 파일을 트로이 목마로 인식하는 �
 
 
 ## 👍 YouTube
-* Product Information: <https://youtube.com/playlist?list=PLwx5dnMDVC9Y7dAjm9r26CZUw1uU5VIeq&si=873MgzUtu4POE9jO>
-* Home Karaoke (Pop): <https://youtube.com/playlist?list=PLwx5dnMDVC9bVxfGo58U-R-w3fUHqwiD6&si=aWRDfF8TxFp2oAR0>
-* Home Karaoke (K-Pop): <https://youtube.com/playlist?list=PLwx5dnMDVC9Z8kB01tQKfzTysaCCxC3C8&si=1_-9p722rd_JXpzv>
-* Home Karaoke (J-Pop): <https://youtube.com/playlist?list=PLwx5dnMDVC9apyxrP9LE9PiT821G7lJXk&si=0a474CP7ZIjMoGN9>
+* Product Information: <https://www.youtube.com/watch?v=z8g8LMhoh_o&list=PLwx5dnMDVC9Y7dAjm9r26CZUw1uU5VIeq>
+* Home Karaoke (Pop): <https://www.youtube.com/watch?v=MqQP3ewvJUk&list=PLwx5dnMDVC9bVxfGo58U-R-w3fUHqwiD6>
+* Home Karaoke (K-Pop): <https://www.youtube.com/watch?v=v6qjf_ELsLA&list=PLwx5dnMDVC9Z8kB01tQKfzTysaCCxC3C8>
+* Home Karaoke (J-Pop): <https://www.youtube.com/watch?v=KKLzoWHFAxw&list=PLwx5dnMDVC9bd6y3wXs-bOas2cXIi-GAq>
+  
 
 
 ## 🙏 Credits
@@ -190,6 +191,9 @@ Windows Defender가 실수로 batch 파일을 트로이 목마로 인식하는 �
 * gradio: <https://github.com/gradio-app/gradio>
 * edge-TTS: <https://github.com/rany2/edge-tts>
 * F5-TTS: <https://github.com/SWivid/F5-TTS.git>
+* openai-whisper: <https://github.com/openai/whisper>
+* faster-whisper: <https://github.com/SYSTRAN/faster-whisper>
+* whisper-timestamped: <https://github.com/linto-ai/whisper-timestamped>
 
 
 ## ©️ 저작권 정보
