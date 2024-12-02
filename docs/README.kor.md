@@ -25,6 +25,9 @@
 * `Studio` tab : Transcription, Translation & Text-to-Speech
 <video src="https://github.com/user-attachments/assets/f18e7f54-7bc0-4c26-96f9-9f6b70c7114c" width="100%" style="max-width: 720px;" controls="controls" muted="muted"></video>
 
+* `Live Translation` tab : 실시간 음성인식 및 번역
+<video src="https://github.com/user-attachments/assets/eb53dd3a-df0a-4f7f-819c-cf92d477e2d1" width="100%" style="max-width: 720px;" controls="controls" muted="muted"></video>
+
 
 
 
