@@ -6,7 +6,7 @@
 [![GitHub Release](https://img.shields.io/github/v/release/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/releases )
 
 
-**Voice-Pro是最佳的轉錄、翻譯和文字轉語音的gradio網頁界面。**它可以一鍵安裝。使用Miniconda創建虛擬環境，完全獨立於Windows系統運行（完全便攜）。支持實時轉錄和翻譯，以及批處理模式。
+**Voice-Pro是最佳的轉錄、翻譯和文字轉語音的gradio網頁界面。** 它可以一鍵安裝。使用Miniconda創建虛擬環境，完全獨立於Windows系統運行（完全便攜）。支持實時轉錄和翻譯，以及批處理模式。
 
 - **YouTube下載器**：您可以下載YouTube視頻並提取音頻（mp3、wav、flac）。
 - **人聲分離**：使用UVR5支持的MDX-Net和Meta開發的Demucs引擎進行語音分離。
