@@ -6,7 +6,7 @@
 [![GitHub Release](https://img.shields.io/github/v/release/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/releases )
 
 
-**Voice-Pro是最佳的转录、翻译和文字转语音的gradio网页界面。**它可以一键安装。使用Miniconda创建虚拟环境，完全独立于Windows系统运行（完全便携）。支持实时转录和翻译，以及批处理模式。
+**Voice-Pro是最佳的转录、翻译和文字转语音的gradio网页界面。** 它可以一键安装。使用Miniconda创建虚拟环境，完全独立于Windows系统运行（完全便携）。支持实时转录和翻译，以及批处理模式。
 
 - **YouTube下载器**：您可以下载YouTube视频并提取音频（mp3、wav、flac）。
 - **人声分离**：使用UVR5支持的MDX-Net和Meta开发的Demucs引擎进行语音分离。
@@ -14,6 +14,18 @@
 - **翻译器**：Google翻译。短文翻译，字幕文件翻译。
 - **TTS**：文字转语音。Edge-TTS。zero-shot语音克隆的E2和F5-TTS。
 - 我们免费提供Celeb声音。试着制作自己的播客。您可以在F5-TTS标签中查看。
+
+
+### ☕ 通知
+- 该仓库提供 Voice-Pro 的**免费试用**。 
+- 免费试用有**30分钟的使用限制**。这意味着运行后30分钟后，您将无法再使用Web界面。 
+- 这并不意味着处理媒体的长度有限制，也不会停止正在进行的任务。您只是无法再点击操作按钮。 
+- 可能会有点不便，但要再次使用，只需关闭程序并重新启动。 
+- 先前的工作结果保存在工作空间文件夹中。 
+- Voice-Pro的官方版本可以通过ABUS官方网站(<https://abuskorea.imweb.me>)购买。
+- 此外，如果您通过Buy Me a Coffee ☕支持我们，我们将作为感谢，为您提供最多一个月的使用凭证。 (<https://github.com/abus-aikorea/voice-pro/discussions/10#discussioncomment-11527327>)
+- 关于购买、商业合作、调整、投资等方面的咨询，请通过电子邮件(<abus.aikorea@gmail.com>)与我们联系。
+
 
 ### 🚄 运行画面
 
@@ -42,7 +54,7 @@
   - 支持TTS语音速度、音量和音调调整
 
 <p align="center">
-  <img style="width: 90%; height: 90%" src="images/main_page.eng.png?raw=true" alt=""/>
+  <img style="width: 90%; height: 90%" src="images/main_page.kor.png?raw=true" alt=""/>
 </p>  
 
 * `Whisper Caption`标签页
@@ -73,6 +85,11 @@
   - 支持实时语音识别和翻译
   - 选择麦克风、扬声器等音频输入源
   - 提供保存捕获的音频、识别的字幕和翻译的字幕的功能
+
+<p align="center">
+  <img style="width: 90%; height: 90%" src="images/live_translation_bbc.png?raw=true" alt=""/>
+</p>  
+
 
 * `Batch`标签页
   - 大量文件的批处理

@@ -16,6 +16,18 @@
 - **TTS**: テキスト読み上げ。Edge-TTS。ゼロショット音声クローンをサポートするE2とF5-TTS。
 - Celebボイスを無料で提供しています。自分のポッドキャストを作成してみましょう。F5-TTSタブで確認できます。
 
+
+### ☕ 通知
+- このリポジトリは、Voice-Proの**無料トライアル**を提供しています。 
+- 無料トライアルには**使用制限が30分**あります。これは、実行後30分経過すると、Web UIを使用できなくなることを意味します。 
+- これは、処理できるメディアの長さに制限があることを意味するものではなく、進行中のタスクを停止するものでもありません。アクションボタンをクリックできなくなるだけです。 
+- 少し不便かもしれませんが、再度使用するには、プログラムを閉じて再起動するだけです。 
+- 以前の作業結果はワークスペースフォルダに保持されます。 
+- Voice-Proの公式バージョンは、ABUS公式ウェブサイト(<https://abuskorea.imweb.me>)で購入できます。
+- また、Buy Me a Coffee ☕を通じてサポートしていただければ、感謝の意を込めて、最大1か月分の使用バウチャーを提供いたします。 (<https://github.com/abus-aikorea/voice-pro/discussions/10#discussioncomment-11527327>)
+- 購入、ビジネスパートナーシップ、調整、投資などに関する問い合わせは、メール(<abus.aikorea@gmail.com>)にてお願いいたします。
+
+
 ### 🚄 実行画面
 
 * `TTS` タブ : F5-TTSを利用したポッドキャスト制作
@@ -42,7 +54,7 @@
   - TTS音声の速度、音量、ピッチ調整をサポート
   
 <p align="center">
-  <img style="width: 90%; height: 90%" src="images/main_page.jpn.png?raw=true" alt=""/>
+  <img style="width: 90%; height: 90%" src="images/main_page.kor.png?raw=true" alt=""/>
 </p>  
 
 
@@ -74,6 +86,11 @@
   - リアルタイム音声認識＆翻訳サポート
   - Mic、Speakerなどのオーディオ入力ソースを選択可能
   - キャプチャされたオーディオ、認識された字幕、翻訳された字幕保存機能を提供
+
+<p align="center">
+  <img style="width: 90%; height: 90%" src="images/live_translation_bbc.png?raw=true" alt=""/>
+</p>  
+
 
 * `Batch`タブ
   - 大量のファイルのバッチ処理

@@ -17,6 +17,17 @@
 - Celeb 보이스를 무료로 제공합니다. 직접 PodCast 를 제작해 보세요. F5-TTS 탭에서 확인가능
 
 
+### ☕ 공지
+- 이 저장소는 Voice-Pro의 **무료 체험판**을 제공합니다. 
+- 무료 체험판은 **30분의 사용 제한**이 있습니다. 즉, 실행 후 30분이 경과하면 웹 UI를 더 이상 사용할 수 없습니다. 
+- 이는 처리할 수 있는 미디어의 길이에 제한이 있다는 의미가 아니며, 진행 중인 작업을 중단하지도 않습니다. 액션 버튼을 더 이상 클릭할 수 없을 뿐입니다. 
+- 약간 불편할 수 있지만, 다시 사용하려면 프로그램을 닫고 다시 시작하면 됩니다. 
+- 이전 작업 결과는 workspace 폴더에 유지됩니다. 
+- Voice-Pro의 공식 버전은 ABUS 공식 웹사이트(<https://abuskorea.imweb.me>)에서 구매할 수 있습니다.
+- 또한, Buy Me a Coffee ☕를 통해 지원해 주시면 감사의 표시로 최대 한 달간 사용할 수 있는 이용권을 제공해 드립니다. (<https://github.com/abus-aikorea/voice-pro/discussions/10#discussioncomment-11527327>)
+- 구매, 사업 제휴, 기능추가, 투자 등과 관련된 문의 사항은 이메일(<abus.aikorea@gmail.com>)로 연락 바랍니다.
+
+
 ### 🚄 실행 화면
 
 * `TTS` tab : F5-TTS를 이용한 Podcast 제작
@@ -76,6 +87,11 @@
   - 실시간 음성 인식 & 번역 지원
   - Mic, Speaker 등의 오디오 입력소스 선택 가능
   - 캡처된 오디오, 인식된 자막, 번역된 자막 저장 기능 제공
+
+<p align="center">
+  <img style="width: 90%; height: 90%" src="images/live_translation_bbc.png?raw=true" alt=""/>
+</p>  
+
 
 * `Batch` 탭
   - 대량의 파일에 대한 일괄 처리

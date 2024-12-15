@@ -19,6 +19,19 @@
 
 
 
+### ☕ Notice
+- This repository offers a **free trial** of Voice-Pro. 
+- The free trial has a **usage limit of 30 minutes**. This means that once 30 minutes have elapsed after running, you will no longer be able to use the web UI. 
+- It does not mean there is a limitation on the length of media that can be processed, nor does it stop ongoing tasks. You simply cannot click the action button anymore. 
+- It may be a bit inconvenient, but to use it again, you just need to close the program and restart it. 
+- Previous work results are maintained in the workspace folder. 
+- The official version of Voice-Pro can be purchased through the ABUS official website (<https://abuskorea.imweb.me>)
+-  Additionally, if you support us through Buy Me a Coffee ☕, we will give you a usage voucher for up to one month as a token of our gratitude. (<https://github.com/abus-aikorea/voice-pro/discussions/10#discussioncomment-11527327>)
+-  For inquiries regarding purchases, business partnerships, tuning, investments, etc., please contact us via email (<abus.aikorea@gmail.com>)."
+
+
+
+
 ### 🚄 Run screen
 
 * `TTS` tab : Podcast Production using F5-TTS
@@ -45,7 +58,7 @@
   - Supports TTS voice speed, volume, and pitch adjustment
   
 <p align="center">
-  <img style="width: 90%; height: 90%" src="docs/images/main_page.eng.png?raw=true" alt=""/>
+  <img style="width: 90%; height: 90%" src="docs/images/main_page.kor.png?raw=true" alt=""/>
 </p>  
 
 
@@ -78,6 +91,10 @@
   - Real-time voice recognition & translation support
   - Select audio input source such as Mic, Speaker, etc.
   - Provides the ability to save captured audio, recognized subtitles, and translated subtitles
+
+<p align="center">
+  <img style="width: 90%; height: 90%" src="docs/images/live_translation_bbc.png?raw=true" alt=""/>
+</p>  
 
 * `Batch` tab
   - Batch processing for large amounts of files
