@@ -1,49 +1,100 @@
-# Voice-Pro: The best gradio web-ui for transcription, translation and text-to-speech 🔊
+<!-- 
+    title: Voice-Pro: AI Voice Conversion and Translation Solution
+    description: Powerful AI-powered web application for YouTube video processing, speech recognition, translation, and text-to-speech with multilingual support
+    keywords: AI voice conversion, YouTube translation, subtitle generation, speech-to-text, text-to-speech, voice cloning, multilingual translation
+    author: ABUS
+    version: 1.6.7
+    last-updated: 2024-12-16
+    product-type: AI Multimedia Processing Software
+    platforms: Windows
+    technology-stack: Whisper, Edge-TTS, Gradio, CUDA, Faster-Whisper, Whisper-Timestamped, E2, F5-TTS, YouTube Downloader, Demucs, MDX-Net
+    license: LGPL
+-->
+
+# Voice-Pro: Ultimate AI Voice Conversion and Multilingual Translation Tool 🔊
 
 🌍 [한국어](README.kor.md) ∙ [English](README.eng.md) ∙ [中文简体](README.zh.md) ∙ [中文繁體](README.tw.md) ∙ [日本語](README.jpn.md)
 
-[![GitHub License](https://img.shields.io/github/license/abus-aikorea/voice-pro)](LICENSE)
 [![GitHub Release](https://img.shields.io/github/v/release/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/releases )
 
 
-**Voice-Pro는 음성인식, 번역 및 음성합성을 위한 최고의 gradio WebUI입니다.** 원클릭으로 간편하게 설치할 수 있습니다. Miniconda를 사용하여 가상 환경을 만들고, Windows 시스템과 완전히 분리되어 실행됩니다. 실시간 전사 및 번역과 배치 모드를 지원합니다.
+## 🚀 개요
+
+Voice-Pro는 멀티미디어 콘텐츠 처리를 혁신하기 위해 설계된 최첨단 AI 기반 웹 애플리케이션입니다. YouTube 동영상 다운로드, 음성 분리, 음성 인식, 번역 및 텍스트-음성 변환 등 포괄적인 기능을 제공하여 콘텐츠 제작자, 연구자 및 다국어 커뮤니케이션 전문가를 위한 원스톱 솔루션을 제공합니다.
+
+## ⭐ 주요 기능 및 특징
+
+### 1. 스튜디오 탭
+- **YouTube 동영상 처리**: 다양한 형식으로 오디오 다운로드 및 추출
+- **음성 분리**: MDX-Net 및 Demucs를 사용한 고급 노이즈 제거
+- **다국어 지원**: 
+  - 100개 이상 언어에 대한 음성 인식
+  - 사용자 정의 가능한 자막 생성
+  - 100개 이상 언어에 대한 번역 기능
+
+### 2. 고급 음성 기술
+- **음성-텍스트 (STT)**: 
+  - Whisper 통합
+  - Faster-Whisper 지원
+  - Whisper-timestamped 지원
+- **텍스트-음성 변환 (TTS)**: 
+  - 400개 이상의 음성을 지원하는 Edge-TTS
+  - 제로샷 음성 클로닝이 가능한 F5-TTS
+  - 유명인 음성 생성
+
+### 3. 실시간 번역
+- 리얼타임 음성 인식
+- 실시간 다국어 번역
+- 구성 가능한 오디오 입력 소스
 
 
-- **YouTube Downloader**: YouTube 비디오를 다운로드하고 오디오를 추출할 수 있습니다(mp3, wav, flac).
-- **Vocal Remover**: UVR5에서 지원하는 MDX-Net과 Meta에서 개발한 Demucs 엔진을 사용하여 음성을 분리합니다.
-- **STT**: Whisper, Faster-Whisper, whisper-timestamped를 사용한 음성-텍스트 변환을 지원합니다.
-- **Translator**: Google Translator. 단문 번역, 자막파일 번역.
-- **TTS**: Text to Speech. Edge-TTS. zero-shot voice cloning 을 지원하는 E2, F5-TTS.
-- Celeb 보이스를 무료로 제공합니다. 직접 PodCast 를 제작해 보세요. F5-TTS 탭에서 확인가능
-
-
-### ☕ 공지
-- 이 저장소는 Voice-Pro의 **무료 체험판**을 제공합니다. 
-- 무료 체험판은 **30분의 사용 제한**이 있습니다. 즉, 실행 후 30분이 경과하면 웹 UI를 더 이상 사용할 수 없습니다. 
-- 이는 처리할 수 있는 미디어의 길이에 제한이 있다는 의미가 아니며, 진행 중인 작업을 중단하지도 않습니다. 액션 버튼을 더 이상 클릭할 수 없을 뿐입니다. 
-- 약간 불편할 수 있지만, 다시 사용하려면 프로그램을 닫고 다시 시작하면 됩니다. 
-- 이전 작업 결과는 workspace 폴더에 유지됩니다. 
-- Voice-Pro의 공식 버전은 ABUS 공식 웹사이트(<https://abuskorea.imweb.me>)에서 구매할 수 있습니다.
-- 또한, Buy Me a Coffee ☕를 통해 지원해 주시면 감사의 표시로 최대 한 달간 사용할 수 있는 이용권을 제공해 드립니다. (<https://github.com/abus-aikorea/voice-pro/discussions/10#discussioncomment-11527327>)
-- 구매, 사업 제휴, 기능추가, 투자 등과 관련된 문의 사항은 이메일(<abus.aikorea@gmail.com>)로 연락 바랍니다.
-
-
-### 🚄 실행 화면
-
-* `TTS` tab : F5-TTS를 이용한 Podcast 제작
-<video src="https://github.com/user-attachments/assets/2d4b7d84-ca19-4efd-a847-a66fa0db616e" width="100%" style="max-width: 720px;" controls="controls" muted="muted"></video>
+## 🚄 실행 화면
 
 * `Studio` tab : Transcription, Translation & Text-to-Speech
-<video src="https://github.com/user-attachments/assets/f18e7f54-7bc0-4c26-96f9-9f6b70c7114c" width="100%" style="max-width: 720px;" controls="controls" muted="muted"></video>
+<div aria-labelledby="studio-demo-description">
+  <video src="https://github.com/user-attachments/assets/f18e7f54-7bc0-4c26-96f9-9f6b70c7114c"
+   width="100%" 
+   style="max-width: 720px;" 
+   controls="controls" 
+   muted="muted"
+   aria-describedby="studio-demo-description">
+   </video>
+  <p id="studio-demo-description">
+Studio Tab의 미디어 처리 워크플로우 데모: YouTube 동영상 다운로드부터 AI 기반 음성 분리, Whisper 자동 자막 생성, 다국어 번역, 그리고 F5-TTS를 활용한 전문적인 더빙 제작까지의 원스톱 미디어 트랜스포메이션 과정을 시연합니다.
+  </p>
+</div>
+
+* `TTS` tab : F5-TTS를 이용한 Podcast 제작
+<div aria-labelledby="tts-demo-description">
+  <video src="https://github.com/user-attachments/assets/2d4b7d84-ca19-4efd-a847-a66fa0db616e"
+   width="100%" 
+   style="max-width: 720px;" 
+   controls="controls" 
+   muted="muted" 
+   aria-describedby="tts-demo-description">
+   </video>
+  <p id="tts-demo-description">
+F5-TTS의 혁신적인 AI 보이스 클로닝 기술을 활용한 팟캐스트 제작 시연: Mark Zuckerberg와 Elon Musk의 실제 음성을 정밀하게 모방하여 완전히 새로운 콘텐츠를 생성하는 첨단 음성 변환 기술을 보여줍니다.
+  </p>
+</div>
 
 * `Live Translation` tab : 실시간 음성인식 및 번역
-<video src="https://github.com/user-attachments/assets/eb53dd3a-df0a-4f7f-819c-cf92d477e2d1" width="100%" style="max-width: 720px;" controls="controls" muted="muted"></video>
+<div aria-labelledby="translate-demo-description">
+  <video src="https://github.com/user-attachments/assets/eb53dd3a-df0a-4f7f-819c-cf92d477e2d1"
+  width="100%" 
+  style="max-width: 720px;" 
+  controls="controls" 
+  muted="muted"
+  aria-describedby="translate-demo-description">
+  </video>
+  <p id="translate-demo-description">
+실시간 다국어 번역 기능 데모: YouTube의 BBC 뉴스 콘텐츠를 AI 기반 음성 인식 기술로 즉각 캡처하고, 실시간으로 자막을 생성하며 다른 언어로 즉시 번역하는 혁신적인 다국어 미디어 처리 과정을 실연합니다.
+  </p>
+</div> 
 
 
 
-
-
-## ⭐ Key Features
+## ⭐ WebUI
 
 * `Studio` 탭
   - YouTube 다운로더, 노이즈 제거, 자막, 번역, TTS 통합환경으로 제공
@@ -56,7 +107,7 @@
   - TTS 음성의 속도, 음량, 피치 조절 지원  
   
 <p align="center">
-  <img style="width: 90%; height: 90%" src="images/main_page.kor.png?raw=true" alt=""/>
+  <img style="width: 90%; height: 90%" src="images/main_page.kor.png?raw=true" alt="다국어 음성 변환 및 자막 생성 웹 UI 인터페이스"/>
 </p>  
 
 * `Whisper 자막` 탭
@@ -79,7 +130,7 @@
   - Celeb Voice 를 이용하여 PodCast 를 제작할 수 있습니다.
 
 <p align="center">
-  <img style="width: 90%; height: 90%" src="images/tts_f5_multi.png?raw=true" alt=""/>
+  <img style="width: 90%; height: 90%" src="images/tts_f5_multi.png?raw=true" alt="Voice-Cloning 기술을 이용한 Podcast 제작 WebUI"/>
 </p>  
 
 
@@ -89,7 +140,7 @@
   - 캡처된 오디오, 인식된 자막, 번역된 자막 저장 기능 제공
 
 <p align="center">
-  <img style="width: 90%; height: 90%" src="images/live_translation_bbc.png?raw=true" alt=""/>
+  <img style="width: 90%; height: 90%" src="images/live_translation_bbc.png?raw=true" alt="실시간 음성 인식 및 번역을 위한 WebUI"/>
 </p>  
 
 
@@ -99,7 +150,7 @@
  
 
 
-## 💻 Execution environment
+## 💻 실행환경
 * OS : Windows 10/11 (64bits) **※ Linux, Mac OS는 지원하지 않습니다.**
 * GPU: CUDA 12.1을 지원하는 **NVIDIA** 그래픽 카드 권장. 
 * VRAM: 4GB 이상. 8GB이상 권장.
@@ -108,9 +159,9 @@
 * 인터넷 연결 필요(설치 및 번역 작업)
 
 
-## 📀 설치 와 실행
+## 📀 설치와 실행
 
-Voice-Pro can be easily installed with one click. Just run 🚀**configure.bat** and 🚀**start.bat**
+Voice-Pro 는 one click 설치를 지원합니다. 🚀**configure.bat** 와 🚀**start.bat** 를 순서대로 실행하세요.
 
 ### step 1. 패키지 준비
 
@@ -183,6 +234,17 @@ Windows Defender가 실수로 batch 파일을 트로이 목마로 인식하는 �
    * '파일 또는 폴더'를 선택하고, 문제의 batch 파일을 찾아 예외로 추가하세요.
 2. Windows Defender를 잠시 비활성화: 이 방법은 임시적인 해결책이 될 수 있습니다. 하지만 이 방법을 사용할 경우, 컴퓨터가 다른 위협에 노출될 수 있으므로 주의가 필요합니다.
 3. 백신 소프트웨어에 문제 제보: 만약 파일이 트로이 목마가 아니라는 확신이 있다면, Microsoft에 False Positive로 제보할 수 있습니다. Microsoft는 이를 검토한 후 필요한 조치를 취할 것입니다.
+
+
+## ☕ 공지
+- 이 저장소는 Voice-Pro의 **무료 체험판**을 제공합니다. 
+- 무료 체험판은 **30분의 사용 제한**이 있습니다. 즉, 실행 후 30분이 경과하면 웹 UI를 더 이상 사용할 수 없습니다. 
+- 이는 처리할 수 있는 미디어의 길이에 제한이 있다는 의미가 아니며, 진행 중인 작업을 중단하지도 않습니다. 액션 버튼을 더 이상 클릭할 수 없을 뿐입니다. 
+- 약간 불편할 수 있지만, 다시 사용하려면 프로그램을 닫고 다시 시작하면 됩니다. 
+- 이전 작업 결과는 workspace 폴더에 유지됩니다. 
+- Voice-Pro의 공식 버전은 ABUS 공식 웹사이트(<https://abuskorea.imweb.me>)에서 구매할 수 있습니다.
+- 또한, Buy Me a Coffee ☕를 통해 지원해 주시면 감사의 표시로 최대 한 달간 사용할 수 있는 이용권을 제공해 드립니다. (<https://github.com/abus-aikorea/voice-pro/discussions/10#discussioncomment-11527327>)
+- 구매, 사업 제휴, 기능추가, 투자 등과 관련된 문의 사항은 이메일(<abus.aikorea@gmail.com>)로 연락 바랍니다.
 
 
 ## 📬 제품 문의

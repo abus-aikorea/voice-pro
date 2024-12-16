@@ -1,51 +1,104 @@
-# Voice-Pro: The best gradio web-ui for transcription, translation and text-to-speech 🔊
+<!-- 
+    title: Voice-Pro: AI Voice Conversion and Translation Solution
+    description: Powerful AI-powered web application for YouTube video processing, speech recognition, translation, and text-to-speech with multilingual support
+    keywords: AI voice conversion, YouTube translation, subtitle generation, speech-to-text, text-to-speech, voice cloning, multilingual translation
+    author: ABUS
+    version: 1.6.7
+    last-updated: 2024-12-16
+    product-type: AI Multimedia Processing Software
+    platforms: Windows
+    technology-stack: Whisper, Edge-TTS, Gradio, CUDA, Faster-Whisper, Whisper-Timestamped, E2, F5-TTS, YouTube Downloader, Demucs, MDX-Net
+    license: LGPL
+-->
+
+
+
+# Voice-Pro: Ultimate AI Voice Conversion and Multilingual Translation Tool 🔊
 
 🌍 [한국어](docs/README.kor.md) ∙ [English](docs/README.eng.md) ∙ [中文简体](docs/README.zh.md) ∙ [中文繁體](docs/README.tw.md) ∙ [日本語](docs/README.jpn.md)
 
-[![GitHub License](https://img.shields.io/github/license/abus-aikorea/voice-pro)](LICENSE)
 [![GitHub Release](https://img.shields.io/github/v/release/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/releases )
 
 
+## 🚀 Product Overview
 
-**Voice-Pro is the best gradio WebUI for transcription, translation and text-to-speech.** It can be easily installed with one click. Create a virtual environment using Miniconda, running completely separate from the Windows system (fully portable). Supports real-time transcription and translation, as well as batch mode.
-
-
-- **YouTube Downloader**: You can download YouTube videos and extract the audio (mp3, wav, flac).
-- **Vocal Remover**: Use MDX-Net supported in UVR5 and the Demucs engine developed by Meta for voice separation.
-- **STT**: Supports speech-to-text conversion with Whisper, Faster-Whisper, and whisper-timestamped.
-- **Translator**: Google Translator. Short text translation, subtitle file translation.
-- **TTS**: Text to Speech. Edge-TTS. E2 and F5-TTS that support zero-shot voice cloning.
-- We provide Celeb voices for free. Try creating your own podcast. You can check it in the F5-TTS tab.
+Voice-Pro is a cutting-edge AI-powered web application designed to revolutionize multimedia content processing. With comprehensive features for YouTube video downloading, voice separation, speech recognition, translation, and text-to-speech, it offers an all-in-one solution for content creators, researchers, and multilingual communication professionals.
 
 
+## ⭐ Key Features and Capabilities
 
-### ☕ Notice
-- This repository offers a **free trial** of Voice-Pro. 
-- The free trial has a **usage limit of 30 minutes**. This means that once 30 minutes have elapsed after running, you will no longer be able to use the web UI. 
-- It does not mean there is a limitation on the length of media that can be processed, nor does it stop ongoing tasks. You simply cannot click the action button anymore. 
-- It may be a bit inconvenient, but to use it again, you just need to close the program and restart it. 
-- Previous work results are maintained in the workspace folder. 
-- The official version of Voice-Pro can be purchased through the ABUS official website (<https://abuskorea.imweb.me>)
--  Additionally, if you support us through Buy Me a Coffee ☕, we will give you a usage voucher for up to one month as a token of our gratitude. (<https://github.com/abus-aikorea/voice-pro/discussions/10#discussioncomment-11527327>)
--  For inquiries regarding purchases, business partnerships, tuning, investments, etc., please contact us via email (<abus.aikorea@gmail.com>)."
+### 1. Comprehensive Studio Tab
+- **YouTube Video Processing**: Download and extract audio in multiple formats
+- **Voice Separation**: Advanced noise removal using MDX-Net and Demucs
+- **Multilingual Support**: 
+  - Speech recognition for 100+ languages
+  - Subtitle creation with customizable options
+  - Translation capabilities for over 100 languages
+
+### 2. Advanced Speech Technologies
+- **Speech-to-Text (STT)**: 
+  - Whisper integration
+  - Faster-Whisper support
+  - Whisper-timestamped functionality
+- **Text-to-Speech (TTS)**: 
+  - Edge-TTS with 400+ voices
+  - F5-TTS with zero-shot voice cloning
+  - Celebrity voice generation
+
+### 3. Real-Time Translation
+- Instant speech recognition
+- Real-time Multilingual translation
+- Configurable audio input sources
 
 
 
-
-### 🚄 Run screen
-
-* `TTS` tab : Podcast Production using F5-TTS
-<video src="https://github.com/user-attachments/assets/2d4b7d84-ca19-4efd-a847-a66fa0db616e" width="100%" style="max-width: 720px;" controls="controls" muted="muted"></video>
+## 🚄 Run screen
 
 * `Studio` tab : Transcription, Translation & Text-to-Speech
-<video src="https://github.com/user-attachments/assets/f18e7f54-7bc0-4c26-96f9-9f6b70c7114c" width="100%" style="max-width: 720px;" controls="controls" muted="muted"></video>
+<div aria-labelledby="studio-demo-description">
+  <video src="https://github.com/user-attachments/assets/f18e7f54-7bc0-4c26-96f9-9f6b70c7114c"
+   width="100%" 
+   style="max-width: 720px;" 
+   controls="controls" 
+   muted="muted"
+   aria-describedby="studio-demo-description">
+   </video>
+  <p id="studio-demo-description">
+Studio Tab's comprehensive media processing workflow demo: Demonstrates a one-stop media transformation process from YouTube video download to AI-based voice separation, automatic Whisper subtitles, multilingual translation, and professional dubbing using F5-TTS.
+  </p>
+</div>
+
+* `TTS` tab : Podcast Production using F5-TTS
+<div aria-labelledby="tts-demo-description">
+  <video src="https://github.com/user-attachments/assets/2d4b7d84-ca19-4efd-a847-a66fa0db616e"
+   width="100%" 
+   style="max-width: 720px;" 
+   controls="controls" 
+   muted="muted" 
+   aria-describedby="tts-demo-description">
+   </video>
+  <p id="tts-demo-description">
+Demonstration of F5-TTS's innovative AI voice cloning technology: Showcasing advanced voice conversion technology that precisely mimics the actual voices of Mark Zuckerberg and Elon Musk to create entirely new content.
+  </p>
+</div>
 
 * `Live Translation` tab : Real-time Speech Recognition and Translation
-<video src="https://github.com/user-attachments/assets/eb53dd3a-df0a-4f7f-819c-cf92d477e2d1" width="100%" style="max-width: 720px;" controls="controls" muted="muted"></video>
+<div aria-labelledby="translate-demo-description">
+  <video src="https://github.com/user-attachments/assets/eb53dd3a-df0a-4f7f-819c-cf92d477e2d1"
+  width="100%" 
+  style="max-width: 720px;" 
+  controls="controls" 
+  muted="muted"
+  aria-describedby="translate-demo-description">
+  </video>
+  <p id="translate-demo-description">
+Demonstration of real-time multilingual translation feature: Showcasing an innovative multilingual media processing process that instantly captures BBC news content, generates subtitles in real-time, and immediately translates them into other languages.
+  </p>
+</div> 
 
 
 
-## ⭐ Key Features
+## ⭐ WebUI
 
 * `Studio` tab
   - Provides integrated environment for YouTube downloader, noise removal, subtitles, translation, and TTS
@@ -58,7 +111,7 @@
   - Supports TTS voice speed, volume, and pitch adjustment
   
 <p align="center">
-  <img style="width: 90%; height: 90%" src="docs/images/main_page.kor.png?raw=true" alt=""/>
+  <img style="width: 90%; height: 90%" src="docs/images/main_page.kor.png?raw=true" alt="Multilingual Voice Conversion and Subtitle Generation Web UI Interface"/>
 </p>  
 
 
@@ -82,7 +135,7 @@
   - You can create podcasts using Celeb Voices.
 
 <p align="center">
-  <img style="width: 90%; height: 90%" src="docs/images/tts_f5_multi.png?raw=true" alt=""/>
+  <img style="width: 90%; height: 90%" src="docs/images/tts_f5_multi.png?raw=true" alt="Podcast Production WebUI Using Voice-Cloning Technology"/>
 </p>  
   
 
@@ -93,7 +146,7 @@
   - Provides the ability to save captured audio, recognized subtitles, and translated subtitles
 
 <p align="center">
-  <img style="width: 90%; height: 90%" src="docs/images/live_translation_bbc.png?raw=true" alt=""/>
+  <img style="width: 90%; height: 90%" src="docs/images/live_translation_bbc.png?raw=true" alt="WebUI for Real-Time Speech Recognition and Translation"/>
 </p>  
 
 * `Batch` tab
@@ -184,6 +237,18 @@ When Windows Defender mistakenly recognizes a batch file as a Trojan, this is of
    * Select 'File or Folder', find the batch file in question and add it as an exception.
 2. Temporarily disable Windows Defender: This may be a temporary solution. However, you must be careful when using this method as it may expose your computer to other threats.
 3. Report the problem to anti-virus software: If you are sure that the file is not a Trojan horse, you can report it to Microsoft as a False Positive. Microsoft will review this and take any necessary action.
+
+
+## ☕ Notice
+- This repository offers a **free trial** of Voice-Pro. 
+- The free trial has a **usage limit of 30 minutes**. This means that once 30 minutes have elapsed after running, you will no longer be able to use the web UI. 
+- It does not mean there is a limitation on the length of media that can be processed, nor does it stop ongoing tasks. You simply cannot click the action button anymore. 
+- It may be a bit inconvenient, but to use it again, you just need to close the program and restart it. 
+- Previous work results are maintained in the workspace folder. 
+- The official version of Voice-Pro can be purchased through the ABUS official website (<https://abuskorea.imweb.me>)
+-  Additionally, if you support us through Buy Me a Coffee ☕, we will give you a usage voucher for up to one month as a token of our gratitude. (<https://github.com/abus-aikorea/voice-pro/discussions/10#discussioncomment-11527327>)
+-  For inquiries regarding purchases, business partnerships, tuning, investments, etc., please contact us via email (<abus.aikorea@gmail.com>)."
+
 
 
 ## 📬 Contact us

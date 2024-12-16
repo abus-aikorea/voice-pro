@@ -1,47 +1,100 @@
-# Voice-Pro: The best gradio web-ui for transcription, translation and text-to-speech 🔊
+<!-- 
+    title: Voice-Pro: AI Voice Conversion and Translation Solution
+    description: Powerful AI-powered web application for YouTube video processing, speech recognition, translation, and text-to-speech with multilingual support
+    keywords: AI voice conversion, YouTube translation, subtitle generation, speech-to-text, text-to-speech, voice cloning, multilingual translation
+    author: ABUS
+    version: 1.6.7
+    last-updated: 2024-12-16
+    product-type: AI Multimedia Processing Software
+    platforms: Windows
+    technology-stack: Whisper, Edge-TTS, Gradio, CUDA, Faster-Whisper, Whisper-Timestamped, E2, F5-TTS, YouTube Downloader, Demucs, MDX-Net
+    license: LGPL
+-->
+
+# Voice-Pro: Ultimate AI Voice Conversion and Multilingual Translation Tool 🔊
 
 🌍 [한국어](README.kor.md) ∙ [English](README.eng.md) ∙ [中文简体](README.zh.md) ∙ [中文繁體](README.tw.md) ∙ [日本語](README.jpn.md)
 
-[![GitHub License](https://img.shields.io/github/license/abus-aikorea/voice-pro)](LICENSE)
 [![GitHub Release](https://img.shields.io/github/v/release/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/releases )
 
 
-**Voice-Pro是最佳的轉錄、翻譯和文字轉語音的gradio網頁界面。** 它可以一鍵安裝。使用Miniconda創建虛擬環境，完全獨立於Windows系統運行（完全便攜）。支持實時轉錄和翻譯，以及批處理模式。
+## 🚀 產品概述
 
-- **YouTube下載器**：您可以下載YouTube視頻並提取音頻（mp3、wav、flac）。
-- **人聲分離**：使用UVR5支持的MDX-Net和Meta開發的Demucs引擎進行語音分離。
-- **STT**：支持使用Whisper、Faster-Whisper和whisper-timestamped進行語音轉文字。
-- **翻譯器**：Google翻譯。短文翻譯，字幕文件翻譯。
-- **TTS**：文字轉語音。Edge-TTS。zero-shot語音克隆的E2和F5-TTS。
-- 我們免費提供Celeb聲音。試著製作自己的播客。您可以在F5-TTS標籤中查看。
+Voice-Pro是一款旨在革新多媒體內容處理的尖端AI驅動的Web應用程式。通過提供YouTube視頻下載、語音分離、語音識別、翻譯和文字轉語音等全面功能，為內容創作者、研究者和多語言通信專業人士提供了一站式解決方案。
+
+## ⭐ 主要功能和特點
+
+### 1. 全面的工作室標籤
+- **YouTube視頻處理**：以多種格式下載和提取音頻
+- **語音分離**：使用MDX-Net和Demucs進行高級降噪
+- **多語言支持**： 
+  - 支持100多種語言的語音識別
+  - 具有可自定義選項的字幕創建
+  - 支持100多種語言的翻譯功能
+
+### 2. 高級語音技術
+- **語音轉文字（STT）**： 
+  - Whisper集成
+  - Faster-Whisper支持
+  - Whisper-timestamped功能
+- **文字轉語音（TTS）**： 
+  - 具有400多種語音的Edge-TTS
+  - 支持零樣本語音克隆的F5-TTS
+  - 名人語音生成
+
+### 3. 即時翻譯
+- 即時語音識別
+- 多語言翻譯
+- 可配置的音頻輸入源
 
 
-### ☕ 通知
-- 該倉庫提供 Voice-Pro 的**免費試用**。 
-- 免費試用有**30分鐘的使用限制**。這意味著運行後30分鐘後，您將無法再使用Web界面。 
-- 這並不意味著處理媒體的長度有限制，也不會停止正在進行的任務。您只是無法再點擊操作按鈕。 
-- 可能會有點不便，但要再次使用，只需關閉程序並重新啟動。 
-- 先前的工作結果保存在工作空間文件夾中。 
-- Voice-Pro的官方版本可以通過ABUS官方網站(<https://abuskorea.imweb.me>)購買。
-- 此外，如果您通過Buy Me a Coffee ☕支持我們，我們將作為感謝，為您提供最多一個月的使用憑證。 (<https://github.com/abus-aikorea/voice-pro/discussions/10#discussioncomment-11527327>)
-- 關於購買、商業合作、調整、投資等方面的咨詢，請通過電子郵件(<abus.aikorea@gmail.com>)與我們聯繫。
 
 
-### 🚄 運行畫面
-
-* `TTS` tab : Podcast Production using F5-TTS
-<video src="https://github.com/user-attachments/assets/2d4b7d84-ca19-4efd-a847-a66fa0db616e" width="100%" style="max-width: 720px;" controls="controls" muted="muted"></video>
+## 🚄 運行畫面
 
 * `Studio` tab : Transcription, Translation & Text-to-Speech
-<video src="https://github.com/user-attachments/assets/f18e7f54-7bc0-4c26-96f9-9f6b70c7114c" width="100%" style="max-width: 720px;" controls="controls" muted="muted"></video>
+<div aria-labelledby="studio-demo-description">
+  <video src="https://github.com/user-attachments/assets/f18e7f54-7bc0-4c26-96f9-9f6b70c7114c"
+   width="100%" 
+   style="max-width: 720px;" 
+   controls="controls" 
+   muted="muted"
+   aria-describedby="studio-demo-description">
+   </video>
+  <p id="studio-demo-description">
+Voice-Pro工作室分頁的全面媒體處理工作流程示範：從YouTube視頻下載到基於AI的語音分離、Whisper自動字幕生成、多語言翻譯，再到使用F5-TTS進行專業配音的一站式媒體轉換過程的展示。
+  </p>
+</div>
+
+* `TTS` tab : Podcast Production using F5-TTS
+<div aria-labelledby="tts-demo-description">
+  <video src="https://github.com/user-attachments/assets/2d4b7d84-ca19-4efd-a847-a66fa0db616e"
+   width="100%" 
+   style="max-width: 720px;" 
+   controls="controls" 
+   muted="muted" 
+   aria-describedby="tts-demo-description">
+   </video>
+  <p id="tts-demo-description">
+F5-TTS創新的AI語音克隆技術示範：展示了精確模仿Mark Zuckerberg和Elon Musk真實聲音，從而創建全新內容的先進語音轉換技術。
+  </p>
+</div>
 
 * `Live Translation` tab : 即時語音辨識和翻譯
-<video src="https://github.com/user-attachments/assets/eb53dd3a-df0a-4f7f-819c-cf92d477e2d1" width="100%" style="max-width: 720px;" controls="controls" muted="muted"></video>
+<div aria-labelledby="translate-demo-description">
+  <video src="https://github.com/user-attachments/assets/eb53dd3a-df0a-4f7f-819c-cf92d477e2d1"
+  width="100%" 
+  style="max-width: 720px;" 
+  controls="controls" 
+  muted="muted"
+  aria-describedby="translate-demo-description">
+  </video>
+  <p id="translate-demo-description">
+Voice-Pro即時多語言翻譯功能示範：展示了一個創新的多語言媒體處理過程，通過AI語音識別技術即時捕獲YouTube BBC新聞內容，即時生成字幕，並立即將其翻譯成其他語言。
+  </p>
+</div> 
 
-
-
-
-## ⭐ 主要功能
+## ⭐ WebUI
 
 * `Studio`標籤頁
   - 提供YouTube下載器、噪音去除、字幕、翻譯和TTS的集成環境
@@ -54,7 +107,7 @@
   - 支持TTS語音速度、音量和音調調整
 
 <p align="center">
-  <img style="width: 90%; height: 90%" src="images/main_page.kor.png?raw=true" alt=""/>
+  <img style="width: 90%; height: 90%" src="images/main_page.kor.png?raw=true" alt="多語言語音轉換和字幕生成Web UI介面"/>
 </p>  
 
 * `Whisper Caption`標籤頁
@@ -77,7 +130,7 @@
   - 可以使用 Celeb Voice 制作播客。
 
 <p align="center">
-  <img style="width: 90%; height: 90%" src="images/tts_f5_multi.png?raw=true" alt=""/>
+  <img style="width: 90%; height: 90%" src="images/tts_f5_multi.png?raw=true" alt="使用語音克隆技術的播客製作Web介面"/>
 </p>  
 
 
@@ -87,7 +140,7 @@
   - 提供保存捕獲的音頻、識別的字幕和翻譯的字幕的功能
 
 <p align="center">
-  <img style="width: 90%; height: 90%" src="images/live_translation_bbc.png?raw=true" alt=""/>
+  <img style="width: 90%; height: 90%" src="images/live_translation_bbc.png?raw=true" alt="用於即時語音識別和翻譯的WebUI"/>
 </p>  
 
 * `Batch`標籤頁
@@ -137,7 +190,7 @@ git clone https://github.com/abus-aikorea/voice-pro.git
 
 #### 如果瀏覽器沒有自動運行
 - 關閉Windows命令窗口並再次運行start.bat。
-- 直接運行瀏覽器並在地址欄輸入Windows命令窗口中顯示的地址（例如**http://127.0.0.1:7892**）。
+- 直接運行瀏覽器並在地址欄輸入Windows命令窗口中顯示的地址（例如 **http://127.0.0.1:7892**）。
 
 #### 如果出現CUDA內存不足錯誤
 - 在Windows任務管理器的性能選項卡中檢查GPU內存狀態。
@@ -170,6 +223,20 @@ Windows Defender 可能會發出有關不受信任的應用程式的警告，並
    * 選擇"文件或文件夾"，找到相關的批處理文件並將其添加為例外。
 2. 暫時禁用Windows Defender：這可能是一個臨時解決方案。但是，使用此方法時必須小心，因為它可能會使您的計算機暴露於其他威脅中。
 3. 向防病毒軟件報告問題：如果您確定該文件不是特洛伊木馬，可以將其作為誤報向Microsoft報告。Microsoft將審查此問題並採取必要的行動。
+
+
+
+## ☕ 通知
+- 該倉庫提供 Voice-Pro 的**免費試用**。 
+- 免費試用有**30分鐘的使用限制**。這意味著運行後30分鐘後，您將無法再使用Web界面。 
+- 這並不意味著處理媒體的長度有限制，也不會停止正在進行的任務。您只是無法再點擊操作按鈕。 
+- 可能會有點不便，但要再次使用，只需關閉程序並重新啟動。 
+- 先前的工作結果保存在工作空間文件夾中。 
+- Voice-Pro的官方版本可以通過ABUS官方網站(<https://abuskorea.imweb.me>)購買。
+- 此外，如果您通過Buy Me a Coffee ☕支持我們，我們將作為感謝，為您提供最多一個月的使用憑證。 (<https://github.com/abus-aikorea/voice-pro/discussions/10#discussioncomment-11527327>)
+- 關於購買、商業合作、調整、投資等方面的咨詢，請通過電子郵件(<abus.aikorea@gmail.com>)與我們聯繫。
+
+
 
 ## 📬 聯繫我們
 * 電子郵件：<abus.aikorea@gmail.com>
