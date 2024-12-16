@@ -18,36 +18,18 @@
 [![GitHub Release](https://img.shields.io/github/v/release/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/releases )
 
 
-## 🚀 产品概述
+## 🎙️ 先进的AI驱动多媒体处理工具 | Whisper语音识别WebUI
 
 Voice-Pro是一款旨在革新多媒体内容处理的尖端AI驱动的Web应用程序。通过提供YouTube视频下载、语音分离、语音识别、翻译和文本转语音等全面功能，为内容创作者、研究者和多语言通信专业人士提供了一站式解决方案。
 
-## ⭐ 主要功能和特点
+- 🔊 尖端语音识别（Whisper、Faster-Whisper、Whisper-Timestamped）
+- 🎤 使用F5-TTS和E2-TTS进行零样本语音克隆
+- 🎥 YouTube视频处理和音频提取
+- 🔇 专业语音分离（UVR5技术）
+- 📢 多语言文本转语音（Edge-TTS）
+- 🌍 跨100多种语言的即时翻译
 
-### 1. 全面的工作室标签
-- **YouTube视频处理**：以多种格式下载和提取音频
-- **语音分离**：使用MDX-Net和Demucs进行高级降噪
-- **多语言支持**： 
-  - 支持100多种语言的语音识别
-  - 具有可自定义选项的字幕创建
-  - 支持100多种语言的翻译功能
-
-### 2. 高级语音技术
-- **语音转文字（STT）**： 
-  - Whisper集成
-  - Faster-Whisper支持
-  - Whisper-timestamped功能
-- **文字转语音（TTS）**： 
-  - 具有400多种语音的Edge-TTS
-  - 支持零样本语音克隆的F5-TTS
-  - 名人语音生成
-
-### 3. 实时翻译
-- 即时语音识别
-- 多语言翻译
-- 可配置的音频输入源
-
-
+为内容创作者、播客制作者、研究者和开发者打造 | AI多媒体解决方案
 
 
 ## 🚄 运行画面
@@ -93,6 +75,34 @@ F5-TTS创新的AI语音克隆技术演示：展示了精确模仿Mark Zuckerberg
 Voice-Pro实时多语言翻译功能演示：展示了一个创新的多语言媒体处理过程，通过AI语音识别技术即时捕获YouTube BBC新闻内容，实时生成字幕，并立即将其翻译成其他语言。
   </p>
 </div> 
+
+
+## ⭐ 主要功能和特点
+
+### 1. 全面的工作室标签
+- **YouTube视频处理**：以多种格式下载和提取音频
+- **语音分离**：使用MDX-Net和Demucs进行高级降噪
+- **多语言支持**： 
+  - 支持100多种语言的语音识别
+  - 具有可自定义选项的字幕创建
+  - 支持100多种语言的翻译功能
+
+### 2. 高级语音技术
+- **语音转文字（STT）**： 
+  - Whisper集成
+  - Faster-Whisper支持
+  - Whisper-timestamped功能
+- **文字转语音（TTS）**： 
+  - 具有400多种语音的Edge-TTS
+  - 支持零样本语音克隆的F5-TTS
+  - 名人语音生成
+
+### 3. 实时翻译
+- 即时语音识别
+- 多语言翻译
+- 可配置的音频输入源
+
+
 
 ## ⭐ WebUI
 

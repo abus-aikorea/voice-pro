@@ -19,37 +19,18 @@
 
 
 
-## 🚀 Product Overview
+## 🎙️ Advanced AI-Powered Multimedia Processing Tool | Whisper Speech Recognition WebUI
 
 Voice-Pro is a cutting-edge AI-powered web application designed to revolutionize multimedia content processing. With comprehensive features for YouTube video downloading, voice separation, speech recognition, translation, and text-to-speech, it offers an all-in-one solution for content creators, researchers, and multilingual communication professionals.
 
+- 🔊 Cutting-edge Speech Recognition (Whisper, Faster-Whisper, Whisper-Timestamped)
+- 🎤 Zero-Shot Voice Cloning with F5-TTS & E2-TTS
+- 🎥 YouTube Video Processing & Audio Extraction
+- 🔇 Professional Vocal Isolation (UVR5 Technology)
+- 📢 Multilingual Text-to-Speech (Edge-TTS)
+- 🌍 Instant Translation Across 100+ Languages
 
-## ⭐ Key Features and Capabilities
-
-### 1. Comprehensive Studio Tab
-- **YouTube Video Processing**: Download and extract audio in multiple formats
-- **Voice Separation**: Advanced noise removal using MDX-Net and Demucs
-- **Multilingual Support**: 
-  - Speech recognition for 100+ languages
-  - Subtitle creation with customizable options
-  - Translation capabilities for over 100 languages
-
-### 2. Advanced Speech Technologies
-- **Speech-to-Text (STT)**: 
-  - Whisper integration
-  - Faster-Whisper support
-  - Whisper-timestamped functionality
-- **Text-to-Speech (TTS)**: 
-  - Edge-TTS with 400+ voices
-  - F5-TTS with zero-shot voice cloning
-  - Celebrity voice generation
-
-### 3. Real-Time Translation
-- Instant speech recognition
-- Real-time Multilingual translation
-- Configurable audio input sources
-
-
+Perfect for Content Creators, Podcasters, Researchers, and Developers | AI Multimedia Solution
 
 
 ## 🚄 Run screen
@@ -95,6 +76,34 @@ Demonstration of F5-TTS's innovative AI voice cloning technology: Showcasing adv
 Demonstration of real-time multilingual translation feature: Showcasing an innovative multilingual media processing process that instantly captures BBC news content, generates subtitles in real-time, and immediately translates them into other languages.
   </p>
 </div> 
+
+
+## ⭐ Key Features and Capabilities
+
+### 1. Comprehensive Studio Tab
+- **YouTube Video Processing**: Download and extract audio in multiple formats
+- **Voice Separation**: Advanced noise removal using MDX-Net and Demucs
+- **Multilingual Support**: 
+  - Speech recognition for 100+ languages
+  - Subtitle creation with customizable options
+  - Translation capabilities for over 100 languages
+
+### 2. Advanced Speech Technologies
+- **Speech-to-Text (STT)**: 
+  - Whisper integration
+  - Faster-Whisper support
+  - Whisper-timestamped functionality
+- **Text-to-Speech (TTS)**: 
+  - Edge-TTS with 400+ voices
+  - F5-TTS with zero-shot voice cloning
+  - Celebrity voice generation
+
+### 3. Real-Time Translation
+- Instant speech recognition
+- Real-time Multilingual translation
+- Configurable audio input sources
+
+
 
 
 ## ⭐ WebUI
