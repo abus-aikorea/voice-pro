@@ -1,7 +1,7 @@
 <!-- 
-    title: Voice-Pro: AI Voice Conversion and Translation Solution
+    title: Voice-Pro: Ultimate AI Voice Conversion and Multilingual Translation Tool
     description: Powerful AI-powered web application for YouTube video processing, speech recognition, translation, and text-to-speech with multilingual support
-    keywords: AI voice conversion, YouTube translation, subtitle generation, speech-to-text, text-to-speech, voice cloning, multilingual translation
+    keywords: AI voice conversion, YouTube translation, subtitle generation, speech-to-text, text-to-speech, voice cloning, multilingual translation, ElevenLabs Alternative 
     author: ABUS
     version: 1.6.7
     last-updated: 2024-12-16
@@ -10,6 +10,7 @@
     technology-stack: Whisper, Edge-TTS, Gradio, CUDA, Faster-Whisper, Whisper-Timestamped, E2, F5-TTS, YouTube Downloader, Demucs, MDX-Net
     license: LGPL
 -->
+
 
 # Voice-Pro: Ultimate AI Voice Conversion and Multilingual Translation Tool 🔊
 
@@ -22,14 +23,14 @@
 
 Voice-Pro是一款旨在革新多媒体内容处理的尖端AI驱动的Web应用程序。通过提供YouTube视频下载、语音分离、语音识别、翻译和文本转语音等全面功能，为内容创作者、研究者和多语言通信专业人士提供了一站式解决方案。
 
-- 🔊 尖端语音识别（Whisper、Faster-Whisper、Whisper-Timestamped）
-- 🎤 使用F5-TTS和E2-TTS进行零样本语音克隆
+- 🔊 尖端语音识别 (**Whisper**, **Faster-Whisper**, **Whisper-Timestamped**)
+- 🎤 使用**F5-TTS**和**E2-TTS**进行零样本语音克隆
 - 🎥 YouTube视频处理和音频提取
-- 🔇 专业语音分离（UVR5技术）
-- 📢 多语言文本转语音（Edge-TTS）
+- 🔇 专业语音分离（**UVR5**技术）
+- 📢 多语言文本转语音（**Edge-TTS**）
 - 🌍 跨100多种语言的即时翻译
 
-为内容创作者、播客制作者、研究者和开发者打造 | AI多媒体解决方案
+Voice-Pro为**ElevenLabs**提供了一个现实的替代方案，满足寻求先进文本转语音解决方案的内容创作者、播客、研究人员和开发者的需求。
 
 
 ## 🚄 运行画面

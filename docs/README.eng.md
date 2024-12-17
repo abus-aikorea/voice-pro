@@ -1,7 +1,7 @@
 <!-- 
-    title: Voice-Pro: AI Voice Conversion and Translation Solution
+    title: Voice-Pro: Ultimate AI Voice Conversion and Multilingual Translation Tool
     description: Powerful AI-powered web application for YouTube video processing, speech recognition, translation, and text-to-speech with multilingual support
-    keywords: AI voice conversion, YouTube translation, subtitle generation, speech-to-text, text-to-speech, voice cloning, multilingual translation
+    keywords: AI voice conversion, YouTube translation, subtitle generation, speech-to-text, text-to-speech, voice cloning, multilingual translation, ElevenLabs Alternative 
     author: ABUS
     version: 1.6.7
     last-updated: 2024-12-16
@@ -23,14 +23,14 @@
 
 Voice-Pro is a cutting-edge AI-powered web application designed to revolutionize multimedia content processing. With comprehensive features for YouTube video downloading, voice separation, speech recognition, translation, and text-to-speech, it offers an all-in-one solution for content creators, researchers, and multilingual communication professionals.
 
-- 🔊 Cutting-edge Speech Recognition (Whisper, Faster-Whisper, Whisper-Timestamped)
-- 🎤 Zero-Shot Voice Cloning with F5-TTS & E2-TTS
+- 🔊 Cutting-edge Speech Recognition (**Whisper**, **Faster-Whisper**, **Whisper-Timestamped**)
+- 🎤 Zero-Shot Voice Cloning with **F5-TTS** & **E2-TTS**
 - 🎥 YouTube Video Processing & Audio Extraction
-- 🔇 Professional Vocal Isolation (UVR5 Technology)
-- 📢 Multilingual Text-to-Speech (Edge-TTS)
+- 🔇 Professional Vocal Isolation (**UVR5** Technology)
+- 📢 Multilingual Text-to-Speech (**Edge-TTS**)
 - 🌍 Instant Translation Across 100+ Languages
 
-Perfect for Content Creators, Podcasters, Researchers, and Developers | AI Multimedia Solution
+Voice-Pro offers a realistic alternative to **ElevenLabs**, catering to content creators, podcasters, researchers, and developers seeking advanced text-to-speech solutions.
 
 
 ## 🚄 Run screen
