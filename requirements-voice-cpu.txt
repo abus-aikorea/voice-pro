@@ -32,6 +32,7 @@ huggingface-hub==0.23.4
 tqdm
 markdown
 rich
+ntplib
 # tts
 edge-tts
 python-iso639
