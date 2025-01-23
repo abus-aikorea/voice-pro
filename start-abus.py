@@ -12,6 +12,8 @@ if __name__ == '__main__':
         sys.exit(1)
 
     app_name = sys.argv[1]
+    is_update = True if len(sys.argv) == 3 and sys.argv[2] == '--update' else False
+    
     print(f"app_name: {app_name}")
     
         
@@ -33,6 +35,9 @@ if __name__ == '__main__':
     if not is_installed():
         install_webui(app_name)
         os.chdir(script_dir)
+    
+    if is_update:
+        update_webui(app_name)
         
     install_extra_packages(app_name)        
 
@@ -46,6 +51,7 @@ if __name__ == '__main__':
         os.makedirs(conda_path_bin, exist_ok=True)
 
     # ABUS - start Gulliver
-    print("Start the program...")
-    run_cmd(f"python {python_filename}", environment=True) 
+    if not is_update:
+        print("Start the program...")
+        run_cmd(f"python {python_filename}", environment=True) 
     

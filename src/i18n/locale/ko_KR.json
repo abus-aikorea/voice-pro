@@ -1,5 +1,6 @@
 {
     "Studio": "스튜디오",
+    "Dubbing Studio": "더빙 스튜디오",
     "Upload File": "파일 업로드",
     "Microphone Input": "마이크 입력",
     "YouTube URL": "YouTube URL",
@@ -75,7 +76,7 @@
     "Main Vocals": "메인보컬",
     "Backup Vocals": "백업보컬",
     "MDX Models": "MDX 모델",
-    "Download voice models from Discord AI Hub: <https://discord.com/invite/aihub>": "Voice Model 다운로드 - Discord AI Hub: <https://discord.com/invite/aihub>",
+    "Download voice models: ": "음성 모델 다운로드: ",
     "Input Video": "입력영상",
     "AI Cover": "AI Cover",
     "Generate": "생성",

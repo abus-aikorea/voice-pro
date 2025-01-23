@@ -1,0 +1,7 @@
+example
+
+model 
+  |- rvc-voice 
+    |- my_voice
+      | - voice_model.index
+      | - voice_model.pth

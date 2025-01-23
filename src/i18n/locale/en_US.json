@@ -1,5 +1,6 @@
 {
     "Studio": "Studio",
+    "Dubbing Studio": "Dubbing Studio",
     "Upload File": "Upload File",
     "Microphone Input": "Microphone Input",
     "YouTube URL": "YouTube URL",
@@ -75,7 +76,7 @@
     "Main Vocals": "Main Vocals",
     "Backup Vocals": "Backup Vocals",
     "MDX Models": "MDX Models",
-    "Download voice models from Discord AI Hub: <https://discord.com/invite/aihub>": "Download voice models from Discord AI Hub: <https://discord.com/invite/aihub>",
+    "Download voice models: ": "Download voice models: ",
     "Input Video": "Input Video",
     "AI Cover": "AI Cover",
     "Generate": "Generate",

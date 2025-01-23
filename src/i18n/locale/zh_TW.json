@@ -1,5 +1,6 @@
 {
     "Studio": "工作室",
+    "Dubbing Studio": "配音棚",
     "Upload File": "上傳檔案",
     "Microphone Input": "麥克風輸入",
     "YouTube URL": "YouTube 網址",
@@ -75,7 +76,7 @@
     "Main Vocals": "主要人聲",
     "Backup Vocals": "背景人聲",
     "MDX Models": "MDX模型",
-    "Download voice models from Discord AI Hub: <https://discord.com/invite/aihub>": "從Discord AI Hub下載語音模型：<https://discord.com/invite/aihub>",
+    "Download voice models: ": "下載語音模型: ",
     "Input Video": "輸入影片",
     "AI Cover": "AI翻唱",
     "Generate": "生成",

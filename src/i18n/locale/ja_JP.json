@@ -1,5 +1,6 @@
 {
     "Studio": "スタジオ",
+    "Dubbing Studio": "吹き替えスタジオ",
     "Upload File": "ファイルをアップロード",
     "Microphone Input": "マイク入力",
     "YouTube URL": "YouTube URL",
@@ -75,7 +76,7 @@
     "Main Vocals": "メインボーカル",
     "Backup Vocals": "バックアップボーカル",
     "MDX Models": "MDXモデル",
-    "Download voice models from Discord AI Hub: <https://discord.com/invite/aihub>": "Discord AI Hub から音声モデルをダウンロード: <https://discord.com/invite/aihub>",
+    "Download voice models: ": "音声モデルをダウンロード: ",
     "Input Video": "入力ビデオ",
     "AI Cover": "AI カバー",
     "Generate": "生成",

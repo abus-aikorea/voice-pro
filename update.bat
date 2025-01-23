@@ -24,7 +24,7 @@ if /i "%~dp0"=="%SystemRoot%\SysWOW64\" (
 
 echo =========================================================================
 echo.
-echo   ABUS Launcher [Version 3.0]
+echo   ABUS Updater [Version 3.0]
 echo   contact: abus.aikorea@gmail.com
 echo.
 echo =========================================================================
@@ -35,7 +35,6 @@ echo.
 echo Running in 64-bit mode from System32
 echo Current directory: %CD%
 echo Command line: %*
-
 
 
 cd /D "%~dp0"
@@ -63,11 +62,6 @@ set TEMP=%cd%\installer_files
 set INSTALL_DIR=%cd%\installer_files
 set CONDA_ROOT_PREFIX=%cd%\installer_files\conda
 set INSTALL_ENV_DIR=%cd%\installer_files\env
-
-:: ABUS miniconda fo python 3.9
-@REM set MINICONDA_DOWNLOAD_URL=https://repo.anaconda.com/miniconda/Miniconda3-py39_24.1.2-0-Windows-x86_64.exe
-@REM set MINICONDA_CHECKSUM=6128825cdcde8ec0c0a5a9ed3dc021cc920040905dee39e58e827bc27fea0bee
-@REM set conda_exists=F
 
 
 :: ABUS miniconda fo python 3.10
@@ -112,13 +106,6 @@ if "%conda_exists%" == "F" (
 	del "%INSTALL_DIR%\miniconda_installer.exe"
 )
 
-:: ABUS python 3.9 - create the installer env
-@REM set abus_genuine_installed=T
-@REM if not exist "%INSTALL_ENV_DIR%" (
-@REM 	set abus_genuine_installed=F
-@REM 	echo Packages to install: %PACKAGES_TO_INSTALL%
-@REM 	call "%CONDA_ROOT_PREFIX%\_conda.exe" create --no-shortcuts -y -k --prefix "%INSTALL_ENV_DIR%" python=3.9 || ( echo. && echo Conda environment creation failed. && goto end )
-@REM )
 
 :: ABUS python 3.10 - create the installer env
 set abus_genuine_installed=T
@@ -152,8 +139,11 @@ if "%abus_genuine_installed%" == "F" (
 	call python -m pip install huggingface-hub==0.27.1
 )
 
+
 set LOG_LEVEL=DEBUG
-call python start-abus.py voice
+call python start-abus.py voice --update
+echo Pip update process completed.
+echo.
 
 :: below are functions for the script   next line skips these during normal execution
 goto end
