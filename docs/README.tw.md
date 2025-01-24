@@ -3,11 +3,11 @@
     description: Powerful AI-powered web application for YouTube video processing, speech recognition, translation, and text-to-speech with multilingual support
     keywords: AI voice conversion, YouTube translation, subtitle generation, speech-to-text, text-to-speech, voice cloning, multilingual translation, ElevenLabs Alternative 
     author: ABUS
-    version: 1.6.7
-    last-updated: 2024-12-16
+    version: 1.7.0
+    last-updated: 2025-1-23
     product-type: AI Multimedia Processing Software
     platforms: Windows
-    technology-stack: Whisper, Edge-TTS, Gradio, CUDA, Faster-Whisper, Whisper-Timestamped, E2, F5-TTS, YouTube Downloader, Demucs, MDX-Net
+    technology-stack: Whisper, Edge-TTS, Gradio, CUDA, Faster-Whisper, Whisper-Timestamped, E2-TTS, F5-TTS, YouTube Downloader, Demucs, MDX-Net, RVC
     license: LGPL
 -->
 
@@ -29,13 +29,24 @@ Voice-Pro是一款旨在革新多媒體內容處理的尖端AI驅動的Web應用
 - 🔇 專業語音分離（**UVR5**技術）
 - 📢 多語言文字轉語音（**Edge-TTS**）
 - 🌍 跨100多種語言的即時翻譯
+- 🔥 AI封面製作（**RVC**技術）
 
 Voice-Pro為**ElevenLabs**提供了一個現實的替代方案，滿足尋求先進文本轉語音解決方案的內容創作者、播客、研究人員和開發者的需求。
 
 
+## ⚠️ 注意
+  - Voice-Pro已更新至**v1.7.x**。
+  - 現在支持最新的**yt-dlp**和**Gradio 5**。
+  - 🔥 新增了**AI封面**製作功能。
+  - 請參考以下指導。
+    - 之前的用戶: 如果您已將Voice-Pro更新至v1.7.x，請運行**update.bat**。Python虛擬環境將更新至最新版本。
+    - 首次用戶: 請參考以下安裝步驟。只需運行**configure.bat**，然後運行**start.bat**。
+
+
+
 ## 🚄 運行畫面
 
-* `Studio` tab : Transcription, Translation & Text-to-Speech
+* `Dubbing Studio` tab : Transcription, Translation & Text-to-Speech
 <div aria-labelledby="studio-demo-description">
   <video src="https://github.com/user-attachments/assets/f18e7f54-7bc0-4c26-96f9-9f6b70c7114c"
    width="100%" 
@@ -49,7 +60,7 @@ Voice-Pro工作室分頁的全面媒體處理工作流程示範：從YouTube視�
   </p>
 </div>
 
-* `TTS` tab : Podcast Production using F5-TTS
+* `F5-TTS-Multi` tab : Podcast Production using F5-TTS
 <div aria-labelledby="tts-demo-description">
   <video src="https://github.com/user-attachments/assets/2d4b7d84-ca19-4efd-a847-a66fa0db616e"
    width="100%" 
@@ -62,6 +73,23 @@ Voice-Pro工作室分頁的全面媒體處理工作流程示範：從YouTube視�
 F5-TTS創新的AI語音克隆技術示範：展示了精確模仿Mark Zuckerberg和Elon Musk真實聲音，從而創建全新內容的先進語音轉換技術。
   </p>
 </div>
+
+* `AI Cover` tab : 
+<div aria-labelledby="ai-cover-description">
+  <video src="https://github.com/user-attachments/assets/88a47ab1-a18b-4779-97c8-7c1da84f5fc3"
+   width="100%" 
+   style="max-width: 720px;" 
+   controls="controls" 
+   muted="muted" 
+   aria-describedby="ai-cover-description">
+   </video>
+  <p id="ai-cover-description">
+Make a Trump version of IU's 'Cupid', Kim Kwang-seok's 'I Miss You', and 'Private's Letter'.
+  </p>
+</div>
+
+
+
 
 * `Live Translation` tab : 即時語音辨識和翻譯
 <div aria-labelledby="translate-demo-description">
@@ -76,6 +104,8 @@ F5-TTS創新的AI語音克隆技術示範：展示了精確模仿Mark Zuckerberg
 Voice-Pro即時多語言翻譯功能示範：展示了一個創新的多語言媒體處理過程，通過AI語音識別技術即時捕獲YouTube BBC新聞內容，即時生成字幕，並立即將其翻譯成其他語言。
   </p>
 </div> 
+
+
 
 ## ⭐ 主要功能和特點
 
@@ -96,6 +126,9 @@ Voice-Pro即時多語言翻譯功能示範：展示了一個創新的多語言�
   - 具有400多種語音的Edge-TTS
   - 支持零樣本語音克隆的F5-TTS
   - 名人語音生成
+- 🔥 **語音轉語音 (RVC)**:
+  - 配備UVR5提供的**聲音去除器**和**RVC**引擎。
+  - 提供聲音調變功能。使用**RVC v2**。
 
 ### 3. 即時翻譯
 - 即時語音識別
@@ -104,9 +137,9 @@ Voice-Pro即時多語言翻譯功能示範：展示了一個創新的多語言�
 
 
 
-## ⭐ WebUI
+## 🤖 WebUI
 
-* `Studio`標籤頁
+* `Dubbing Studio`標籤頁
   - 提供YouTube下載器、噪音去除、字幕、翻譯和TTS的集成環境
   - 支持所有ffmpeg支持的視頻/音頻格式
   - 可選擇輸出音頻格式（wav、flac、mp3）
@@ -132,16 +165,31 @@ Voice-Pro即時多語言翻譯功能示範：展示了一個創新的多語言�
   - 也可以直接輸入文本
   - 自動檢測上傳文件的語言
 
-* `TTS`標籤頁
-  - 支持 Edge-TTS 和 F5-TTS。
-  - Edge-TTS 支持超过 100 种语言和 400 种以上的声音。
-  - 可以调整音高、音量和速度。
-  - F5-TTS 支持零样本语音克隆。
-  - 可以使用 Celeb Voice 制作播客。
+* `語音` 標籤
+  - 支持Edge-TTS、F5-TTS和AI-Cover(RVC)。
+  - Edge-TTS標籤
+    - 支持超過100種語言和400多種聲音。
+    - 可以調整音調、音量和速度。
+  - F5-TTS標籤
+    - 支持零樣本聲音克隆。
+    - 您可以使用名人聲音創建播客。
+
 
 <p align="center">
   <img style="width: 90%; height: 90%" src="images/tts_f5_multi.png?raw=true" alt="使用語音克隆技術的播客製作Web介面"/>
 </p>  
+
+  - 🔥 **AI封面** 標籤 
+    - 提供聲音去除器。使用**MDX-Net**和**Demucs**。
+    - 提供聲音調變功能。使用**RVC v2**。
+    - AI音聲可以從**Discord AI Hub (https://discord.com/channels/1159260121998827560/@home)**下載，或在必要時進行**製作請求 (abus.aikorea@gmail.com)**。
+    - **試用版**支持的視頻長度限制為**60秒**。
+
+<p align="center">
+  <img style="width: 90%; height: 90%" src="images/ai_cover.png?raw=true" alt="Podcast Production WebUI Using Voice-Cloning Technology"/>
+</p>  
+
+
 
 
 * `Live Translation`標籤頁
@@ -169,7 +217,7 @@ Voice-Pro即時多語言翻譯功能示範：展示了一個創新的多語言�
 
 Voice-Pro可以輕鬆地一鍵安裝。只需運行🚀**configure.bat**和🚀**start.bat**即可。
 
-### 步驟1. 準備包
+### 步驟 1. 準備包
 
   + 從[![GitHub Release](https://img.shields.io/github/v/release/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/)克隆或下載最新版本（**Source code (zip)**）。
 
@@ -177,7 +225,7 @@ Voice-Pro可以輕鬆地一鍵安裝。只需運行🚀**configure.bat**和🚀*
 git clone https://github.com/abus-aikorea/voice-pro.git
 ```
 
-### 步驟2. 安裝和運行程序
+### 步驟 2. 安裝和運行程序
 1. 🚀 運行`configure.bat`
    - 在Windows上安裝git、ffmpeg和CUDA（如果使用NVIDIA GPU）。
    - 只需要在第一次運行時執行。
@@ -190,7 +238,14 @@ git clone https://github.com/abus-aikorea/voice-pro.git
    - 安裝過程中切勿關閉Windows命令窗口。
    - 如果安裝過程中出現問題，請刪除**installer_files**文件夾並再次運行start.bat。
 
-### 步驟3. 卸載程序
+### 步驟 3. 更新程序
+* 🚀 运行 `update.bat`:
+  - 更新安装在**installer_files**文件夹中的Python虚拟环境。
+  - 这比删除**installer_files**文件夹并重新安装要容易和快速得多。
+  - 推荐给现有用户。
+
+
+### 步驟 4. 卸載程序
 * 運行`uninstall.bat`：
   - 刪除**installer_files**文件夾。
   - 刪除安裝在Windows上的ffmpeg、git和CUDA包（如果選擇）。
@@ -274,6 +329,9 @@ Windows Defender 可能會發出有關不受信任的應用程式的警告，並
 * openai-whisper: <https://github.com/openai/whisper>
 * faster-whisper: <https://github.com/SYSTRAN/faster-whisper>
 * whisper-timestamped: <https://github.com/linto-ai/whisper-timestamped>
+* RVC-Project: <https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI>
+* UVR5: <https://github.com/Anjok07/ultimatevocalremovergui>
+
 
 ## ©️ 版權
   <img src="images/ABUS-logo.jpg" width="100" height="100"> by [ABUS](https://abuskorea.imweb.me)

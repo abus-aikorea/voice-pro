@@ -3,11 +3,11 @@
     description: Powerful AI-powered web application for YouTube video processing, speech recognition, translation, and text-to-speech with multilingual support
     keywords: AI voice conversion, YouTube translation, subtitle generation, speech-to-text, text-to-speech, voice cloning, multilingual translation, ElevenLabs Alternative 
     author: ABUS
-    version: 1.6.7
-    last-updated: 2024-12-16
+    version: 1.7.0
+    last-updated: 2025-1-23
     product-type: AI Multimedia Processing Software
     platforms: Windows
-    technology-stack: Whisper, Edge-TTS, Gradio, CUDA, Faster-Whisper, Whisper-Timestamped, E2, F5-TTS, YouTube Downloader, Demucs, MDX-Net
+    technology-stack: Whisper, Edge-TTS, Gradio, CUDA, Faster-Whisper, Whisper-Timestamped, E2-TTS, F5-TTS, YouTube Downloader, Demucs, MDX-Net, RVC
     license: LGPL
 -->
 
@@ -29,13 +29,24 @@ Voice-Pro는 멀티미디어 콘텐츠 처리를 위해 설계된 최첨단 AI �
 - 🔇 전문적인 보컬 분리 (**UVR5** 기술)
 - 📢 다국어 텍스트-음성 변환 (**Edge-TTS**)
 - 🌍 100개 이상 언어의 즉각적인 번역
+- 🔥 AI 커버 제작 (**RVC** 기술)
 
 Voice-Pro는 **ElevenLabs**에 대한 현실적인 대안을 제공하며, 고급 텍스트 음성 변환 솔루션을 찾는 콘텐츠 크리에이터, 팟캐스터, 연구자, 그리고 개발자들을 위한 서비스입니다.
 
 
+## ⚠️ 주의
+  - Voice-Pro가 **v1.7.x**로 업데이트되었습니다.
+  - 최신 **yt-dlp**와 **Gradio 5**를 지원합니다.
+  - 🔥 **AI 커버** 제작 기능이 추가되었습니다.
+  - 아래의 안내를 참조해 주세요.
+    - 이전 사용자: Voice-Pro를 v1.7.x로 업데이트한 경우, **update.bat**를 실행하세요. Python 가상 환경이 최신 버전으로 업데이트됩니다.
+    - 처음 사용자: 아래의 설치 방법을 참조하세요. 즉, **configure.bat**를 실행한 후 **start.bat**를 실행하면 됩니다.
+
+
+
 ## 🚄 실행 화면
 
-* `Studio` tab : Transcription, Translation & Text-to-Speech
+* `Dubbing Studio` tab : Transcription, Translation & Text-to-Speech
 <div aria-labelledby="studio-demo-description">
   <video src="https://github.com/user-attachments/assets/f18e7f54-7bc0-4c26-96f9-9f6b70c7114c"
    width="100%" 
@@ -49,7 +60,7 @@ Studio Tab의 미디어 처리 워크플로우 데모: YouTube 동영상 다운�
   </p>
 </div>
 
-* `TTS` tab : F5-TTS를 이용한 Podcast 제작
+* `F5-TTS-Multi` tab : F5-TTS를 이용한 Podcast 제작
 <div aria-labelledby="tts-demo-description">
   <video src="https://github.com/user-attachments/assets/2d4b7d84-ca19-4efd-a847-a66fa0db616e"
    width="100%" 
@@ -62,6 +73,23 @@ Studio Tab의 미디어 처리 워크플로우 데모: YouTube 동영상 다운�
 F5-TTS의 혁신적인 AI 보이스 클로닝 기술을 활용한 팟캐스트 제작 시연: Mark Zuckerberg와 Elon Musk의 실제 음성을 정밀하게 모방하여 완전히 새로운 콘텐츠를 생성하는 첨단 음성 변환 기술을 보여줍니다.
   </p>
 </div>
+
+* `AI Cover` tab : 
+<div aria-labelledby="ai-cover-description">
+  <video src="https://github.com/user-attachments/assets/88a47ab1-a18b-4779-97c8-7c1da84f5fc3"
+   width="100%" 
+   style="max-width: 720px;" 
+   controls="controls" 
+   muted="muted" 
+   aria-describedby="ai-cover-description">
+   </video>
+  <p id="ai-cover-description">
+IU의 'Cupid', 김광석의 '그리워요', 그리고 '이등병의 편지'의 트럼프 버전을 만들어 보세요.
+  </p>
+</div>
+
+
+
 
 * `Live Translation` tab : 실시간 음성인식 및 번역
 <div aria-labelledby="translate-demo-description">
@@ -76,6 +104,8 @@ F5-TTS의 혁신적인 AI 보이스 클로닝 기술을 활용한 팟캐스트 �
 실시간 다국어 번역 기능 데모: YouTube의 BBC 뉴스 콘텐츠를 AI 기반 음성 인식 기술로 즉각 캡처하고, 실시간으로 자막을 생성하며 다른 언어로 즉시 번역하는 혁신적인 다국어 미디어 처리 과정을 실연합니다.
   </p>
 </div> 
+
+
 
 ## ⭐ 주요 기능 및 특징
 
@@ -96,15 +126,20 @@ F5-TTS의 혁신적인 AI 보이스 클로닝 기술을 활용한 팟캐스트 �
   - 400개 이상의 음성을 지원하는 Edge-TTS
   - 제로샷 음성 클로닝이 가능한 F5-TTS
   - 유명인 음성 생성
+- 🔥 **음성-음성 (RVC)**:
+  - UVR5에서 제공하는 **보컬 리무버**와 **RVC** 엔진을 탑재.
+  - 음성 변조 기능을 제공합니다. **RVC v2**가 사용됩니다.
 
 ### 3. 실시간 번역
 - 리얼타임 음성 인식
 - 실시간 다국어 번역
 - 구성 가능한 오디오 입력 소스
 
-## ⭐ WebUI
 
-* `Studio` 탭
+
+## 🤖 WebUI
+
+* `Dubbing Studio` 탭
   - YouTube 다운로더, 노이즈 제거, 자막, 번역, TTS 통합환경으로 제공
   - ffmpeg 이 지원하는 모든 비디오/오디오 포맷 사용 가능
   - 출력 오디오 포맷(wav, flac, mp3) 선택가능
@@ -130,16 +165,31 @@ F5-TTS의 혁신적인 AI 보이스 클로닝 기술을 활용한 팟캐스트 �
   - 텍스트 직접 입력도 가능
   - 업로드한 파일의 언어를 자동으로 감지
 
-* `TTS` 탭
-  - Edge-TTS 와 F5-TTS 를 지원합니다.
-  - Edge-TTS 는 100 개 이상의 언어, 400개 이상의 보이스를 지원합니다.
-  - Pitch, Volume, Speed 조절이 가능합니다.
-  - F5-TTS 는 Zero-Shot Voice Cloning 을 지원합니다.
-  - Celeb Voice 를 이용하여 PodCast 를 제작할 수 있습니다.
+* `음성` 탭
+  - Edge-TTS, F5-TTS 및 AI-Cover(RVC)가 지원됩니다.
+  - Edge-TTS 탭
+    - 100개 이상의 언어와 400개 이상의 음성을 지원합니다.
+    - 피치, 볼륨 및 속도를 조정할 수 있습니다.
+  - F5-TTS 탭
+    - 제로샷 음성 클로닝을 지원합니다.
+    - 유명인의 목소리를 사용하여 팟캐스트를 만들 수 있습니다.
+
 
 <p align="center">
   <img style="width: 90%; height: 90%" src="images/tts_f5_multi.png?raw=true" alt="Voice-Cloning 기술을 이용한 Podcast 제작 WebUI"/>
 </p>  
+
+  - 🔥 **AI 커버** 탭 
+    - 보컬 리무버를 제공합니다. **MDX-Net**과 **Demucs**를 사용합니다.
+    - 음성 변조 기능을 제공합니다. **RVC v2**가 사용됩니다.
+    - AI 음성은 **Discord AI Hub (https://discord.com/channels/1159260121998827560/@home)**에서 다운로드할 수 있으며, 필요 시 **제작 요청 (abus.aikorea@gmail.com)**도 가능합니다.
+    - **체험판**에서 지원하는 영상의 길이는 **60초**로 제한됩니다.
+
+<p align="center">
+  <img style="width: 90%; height: 90%" src="images/ai_cover.png?raw=true" alt="Podcast Production WebUI Using Voice-Cloning Technology"/>
+</p>  
+
+
 
 
 * `Live Translation` 탭
@@ -192,8 +242,13 @@ git clone https://github.com/abus-aikorea/voice-pro.git
    - 설치 중에는 절대 Windows-Command 창을 종료하지 마세요.
    - 설치중 문제가 발생한 경우, installer_files 폴더를 삭제하고 start.bat를 다시 실행하세요.
 
+### step 3. 프로그램 업데이트
+* 🚀 `update.bat` 실행:
+  - **installer_files** 폴더에 설치된 Python 가상 환경을 업데이트합니다.
+  - **installer_files** 폴더를 삭제하고 재설치하는 것보다 훨씬 쉽고 빠릅니다.
+  - 기존 사용자에게 권장됩니다.
 
-### step 3. 프로그램 제거
+### step 4. 프로그램 제거
 * `uninstall.bat` 실행: 
   - installer_files 폴더를 제거합니다. 
   - Windows 에 설치한 ffmepg, CUDA 패키지를 제거합니다(선택할 경우)
@@ -283,7 +338,8 @@ Windows Defender가 실수로 batch 파일을 트로이 목마로 인식하는 �
 * openai-whisper: <https://github.com/openai/whisper>
 * faster-whisper: <https://github.com/SYSTRAN/faster-whisper>
 * whisper-timestamped: <https://github.com/linto-ai/whisper-timestamped>
-
+* RVC-Project: <https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI>
+* UVR5: <https://github.com/Anjok07/ultimatevocalremovergui>
 
 ## ©️ 저작권 정보
   <img src="images/ABUS-logo.jpg" width="100" height="100"> by [ABUS](https://abuskorea.imweb.me)

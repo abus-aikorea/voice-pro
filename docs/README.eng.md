@@ -3,11 +3,11 @@
     description: Powerful AI-powered web application for YouTube video processing, speech recognition, translation, and text-to-speech with multilingual support
     keywords: AI voice conversion, YouTube translation, subtitle generation, speech-to-text, text-to-speech, voice cloning, multilingual translation, ElevenLabs Alternative 
     author: ABUS
-    version: 1.6.7
-    last-updated: 2024-12-16
+    version: 1.7.0
+    last-updated: 2025-1-23
     product-type: AI Multimedia Processing Software
     platforms: Windows
-    technology-stack: Whisper, Edge-TTS, Gradio, CUDA, Faster-Whisper, Whisper-Timestamped, E2, F5-TTS, YouTube Downloader, Demucs, MDX-Net
+    technology-stack: Whisper, Edge-TTS, Gradio, CUDA, Faster-Whisper, Whisper-Timestamped, E2-TTS, F5-TTS, YouTube Downloader, Demucs, MDX-Net, RVC
     license: LGPL
 -->
 
@@ -29,13 +29,24 @@ Voice-Pro is a cutting-edge AI-powered web application designed to revolutionize
 - 🔇 Professional Vocal Isolation (**UVR5** Technology)
 - 📢 Multilingual Text-to-Speech (**Edge-TTS**)
 - 🌍 Instant Translation Across 100+ Languages
+- 🔥 AI Cover Creation (**RVC** Technology)
 
 Voice-Pro offers a realistic alternative to **ElevenLabs**, catering to content creators, podcasters, researchers, and developers seeking advanced text-to-speech solutions.
 
 
+## ⚠️ Attention
+  - Voice-Pro has been updated to **v1.7.x**
+  - It now supports the latest **yt-dlp** and **Gradio 5**
+  - 🔥 **AI-Cover** creation feature has been added. 
+  - Please refer to the guidance below.
+    - Previous user: If you have updated Voice-Pro to v1.7.x, run **update.bat**. The Python virtual environment will be updated to the latest version.
+    - First-time user: Refer to the Installation below. Simply run **configure.bat** and then **start.bat**
+
+
+
 ## 🚄 Run screen
 
-* `Studio` tab : Transcription, Translation & Text-to-Speech
+* `Dubbing Studio` tab : Transcription, Translation & Text-to-Speech
 <div aria-labelledby="studio-demo-description">
   <video src="https://github.com/user-attachments/assets/f18e7f54-7bc0-4c26-96f9-9f6b70c7114c"
    width="100%" 
@@ -49,7 +60,7 @@ Studio Tab's comprehensive media processing workflow demo: Demonstrates a one-st
   </p>
 </div>
 
-* `TTS` tab : Podcast Production using F5-TTS
+* `F5-TTS-Multi` tab : Podcast Production using F5-TTS
 <div aria-labelledby="tts-demo-description">
   <video src="https://github.com/user-attachments/assets/2d4b7d84-ca19-4efd-a847-a66fa0db616e"
    width="100%" 
@@ -62,6 +73,23 @@ Studio Tab's comprehensive media processing workflow demo: Demonstrates a one-st
 Demonstration of F5-TTS's innovative AI voice cloning technology: Showcasing advanced voice conversion technology that precisely mimics the actual voices of Mark Zuckerberg and Elon Musk to create entirely new content.
   </p>
 </div>
+
+* `AI Cover` tab : 
+<div aria-labelledby="ai-cover-description">
+  <video src="https://github.com/user-attachments/assets/88a47ab1-a18b-4779-97c8-7c1da84f5fc3"
+   width="100%" 
+   style="max-width: 720px;" 
+   controls="controls" 
+   muted="muted" 
+   aria-describedby="ai-cover-description">
+   </video>
+  <p id="ai-cover-description">
+Make a Trump version of IU's 'Cupid', Kim Kwang-seok's 'I Miss You', and 'Private's Letter'.
+  </p>
+</div>
+
+
+
 
 * `Live Translation` tab : Real-time Speech Recognition and Translation
 <div aria-labelledby="translate-demo-description">
@@ -76,6 +104,7 @@ Demonstration of F5-TTS's innovative AI voice cloning technology: Showcasing adv
 Demonstration of real-time multilingual translation feature: Showcasing an innovative multilingual media processing process that instantly captures BBC news content, generates subtitles in real-time, and immediately translates them into other languages.
   </p>
 </div> 
+
 
 
 ## ⭐ Key Features and Capabilities
@@ -97,6 +126,9 @@ Demonstration of real-time multilingual translation feature: Showcasing an innov
   - Edge-TTS with 400+ voices
   - F5-TTS with zero-shot voice cloning
   - Celebrity voice generation
+- 🔥 **Speech-to-Speech (RVC)**:
+  - Equipped with **Vocal Remover** provided by UVR5 and **RVC** engine.
+  - Provides voice modulation function. **RVC v2** is used.
 
 ### 3. Real-Time Translation
 - Instant speech recognition
@@ -105,10 +137,9 @@ Demonstration of real-time multilingual translation feature: Showcasing an innov
 
 
 
+## 🤖 WebUI
 
-## ⭐ WebUI
-
-* `Studio` tab
+* `Dubbing Studio` tab
   - Provides integrated environment for YouTube downloader, noise removal, subtitles, translation, and TTS
   - All video/audio formats supported by ffmpeg can be used
   - Selectable output audio format (wav, flac, mp3)
@@ -135,18 +166,32 @@ Demonstration of real-time multilingual translation feature: Showcasing an innov
   - Direct text input is also possible
   - Automatically detects the language of uploaded files
 
-* `TTS` tab
-  - TTS-only tab. Supports over 100 languages ​​and 400 voices
-  - Supports subtitle files (ass, ssa, srt, mpl2, tmp, vtt, microdvd, json)
-  - Direct text input is also possible
-  - Automatically detects the language of uploaded files
-  - Pitch, volume, and speed adjustable
+* `Speech` tab
+  - Edge-TTS, F5-TTS and AI-Cover(RVC) are supported.
+  - Edge-TTS tab
+    - supports over 100 languages and more than 400 voices.
+    - Pitch, Volume, and Speed can be adjusted.
+  - F5-TTS tab
+    - supports Zero-Shot Voice Cloning.
+    - You can create podcasts using Celeb Voices.
 
 <p align="center">
   <img style="width: 90%; height: 90%" src="images/tts_f5_multi.png?raw=true" alt="Podcast Production WebUI Using Voice-Cloning Technology"/>
 </p>  
 
-  
+  - 🔥 **AI-Cover** tab 
+    - Provides vocal remover. Uses **MDX-Net** and **Demucs**.
+    - Provides voice modulation function. **RVC v2** is used.
+    - AI Voice can be downloaded from **Discord AI Hub (https://discord.com/channels/1159260121998827560/@home)** or, if necessary, **production request (abus.aikorea@gmail.com)**.
+    - The length of video supported by the **trial** version is limited to **60-seconds.**
+
+<p align="center">
+  <img style="width: 90%; height: 90%" src="images/ai_cover.png?raw=true" alt="Podcast Production WebUI Using Voice-Cloning Technology"/>
+</p>  
+
+
+
+
 * `Live Translation` tab
   - Real-time voice recognition & translation support
   - Select audio input source such as Mic, Speaker, etc.
@@ -198,7 +243,13 @@ git clone https://github.com/abus-aikorea/voice-pro.git
    - Never close the Windows-Command window during installation.
    - If a problem occurs during installation, delete the **installer_files** folder and run start.bat again.
 
-### step 3. Uninstall program
+### step 3. Update the program
+* 🚀 Run `update.bat`:
+  - Update the Python virtual environment installed in the **installer_files** folder.
+  - It is much easier and faster than deleting the **installer_files** folder and reinstalling.
+  - Recommended for existing users.
+
+### step 4. Uninstall program
 * Run `uninstall.bat`:
   - Remove the **installer_files** folder.
   - Remove ffmepg, git and CUDA packages installed on Windows (if selected)
@@ -252,6 +303,7 @@ When Windows Defender mistakenly recognizes a batch file as a Trojan, this is of
 - It does not mean there is a limitation on the length of media that can be processed, nor does it stop ongoing tasks. You simply cannot click the action button anymore. 
 - It may be a bit inconvenient, but to use it again, you just need to close the program and restart it. 
 - Previous work results are maintained in the workspace folder. 
+- But, There is a **60-seconds limit** for AI Cover creation.
 - The official version of Voice-Pro can be purchased through the ABUS official website (<https://abuskorea.imweb.me>)
 -  Additionally, if you support us through Buy Me a Coffee ☕, we will give you a usage voucher for up to one month as a token of our gratitude. (<https://github.com/abus-aikorea/voice-pro/discussions/10#discussioncomment-11527327>)
 -  For inquiries regarding purchases, business partnerships, tuning, investments, etc., please contact us via email (<abus.aikorea@gmail.com>)."
@@ -284,7 +336,8 @@ When Windows Defender mistakenly recognizes a batch file as a Trojan, this is of
 * openai-whisper: <https://github.com/openai/whisper>
 * faster-whisper: <https://github.com/SYSTRAN/faster-whisper>
 * whisper-timestamped: <https://github.com/linto-ai/whisper-timestamped>
-
+* RVC-Project: <https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI>
+* UVR5: <https://github.com/Anjok07/ultimatevocalremovergui>
 
 
 ## ©️ Copyright

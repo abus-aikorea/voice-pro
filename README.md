@@ -3,11 +3,11 @@
     description: Powerful AI-powered web application for YouTube video processing, speech recognition, translation, and text-to-speech with multilingual support
     keywords: AI voice conversion, YouTube translation, subtitle generation, speech-to-text, text-to-speech, voice cloning, multilingual translation, ElevenLabs Alternative 
     author: ABUS
-    version: 1.6.7
-    last-updated: 2024-12-16
+    version: 1.7.0
+    last-updated: 2025-1-23
     product-type: AI Multimedia Processing Software
     platforms: Windows
-    technology-stack: Whisper, Edge-TTS, Gradio, CUDA, Faster-Whisper, Whisper-Timestamped, E2, F5-TTS, YouTube Downloader, Demucs, MDX-Net
+    technology-stack: Whisper, Edge-TTS, Gradio, CUDA, Faster-Whisper, Whisper-Timestamped, E2-TTS, F5-TTS, YouTube Downloader, Demucs, MDX-Net, RVC
     license: LGPL
 -->
 
@@ -30,7 +30,7 @@ Voice-Pro is a cutting-edge AI-powered web application designed to revolutionize
 - 🔇 Professional Vocal Isolation (**UVR5** Technology)
 - 📢 Multilingual Text-to-Speech (**Edge-TTS**)
 - 🌍 Instant Translation Across 100+ Languages
-- 🔥 Easily create **AI Cover** with **RVC** Technology
+- 🔥 AI Cover Creation (**RVC** Technology)
 
 Voice-Pro offers a realistic alternative to **ElevenLabs**, catering to content creators, podcasters, researchers, and developers seeking advanced text-to-speech solutions.
 
@@ -182,8 +182,8 @@ Demonstration of real-time multilingual translation feature: Showcasing an innov
   - 🔥 **AI-Cover** tab 
     - Provides vocal remover. Uses **MDX-Net** and **Demucs**.
     - Provides voice modulation function. **RVC v2** is used.
-    - AI Voice can be downloaded from **Discord AI Hub** or, if necessary, **production request (abus.aikorea@gmail.com)**.
-    - The length of video supported by the **trial** version is limited to **60 seconds.**
+    - AI Voice can be downloaded from **Discord AI Hub (https://discord.com/channels/1159260121998827560/@home)** or, if necessary, **production request (abus.aikorea@gmail.com)**.
+    - The length of video supported by the **trial** version is limited to **60-seconds.**
 
 <p align="center">
   <img style="width: 90%; height: 90%" src="docs/images/ai_cover.png?raw=true" alt="Podcast Production WebUI Using Voice-Cloning Technology"/>
@@ -303,10 +303,10 @@ When Windows Defender mistakenly recognizes a batch file as a Trojan, this is of
 - It does not mean there is a limitation on the length of media that can be processed, nor does it stop ongoing tasks. You simply cannot click the action button anymore. 
 - It may be a bit inconvenient, but to use it again, you just need to close the program and restart it. 
 - Previous work results are maintained in the workspace folder. 
-- But, There is a **60-second limit** for AI Cover creation.
+- But, There is a **60-seconds limit** for AI Cover creation.
 - The official version of Voice-Pro can be purchased through the ABUS official website (<https://abuskorea.imweb.me>)
 - Additionally, if you support us through Buy Me a Coffee ☕, we will give you a usage voucher for up to one month as a token of our gratitude. (<https://github.com/abus-aikorea/voice-pro/discussions/10#discussioncomment-11527327>)
--  For inquiries regarding purchases, business partnerships, tuning, investments, etc., please contact us via email (<abus.aikorea@gmail.com>)."
+- For inquiries regarding purchases, business partnerships, tuning, investments, etc., please contact us via email (<abus.aikorea@gmail.com>)."
 
 
 
