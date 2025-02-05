@@ -133,7 +133,20 @@
     "Placeholder for Source VTT": "Whisper 모델의 다운로드가 완료된 후에 작업이 시작됩니다.\n작업 진행 과정은 Windows 명령 프롬프트를 확인해 주세요.\n실시간 번역을 위해서는 고사양의 NVIDIA 그래픽 카드가 필요합니다.\n\n== 저사양 PC 추천 설정 ==\nWhisper 엔진: Faster-Whisper\nWhisper 모델: medium, small, base\nCompute Type: int8 또는 int8_float16",
     "Placeholder for Source SRT": "Whisper 가 인식한 자막이 이곳에 표시됩니다.\n이미 자막을 갖고 있다면, 내용을 복사해서 붙여넣을 수 있습니다.\n자막은 편집할 수 있고, 편집된 내용은 번역 및 음성합성에 반영됩니다.",
     "Placeholder for Podcast script": "Podcast Script를 입력하세요. 형식은 아래 예문을 따르세요. \n현재는 영어, 중국어만 지원합니다. \nReference Audio는 직접 업로드 할 수 있습니다. 15초 이내의 wav, mp3 파일을 이용하세요.\n\nExample Scripts\n{spk1} Welcome to our podcast! I'm Alex.\n{spk2} And I'm Jamie. Today, we’re exploring the future of AI.\n{spk1} It’s a fascinating topic! Many experts believe AI will revolutionize industries. What do you think, Jamie?\n{spk2} Absolutely, Alex. From healthcare to transportation, AI has the potential to improve efficiency and accuracy.",
-    "Placeholder for Translated Text": "번역된 자막이 이곳에 표시됩니다. \n이미 번역된 자막을 갖고 있다면, 내용을 복사해서 붙여넣을 수 있습니다. \n자막은 편집할 수 있고, 편집된 내용은 음성합성에 이용됩니다."
+    "Placeholder for Translated Text": "번역된 자막이 이곳에 표시됩니다. \n이미 번역된 자막을 갖고 있다면, 내용을 복사해서 붙여넣을 수 있습니다. \n자막은 편집할 수 있고, 편집된 내용은 음성합성에 이용됩니다.",
+    "RTX Video": "RTX Video",
+    "Artifact Reduction": "Artifact Reduction",
+    "Enable": "Enable",
+    "mode": "mode",
+    "Mode 0 removes lesser artifacts, preserves low gradient information better, and is suited for higher bitrate videos.": "Mode 0 removes lesser artifacts, preserves low gradient information better, and is suited for higher bitrate videos.",
+    "Super Resolution": "Super Resolution",
+    "Mode 0 enhances less and removes more encoding artifacts and is suited for lower-quality videos.": "Mode 0 enhances less and removes more encoding artifacts and is suited for lower-quality videos.",
+    "Scale Factor": "Scale Factor",
+    "Compression": "Compression",
+    "CRF(Constant Rate Factor)": "CRF(Constant Rate Factor)",
+    "Adjust compression quality (0-51, lower is better quality. Default is 23)": "Adjust compression quality (0-51, lower is better quality. Default is 23)",
+    "Preset": "Preset",
+    "Adjusting Compression Speed and Efficiency": "Adjusting Compression Speed and Efficiency"
 
 
 

@@ -67,7 +67,15 @@ class UserConfig:
             "rvc_rms_mix_rate": 1,
             "rvc_protect": 0.23,
             "rvc_hop_length": 256,
-            "rvc_clean_strength": 0.2,        
+            "rvc_clean_strength": 0.2,   
+            "var_enable": False,
+            "var_mode": 0,
+            "vsr_enable": True,
+            "vsr_mode": 0,
+            "vsr_scale": 2,
+            "compression_enable": True,
+            "compression_crf": 23,
+            "compression_preset": "medium"            
             }
         self.user_config = self.load_user_config()
 

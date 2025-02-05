@@ -133,5 +133,18 @@
     "Placeholder for Source VTT": "Der Prozess beginnt, nachdem der Download des Whisper-Modells abgeschlossen ist.\nBitte überprüfen Sie die Windows-Eingabeaufforderung auf den Arbeitsfortschritt.\nEine leistungsstarke NVIDIA-Grafikkarte ist für die Echtzeitübersetzung erforderlich.\n\n== Empfohlene Einstellungen für Low-End-PCs ==\nWhisper-Engine: Faster-Whisper\nWhisper-Modell: Medium, Small, Base\nBerechnungsart: int8 oder int8_float16",
     "Placeholder for Source SRT": "Die von Whisper erkannten Untertitel werden hier angezeigt.\nWenn Sie bereits Untertitel haben, können Sie den Inhalt kopieren und einfügen.\nDie Untertitel können bearbeitet werden, und die bearbeiteten Inhalte werden in der Übersetzung und Sprachsynthese verwendet.",
     "Placeholder for Podcast script": "Bitte geben Sie das Podcast-Skript ein. Folgen Sie dem Format des folgenden Beispiels. \nDerzeit werden nur Englisch und Chinesisch unterstützt.\nSie können direkte Bezugsaudio hochladen. \nVerwenden Sie eine WAV- oder MP3-Datei von maximal 15 Sekunden.\n\nBeispielformate\n{spk1} Willkommen zu unserem Podcast! Ich bin Alex.\n{spk2} Und ich bin Jamie. Heute erkunden wir die Zukunft der KI.\n{spk1} Es ist ein faszinierendes Thema! Viele Experten glauben, dass KI die Branchen revolutionieren wird. Was denkst du, Jamie?\n{spk2} Absolut, Alex. Von der Gesundheitsversorgung bis zum Transport hat KI das Potenzial, Effizienz und Genauigkeit zu verbessern.",
-    "Placeholder for Translated Text": "Die übersetzten Untertitel werden hier angezeigt. \nWenn Sie bereits übersetzte Untertitel haben, können Sie den Inhalt kopieren und einfügen. \nDie Untertitel können bearbeitet werden, und die bearbeiteten Inhalte werden für die Sprachsynthese verwendet."
+    "Placeholder for Translated Text": "Die übersetzten Untertitel werden hier angezeigt. \nWenn Sie bereits übersetzte Untertitel haben, können Sie den Inhalt kopieren und einfügen. \nDie Untertitel können bearbeitet werden, und die bearbeiteten Inhalte werden für die Sprachsynthese verwendet.",
+    "RTX Video": "RTX Video",
+    "Artifact Reduction": "Artifact Reduction",
+    "Enable": "Enable",
+    "mode": "mode",
+    "Mode 0 removes lesser artifacts, preserves low gradient information better, and is suited for higher bitrate videos.": "Mode 0 removes lesser artifacts, preserves low gradient information better, and is suited for higher bitrate videos.",
+    "Super Resolution": "Super Resolution",
+    "Mode 0 enhances less and removes more encoding artifacts and is suited for lower-quality videos.": "Mode 0 enhances less and removes more encoding artifacts and is suited for lower-quality videos.",
+    "Scale Factor": "Scale Factor",
+    "Compression": "Compression",
+    "CRF(Constant Rate Factor)": "CRF(Constant Rate Factor)",
+    "Adjust compression quality (0-51, lower is better quality. Default is 23)": "Adjust compression quality (0-51, lower is better quality. Default is 23)",
+    "Preset": "Preset",
+    "Adjusting Compression Speed and Efficiency": "Adjusting Compression Speed and Efficiency"
 }

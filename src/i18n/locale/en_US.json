@@ -133,7 +133,20 @@
     "Placeholder for Source VTT": "The process will begin after the Whisper model download is complete.\nPlease check the Windows Command Prompt for the work progress.\nHigh-performance NVIDIA Graphics Card is required for real-time translation.\n\n== Recommended Settings for Low-end PCs ==\nWhisper Engine: Faster-Whisper\nWhisper Model: medium, small, base\nCompute Type: int8 or int8_float16",
     "Placeholder for Source SRT": "The subtitles recognized by Whisper will be displayed here.\nIf you already have subtitles, you can copy and paste the content.\nThe subtitles can be edited, and the edited content will be reflected in the translation and speech synthesis.",
     "Placeholder for Podcast script": "Please enter the Podcast Script. Follow the format of the example below. \nCurrently, only English and Chinese are supported.\nYou can upload Reference Audio directly. \nUse a wav or mp3 file within 15 seconds.\n\nExample Scripts\n{spk1} Welcome to our podcast! I'm Alex.\n{spk2} And I'm Jamie. Today, we’re exploring the future of AI.\n{spk1} It’s a fascinating topic! Many experts believe AI will revolutionize industries. What do you think, Jamie?\n{spk2} Absolutely, Alex. From healthcare to transportation, AI has the potential to improve efficiency and accuracy.",
-    "Placeholder for Translated Text": "The translated subtitles will be displayed here. \nIf you already have translated subtitles, you can copy and paste the content. \nThe subtitles can be edited, and the edited content will be used for speech synthesis."
+    "Placeholder for Translated Text": "The translated subtitles will be displayed here. \nIf you already have translated subtitles, you can copy and paste the content. \nThe subtitles can be edited, and the edited content will be used for speech synthesis.",
+    "RTX Video": "RTX Video",
+    "Artifact Reduction": "Artifact Reduction",
+    "Enable": "Enable",
+    "mode": "mode",
+    "Mode 0 removes lesser artifacts, preserves low gradient information better, and is suited for higher bitrate videos.": "Mode 0 removes lesser artifacts, preserves low gradient information better, and is suited for higher bitrate videos.",
+    "Super Resolution": "Super Resolution",
+    "Mode 0 enhances less and removes more encoding artifacts and is suited for lower-quality videos.": "Mode 0 enhances less and removes more encoding artifacts and is suited for lower-quality videos.",
+    "Scale Factor": "Scale Factor",
+    "Compression": "Compression",
+    "CRF(Constant Rate Factor)": "CRF(Constant Rate Factor)",
+    "Adjust compression quality (0-51, lower is better quality. Default is 23)": "Adjust compression quality (0-51, lower is better quality. Default is 23)",
+    "Preset": "Preset",
+    "Adjusting Compression Speed and Efficiency": "Adjusting Compression Speed and Efficiency"
 
 
 }

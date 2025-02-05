@@ -133,7 +133,20 @@
     "Placeholder for Source VTT": "Whisper模型下载完成后将开始工作。\n请在Windows命令提示符中查看工作进度。\n实时翻译需要高性能NVIDIA显卡。\n\n== 低配置电脑推荐设置 ==\nWhisper引擎：Faster-Whisper\nWhisper模型：medium, small, base\n计算类型：int8或int8_float16",
     "Placeholder for Source SRT": "Whisper 识别的字幕将在这里显示。\n如果您已经有字幕，可以复制并粘贴内容。\n字幕可以编辑，编辑的内容将反映在翻译和语音合成中。",
     "Placeholder for Podcast script": "请输入播客脚本。请遵循下面的示例格式。目前仅支持英语和中文。\n您可以直接上传参考音频。请使用15秒以内的wav或mp3文件。\n\nExample Scripts\n{spk1} Welcome to our podcast! I'm Alex.\n{spk2} And I'm Jamie. Today, we’re exploring the future of AI.\n{spk1} It’s a fascinating topic! Many experts believe AI will revolutionize industries. What do you think, Jamie?\n{spk2} Absolutely, Alex. From healthcare to transportation, AI has the potential to improve efficiency and accuracy.",
-    "Placeholder for Translated Text": "翻译后的字幕将在这里显示。\n如果您已经有翻译好的字幕，可以复制并粘贴内容。\n字幕可以编辑，编辑后的内容将用于语音合成。"
+    "Placeholder for Translated Text": "翻译后的字幕将在这里显示。\n如果您已经有翻译好的字幕，可以复制并粘贴内容。\n字幕可以编辑，编辑后的内容将用于语音合成。",
+    "RTX Video": "RTX Video",
+    "Artifact Reduction": "Artifact Reduction",
+    "Enable": "Enable",
+    "mode": "mode",
+    "Mode 0 removes lesser artifacts, preserves low gradient information better, and is suited for higher bitrate videos.": "Mode 0 removes lesser artifacts, preserves low gradient information better, and is suited for higher bitrate videos.",
+    "Super Resolution": "Super Resolution",
+    "Mode 0 enhances less and removes more encoding artifacts and is suited for lower-quality videos.": "Mode 0 enhances less and removes more encoding artifacts and is suited for lower-quality videos.",
+    "Scale Factor": "Scale Factor",
+    "Compression": "Compression",
+    "CRF(Constant Rate Factor)": "CRF(Constant Rate Factor)",
+    "Adjust compression quality (0-51, lower is better quality. Default is 23)": "Adjust compression quality (0-51, lower is better quality. Default is 23)",
+    "Preset": "Preset",
+    "Adjusting Compression Speed and Efficiency": "Adjusting Compression Speed and Efficiency"
 
     
 }
