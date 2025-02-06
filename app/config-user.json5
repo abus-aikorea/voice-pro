@@ -51,4 +51,12 @@
     rvc_protect: 0.23,
     rvc_hop_length: 256,
     rvc_clean_strength: 0.2,
+    var_enable: false,
+    var_mode: 0,
+    vsr_enable: true,
+    vsr_mode: 0,
+    vsr_scale: 4,
+    compression_enable: true,
+    compression_crf: 23,
+    compression_preset: "medium",
 }

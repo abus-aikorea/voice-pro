@@ -186,3 +186,8 @@ model/f5-tts/voice_15s.json5
 /model/__f5-tts/voice_15s
 *.safetensors
 model/__f5-tts/voice_15s.json5
+model/rvc-voice/LiSA.zip
+model/rvc-voice/AdoRVCv2.zip
+/model/rvc-voice/AdoRVCv2
+/model/rvc-voice/LiSA
+model/f5-tts/voice_15s.zip
