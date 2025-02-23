@@ -1,0 +1,14 @@
+include README.md
+include LICENSE.txt
+include requirements.*.txt
+include *.cff
+include requirements.txt
+include matcha/VERSION
+recursive-include matcha *.json
+recursive-include matcha *.html
+recursive-include matcha *.png
+recursive-include matcha *.md
+recursive-include matcha *.py
+recursive-include matcha *.pyx
+recursive-exclude tests *
+prune tests*

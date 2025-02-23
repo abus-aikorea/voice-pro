@@ -1,0 +1,14 @@
+defaults:
+  - ljspeech
+  - _self_
+
+# Dataset URL: https://ast-astrec.nict.go.jp/en/release/hi-fi-captain/
+_target_: matcha.data.text_mel_datamodule.TextMelDataModule
+name: hi-fi_en-US_female
+train_filelist_path: data/filelists/hi-fi-captain-en-us-female_train.txt
+valid_filelist_path: data/filelists/hi-fi-captain-en-us-female_val.txt
+batch_size: 32
+cleaners: [english_cleaners_piper]
+data_statistics:  # Computed for this dataset
+  mel_mean: -6.38385
+  mel_std: 2.541796

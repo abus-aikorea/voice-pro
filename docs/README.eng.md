@@ -3,50 +3,52 @@
     description: Powerful AI-powered web application for YouTube video processing, speech recognition, translation, and text-to-speech with multilingual support
     keywords: AI voice conversion, YouTube translation, subtitle generation, speech-to-text, text-to-speech, voice cloning, multilingual translation, ElevenLabs Alternative 
     author: ABUS
-    version: 1.7.0
-    last-updated: 2025-1-23
+    version: 2.0.0
+    last-updated: 2025-02-23
     product-type: AI Multimedia Processing Software
     platforms: Windows
-    technology-stack: Whisper, Edge-TTS, Gradio, CUDA, Faster-Whisper, Whisper-Timestamped, E2-TTS, F5-TTS, YouTube Downloader, Demucs, MDX-Net, RVC
+    technology-stack: Whisper, Edge-TTS, Gradio, CUDA, Faster-Whisper, Whisper-Timestamped, E2-TTS, F5-TTS, YouTube Downloader, Demucs, MDX-Net, RVC, CosyVoice, kokoro
     license: LGPL
 -->
 
+
+
 # Voice-Pro: Ultimate AI Voice Conversion and Multilingual Translation Tool 🔊
 
-🌍 [한국어](README.kor.md) ∙ [English](README.eng.md) ∙ [中文简体](README.zh.md) ∙ [中文繁體](README.tw.md) ∙ [日本語](README.jpn.md)
+🌍 [한국어](README.kor.md) ∙ [English](README.eng.md) ∙ [中文简体](README.zh.md) ∙ [中文繁體](README.tw.md) ∙ [日本語](README.jpn.md)∙ [Deutsch](README.deu.md)∙ [Español](README.spa.md)∙ [Português](README.por.md)
 
 [![GitHub Release](https://img.shields.io/github/v/release/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/releases )
 
 
-
 ## 🎙️ Advanced AI-Powered Multimedia Processing Tool | Whisper Speech Recognition WebUI
 
-Voice-Pro is a cutting-edge AI-powered web application designed to revolutionize multimedia content processing. With comprehensive features for YouTube video downloading, voice separation, speech recognition, translation, and text-to-speech, it offers an all-in-one solution for content creators, researchers, and multilingual communication professionals.
+Voice-Pro is a state-of-the-art web app that transforms multimedia content creation. It integrates YouTube video downloading, voice separation, speech recognition, translation, and text-to-speech into a single, powerful tool for creators, researchers, and multilingual professionals.
+- 🔊 Top-tier speech recognition: **Whisper**, **Faster-Whisper**, **Whisper-Timestamped**
+- 🎤 Zero-shot voice cloning: **F5-TTS**, **E2-TTS**, **CosyVoice**
+- 📢 Multilingual text-to-speech: **Edge-TTS**, **kokoro**
+- 🎥 YouTube processing & audio extraction: **yt-dlp**
+- 🌍 Instant translation for 100+ languages: **Deep-Translator**
+- 🔇 Pro-grade vocal isolation: **UVR5**
+- 🔥 AI cover creation: **RVC**
 
-- 🔊 Cutting-edge Speech Recognition (**Whisper**, **Faster-Whisper**, **Whisper-Timestamped**)
-- 🎤 Zero-Shot Voice Cloning with **F5-TTS** & **E2-TTS**
-- 🎥 YouTube Video Processing & Audio Extraction
-- 🔇 Professional Vocal Isolation (**UVR5** Technology)
-- 📢 Multilingual Text-to-Speech (**Edge-TTS**)
-- 🌍 Instant Translation Across 100+ Languages
-- 🔥 AI Cover Creation (**RVC** Technology)
+A robust alternative to **ElevenLabs**, Voice-Pro empowers podcasters, developers, and creators with advanced voice solutions.
 
-Voice-Pro offers a realistic alternative to **ElevenLabs**, catering to content creators, podcasters, researchers, and developers seeking advanced text-to-speech solutions.
-
-
-## ⚠️ Attention
-  - Voice-Pro has been updated to **v1.7.x**
-  - It now supports the latest **yt-dlp** and **Gradio 5**
-  - 🔥 **AI-Cover** creation feature has been added. 
-  - Please refer to the guidance below.
-    - Previous user: If you have updated Voice-Pro to v1.7.x, run **update.bat**. The Python virtual environment will be updated to the latest version.
-    - First-time user: Refer to the Installation below. Simply run **configure.bat** and then **start.bat**
+## ⚠️ Heads-Up
+- Now updated to **v2.x** (Python 3.10.15, Torch 2.5.1+cu124, Gradio 5.14.0)
+- 🆓 Free trial processes up to **60 seconds** of media
+- 🔥 New **AI Cover** feature added
+- 🎤 **CosyVoice** and **kokoro** now supported
+- ⏳ Initial launch downloads **CozyVoice2-0.5B (9GB)**—may take over an hour based on your network
+- 🎧 Celebrity voice options for cloning expanding regularly
+- **Guidance:**
+  - **Existing users:** Run **update.bat** to refresh to v2.0.x
+  - **New users:** See Installation below—run **configure.bat**, then **start.bat**
 
 
 
-## 🚄 Run screen
+## 🚄 Demos
 
-* `Dubbing Studio` tab : Transcription, Translation & Text-to-Speech
+### `Dubbing Studio` Tab: Transcription, Translation & TTS
 <div aria-labelledby="studio-demo-description">
   <video src="https://github.com/user-attachments/assets/f18e7f54-7bc0-4c26-96f9-9f6b70c7114c"
    width="100%" 
@@ -60,7 +62,7 @@ Studio Tab's comprehensive media processing workflow demo: Demonstrates a one-st
   </p>
 </div>
 
-* `F5-TTS-Multi` tab : Podcast Production using F5-TTS
+### `F5-TTS-Multi` Tab: Podcast Creation
 <div aria-labelledby="tts-demo-description">
   <video src="https://github.com/user-attachments/assets/2d4b7d84-ca19-4efd-a847-a66fa0db616e"
    width="100%" 
@@ -74,7 +76,7 @@ Demonstration of F5-TTS's innovative AI voice cloning technology: Showcasing adv
   </p>
 </div>
 
-* `AI Cover` tab : 
+### `AI Cover` Tab
 <div aria-labelledby="ai-cover-description">
   <video src="https://github.com/user-attachments/assets/88a47ab1-a18b-4779-97c8-7c1da84f5fc3"
    width="100%" 
@@ -89,9 +91,7 @@ Make a Trump version of IU's 'Cupid', Kim Kwang-seok's 'I Miss You', and 'Privat
 </div>
 
 
-
-
-* `Live Translation` tab : Real-time Speech Recognition and Translation
+### `Live Translation` Tab: Real-Time Recognition & Translation
 <div aria-labelledby="translate-demo-description">
   <video src="https://github.com/user-attachments/assets/eb53dd3a-df0a-4f7f-819c-cf92d477e2d1"
   width="100%" 
@@ -107,83 +107,68 @@ Demonstration of real-time multilingual translation feature: Showcasing an innov
 
 
 
-## ⭐ Key Features and Capabilities
+## ⭐ Key Features
 
-### 1. Comprehensive Studio Tab
-- **YouTube Video Processing**: Download and extract audio in multiple formats
-- **Voice Separation**: Advanced noise removal using MDX-Net and Demucs
-- **Multilingual Support**: 
-  - Speech recognition for 100+ languages
-  - Subtitle creation with customizable options
-  - Translation capabilities for over 100 languages
+### 1. Dubbing Studio
+- YouTube video downloads & audio extraction
+- Voice separation with **MDX-Net** & **Demucs**
+- Supports 100+ languages for speech recognition & translation
 
-### 2. Advanced Speech Technologies
-- **Speech-to-Text (STT)**: 
-  - Whisper integration
-  - Faster-Whisper support
-  - Whisper-timestamped functionality
-- **Text-to-Speech (TTS)**: 
-  - Edge-TTS with 400+ voices
-  - F5-TTS with zero-shot voice cloning
-  - Celebrity voice generation
-- 🔥 **Speech-to-Speech (RVC)**:
-  - Equipped with **Vocal Remover** provided by UVR5 and **RVC** engine.
-  - Provides voice modulation function. **RVC v2** is used.
+### 2. Speech Technologies
+- **Speech-to-Text:** **Whisper**, **Faster-Whisper**, **Whisper-Timestamped**
+- **Text-to-Speech:** 
+  - **Edge-TTS**: 100+ languages, 400+ voices
+  - **E2-TTS**, **F5-TTS**, **CosyVoice**: Zero-shot cloning
+  - **kokoro**: Ranked #2 in HuggingFace TTS Arena
+- 🔥 **AI Cover (Speech-to-Speech):** Vocal removal via **UVR5**, modulation with **RVC**
 
 ### 3. Real-Time Translation
 - Instant speech recognition
-- Real-time Multilingual translation
-- Configurable audio input sources
+- Multilingual translation on the fly
+- Customizable audio inputs
 
 
 
-## 🤖 WebUI
+## 🤖 WebUI
 
-* `Dubbing Studio` tab
-  - Provides integrated environment for YouTube downloader, noise removal, subtitles, translation, and TTS
-  - All video/audio formats supported by ffmpeg can be used
-  - Selectable output audio format (wav, flac, mp3)
-  - Speech recognition and subtitle creation for 100 languages
-  - Select subtitle creation options suitable for PC performance (Whisper Model & Compute Type)
-  - Translation into over 100 languages ​​and voice generation through TTS
-  - The BGM and sound effects from the original video are maintained in the multilingual video.
-  - Supports TTS voice speed, volume, and pitch adjustment
+### `Dubbing Studio` Tab
+- All-in-one hub: YouTube downloads, noise removal, subtitles, translation, & TTS
+- Supports all ffmpeg-compatible formats
+- Output options: WAV, FLAC, MP3
+- Subtitles & recognition for 100+ languages
+- TTS with speed, volume, & pitch controls
   
 <p align="center">
   <img style="width: 90%; height: 90%" src="images/main_page.kor.png?raw=true" alt="Multilingual Voice Conversion and Subtitle Generation Web UI Interface"/>
 </p>  
 
 
-* `Whisper Caption` tab
-  - A tab dedicated to creating subtitles. Supports over 90 languages
-  - Display subtitles created with the video
-  - World-Level Highlight function provided
-  - Denoise function provided (1-Demucs, 2-MDXNet)
+### `Whisper Caption` Tab
+- Subtitle-focused: 90+ languages
+- Video-integrated subtitle display
+- Word-level highlighting & denoise options
 
-* `Translate` tab
-  - Dedicated tab for translation. Supports over 100 languages
-  - Supports subtitle files (ass, ssa, srt, mpl2, tmp, vtt, microdvd, json)
-  - Direct text input is also possible
-  - Automatically detects the language of uploaded files
+### `Translate` Tab
+- Translation for 100+ languages
+- Supports subtitle files (ASS, SSA, SRT, etc.)
+- Real-time voice recognition & translation
 
-* `Speech` tab
-  - Edge-TTS, F5-TTS and AI-Cover(RVC) are supported.
-  - Edge-TTS tab
-    - supports over 100 languages and more than 400 voices.
-    - Pitch, Volume, and Speed can be adjusted.
-  - F5-TTS tab
-    - supports Zero-Shot Voice Cloning.
-    - You can create podcasts using Celeb Voices.
+<p align="center">
+  <img style="width: 90%; height: 90%" src="images/live_translation_bbc.png?raw=true" alt="WebUI for Real-Time Speech Recognition and Translation"/>
+</p>  
+
+### `Speech Generation` Tab
+- Options: **Edge-TTS**, **F5-TTS**, **CosyVoice**, **kokoro**
+- Celeb voice podcasts & multilingual support
 
 <p align="center">
   <img style="width: 90%; height: 90%" src="images/tts_f5_multi.png?raw=true" alt="Podcast Production WebUI Using Voice-Cloning Technology"/>
 </p>  
 
-  - 🔥 **AI-Cover** tab 
-    - Provides vocal remover. Uses **MDX-Net** and **Demucs**.
-    - Provides voice modulation function. **RVC v2** is used.
-    - AI Voice can be downloaded from **Discord AI Hub (https://discord.com/channels/1159260121998827560/@home)** or, if necessary, **production request (abus.aikorea@gmail.com)**.
-    - The length of video supported by the **trial** version is limited to **60-seconds.**
+### 🔥 `AI Cover` Tab
+- Vocal removal: **MDX-Net**, **Demucs**
+- Voice modulation: **RVC**
+- Download AI voices from [Discord AI Hub](https://discord.com/channels/1159260121998827560/@home) or request via <abus.aikorea@gmail.com>
 
 <p align="center">
   <img style="width: 90%; height: 90%" src="images/ai_cover.png?raw=true" alt="Podcast Production WebUI Using Voice-Cloning Technology"/>
@@ -191,69 +176,44 @@ Demonstration of real-time multilingual translation feature: Showcasing an innov
 
 
 
-
-* `Live Translation` tab
-  - Real-time voice recognition & translation support
-  - Select audio input source such as Mic, Speaker, etc.
-  - Provides the ability to save captured audio, recognized subtitles, and translated subtitles
-
-<p align="center">
-  <img style="width: 90%; height: 90%" src="images/live_translation_bbc.png?raw=true" alt="WebUI for Real-Time Speech Recognition and Translation"/>
-</p>  
-
-
-* `Batch` tab
-  - Batch processing for large amounts of files
-  - Subtitles, translation, TTS
-
-
-
-## 💻 Execution environment
-* OS: Windows 10/11 (64bits) **※ Linux and Mac OS are not supported.**
-* GPU: **NVIDIA** graphics card supporting CUDA 12.1 recommended. 
-* VRAM: 4GB or more. 8GB or more recommended.
-* RAM: 4GB or more
-* HDD: At least 20GB of free space during installation
-* Internet connection required (installation and translation work)
+## 💻 System Requirements
+- **OS:** Windows 10/11 (64-bit) ※ Linux/Mac unsupported
+- **GPU:** NVIDIA with CUDA 12.4 (recommended)
+- **VRAM:** 4GB+ (8GB+ preferred)
+- **RAM:** 4GB+
+- **Storage:** 20GB+ free space
+- **Internet:** Required
 
 
 
 ## 📀 Installation
 
-Voice-Pro can be easily installed with one click. Just run 🚀**configure.bat** and 🚀**start.bat**
+Install Voice-Pro with ease using **configure.bat** and **start.bat**.
 
 
-### step 1. Package preparation
+### 1. Get the Package
+
   + Clone or download the latest release (**Source code (zip)**) from  [![GitHub Release](https://img.shields.io/github/v/release/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/)
 ```bash
 git clone https://github.com/abus-aikorea/voice-pro.git
 ```
   
 
-### step 2. Install and run the program
-1. 🚀 Run `configure.bat`
-   - Install git, ffmpeg and CUDA (if using NVIDIA GPU) on Windows. 
-   - You only need to run it the first time.
-   - An internet connection is required, and it may take over an hour depending on the system.
-   - Never close the Windows-Command window during installation.
-2. 🚀 Run `start.bat`
-   - Start Voice-Pro. Web-UI will run automatically. 
-   - When running for the first time, Voice-Pro is installed first. 
-   - An internet connection is required, and it may take over an hour depending on the system. 
-   - Never close the Windows-Command window during installation.
-   - If a problem occurs during installation, delete the **installer_files** folder and run start.bat again.
+### 2. Install & Run
+1. 🚀 **configure.bat**
+   - Sets up git, ffmpeg, and CUDA (if NVIDIA GPU)
+   - Run once; takes 1+ hour with internet
+   - Don’t close the command window
+2. 🚀 **start.bat**
+   - Launches Voice-Pro WebUI
+   - First run installs dependencies (1+ hour)
+   - Retry after deleting **installer_files** if issues arise
 
-### step 3. Update the program
-* 🚀 Run `update.bat`:
-  - Update the Python virtual environment installed in the **installer_files** folder.
-  - It is much easier and faster than deleting the **installer_files** folder and reinstalling.
-  - Recommended for existing users.
+### 3. Update
+- 🚀 **update.bat**: Refreshes Python environment (faster than reinstall)
 
-### step 4. Uninstall program
-* Run `uninstall.bat`:
-  - Remove the **installer_files** folder.
-  - Remove ffmepg, git and CUDA packages installed on Windows (if selected)
-* Voice-Pro has **portable** installation as standard. To uninstall the program, deleting the installation folder is sufficient.
+### 4. Uninstall
+- Run **uninstall.bat** or delete the folder (portable install)
 
 
 ## ❓Tips & Tricks
@@ -280,7 +240,7 @@ If SmartScreen security level is set to "Warn", just click "More info" and then 
 If SmartScreen is set to level "Block" there will be no button to run the installation. In this case, open the properties of the start.bat file, and check "Unblock", apply the change and run the start.bat again.
 
 <p align="center">
-  <img style="width: 60%; height: 60%" src="images/windows_smartscreen_warning.png?raw=true" alt=""/>
+  <img style="width: 40%; height: 40%" src="images/windows_smartscreen_warning.png?raw=true" alt=""/>
 </p>  
 
 
@@ -299,33 +259,21 @@ When Windows Defender mistakenly recognizes a batch file as a Trojan, this is of
 
 ## ☕ Notice
 - This repository offers a **free trial** of Voice-Pro. 
-- The free trial has a **usage limit of 30 minutes**. This means that once 30 minutes have elapsed after running, you will no longer be able to use the web UI. 
-- It does not mean there is a limitation on the length of media that can be processed, nor does it stop ongoing tasks. You simply cannot click the action button anymore. 
-- It may be a bit inconvenient, but to use it again, you just need to close the program and restart it. 
-- Previous work results are maintained in the workspace folder. 
-- But, There is a **60-seconds limit** for AI Cover creation.
+- The free trial version of Voice-Pro allows you to process up to **60 seconds** of media.
 - The official version of Voice-Pro can be purchased through the ABUS official website (<https://abuskorea.imweb.me>)
--  Additionally, if you support us through Buy Me a Coffee ☕, we will give you a usage voucher for up to one month as a token of our gratitude. (<https://github.com/abus-aikorea/voice-pro/discussions/10#discussioncomment-11527327>)
--  For inquiries regarding purchases, business partnerships, tuning, investments, etc., please contact us via email (<abus.aikorea@gmail.com>)."
+- Additionally, if you support us through Buy Me a Coffee ☕, we will give you a usage voucher for up to one month as a token of our gratitude. (<https://github.com/abus-aikorea/voice-pro/discussions/10#discussioncomment-11527327>)
+- For inquiries regarding purchases, business partnerships, tuning, investments, etc., please contact us via email (<abus.aikorea@gmail.com>)."
 
 
-## 📬 Contact us
-* e-mail: <abus.aikorea@gmail.com>
-* homepage(Korean): <https://abuskorea.imweb.me>
-* Amazon(US): <https://www.amazon.com/dp/B0DBR69JPL>
-* Amazon(Japan): <https://www.amazon.co.jp/dp/B0DBVRJ542>
-* Amazon(Singapore): <https://www.amazon.sg/dp/B0DCGKL8R4>
-* Amazon(UAE): <https://www.amazon.ae/dp/B0DCGKM7FF>
-* 네이버 스마트스토어 (S/W): <https://smartstore.naver.com/abus/products/10385660040>
-* 네이버 스마트스토어 (Solution): <https://smartstore.naver.com/abus/products/10298346364>
+## 📬 Contact
+- Email: <abus.aikorea@gmail.com>
+- Homepage (Korean): <https://abuskorea.imweb.me>
+- Amazon: [US](https://www.amazon.com/dp/B0DBR69JPL) | [Japan](https://www.amazon.co.jp/dp/B0DBVRJ542) | [Singapore](https://www.amazon.sg/dp/B0DCGKL8R4) | [UAE](https://www.amazon.ae/dp/B0DCGKM7FF)
+- Naver: [Software](https://smartstore.naver.com/abus/products/10385660040) | [Solution](https://smartstore.naver.com/abus/products/10298346364)
 
 ## 👍 YouTube
-* Product Information: <https://www.youtube.com/watch?v=z8g8LMhoh_o&list=PLwx5dnMDVC9Y7dAjm9r26CZUw1uU5VIeq>
-* Home Karaoke (Pop): <https://www.youtube.com/watch?v=MqQP3ewvJUk&list=PLwx5dnMDVC9bVxfGo58U-R-w3fUHqwiD6>
-* Home Karaoke (K-Pop): <https://www.youtube.com/watch?v=v6qjf_ELsLA&list=PLwx5dnMDVC9Z8kB01tQKfzTysaCCxC3C8>
-* Home Karaoke (J-Pop): <https://www.youtube.com/watch?v=KKLzoWHFAxw&list=PLwx5dnMDVC9bd6y3wXs-bOas2cXIi-GAq>
-  
-
+- [Product Info](https://www.youtube.com/watch?v=z8g8LMhoh_o&list=PLwx5dnMDVC9Y7dAjm9r26CZUw1uU5VIeq)
+- [Karaoke: Pop](https://www.youtube.com/watch?v=MqQP3ewvJUk&list=PLwx5dnMDVC9bVxfGo58U-R-w3fUHqwiD6) | [K-Pop](https://www.youtube.com/watch?v=v6qjf_ELsLA&list=PLwx5dnMDVC9Z8kB01tQKfzTysaCCxC3C8) | [J-Pop](https://www.youtube.com/watch?v=KKLzoWHFAxw&list=PLwx5dnMDVC9bd6y3wXs-bOas2cXIi-GAq)
 
 ## 🙏 Credits
 * Demucs: <https://github.com/facebookresearch/demucs>
@@ -338,6 +286,10 @@ When Windows Defender mistakenly recognizes a batch file as a Trojan, this is of
 * whisper-timestamped: <https://github.com/linto-ai/whisper-timestamped>
 * RVC-Project: <https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI>
 * UVR5: <https://github.com/Anjok07/ultimatevocalremovergui>
+* CosyVoice: <https://github.com/FunAudioLLM/CosyVoice>
+* kokoro: <https://github.com/hexgrad/kokoro>
+* Deep-Translator: <https://github.com/nidhaloff/deep-translator>
+
 
 
 ## ©️ Copyright

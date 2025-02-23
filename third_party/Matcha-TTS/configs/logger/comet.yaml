@@ -1,0 +1,12 @@
+# https://www.comet.ml
+
+comet:
+  _target_: lightning.pytorch.loggers.comet.CometLogger
+  api_key: ${oc.env:COMET_API_TOKEN} # api key is loaded from environment variable
+  save_dir: "${paths.output_dir}"
+  project_name: "lightning-hydra-template"
+  rest_api_key: null
+  # experiment_name: ""
+  experiment_key: null # set to resume experiment
+  offline: False
+  prefix: ""

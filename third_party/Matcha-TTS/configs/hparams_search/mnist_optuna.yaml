@@ -1,0 +1,52 @@
+# @package _global_
+
+# example hyperparameter optimization of some experiment with Optuna:
+# python train.py -m hparams_search=mnist_optuna experiment=example
+
+defaults:
+  - override /hydra/sweeper: optuna
+
+# choose metric which will be optimized by Optuna
+# make sure this is the correct name of some metric logged in lightning module!
+optimized_metric: "val/acc_best"
+
+# here we define Optuna hyperparameter search
+# it optimizes for value returned from function with @hydra.main decorator
+# docs: https://hydra.cc/docs/next/plugins/optuna_sweeper
+hydra:
+  mode: "MULTIRUN" # set hydra to multirun by default if this config is attached
+
+  sweeper:
+    _target_: hydra_plugins.hydra_optuna_sweeper.optuna_sweeper.OptunaSweeper
+
+    # storage URL to persist optimization results
+    # for example, you can use SQLite if you set 'sqlite:///example.db'
+    storage: null
+
+    # name of the study to persist optimization results
+    study_name: null
+
+    # number of parallel workers
+    n_jobs: 1
+
+    # 'minimize' or 'maximize' the objective
+    direction: maximize
+
+    # total number of runs that will be executed
+    n_trials: 20
+
+    # choose Optuna hyperparameter sampler
+    # you can choose bayesian sampler (tpe), random search (without optimization), grid sampler, and others
+    # docs: https://optuna.readthedocs.io/en/stable/reference/samplers.html
+    sampler:
+      _target_: optuna.samplers.TPESampler
+      seed: 1234
+      n_startup_trials: 10 # number of random sampling runs before optimization starts
+
+    # define hyperparameter search space
+    params:
+      model.optimizer.lr: interval(0.0001, 0.1)
+      data.batch_size: choice(32, 64, 128, 256)
+      model.net.lin1_size: choice(64, 128, 256)
+      model.net.lin2_size: choice(64, 128, 256)
+      model.net.lin3_size: choice(32, 64, 128, 256)

@@ -18,9 +18,9 @@ class UserConfig:
         self.default_user_config = {
             "asr_engine": "faster-whisper",
             "gradio_language": "Korean",
-            "whisper-model": "large",
-            "faster-whisper-model": "large",
-            "whisper-timestamped-model": "large",            
+            "whisper_model": "large",
+            "faster_whisper_model": "large",
+            "whisper_timestamped_model": "large",            
             "whisper_language": "korean",
             "word_timestamps": False,
             "denoise": False,
@@ -44,8 +44,8 @@ class UserConfig:
             "reverb_damping": 0.7,
             "demixing_model": "htdemucs",
             "demixing_audio_format": "flac",
-            "translate_language": "korean",
-            "audio_source": "No Audio",
+            "translate_source_language": "English",
+            "translate_target_language": "korean",
             "denoise_level" : 0,
             "whisper_compute_type" : 'default',
             "whisper_highlight_words" : False,
@@ -55,11 +55,16 @@ class UserConfig:
             "xtts_rate": 1,
             "xtts_volume": 1,
             "xtts_pitch": 0,
-            "tts_language": "English",
-            "tts_voice": "UNITED STATES-Ana-Female",
-            "tts_pitch": 0,
-            "tts_rate": 0,
-            "tts_volume": 0,
+            "ms_language": "English",
+            "ms_voice": "UNITED STATES-Ana-Female",
+            "edge_tts_pitch": 0,
+            "edge_tts_rate": 0,
+            "edge_tts_volume": 0,
+            "f5_single_language": "English",
+            "f5_multi_language1": "English",
+            "f5_multi_language2": "English",            
+            "cosy_voice_language": "English",
+            "kokoro_language": "American English",
             "rvc_voice": "choi",
             "rvc_f0_up_key": 0,
             "rvc_filter_radius": 3,
@@ -82,14 +87,14 @@ class UserConfig:
 
     def load_user_config(self):
         try:
-            with open(self.user_config_path, "r") as file:
+            with open(self.user_config_path, "r", encoding='utf-8') as file:
                 return json5.load(file)
         except Exception as e:
             logger.error(f"[config.py] load_user_config - Error transcribing file: {e}")
             return self.default_user_config
 
     def save_user_config(self):
-        with open(self.user_config_path, "w") as file:
+        with open(self.user_config_path, "w", encoding='utf-8') as file:
             json5.dump(self.user_config, file, indent=4)
 
     def get(self, key, default=None):

@@ -1,323 +1,215 @@
-<!-- 
+<!--
     title: Voice-Pro: Ultimate AI Voice Conversion and Multilingual Translation Tool
     description: Powerful AI-powered web application for YouTube video processing, speech recognition, translation, and text-to-speech with multilingual support
     keywords: AI voice conversion, YouTube translation, subtitle generation, speech-to-text, text-to-speech, voice cloning, multilingual translation, ElevenLabs Alternative 
     author: ABUS
-    version: 1.7.0
-    last-updated: 2025-1-23
+    version: 2.0.0
+    last-updated: 2025-02-23
     product-type: AI Multimedia Processing Software
     platforms: Windows
-    technology-stack: Whisper, Edge-TTS, Gradio, CUDA, Faster-Whisper, Whisper-Timestamped, E2-TTS, F5-TTS, YouTube Downloader, Demucs, MDX-Net, RVC
+    technology-stack: Whisper, Edge-TTS, Gradio, CUDA, Faster-Whisper, Whisper-Timestamped, E2-TTS, F5-TTS, YouTube Downloader, Demucs, MDX-Net, RVC, CosyVoice, kokoro
     license: LGPL
 -->
 
+# Voice-Pro: 终极AI语音转换和多语言翻译工具 🔊
 
-# Voice-Pro: Ultimate AI Voice Conversion and Multilingual Translation Tool 🔊
+🌍 [한국어](README.kor.md) ∙ [English](README.eng.md) ∙ [中文简体](README.zh.md) ∙ [中文繁體](README.tw.md) ∙ [日本語](README.jpn.md) ∙ [Deutsch](README.deu.md) ∙ [Español](README.spa.md) ∙ [Português](README.por.md)
 
-🌍 [한국어](README.kor.md) ∙ [English](README.eng.md) ∙ [中文简体](README.zh.md) ∙ [中文繁體](README.tw.md) ∙ [日本語](README.jpn.md)
+[![GitHub Release](https://img.shields.io/github/v/release/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/releases)
 
-[![GitHub Release](https://img.shields.io/github/v/release/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/releases )
+## 🎙️ 高级AI多媒体处理工具 | Whisper语音识别网页界面
 
+Voice-Pro是一款革新多媒体内容制作的先进网页应用。它将YouTube视频下载、音频分离、语音识别、翻译和文本转语音(TTS)集成到一个强大的工具中，为创作者、研究人员和多语言专家提供理想的解决方案。
 
-## 🎙️ 先进的AI驱动多媒体处理工具 | Whisper语音识别WebUI
+- 🔊 顶级语音识别：**Whisper**、**Faster-Whisper**、**Whisper-Timestamped**
+- 🎤 零样本声音克隆：**F5-TTS**、**E2-TTS**、**CosyVoice**
+- 📢 多语言文本转语音：**Edge-TTS**、**kokoro**
+- 🎥 YouTube处理和音频提取：**yt-dlp**
+- 🌍 100多种语言即时翻译：**Deep-Translator**
+- 🔇 专业级人声分离：**UVR5**
+- 🔥 AI翻唱制作：**RVC**
 
-Voice-Pro是一款旨在革新多媒体内容处理的尖端AI驱动的Web应用程序。通过提供YouTube视频下载、语音分离、语音识别、翻译和文本转语音等全面功能，为内容创作者、研究者和多语言通信专业人士提供了一站式解决方案。
+作为**ElevenLabs**的强大替代方案，Voice-Pro为播客主持人、开发者和创作者提供高级语音解决方案。
 
-- 🔊 尖端语音识别 (**Whisper**, **Faster-Whisper**, **Whisper-Timestamped**)
-- 🎤 使用**F5-TTS**和**E2-TTS**进行零样本语音克隆
-- 🎥 YouTube视频处理和音频提取
-- 🔇 专业语音分离（**UVR5**技术）
-- 📢 多语言文本转语音（**Edge-TTS**）
-- 🌍 跨100多种语言的即时翻译
-- 🔥 AI封面制作（**RVC**技术）
+## ⚠️ 注意事项
+- Voice-Pro已更新至**v2.x**版本（Python 3.10.15, Torch 2.5.1+cu124, Gradio 5.14.0）
+- 🆓 免费试用版支持最长**60秒**的媒体处理
+- 🔥 新增**AI翻唱**功能
+- 🎤 新增**CosyVoice**和**kokoro**支持
+- ⏳ 首次运行时需下载**CozyVoice2-0.5B (9GB)**，根据网络速度可能需要1小时以上
+- 🎧 声音克隆用的语音样本将持续更新
+- **提示：**
+  - **现有用户：**运行**update.bat**可更新至v2.0.x
+  - **新用户：**参考下方安装部分 — 运行**configure.bat**后运行**start.bat**
 
-Voice-Pro为**ElevenLabs**提供了一个现实的替代方案，满足寻求先进文本转语音解决方案的内容创作者、播客、研究人员和开发者的需求。
+## 🚄 演示
 
-
-## ⚠️ 注意
-  - Voice-Pro已更新至**v1.7.x**。
-  - 现在支持最新的**yt-dlp**和**Gradio 5**。
-  - 🔥 新增了**AI封面**制作功能。
-  - 请参考以下指导。
-    - 之前的用户: 如果您已将Voice-Pro更新至v1.7.x，请运行**update.bat**。Python虚拟环境将更新至最新版本。
-    - 首次用户: 请参考以下安装步骤。只需运行**configure.bat**，然后运行**start.bat**。
-
-
-
-## 🚄 运行画面
-
-* `Dubbing Studio` tab : Transcription, Translation & Text-to-Speech
+### `配音工作室`标签页：转录、翻译和TTS
 <div aria-labelledby="studio-demo-description">
-  <video src="https://github.com/user-attachments/assets/f18e7f54-7bc0-4c26-96f9-9f6b70c7114c"
-   width="100%" 
-   style="max-width: 720px;" 
-   controls="controls" 
-   muted="muted"
-   aria-describedby="studio-demo-description">
-   </video>
-  <p id="studio-demo-description">
-Voice-Pro工作室选项卡的全面媒体处理工作流程演示：从YouTube视频下载到基于AI的语音分离、Whisper自动字幕生成、多语言翻译，再到使用F5-TTS进行专业配音的一站式媒体转换过程的展示。
-  </p>
+  <video src="https://github.com/user-attachments/assets/f18e7f54-7bc0-4c26-96f9-9f6b70c7114c" width="100%" style="max-width: 720px;" controls muted aria-describedby="studio-demo-description"></video>
+  <p id="studio-demo-description">工作室标签页的综合媒体处理工作流程演示：从YouTube视频下载到AI语音分离、Whisper自动字幕、多语言翻译，再到使用F5-TTS进行专业配音的一站式媒体转换过程。</p>
 </div>
 
-* `F5-TTS-Multi` tab : Podcast Production using F5-TTS
+### `F5-TTS-Multi`标签页：播客制作
 <div aria-labelledby="tts-demo-description">
-  <video src="https://github.com/user-attachments/assets/2d4b7d84-ca19-4efd-a847-a66fa0db616e"
-   width="100%" 
-   style="max-width: 720px;" 
-   controls="controls" 
-   muted="muted" 
-   aria-describedby="tts-demo-description">
-   </video>
-  <p id="tts-demo-description">
-F5-TTS创新的AI语音克隆技术演示：展示了精确模仿Mark Zuckerberg和Elon Musk真实声音，从而创建全新内容的先进语音转换技术。
-  </p>
+  <video src="https://github.com/user-attachments/assets/2d4b7d84-ca19-4efd-a847-a66fa0db616e" width="100%" style="max-width: 720px;" controls muted aria-describedby="tts-demo-description"></video>
+  <p id="tts-demo-description">F5-TTS的创新AI声音克隆技术演示：精确模仿马克·扎克伯格和埃隆·马斯克的真实声音，创建全新内容的高级语音转换技术展示。</p>
 </div>
 
-* `AI Cover` tab : 
+### `AI翻唱`标签页
 <div aria-labelledby="ai-cover-description">
-  <video src="https://github.com/user-attachments/assets/88a47ab1-a18b-4779-97c8-7c1da84f5fc3"
-   width="100%" 
-   style="max-width: 720px;" 
-   controls="controls" 
-   muted="muted" 
-   aria-describedby="ai-cover-description">
-   </video>
-  <p id="ai-cover-description">
-Make a Trump version of IU's 'Cupid', Kim Kwang-seok's 'I Miss You', and 'Private's Letter'.
-  </p>
+  <video src="https://github.com/user-attachments/assets/88a47ab1-a18b-4779-97c8-7c1da84f5fc3" width="100%" style="max-width: 720px;" controls muted aria-describedby="ai-cover-description"></video>
+  <p id="ai-cover-description">制作特朗普版本的IU《Cupid》、金光石《想念的人》、《士兵的信》。</p>
 </div>
 
-
-
-
-* `Live Translation` tab : 实时语音识别和翻译
+### `实时翻译`标签页：实时识别和翻译
 <div aria-labelledby="translate-demo-description">
-  <video src="https://github.com/user-attachments/assets/eb53dd3a-df0a-4f7f-819c-cf92d477e2d1"
-  width="100%" 
-  style="max-width: 720px;" 
-  controls="controls" 
-  muted="muted"
-  aria-describedby="translate-demo-description">
-  </video>
-  <p id="translate-demo-description">
-Voice-Pro实时多语言翻译功能演示：展示了一个创新的多语言媒体处理过程，通过AI语音识别技术即时捕获YouTube BBC新闻内容，实时生成字幕，并立即将其翻译成其他语言。
-  </p>
-</div> 
+  <video src="https://github.com/user-attachments/assets/eb53dd3a-df0a-4f7f-819c-cf92d477e2d1" width="100%" style="max-width: 720px;" controls muted aria-describedby="translate-demo-description"></video>
+  <p id="translate-demo-description">实时多语言翻译功能演示：即时捕获BBC新闻内容，生成实时字幕，并立即翻译成其他语言的创新多语言媒体处理过程。</p>
+</div>
 
+## ⭐ 主要功能
 
+### 1. 配音工作室
+- YouTube视频下载和音频提取
+- 使用**MDX-Net**和**Demucs**进行语音分离
+- 支持100多种语言的语音识别和翻译
 
-## ⭐ 主要功能和特点
-
-### 1. 全面的工作室标签
-- **YouTube视频处理**：以多种格式下载和提取音频
-- **语音分离**：使用MDX-Net和Demucs进行高级降噪
-- **多语言支持**： 
-  - 支持100多种语言的语音识别
-  - 具有可自定义选项的字幕创建
-  - 支持100多种语言的翻译功能
-
-### 2. 高级语音技术
-- **语音转文字（STT）**： 
-  - Whisper集成
-  - Faster-Whisper支持
-  - Whisper-timestamped功能
-- **文字转语音（TTS）**： 
-  - 具有400多种语音的Edge-TTS
-  - 支持零样本语音克隆的F5-TTS
-  - 名人语音生成
-- 🔥 **语音转语音 (RVC)**:
-  - 配备UVR5提供的**声音去除器**和**RVC**引擎。
-  - 提供声音调制功能。使用**RVC v2**。
+### 2. 语音技术
+- **语音转文本：** **Whisper**、**Faster-Whisper**、**Whisper-Timestamped**
+- **文本转语音：**
+  - **Edge-TTS**：支持100多种语言，400多种声音
+  - **E2-TTS**、**F5-TTS**、**CosyVoice**：零样本克隆
+  - **kokoro**：在HuggingFace TTS Arena中排名第二
+- 🔥 **AI翻唱（语音转语音）：** 使用**UVR5**移除人声，使用**RVC**进行变声
 
 ### 3. 实时翻译
 - 即时语音识别
-- 多语言翻译
-- 可配置的音频输入源
+- 实时多语言翻译
+- 可自定义音频输入
 
+## 🤖 网页界面
 
+### `配音工作室`标签页
+- 集成中心：YouTube下载、降噪、字幕、翻译、TTS
+- 支持所有ffmpeg兼容格式
+- 输出选项：WAV、FLAC、MP3
+- 支持100多种语言的字幕和识别
+- 可调节TTS的速度、音量、音调
+<p align="center"><img style="width: 90%; height: 90%" src="images/main_page.kor.png?raw=true" alt="多语言语音转换和字幕生成网页界面"/></p>
 
-## 🤖 WebUI
+### `Whisper字幕`标签页
+- 专用字幕：90多种语言
+- 视频集成字幕显示
+- 单词级高亮和降噪选项
 
-* `Dubbing Studio`标签页
-  - 提供YouTube下载器、噪音去除、字幕、翻译和TTS的集成环境
-  - 支持所有ffmpeg支持的视频/音频格式
-  - 可选择输出音频格式（wav、flac、mp3）
-  - 支持100种语言的语音识别和字幕创建
-  - 选择适合PC性能的字幕创建选项（Whisper模型和计算类型）
-  - 翻译成100多种语言并通过TTS生成语音
-  - 原始视频的背景音乐和音效在多语言视频中保持不变
-  - 支持TTS语音速度、音量和音调调整
+### `翻译`标签页
+- 100多种语言翻译
+- 支持字幕文件（ASS、SSA、SRT等）
+- 实时语音识别和翻译
+<p align="center"><img style="width: 90%; height: 90%" src="images/live_translation_bbc.png?raw=true" alt="实时语音识别和翻译网页界面"/></p>
 
-<p align="center">
-  <img style="width: 90%; height: 90%" src="images/main_page.kor.png?raw=true" alt="多语言语音转换和字幕生成Web UI界面"/>
-</p>  
+### `语音生成`标签页
+- 选项：**Edge-TTS**、**F5-TTS**、**CosyVoice**、**kokoro**
+- 使用名人声音制作播客和多语言支持
+<p align="center"><img style="width: 90%; height: 90%" src="images/tts_f5_multi.png?raw=true" alt="使用语音克隆技术制作播客的网页界面"/></p>
 
-* `Whisper Caption`标签页
-  - 专用于创建字幕的标签页。支持90多种语言
-  - 显示与视频一起创建的字幕
-  - 提供单词级高亮功能
-  - 提供降噪功能（1-Demucs、2-MDXNet）
+### 🔥 `AI翻唱`标签页
+- 人声移除：**MDX-Net**、**Demucs**
+- 语音变调：**RVC**
+- AI声音可从[Discord AI Hub](https://discord.com/channels/1159260121998827560/@home)下载或发邮件至<abus.aikorea@gmail.com>请求
+<p align="center"><img style="width: 90%; height: 90%" src="images/ai_cover.png?raw=true" alt="使用语音克隆技术制作播客的网页界面"/></p>
 
-* `Translate`标签页
-  - 专用于翻译的标签页。支持100多种语言
-  - 支持字幕文件（ass、ssa、srt、mpl2、tmp、vtt、microdvd、json）
-  - 也可以直接输入文本
-  - 自动检测上传文件的语言
-
-* `语音` 标签
-  - 支持Edge-TTS、F5-TTS和AI-Cover(RVC)。
-  - Edge-TTS标签
-    - 支持超过100种语言和400多种声音。
-    - 可以调整音调、音量和速度。
-  - F5-TTS标签
-    - 支持零样本声音克隆。
-    - 您可以使用名人声音创建播客。
-
-
-<p align="center">
-  <img style="width: 90%; height: 90%" src="images/tts_f5_multi.png?raw=true" alt="使用语音克隆技术的播客制作Web界面"/>
-</p>  
-
-  - 🔥 **AI封面** 标签 
-    - 提供声音去除器。使用**MDX-Net**和**Demucs**。
-    - 提供声音调制功能。使用**RVC v2**。
-    - AI声音可以从**Discord AI Hub (https://discord.com/channels/1159260121998827560/@home)**下载，或在必要时进行**制作请求 (abus.aikorea@gmail.com)**。
-    - **试用版**支持的视频长度限制为**60秒**。
-
-<p align="center">
-  <img style="width: 90%; height: 90%" src="images/ai_cover.png?raw=true" alt="Podcast Production WebUI Using Voice-Cloning Technology"/>
-</p>  
-
-
-
-
-* `Live Translation`标签页
-  - 支持实时语音识别和翻译
-  - 选择麦克风、扬声器等音频输入源
-  - 提供保存捕获的音频、识别的字幕和翻译的字幕的功能
-
-<p align="center">
-  <img style="width: 90%; height: 90%" src="images/live_translation_bbc.png?raw=true" alt="用于实时语音识别和翻译的WebUI"/>
-</p>  
-
-
-* `Batch`标签页
-  - 大量文件的批处理
-  - 字幕、翻译、TTS
-
-## 💻 执行环境
-* 操作系统：Windows 10/11（64位）**※不支持Linux和Mac OS。**
-* GPU：推荐支持CUDA 12.1的**NVIDIA**显卡。
-* VRAM：4GB或以上。推荐8GB或以上。
-* RAM：4GB或以上
-* 硬盘：安装时至少需要20GB的可用空间
-* 需要网络连接（安装和翻译工作）
+## 💻 系统要求
+- **操作系统：** Windows 10/11（64位）※不支持Linux/Mac
+- **显卡：** 支持CUDA 12.4的NVIDIA显卡（推荐）
+- **显存：** 4GB以上（推荐8GB以上）
+- **内存：** 4GB以上
+- **存储：** 20GB以上可用空间
+- **网络：** 必需
 
 ## 📀 安装
 
-Voice-Pro可以轻松地一键安装。只需运行🚀**configure.bat**和🚀**start.bat**即可。
+使用**configure.bat**和**start.bat**轻松安装Voice-Pro。
 
-### 步骤 1. 准备包
-  + 从[![GitHub Release](https://img.shields.io/github/v/release/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/)克隆或下载最新版本（**Source code (zip)**）。
-
+### 1. 准备包
+- 从[![GitHub Release](https://img.shields.io/github/v/release/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/)下载最新发布版本（**Source code (zip)**）
 ```bash
 git clone https://github.com/abus-aikorea/voice-pro.git
 ```
 
-### 步骤 2. 安装和运行程序
-1. 🚀 运行`configure.bat`
-   - 在Windows上安装git、ffmpeg和CUDA（如果使用NVIDIA GPU）。
-   - 只需要在第一次运行时执行。
-   - 需要网络连接，根据系统情况可能需要一个多小时。
-   - 安装过程中切勿关闭Windows命令窗口。
-2. 🚀 运行`start.bat`
-   - 启动Voice-Pro。网页界面将自动运行。
-   - 首次运行时，会先安装Voice-Pro。
-   - 需要网络连接，根据系统情况可能需要一个多小时。
-   - 安装过程中切勿关闭Windows命令窗口。
-   - 如果安装过程中出现问题，请删除**installer_files**文件夹并再次运行start.bat。
+### 2. 安装和运行
+1. 🚀 **configure.bat**
+   - 安装git、ffmpeg、CUDA（使用NVIDIA GPU时）
+   - 首次运行一次；需要网络，可能需要1小时以上
+   - 不要关闭命令窗口
+2. 🚀 **start.bat**
+   - 运行Voice-Pro网页界面
+   - 首次运行时安装依赖（可能需要1小时以上）
+   - 如果出现问题，删除**installer_files**后重新运行
 
-### 步骤 3. 更新程序
-* 🚀 运行 `update.bat`:
-  - 更新安装在**installer_files**文件夹中的Python虚拟环境。
-  - 这比删除**installer_files**文件夹并重新安装要容易和快速得多。
-  - 推荐给现有用户。
+### 3. 更新
+- 🚀 **update.bat**：更新Python环境（比重新安装更快）
 
+### 4. 卸载
+- 运行**uninstall.bat**或删除文件夹（便携式安装）
 
-### 步骤 4. 卸载程序
-* 运行`uninstall.bat`：
-  - 删除**installer_files**文件夹。
-  - 删除安装在Windows上的ffmpeg、git和CUDA包（如果选择）。
-* Voice-Pro默认为**便携式**安装。要卸载程序，只需删除安装文件夹即可。
+## ❓使用技巧
 
-## ❓ 提示和技巧
+#### 浏览器没有自动启动时
+- 关闭Windows命令窗口，重新运行start.bat，或
+- 直接启动浏览器，在地址栏输入Windows命令窗口显示的地址（例如**http://127.0.0.1:7892**）
 
-#### 如果浏览器没有自动运行
-- 关闭Windows命令窗口并再次运行start.bat。
-- 直接运行浏览器并在地址栏输入Windows命令窗口中显示的地址（例如 **http://127.0.0.1:7892**）。
-
-#### 如果出现CUDA内存不足错误
-- 在Windows任务管理器的性能选项卡中检查GPU内存状态。
-- 将降噪级别设置为0或1。降噪级别2至少需要8GB的GPU内存。
-- 将计算类型设置为int类型。float类型质量更好，但需要更多GPU内存。
+#### 出现CUDA内存不足错误时
+- 在Windows任务管理器-性能标签中检查GPU内存状态
+- 将降噪级别设置为0或1。降噪级别2需要8GB以上的GPU内存
+- 将计算类型设置为int类型。float类型质量更好但需要更多GPU内存
 
 #### 如何提高字幕质量？
-- 字幕质量通常随着更大的Whisper模型而提高，但并非总是如此。large > medium > small > base > tiny
-- 在计算类型中，float类型性能较好。int类型是通过模型量化减少GPU使用并提高速度的模型。另一方面，性能会下降。
-- 如果增加降噪级别，将会去除更多背景声音，只使用剩余的声音进行语音识别。这并不总是保证好的结果。
+- 字幕质量通常随着使用更大的Whisper模型而提高，但并不总是如此。large > medium > small > base > tiny
+- 在计算类型中，float类型性能更好。int类型通过模型量化降低GPU使用量并提高速度，但性能较差
+- 提高降噪级别可以更多地去除背景音，只将剩余的语音用于语音识别。但不总是能保证更好的结果
 
-## 📢 注意
+## 📢 注意事项
 
-Windows Defender 可能会发出有关不受信任的应用程序的警告，并禁止进一步执行 Voice-Pro。
-如果 SmartScreen 的安全级别设置为“警告”，只需点击“更多信息”，然后点击“仍然要运行”。
-如果 SmartScreen 设置为“阻止”级别，则不会有按钮来运行安装。在这种情况下，打开 start.bat 文件的属性，检查“解除阻止”，应用更改后再次运行 start.bat。
+Windows Defender可能会显示不受信任应用程序的警告，并阻止Voice-Pro继续运行。
+如果SmartScreen安全级别设置为"警告"，请点击"更多信息"后点击"仍要运行"。
+如果SmartScreen设置为"阻止"级别，则没有可以运行安装的按钮。在这种情况下，打开start.bat文件的属性，勾选"解除阻止"，应用更改后重新运行start.bat文件。
 
 <p align="center">
-  <img style="width: 60%; height: 60%" src="images/windows_smartscreen_warning.png?raw=true" alt=""/>
+  <img style="width: 40%; height: 40%" src="images/windows_smartscreen_warning.png?raw=true" alt=""/>
 </p>  
 
-当Windows Defender错误地将批处理文件识别为特洛伊木马时，这通常被称为"误报"。要解决这个问题，您可以按照以下步骤操作：
+如果Windows Defender错误地将批处理文件识别为特洛伊木马，这通常被称为"误报"。要解决这个问题，可以采取以下步骤：
 
-1. 文件例外处理：在Windows Defender中，您可以设置某些文件或进程跳过安全扫描。要做到这一点，请按照以下步骤：
-   * 点击"开始"按钮并进入"设置"。
-   * 点击"更新与安全"。
-   * 选择"Windows安全中心"并进入"病毒和威胁防护"。
-   * 点击"管理病毒和威胁防护设置"。
-   * 在"病毒和威胁防护设置"中选择"添加或删除排除项"。
-   * 选择"文件或文件夹"，找到相关的批处理文件并将其添加为例外。
-2. 暂时禁用Windows Defender：这可能是一个临时解决方案。但是，使用此方法时必须小心，因为它可能会使您的计算机暴露于其他威胁中。
-3. 向防病毒软件报告问题：如果您确定该文件不是特洛伊木马，可以将其作为误报向Microsoft报告。Microsoft将审查此问题并采取必要的行动。
+1. 文件例外处理：可以在Windows Defender中设置特定文件或进程跳过安全检查。请按照以下步骤操作：
+   * 点击"开始"按钮，进入"设置"
+   * 点击"更新和安全"
+   * 选择"Windows安全中心"，进入"病毒和威胁防护"
+   * 点击"管理病毒和威胁防护设置"
+   * 在"病毒和威胁防护设置"中选择"添加或删除排除项"
+   * 选择"文件或文件夹"，找到相关批处理文件并添加为例外
 
+2. 暂时禁用Windows Defender：这可以作为临时解决方案。但使用此方法时，请注意计算机可能会暴露于其他威胁中。
 
-## ☕ 通知
-- 该仓库提供 Voice-Pro 的**免费试用**。 
-- 免费试用有**30分钟的使用限制**。这意味着运行后30分钟后，您将无法再使用Web界面。 
-- 这并不意味着处理媒体的长度有限制，也不会停止正在进行的任务。您只是无法再点击操作按钮。 
-- 可能会有点不便，但要再次使用，只需关闭程序并重新启动。 
-- 先前的工作结果保存在工作空间文件夹中。 
-- Voice-Pro的官方版本可以通过ABUS官方网站(<https://abuskorea.imweb.me>)购买。
-- 此外，如果您通过Buy Me a Coffee ☕支持我们，我们将作为感谢，为您提供最多一个月的使用凭证。 (<https://github.com/abus-aikorea/voice-pro/discussions/10#discussioncomment-11527327>)
-- 关于购买、商业合作、调整、投资等方面的咨询，请通过电子邮件(<abus.aikorea@gmail.com>)与我们联系。
+3. 向防病毒软件报告问题：如果您确信该文件不是特洛伊木马，可以向Microsoft报告为误报。Microsoft会审查后采取必要的措施。
 
+## ☕ 公告
+- 此存储库提供Voice-Pro的**免费试用版**
+- 免费试用版支持最长**60秒**的媒体处理
+- Voice-Pro正式版可在ABUS官方网站（<https://abuskorea.imweb.me>）购买
+- 通过[Buy Me a Coffee](https://github.com/abus-aikorea/voice-pro/discussions/10#discussioncomment-11527327)进行☕赞助，可获得最长1个月使用凭证
+- 关于购买、合作、定制、投资等咨询，请联系<abus.aikorea@gmail.com>
 
-
-## 📬 联系我们
-* 电子邮件：<abus.aikorea@gmail.com>
-* 主页（韩语）：<https://abuskorea.imweb.me>
-* 亚马逊（美国）：<https://www.amazon.com/dp/B0DBR69JPL>
-* 亚马逊（日本）：<https://www.amazon.co.jp/dp/B0DBVRJ542>
-* 亚马逊（新加坡）：<https://www.amazon.sg/dp/B0DCGKL8R4>
-* 亚马逊（阿联酋）：<https://www.amazon.ae/dp/B0DCGKM7FF>
-* Naver智能商店（S/W）：<https://smartstore.naver.com/abus/products/10385660040>
-* Naver智能商店（解决方案）：<https://smartstore.naver.com/abus/products/10298346364>
+## 📬 联系方式
+- 电子邮件：<abus.aikorea@gmail.com>
+- 主页（韩语）：<https://abuskorea.imweb.me>
+- Amazon：[US](https://www.amazon.com/dp/B0DBR69JPL) | [Japan](https://www.amazon.co.jp/dp/B0DBVRJ542) | [Singapore](https://www.amazon.sg/dp/B0DCGKL8R4) | [UAE](https://www.amazon.ae/dp/B0DCGKM7FF)
+- 韩国Naver：[软件](https://smartstore.naver.com/abus/products/10385660040) | [解决方案](https://smartstore.naver.com/abus/products/10298346364)
 
 ## 👍 YouTube
-* 产品信息：<https://www.youtube.com/watch?v=z8g8LMhoh_o&list=PLwx5dnMDVC9Y7dAjm9r26CZUw1uU5VIeq>
-* 家庭卡拉OK（流行音乐）：<https://www.youtube.com/watch?v=MqQP3ewvJUk&list=PLwx5dnMDVC9bVxfGo58U-R-w3fUHqwiD6>
-* 家庭卡拉OK（K-Pop）：<https://www.youtube.com/watch?v=v6qjf_ELsLA&list=PLwx5dnMDVC9Z8kB01tQKfzTysaCCxC3C8>
-* 家庭卡拉OK（J-Pop）：<https://www.youtube.com/watch?v=KKLzoWHFAxw&list=PLwx5dnMDVC9bd6y3wXs-bOas2cXIi-GAq>
-
+- [产品信息](https://www.youtube.com/watch?v=z8g8LMhoh_o&list=PLwx5dnMDVC9Y7dAjm9r26CZUw1uU5VIeq)
+- [卡拉OK：流行音乐](https://www.youtube.com/watch?v=MqQP3ewvJUk&list=PLwx5dnMDVC9bVxfGo58U-R-w3fUHqwiD6) | [K-Pop](https://www.youtube.com/watch?v=v6qjf_ELsLA&list=PLwx5dnMDVC9Z8kB01tQKfzTysaCCxC3C8) | [J-Pop](https://www.youtube.com/watch?v=KKLzoWHFAxw&list=PLwx5dnMDVC9bd6y3wXs-bOas2cXIi-GAq)
 
 ## 🙏 鸣谢
 * Demucs: <https://github.com/facebookresearch/demucs>
@@ -331,5 +223,5 @@ Windows Defender 可能会发出有关不受信任的应用程序的警告，并
 * RVC-Project: <https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI>
 * UVR5: <https://github.com/Anjok07/ultimatevocalremovergui>
 
-## ©️ 版权
-  <img src="images/ABUS-logo.jpg" width="100" height="100"> by [ABUS](https://abuskorea.imweb.me)
+## ©️ 版权信息
+  <img src="images/ABUS-logo.jpg" width="100" height="100"> by [ABUS](https://abuskorea.imweb.me)   

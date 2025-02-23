@@ -1,0 +1,18 @@
+# @package _global_
+
+# to execute this experiment run:
+# python train.py experiment=multispeaker
+
+defaults:
+  - override /data: ljspeech.yaml
+
+# all parameters below will be merged with parameters from default configurations set above
+# this allows you to overwrite only specified parameters
+
+tags: ["ljspeech"]
+
+run_name: ljspeech_min
+
+
+model:
+  out_size: 172

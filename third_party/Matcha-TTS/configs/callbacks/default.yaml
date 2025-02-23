@@ -1,0 +1,5 @@
+defaults:
+  - model_checkpoint.yaml
+  - model_summary.yaml
+  - rich_progress_bar.yaml
+  - _self_

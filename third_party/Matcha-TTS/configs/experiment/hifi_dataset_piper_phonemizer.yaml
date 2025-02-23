@@ -1,0 +1,14 @@
+# @package _global_
+
+# to execute this experiment run:
+# python train.py experiment=multispeaker
+
+defaults:
+  - override /data: hi-fi_en-US_female.yaml
+
+# all parameters below will be merged with parameters from default configurations set above
+# this allows you to overwrite only specified parameters
+
+tags: ["hi-fi", "single_speaker", "piper_phonemizer", "en_US", "female"]
+
+run_name: hi-fi_en-US_female_piper_phonemizer

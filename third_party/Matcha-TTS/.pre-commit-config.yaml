@@ -1,0 +1,59 @@
+default_language_version:
+  python: python3.10
+
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.5.0
+    hooks:
+      # list of supported hooks: https://pre-commit.com/hooks.html
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      # - id: check-docstring-first
+      - id: check-yaml
+      - id: debug-statements
+      - id: detect-private-key
+      - id: check-toml
+      - id: check-case-conflict
+      - id: check-added-large-files
+
+  # python code formatting
+  - repo: https://github.com/psf/black
+    rev: 23.12.1
+    hooks:
+      - id: black
+        args: [--line-length, "120"]
+
+  # python import sorting
+  - repo: https://github.com/PyCQA/isort
+    rev: 5.13.2
+    hooks:
+      - id: isort
+        args: ["--profile", "black", "--filter-files"]
+
+  # python upgrading syntax to newer version
+  - repo: https://github.com/asottile/pyupgrade
+    rev: v3.15.0
+    hooks:
+      - id: pyupgrade
+        args: [--py38-plus]
+
+  # python check (PEP8), programming errors and code complexity
+  - repo: https://github.com/PyCQA/flake8
+    rev: 7.0.0
+    hooks:
+      - id: flake8
+        args:
+          [
+            "--max-line-length", "120",
+            "--extend-ignore",
+            "E203,E402,E501,F401,F841,RST2,RST301",
+            "--exclude",
+            "logs/*,data/*,matcha/hifigan/*",
+          ]
+        additional_dependencies: [flake8-rst-docstrings==0.3.0]
+
+  # pylint
+  - repo: https://github.com/pycqa/pylint
+    rev: v3.0.3
+    hooks:
+    -   id: pylint

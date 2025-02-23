@@ -1,0 +1,19 @@
+# https://hydra.cc/docs/configure_hydra/intro/
+
+# enable color logging
+defaults:
+  - override hydra_logging: colorlog
+  - override job_logging: colorlog
+
+# output directory, generated dynamically on each run
+run:
+  dir: ${paths.log_dir}/${task_name}/${run_name}/runs/${now:%Y-%m-%d}_${now:%H-%M-%S}
+sweep:
+  dir: ${paths.log_dir}/${task_name}/${run_name}/multiruns/${now:%Y-%m-%d}_${now:%H-%M-%S}
+  subdir: ${hydra.job.num}
+
+job_logging:
+  handlers:
+    file:
+      # Incorporates fix from https://github.com/facebookresearch/hydra/pull/2242
+      filename: ${hydra.runtime.output_dir}/${hydra.job.name}.log

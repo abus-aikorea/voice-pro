@@ -1,0 +1,5 @@
+# https://lightning.ai/docs/pytorch/stable/api/lightning.pytorch.callbacks.RichModelSummary.html
+
+model_summary:
+  _target_: lightning.pytorch.callbacks.RichModelSummary
+  max_depth: 3 # the maximum depth of layer nesting that the summary will include

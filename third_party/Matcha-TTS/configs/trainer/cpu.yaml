@@ -1,0 +1,5 @@
+defaults:
+  - default
+
+accelerator: cpu
+devices: 1

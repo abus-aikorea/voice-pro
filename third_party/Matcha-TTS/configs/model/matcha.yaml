@@ -1,0 +1,15 @@
+defaults:
+  - _self_
+  - encoder: default.yaml
+  - decoder: default.yaml
+  - cfm: default.yaml
+  - optimizer: adam.yaml
+
+_target_: matcha.models.matcha_tts.MatchaTTS
+n_vocab: 178
+n_spks: ${data.n_spks}
+spk_emb_dim: 64
+n_feats: 80
+data_statistics: ${data.data_statistics}
+out_size: null # Must be divisible by 4
+prior_loss: true

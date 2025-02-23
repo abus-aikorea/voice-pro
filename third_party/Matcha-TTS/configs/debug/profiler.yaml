@@ -1,0 +1,15 @@
+# @package _global_
+
+# runs with execution time profiling
+
+defaults:
+  - default
+
+trainer:
+  max_epochs: 1
+  # profiler: "simple"
+  profiler: "advanced"
+  # profiler: "pytorch"
+  accelerator: gpu
+
+  limit_train_batches: 0.02
