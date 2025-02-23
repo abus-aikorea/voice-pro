@@ -15,7 +15,8 @@
 
 # Voice-Pro: Ultimate AI Voice Conversion and Multilingual Translation Tool 🔊
 
-🌍 [한국어](docs/README.kor.md) ∙ [English](docs/README.eng.md) ∙ [中文简体](docs/README.zh.md) ∙ [中文繁體](docs/README.tw.md) ∙ [日本語](docs/README.jpn.md)
+🌍 [한국어](docs/README.kor.md) ∙ [English](docs/README.eng.md) ∙ [中文简体](docs/README.zh.md) ∙ [中文繁體](docs/README.tw.md) ∙ [日本語](docs/README.jpn.md)∙ [Deutsch](docs/README.deu.md) ∙ [Español](docs/README.spa.md) ∙ [Português](docs/README.por.md)
+
 
 [![GitHub Release](https://img.shields.io/github/v/release/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/releases )
 
