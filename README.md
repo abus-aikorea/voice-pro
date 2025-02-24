@@ -21,7 +21,7 @@
 [![GitHub Release](https://img.shields.io/github/v/release/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/releases )
 
 
-## 🎙️ Advanced AI-Powered Multimedia Processing Tool | Whisper Speech Recognition WebUI
+## 🎙️ Powerful AI-powered web application for YouTube video processing, speech recognition, translation, and text-to-speech with multilingual support
 
 Voice-Pro is a state-of-the-art web app that transforms multimedia content creation. It integrates YouTube video downloading, voice separation, speech recognition, translation, and text-to-speech into a single, powerful tool for creators, researchers, and multilingual professionals.
 - 🔊 Top-tier speech recognition: **Whisper**, **Faster-Whisper**, **Whisper-Timestamped**
