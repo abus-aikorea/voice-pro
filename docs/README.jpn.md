@@ -1,11 +1,11 @@
 <!--
-    title: Voice-Pro: Ultimate AI Voice Conversion and Multilingual Translation Tool
-    description: Powerful AI-powered web application for YouTube video processing, speech recognition, translation, and text-to-speech with multilingual support
-    keywords: AI voice conversion, YouTube translation, subtitle generation, speech-to-text, text-to-speech, voice cloning, multilingual translation, ElevenLabs Alternative 
+    title: Voice-Pro: 究極のAI音声変換および多言語翻訳ツール
+    description: YouTubeビデオ処理、音声認識、翻訳、多言語サポートテキスト音声変換のための強力なAIベースWebアプリケーション
+    keywords: AI音声変換, YouTube翻訳, 字幕生成, 音声テキスト変換, テキスト音声変換, 音声クローン, 多言語翻訳, ElevenLabs代替
     author: ABUS
     version: 2.0.0
     last-updated: 2025-02-23
-    product-type: AI Multimedia Processing Software
+    product-type: AIマルチメディア処理ソフトウェア
     platforms: Windows
     technology-stack: Whisper, Edge-TTS, Gradio, CUDA, Faster-Whisper, Whisper-Timestamped, E2-TTS, F5-TTS, YouTube Downloader, Demucs, MDX-Net, RVC, CosyVoice, kokoro
     license: LGPL
@@ -17,7 +17,7 @@
 
 [![GitHub Release](https://img.shields.io/github/v/release/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/releases)
 
-## 🎙️ 先進的なAIマルチメディア処理ツール | Whisper音声認識WebUI
+## 🎙️ YouTubeビデオ処理、音声認識、翻訳、多言語サポートテキスト音声変換のための強力なAIベースWebアプリケーション
 
 Voice-Proは、マルチメディアコンテンツ制作に革新をもたらす最先端のウェブアプリです。YouTube動画のダウンロード、音声分離、音声認識、翻訳、テキストから音声への変換（TTS）を1つの強力なツールに統合し、クリエイター、研究者、多言語専門家にとって理想的なソリューションを提供します。
 
@@ -188,13 +188,23 @@ Windows Defenderがバッチファイルをトロイの木馬と誤認識する�
 2. **Windows Defenderの一時無効化:** 一時的な解決策。ただし、他の脅威にさらされる可能性があるため注意が必要
 3. **アンチウイルスソフトへの報告:** ファイルが安全と確信できる場合、Microsoftに偽陽性として報告可能。Microsoftが確認後対応
 
-## ☕ お知らせ
 
-- こちらのリポジトリでは、Voice-Proの**無料体験版**をご利用いただけます！  
-- 無料体験版では最大**60秒**のメディア処理をお試しいただけるので、ぜひその便利さを実感してみてください。  
-- もしもっと使いたいと思ったら、Voice-Proの正式版はABUS公式ウェブサイト（<https://abuskorea.imweb.me>）でご購入いただけます。  
-- また、[Buy Me a Coffee](https://github.com/abus-aikorea/voice-pro/discussions/10#discussioncomment-11527327)で☕サポートしていただければ、感謝の気持ちとして最大1ヶ月の利用バウチャーをプレゼントいたします！  
-- 購入やパートナーシップ、チューニング、投資などについてのご質問があれば、いつでも<abus.aikorea@gmail.com>までお気軽にご連絡ください。皆様からのメッセージを心よりお待ちしております。
+## 🚨 お知らせ
+- このリポジトリはVoice-Proの**無料トライアル**を提供します。
+- Voice-Proの無料トライアル版では、最大**60秒**のメディアを処理できます。
+- Voice-Proの公式バージョンは、ABUS公式サイト(<https://abuskorea.imweb.me>)から購入できます。
+
+
+## ☕ 貢献
+- このプロジェクトに参加して協力したい場合は、お気軽に[Issues](https://github.com/abus-aikorea/voice-pro/issues)を作成してください。
+- 問題が発生した場合は、このプロジェクトを改善するために[Pull requests](https://github.com/abus-aikorea/voice-pro/pulls)を提出してください。
+- どのような貢献も歓迎します。
+- 購入、ビジネスパートナーシップ、技術チューニング、投資、その他の関連事項に関するお問い合わせは、メール(<abus.aikorea@gmail.com>)でお問い合わせください。
+- このプロジェクトが気に入ったら、このリポジトリに星を付けてください。大変感謝いたします。 ⭐⭐⭐
+- こちらから寄付でVoice-Proを支援できます。
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/abus)
+
 
 ## 📬 連絡先
 - メール: <abus.aikorea@gmail.com>

@@ -1,11 +1,11 @@
 <!--
-    title: Voice-Pro: Ultimate AI Voice Conversion and Multilingual Translation Tool
-    description: Powerful AI-powered web application for YouTube video processing, speech recognition, translation, and text-to-speech with multilingual support
-    keywords: AI voice conversion, YouTube translation, subtitle generation, speech-to-text, text-to-speech, voice cloning, multilingual translation, ElevenLabs Alternative 
+    title: Voice-Pro：终极AI语音转换和多语言翻译工具
+    description: 强大的AI驱动Web应用程序，用于YouTube视频处理、语音识别、翻译和多语言支持的文本到语音转换
+    keywords: AI语音转换, YouTube翻译, 字幕生成, 语音转文本, 文本转语音, 语音克隆, 多语言翻译, ElevenLabs替代品
     author: ABUS
     version: 2.0.0
     last-updated: 2025-02-23
-    product-type: AI Multimedia Processing Software
+    product-type: AI多媒体处理软件
     platforms: Windows
     technology-stack: Whisper, Edge-TTS, Gradio, CUDA, Faster-Whisper, Whisper-Timestamped, E2-TTS, F5-TTS, YouTube Downloader, Demucs, MDX-Net, RVC, CosyVoice, kokoro
     license: LGPL
@@ -17,7 +17,7 @@
 
 [![GitHub Release](https://img.shields.io/github/v/release/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/releases)
 
-## 🎙️ 高级AI多媒体处理工具 | Whisper语音识别网页界面
+## 🎙️ 强大的AI驱动Web应用程序，用于YouTube视频处理、语音识别、翻译和多语言支持的文本到语音转换
 
 Voice-Pro是一款革新多媒体内容制作的先进网页应用。它将YouTube视频下载、音频分离、语音识别、翻译和文本转语音(TTS)集成到一个强大的工具中，为创作者、研究人员和多语言专家提供理想的解决方案。
 
@@ -194,12 +194,24 @@ Windows Defender可能会显示不受信任应用程序的警告，并阻止Voic
 
 3. 向防病毒软件报告问题：如果您确信该文件不是特洛伊木马，可以向Microsoft报告为误报。Microsoft会审查后采取必要的措施。
 
-## ☕ 公告
-- 此存储库提供Voice-Pro的**免费试用版**
-- 免费试用版支持最长**60秒**的媒体处理
-- Voice-Pro正式版可在ABUS官方网站（<https://abuskorea.imweb.me>）购买
-- 通过[Buy Me a Coffee](https://github.com/abus-aikorea/voice-pro/discussions/10#discussioncomment-11527327)进行☕赞助，可获得最长1个月使用凭证
-- 关于购买、合作、定制、投资等咨询，请联系<abus.aikorea@gmail.com>
+
+## 🚨 通知
+- 此存储库提供 Voice-Pro 的**免费试用版**。
+- Voice-Pro 的免费试用版允许您处理长达 **60 秒**的媒体。
+- Voice-Pro 的正式版本可通过 ABUS 官方网站 (<https://abuskorea.imweb.me>) 购买。
+
+
+## ☕ 贡献
+- 如果您想参与并帮助我们进行此项目，请随时创建一个 [Issues](https://github.com/abus-aikorea/voice-pro/issues)。
+- 如果出现问题，请提交一个 [Pull requests](https://github.com/abus-aikorea/voice-pro/pulls) 以改进此项目。
+- 欢迎任何类型的贡献。
+- 有关购买、商业伙伴关系、技术调整、投资和其他相关事宜的咨询，请通过电子邮件 (<abus.aikorea@gmail.com>) 与我们联系。
+- 如果您喜欢这个项目，请给这个存储库加星标。我们将非常感谢。 ⭐⭐⭐
+- 您可以在这里通过捐赠支持 Voice-Pro：
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/abus)
+
+
 
 ## 📬 联系方式
 - 电子邮件：<abus.aikorea@gmail.com>

@@ -258,12 +258,22 @@ When Windows Defender mistakenly recognizes a batch file as a Trojan, this is of
 3. Report the problem to anti-virus software: If you are sure that the file is not a Trojan horse, you can report it to Microsoft as a False Positive. Microsoft will review this and take any necessary action.
 
 
-## ☕ Notice
+## 🚨 Notice
 - This repository offers a **free trial** of Voice-Pro. 
 - The free trial version of Voice-Pro allows you to process up to **60 seconds** of media.
 - The official version of Voice-Pro can be purchased through the ABUS official website (<https://abuskorea.imweb.me>)
-- Additionally, if you support us through Buy Me a Coffee ☕, we will give you a usage voucher for up to one month as a token of our gratitude. (<https://github.com/abus-aikorea/voice-pro/discussions/10#discussioncomment-11527327>)
-- For inquiries regarding purchases, business partnerships, tuning, investments, etc., please contact us via email (<abus.aikorea@gmail.com>)."
+
+
+## ☕ Contributions
+- If you want to participate in and help us with this project, feel free to create an [Issues](https://github.com/abus-aikorea/voice-pro/issues) 
+- If something goes wrong, please submit a [Pull requests](https://github.com/abus-aikorea/voice-pro/pulls) to improve this project.
+- Any type of contribution is welcome.
+- For inquiries related to purchases, business partnerships, technical tuning, investments, and other matters, please contact us by email. (<abus.aikorea@gmail.com>)."
+- If you like this project, please star this repository. We would greatly appreciate it. ⭐⭐⭐
+- You can support Voice-Pro with a donation here:
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/abus)
+
 
 
 ## 📬 Contact

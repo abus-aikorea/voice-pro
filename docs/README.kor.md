@@ -1,11 +1,11 @@
 <!--
-    title: Voice-Pro: Ultimate AI Voice Conversion and Multilingual Translation Tool
-    description: Powerful AI-powered web application for YouTube video processing, speech recognition, translation, and text-to-speech with multilingual support
-    keywords: AI voice conversion, YouTube translation, subtitle generation, speech-to-text, text-to-speech, voice cloning, multilingual translation, ElevenLabs Alternative 
+    title: Voice-Pro: 궁극의 AI 음성 변환 및 다국어 번역 도구
+    description: 유튜브 비디오 처리, 음성 인식, 번역, 다국어 지원 텍스트 음성 변환을 위한 강력한 AI 기반 웹 애플리케이션
+    keywords: AI 음성 변환, 유튜브 번역, 자막 생성, 음성 텍스트 변환, 텍스트 음성 변환, 음성 복제, 다국어 번역, ElevenLabs 대체
     author: ABUS
     version: 2.0.0
     last-updated: 2025-02-23
-    product-type: AI Multimedia Processing Software
+    product-type: AI 멀티미디어 처리 소프트웨어
     platforms: Windows
     technology-stack: Whisper, Edge-TTS, Gradio, CUDA, Faster-Whisper, Whisper-Timestamped, E2-TTS, F5-TTS, YouTube Downloader, Demucs, MDX-Net, RVC, CosyVoice, kokoro
     license: LGPL
@@ -17,7 +17,7 @@
 
 [![GitHub Release](https://img.shields.io/github/v/release/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/releases)
 
-## 🎙️ 고급 AI 기반 멀티미디어 처리 도구 | Whisper 음성 인식 웹UI
+## 🎙️ 유튜브 비디오 처리, 음성 인식, 번역, 다국어 지원 텍스트 음성 변환을 위한 강력한 AI 기반 웹 애플리케이션
 
 Voice-Pro는 멀티미디어 콘텐츠 제작을 혁신하는 최첨단 웹 앱입니다. YouTube 비디오 다운로드, 음성 분리, 음성 인식, 번역, 텍스트-음성 변환(TTS)을 하나의 강력한 도구로 통합하여 창작자, 연구자, 다국어 전문가에게 이상적인 솔루션을 제공합니다.
 
@@ -208,12 +208,23 @@ Windows Defender가 실수로 batch 파일을 트로이 목마로 인식하는 �
 3. 백신 소프트웨어에 문제 제보: 만약 파일이 트로이 목마가 아니라는 확신이 있다면, Microsoft에 False Positive로 제보할 수 있습니다. Microsoft는 이를 검토한 후 필요한 조치를 취할 것입니다.
 
 
-## ☕ 공지
-- 이 저장소는 Voice-Pro의 **무료 체험판** 을 제공합니다.
-- 무료 체험판은 최대 **60초** 미디어 처리를 지원합니다.
-- Voice-Pro 정식 버전은 ABUS 공식 웹사이트 (<https://abuskorea.imweb.me>)에서 구매 가능합니다.
-- [Buy Me a Coffee](https://github.com/abus-aikorea/voice-pro/discussions/10#discussioncomment-11527327)를 통해 ☕후원해 주시면, 최대 1개월 사용 바우처를 드립니다.
-- 구매, 파트너십, 튜닝, 투자 등 문의는 <abus.aikorea@gmail.com>로 연락주세요.
+## 🚨 공지
+- 이 저장소는 Voice-Pro의 **무료 체험판**을 제공합니다.
+- Voice-Pro의 무료 체험판 버전은 최대 **60초**의 미디어를 처리할 수 있습니다.
+- Voice-Pro의 공식 버전은 ABUS 공식 웹사이트(<https://abuskorea.imweb.me>)를 통해 구매할 수 있습니다.
+
+
+## ☕ 기여
+- 이 프로젝트에 참여하고 저희를 돕고 싶으시다면, 언제든지 [Issues](https://github.com/abus-aikorea/voice-pro/issues)를 생성해주세요.
+- 문제가 발생하면, 이 프로젝트를 개선하기 위해 [Pull requests](https://github.com/abus-aikorea/voice-pro/pulls)를 제출해주세요.
+- 모든 유형의 기여를 환영합니다.
+- 구매, 비즈니스 파트너십, 기술 튜닝, 투자 및 기타 관련 문의는 이메일(<abus.aikorea@gmail.com>)로 문의해주세요.
+- 이 프로젝트가 마음에 드시면, 이 저장소에 별표를 눌러주세요. 저희에게 매우 큰 도움이 될 것입니다. ⭐⭐⭐
+- 여기에서 기부를 통해 Voice-Pro를 후원할 수 있습니다.
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/abus)
+
+
 
 ## 📬 연락처
 - 이메일: <abus.aikorea@gmail.com>

@@ -1,11 +1,11 @@
 <!--
-    title: Voice-Pro: Ultimate AI Voice Conversion and Multilingual Translation Tool
-    description: Powerful AI-powered web application for YouTube video processing, speech recognition, translation, and text-to-speech with multilingual support
-    keywords: AI voice conversion, YouTube translation, subtitle generation, speech-to-text, text-to-speech, voice cloning, multilingual translation, ElevenLabs Alternative 
+    title: Voice-Pro: Herramienta definitiva de conversión de voz con IA y traducción multilingüe
+    description: Potente aplicación web impulsada por IA para procesamiento de videos de YouTube, reconocimiento de voz, traducción y texto a voz con soporte multilingüe
+    keywords: Conversión de voz con IA, traducción de YouTube, generación de subtítulos, voz a texto, texto a voz, clonación de voz, traducción multilingüe, Alternativa de ElevenLabs
     author: ABUS
     version: 2.0.0
     last-updated: 2025-02-23
-    product-type: AI Multimedia Processing Software
+    product-type: Software de procesamiento multimedia con IA
     platforms: Windows
     technology-stack: Whisper, Edge-TTS, Gradio, CUDA, Faster-Whisper, Whisper-Timestamped, E2-TTS, F5-TTS, YouTube Downloader, Demucs, MDX-Net, RVC, CosyVoice, kokoro
     license: LGPL
@@ -17,7 +17,7 @@
 
 [![GitHub Release](https://img.shields.io/github/v/release/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/releases)
 
-## 🎙️ Herramienta Avanzada de Procesamiento Multimedia Basada en IA | Interfaz Web de Reconocimiento de Voz Whisper
+## 🎙️ Potente aplicación web impulsada por IA para procesamiento de videos de YouTube, reconocimiento de voz, traducción y texto a voz con soporte multilingüe
 
 Voice-Pro es una aplicación web de vanguardia que transforma la creación de contenido multimedia. Integra la descarga de videos de YouTube, separación de voz, reconocimiento de voz, traducción y conversión de texto a voz (TTS) en una sola herramienta poderosa, ofreciendo una solución ideal para creadores, investigadores y profesionales multilingües.
 
@@ -189,12 +189,24 @@ Cuando Windows Defender reconoce erróneamente un archivo por lotes como un troy
 2. **Desactivar temporalmente Windows Defender:** Esto puede ser una solución temporal. Sin embargo, ten cuidado al usar este método, ya que tu computadora podría quedar expuesta a otras amenazas
 3. **Reportar el problema al software antivirus:** Si estás seguro de que el archivo no es un troyano, puedes informarlo a Microsoft como "Falso Positivo". Microsoft lo revisará y tomará las medidas necesarias
 
-## ☕ Aviso
-- Este repositorio ofrece una **versión de prueba gratuita** de Voice-Pro
-- La versión de prueba gratuita soporta hasta **60 segundos** de procesamiento de medios
-- La versión completa de Voice-Pro puede adquirirse en el sitio web oficial de ABUS (<https://abuskorea.imweb.me>)
-- Si nos apoyas a través de [Buy Me a Coffee](https://github.com/abus-aikorea/voice-pro/discussions/10#discussioncomment-11527327) con un ☕, recibirás un cupón de uso de hasta un mes como agradecimiento
-- Para consultas sobre compras, asociaciones, ajustes, inversiones, etc., contáctanos por <abus.aikorea@gmail.com>
+
+## 🚨 Aviso
+- Este repositorio ofrece una **prueba gratuita** de Voice-Pro.
+- La versión de prueba gratuita de Voice-Pro le permite procesar hasta **60 segundos** de medios.
+- La versión oficial de Voice-Pro se puede comprar a través del sitio web oficial de ABUS (<https://abuskorea.imweb.me>).
+
+
+## ☕ Contribuciones
+- Si desea participar y ayudarnos con este proyecto, no dude en crear un [Issues](https://github.com/abus-aikorea/voice-pro/issues).
+- Si algo sale mal, envíe un [Pull requests](https://github.com/abus-aikorea/voice-pro/pulls) para mejorar este proyecto.
+- Cualquier tipo de contribución es bienvenida.
+- Para consultas relacionadas con compras, asociaciones comerciales, ajustes técnicos, inversiones y otros asuntos, contáctenos por correo electrónico (<abus.aikorea@gmail.com>).
+- Si le gusta este proyecto, por favor, marque este repositorio con una estrella. Lo agradeceríamos mucho. ⭐⭐⭐
+- Puede apoyar a Voice-Pro con una donación aquí:
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/abus)
+
+
 
 ## 📬 Contacto
 - Correo: <abus.aikorea@gmail.com>
