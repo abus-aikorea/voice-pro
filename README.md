@@ -42,7 +42,7 @@ A robust alternative to **ElevenLabs**, Voice-Pro empowers podcasters, developer
 - ⏳ Initial launch downloads **CozyVoice2-0.5B (9GB)**—may take over an hour based on your network
 - 🎧 Celebrity voice options for cloning expanding regularly
 - **Guidance:**
-  - **Existing users:** Run **update.bat** to refresh to v2.0.x
+  - **Existing users:** Download the latest version of Voice-Pro. Run **update.bat**.
   - **New users:** See Installation below—run **configure.bat**, then **start.bat**
 
 
@@ -140,7 +140,7 @@ Demonstration of real-time multilingual translation feature: Showcasing an innov
 - TTS with speed, volume, & pitch controls
   
 <p align="center">
-  <img style="width: 90%; height: 90%" src="docs/images/main_page.kor.png?raw=true" alt="Multilingual Voice Conversion and Subtitle Generation Web UI Interface"/>
+  <img style="width: 90%; height: 90%" src="docs/images/main_page.eng.png?raw=true" alt="Multilingual Voice Conversion and Subtitle Generation Web UI Interface"/>
 </p>  
 
 

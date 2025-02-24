@@ -39,7 +39,7 @@ Voice-Pro是一款革新多媒體內容製作的先進網頁應用程式。它�
 - ⏳ 首次執行時需下載**CozyVoice2-0.5B (9GB)**，根據網路速度可能需要1小時以上
 - 🎧 聲音克隆用的語音樣本將持續更新
 - **提示：**
-  - **現有使用者：**執行**update.bat**可更新至v2.0.x
+  - **現有使用者：**下載最新版本的 Voice-Pro。運行 **update.bat**。
   - **新使用者：**參考下方安裝部分 — 執行**configure.bat**後執行**start.bat**
 
 ## 🚄 示範
@@ -96,7 +96,7 @@ Voice-Pro是一款革新多媒體內容製作的先進網頁應用程式。它�
 - 輸出選項：WAV、FLAC、MP3
 - 支援100多種語言的字幕和辨識
 - 可調節TTS的速度、音量、音調
-<p align="center"><img style="width: 90%; height: 90%" src="images/main_page.kor.png?raw=true" alt="多語言語音轉換和字幕生成網頁介面"/></p>
+<p align="center"><img style="width: 90%; height: 90%" src="images/main_page.tw.png?raw=true" alt="多語言語音轉換和字幕生成網頁介面"/></p>
 
 ### `Whisper字幕`標籤頁
 - 專用字幕：90多種語言

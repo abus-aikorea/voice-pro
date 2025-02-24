@@ -39,7 +39,7 @@ Como una alternativa sólida a **ElevenLabs**, Voice-Pro empodera a podcasters, 
 - ⏳ En la primera ejecución, se descargará **CozyVoice2-0.5B (9GB)**. Dependiendo de la velocidad de la red, puede tomar más de una hora
 - 🎧 Las muestras de voz para clonación se actualizarán continuamente
 - **Instrucciones:**
-  - **Usuarios existentes:** Ejecuta **update.bat** para actualizar a v2.0.x
+  - **Usuarios existentes:** Descargue la última versión de Voice-Pro. Ejecute **update.bat**.
   - **Nuevos usuarios:** Consulta la sección de instalación abajo — ejecuta **configure.bat** y luego **start.bat**
 
 ## 🚄 Demostraciones
@@ -96,7 +96,7 @@ Como una alternativa sólida a **ElevenLabs**, Voice-Pro empodera a podcasters, 
 - Opciones de salida: WAV, FLAC, MP3
 - Subtítulos y reconocimiento para más de 100 idiomas
 - TTS con ajustes de velocidad, volumen y tono
-<p align="center"><img style="width: 90%; height: 90%" src="images/main_page.kor.png?raw=true" alt="Interfaz Web de Conversión de Voz Multilingüe y Generación de Subtítulos"/></p>
+<p align="center"><img style="width: 90%; height: 90%" src="images/main_page.spa.png?raw=true" alt="Interfaz Web de Conversión de Voz Multilingüe y Generación de Subtítulos"/></p>
 
 ### Pestaña `Subtítulos Whisper`
 - Enfocada en subtítulos: Más de 90 idiomas

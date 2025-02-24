@@ -1,5 +1,5 @@
 {
-    asr_engine: "faster-whisper",
+    asr_engine: "whisper-timestamped",
     gradio_language: "Korean",
     whisper_model: "large-v3-turbo",
     faster_whisper_model: "large-v3-turbo",

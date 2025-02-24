@@ -39,7 +39,7 @@ Voice-Pro是一款革新多媒体内容制作的先进网页应用。它将YouTu
 - ⏳ 首次运行时需下载**CozyVoice2-0.5B (9GB)**，根据网络速度可能需要1小时以上
 - 🎧 声音克隆用的语音样本将持续更新
 - **提示：**
-  - **现有用户：**运行**update.bat**可更新至v2.0.x
+  - **现有用户：**下载最新版本的 Voice-Pro。运行 **update.bat**。
   - **新用户：**参考下方安装部分 — 运行**configure.bat**后运行**start.bat**
 
 ## 🚄 演示
@@ -96,7 +96,7 @@ Voice-Pro是一款革新多媒体内容制作的先进网页应用。它将YouTu
 - 输出选项：WAV、FLAC、MP3
 - 支持100多种语言的字幕和识别
 - 可调节TTS的速度、音量、音调
-<p align="center"><img style="width: 90%; height: 90%" src="images/main_page.kor.png?raw=true" alt="多语言语音转换和字幕生成网页界面"/></p>
+<p align="center"><img style="width: 90%; height: 90%" src="images/main_page.zh.png?raw=true" alt="多语言语音转换和字幕生成网页界面"/></p>
 
 ### `Whisper字幕`标签页
 - 专用字幕：90多种语言

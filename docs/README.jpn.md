@@ -39,7 +39,7 @@ Voice-Proは、マルチメディアコンテンツ制作に革新をもたら�
 - ⏳ 初回起動時に**CozyVoice2-0.5B (9GB)**をダウンロードします。ネットワーク速度によっては1時間以上かかる場合があります
 - 🎧 音声クローニング用のボイスサンプルは継続的に更新予定
 - **ご案内:**
-  - **既存ユーザー:** **update.bat**を実行してv2.0.xにアップデート可能
+  - **既存ユーザー:** Voice-Pro の最新バージョンをダウンロードしてください。**update.bat** を実行してください。
   - **新規ユーザー:** 下記のインストールセクションを参照 — **configure.bat**を実行後、**start.bat**を実行
 
 ## 🚄 デモ
@@ -96,7 +96,7 @@ Voice-Proは、マルチメディアコンテンツ制作に革新をもたら�
 - 出力オプション: WAV, FLAC, MP3
 - 100以上の言語での字幕と認識
 - 速度、ボリューム、ピッチ調整可能なTTS
-<p align="center"><img style="width: 90%; height: 90%" src="images/main_page.kor.png?raw=true" alt="多言語音声変換および字幕生成ウェブUIインターフェース"/></p>
+<p align="center"><img style="width: 90%; height: 90%" src="images/main_page.jpn.png?raw=true" alt="多言語音声変換および字幕生成ウェブUIインターフェース"/></p>
 
 ### `Whisper字幕`タブ
 - 字幕専用: 90以上の言語

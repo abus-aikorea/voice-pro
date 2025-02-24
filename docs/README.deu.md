@@ -39,7 +39,7 @@ Als starke Alternative zu **ElevenLabs** bietet Voice-Pro Podcastern, Entwickler
 - ⏳ Beim ersten Start wird **CozyVoice2-0.5B (9 GB)** heruntergeladen. Je nach Netzwerkgeschwindigkeit kann dies über eine Stunde dauern
 - 🎧 Stimmproben für die Klonierung werden kontinuierlich aktualisiert
 - **Anleitung:**
-  - **Bestehende Nutzer:** Führen Sie **update.bat** aus, um auf v2.0.x zu aktualisieren
+  - **Bestehende Nutzer:** Laden Sie die neueste Version von Voice-Pro herunter. Führen Sie **update.bat** aus.
   - **Neue Nutzer:** Siehe Installationsabschnitt unten — führen Sie **configure.bat** aus, dann **start.bat**
 
 ## 🚄 Demos
@@ -96,7 +96,7 @@ Als starke Alternative zu **ElevenLabs** bietet Voice-Pro Podcastern, Entwickler
 - Ausgabeoptionen: WAV, FLAC, MP3
 - Untertitel & Erkennung für über 100 Sprachen
 - TTS mit einstellbarer Geschwindigkeit, Lautstärke und Tonlage
-<p align="center"><img style="width: 90%; height: 90%" src="images/main_page.kor.png?raw=true" alt="Mehrsprachige Sprachkonvertierung und Untertitelgenerierung WebUI-Schnittstelle"/></p>
+<p align="center"><img style="width: 90%; height: 90%" src="images/main_page.deu.png?raw=true" alt="Mehrsprachige Sprachkonvertierung und Untertitelgenerierung WebUI-Schnittstelle"/></p>
 
 ### `Whisper-Untertitel`-Tab
 - Untertitel-spezifisch: Über 90 Sprachen
