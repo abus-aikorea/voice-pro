@@ -39,8 +39,11 @@ Voice-Pro是一款革新多媒体内容制作的先进网页应用。它将YouTu
 - ⏳ 首次运行时需下载**CozyVoice2-0.5B (9GB)**，根据网络速度可能需要1小时以上
 - 🎧 声音克隆用的语音样本将持续更新
 - **提示：**
-  - **现有用户：**下载最新版本的 Voice-Pro。运行 **update.bat**。
-  - **新用户：**参考下方安装部分 — 运行**configure.bat**后运行**start.bat**
+  - 从 v1.x 升级到 v2.x：**不可能**。因此，建议删除 installer_files 文件夹并运行最新版本的 start.bat。
+  - 从 v2.x 升级到 v2.x：**可能**。下载最新代码后，运行 update.bat。
+  - 首次用户：请参考以下安装方法。
+  - 问题解决：在大多数情况下，删除 **installer_files** 文件夹并依次运行 configure.bat 和 start.bat 即可解决问题。
+
 
 ## 🚄 演示
 

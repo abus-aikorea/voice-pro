@@ -41,9 +41,10 @@ A robust alternative to **ElevenLabs**, Voice-Pro empowers podcasters, developer
 - ⏳ Initial launch downloads **CozyVoice2-0.5B (9GB)**—may take over an hour based on your network
 - 🎧 Celebrity voice options for cloning expanding regularly
 - **Guidance:**
-  - **Existing users:** Download the latest version of Voice-Pro. Run **update.bat**.
-  - **New users:** See Installation below—run **configure.bat**, then **start.bat**
-
+  - Upgrade from v1.x to v2.x: **Impossible**. Therefore, it is recommended to delete the installer_files folder and run the latest version of start.bat.
+  - Upgrade from v2.x to v2.x: **Possible**. Download the latest code and run update.bat.
+  - First-time users: Please refer to the installation instructions below.
+  - Troubleshooting: In most cases, deleting the **installer_files** folder and running configure.bat and start.bat sequentially will solve the problem.
 
 
 ## 🚄 Demos

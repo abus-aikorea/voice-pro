@@ -75,7 +75,7 @@ HyperPyYAML==1.2.2
 inflect==7.3.1
 lightning==2.2.4
 modelscope==1.15.0
-onnx==1.16.0
+# onnx==1.16.0
 tensorboard==2.14.0
 fastapi-cli==0.0.4
 WeTextProcessing==1.0.3
