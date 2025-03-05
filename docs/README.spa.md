@@ -305,6 +305,32 @@ Cuando Windows Defender reconoce erróneamente un archivo por lotes como un troy
 - La versión de prueba gratuita de Voice-Pro le permite procesar hasta **60 segundos** de medios.
 - La versión oficial de Voice-Pro se puede comprar a través del sitio web oficial de ABUS (<https://abuskorea.imweb.me>).
 
+<table>
+  <tr>
+    <th></th>
+    <th>Trial Version</th>
+    <th>☕Contributor Version</th>
+    <th>Subscription Version</th>
+  </tr>
+  <tr>
+    <th>Media Length Limit</th>
+    <td>60 seconds</td>
+    <td>Unlimited</td>
+    <td>Unlimited</td>
+  </tr>
+  <tr>
+    <th>Translation Service</th>
+    <td>Google Translate (Open Source)</td>
+    <td>Google Translate (Open Source)</td>
+    <td>Azure Translate (Microsoft)</td>
+  </tr>
+  <tr>
+    <th>Text-to-Speech Service</th>
+    <td>Edge TTS (Open Source)</td>
+    <td>Edge TTS (Open Source)</td>
+    <td>Azure TTS (Microsoft)</td>
+  </tr>
+</table>
 
 ## ☕ Contribuciones
 - Si desea participar y ayudarnos con este proyecto, no dude en crear un [Issues](https://github.com/abus-aikorea/voice-pro/issues).

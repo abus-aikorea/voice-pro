@@ -305,6 +305,32 @@ Falls Windows Defender eine Batch-Datei fälschlicherweise als Trojaner erkennt,
 - Die kostenlose Testversion von Voice-Pro ermöglicht die Verarbeitung von Medien bis zu **60 Sekunden**.
 - Die offizielle Version von Voice-Pro kann über die offizielle ABUS-Website (<https://abuskorea.imweb.me>) erworben werden.
 
+<table>
+  <tr>
+    <th></th>
+    <th>Trial Version</th>
+    <th>☕Contributor Version</th>
+    <th>Subscription Version</th>
+  </tr>
+  <tr>
+    <th>Media Length Limit</th>
+    <td>60 seconds</td>
+    <td>Unlimited</td>
+    <td>Unlimited</td>
+  </tr>
+  <tr>
+    <th>Translation Service</th>
+    <td>Google Translate (Open Source)</td>
+    <td>Google Translate (Open Source)</td>
+    <td>Azure Translate (Microsoft)</td>
+  </tr>
+  <tr>
+    <th>Text-to-Speech Service</th>
+    <td>Edge TTS (Open Source)</td>
+    <td>Edge TTS (Open Source)</td>
+    <td>Azure TTS (Microsoft)</td>
+  </tr>
+</table>
 
 ## ☕ Beiträge
 - Wenn Sie an diesem Projekt teilnehmen und uns helfen möchten, können Sie gerne ein [Issues](https://github.com/abus-aikorea/voice-pro/issues) erstellen.

@@ -306,6 +306,32 @@ Windows Defenderがバッチファイルをトロイの木馬と誤認識する�
 - Voice-Proの無料トライアル版では、最大**60秒**のメディアを処理できます。
 - Voice-Proの公式バージョンは、ABUS公式サイト(<https://abuskorea.imweb.me>)から購入できます。
 
+<table>
+  <tr>
+    <th></th>
+    <th>Trial Version</th>
+    <th>☕Contributor Version</th>
+    <th>Subscription Version</th>
+  </tr>
+  <tr>
+    <th>Media Length Limit</th>
+    <td>60 seconds</td>
+    <td>Unlimited</td>
+    <td>Unlimited</td>
+  </tr>
+  <tr>
+    <th>Translation Service</th>
+    <td>Google Translate (Open Source)</td>
+    <td>Google Translate (Open Source)</td>
+    <td>Azure Translate (Microsoft)</td>
+  </tr>
+  <tr>
+    <th>Text-to-Speech Service</th>
+    <td>Edge TTS (Open Source)</td>
+    <td>Edge TTS (Open Source)</td>
+    <td>Azure TTS (Microsoft)</td>
+  </tr>
+</table>
 
 ## ☕ 貢献
 - このプロジェクトに参加して協力したい場合は、お気軽に[Issues](https://github.com/abus-aikorea/voice-pro/issues)を作成してください。

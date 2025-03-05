@@ -311,6 +311,32 @@ Windows Defender可能会显示不受信任应用程序的警告，并阻止Voic
 - Voice-Pro 的免费试用版允许您处理长达 **60 秒**的媒体。
 - Voice-Pro 的正式版本可通过 ABUS 官方网站 (<https://abuskorea.imweb.me>) 购买。
 
+<table>
+  <tr>
+    <th></th>
+    <th>Trial Version</th>
+    <th>☕Contributor Version</th>
+    <th>Subscription Version</th>
+  </tr>
+  <tr>
+    <th>Media Length Limit</th>
+    <td>60 seconds</td>
+    <td>Unlimited</td>
+    <td>Unlimited</td>
+  </tr>
+  <tr>
+    <th>Translation Service</th>
+    <td>Google Translate (Open Source)</td>
+    <td>Google Translate (Open Source)</td>
+    <td>Azure Translate (Microsoft)</td>
+  </tr>
+  <tr>
+    <th>Text-to-Speech Service</th>
+    <td>Edge TTS (Open Source)</td>
+    <td>Edge TTS (Open Source)</td>
+    <td>Azure TTS (Microsoft)</td>
+  </tr>
+</table>
 
 ## ☕ 贡献
 - 如果您想参与并帮助我们进行此项目，请随时创建一个 [Issues](https://github.com/abus-aikorea/voice-pro/issues)。

@@ -322,6 +322,33 @@ Windows Defender가 실수로 batch 파일을 트로이 목마로 인식하는 �
 - Voice-Pro의 무료 체험판 버전은 최대 **60초**의 미디어를 처리할 수 있습니다.
 - Voice-Pro의 공식 버전은 ABUS 공식 웹사이트(<https://abuskorea.imweb.me>)를 통해 구매할 수 있습니다.
 
+<table>
+  <tr>
+    <th></th>
+    <th>Trial Version</th>
+    <th>☕Contributor Version</th>
+    <th>Subscription Version</th>
+  </tr>
+  <tr>
+    <th>Media Length Limit</th>
+    <td>60 seconds</td>
+    <td>Unlimited</td>
+    <td>Unlimited</td>
+  </tr>
+  <tr>
+    <th>Translation Service</th>
+    <td>Google Translate (Open Source)</td>
+    <td>Google Translate (Open Source)</td>
+    <td>Azure Translate (Microsoft)</td>
+  </tr>
+  <tr>
+    <th>Text-to-Speech Service</th>
+    <td>Edge TTS (Open Source)</td>
+    <td>Edge TTS (Open Source)</td>
+    <td>Azure TTS (Microsoft)</td>
+  </tr>
+</table>
+
 
 ## ☕ 기여
 - 이 프로젝트에 참여하고 저희를 돕고 싶으시다면, 언제든지 [Issues](https://github.com/abus-aikorea/voice-pro/issues)를 생성해주세요.
