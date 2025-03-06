@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service - {{ project.name }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Terms of Service</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Acceptance of Terms</h2>
+            <p>By accessing or using Voice-Pro, you agree to be bound by these Terms of Service. If you do not agree, please do not use our services.</p>
+
+            <h2>Use of Service</h2>
+            <ul>
+                <li>You may use Voice-Pro for personal or commercial purposes as outlined in our <a href="{{ project.github_url }}" target="_blank">GitHub repository</a>.</li>
+                <li>You are responsible for ensuring your use complies with local laws.</li>
+            </ul>
+
+            <h2>Limitations</h2>
+            <p>Voice-Pro is provided "as is" without warranties. We are not liable for any damages arising from your use of the service.</p>
+
+            <h2>Changes to Terms</h2>
+            <p>We may update these terms periodically. Continued use of the service constitutes acceptance of the updated terms.</p>
+
+            <h2>Contact Us</h2>
+            <p>For questions, contact us at <a href="mailto:{{ project.contact }}">{{ project.contact }}</a>.</p>
+        </section>
+    </main>
+    <footer>
+        <p>© 2025 Voice-Pro Team | <a href="{{ url_for('home') }}">Back to Home</a></p>
+    </footer>
+</body>
+</html>

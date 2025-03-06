@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - {{ project.name }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Privacy Policy</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Introduction</h2>
+            <p>At Voice-Pro, we respect your privacy and are committed to protecting your personal information. This Privacy Policy explains how we collect, use, and safeguard your data when you use our services.</p>
+            
+            <h2>Information We Collect</h2>
+            <ul>
+                <li><strong>Contact Information:</strong> Such as email addresses provided voluntarily (e.g., {{ project.contact }}).</li>
+                <li><strong>Usage Data:</strong> Anonymous data about how you interact with our website, collected via Google AdSense and similar tools.</li>
+            </ul>
+
+            <h2>How We Use Your Information</h2>
+            <ul>
+                <li>To respond to inquiries sent to {{ project.contact }}.</li>
+                <li>To improve our services and website experience.</li>
+                <li>For advertising purposes via third-party services like Google AdSense.</li>
+            </ul>
+
+            <h2>Data Sharing</h2>
+            <p>We do not sell or share your personal information with third parties, except as required by law or for analytics/advertising purposes with trusted partners (e.g., Google).</p>
+
+            <h2>Contact Us</h2>
+            <p>If you have questions about this policy, please reach out to us at <a href="mailto:{{ project.contact }}">{{ project.contact }}</a>.</p>
+        </section>
+    </main>
+    <footer>
+        <p>© 2025 Voice-Pro Team | <a href="{{ url_for('home') }}">Back to Home</a></p>
+    </footer>
+</body>
+</html>
