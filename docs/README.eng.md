@@ -58,6 +58,15 @@ A robust alternative to **ElevenLabs**, Voice-Pro empowers podcasters, developer
    muted="muted"
    aria-describedby="studio-demo-description">
    </video>
+
+  <video src="https://github.com/user-attachments/assets/1cf084a4-3286-4055-86d2-238ed179560e"
+   width="100%" 
+   style="max-width: 720px;" 
+   controls="controls" 
+   muted="muted"
+   aria-describedby="studio-demo-description2">
+   </video>
+      
   <p id="studio-demo-description">
 Studio Tab's comprehensive media processing workflow demo: Demonstrates a one-stop media transformation process from YouTube video download to AI-based voice separation, automatic Whisper subtitles, multilingual translation, and professional dubbing using F5-TTS.
   </p>

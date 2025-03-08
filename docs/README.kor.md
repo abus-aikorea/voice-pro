@@ -50,6 +50,14 @@ Voice-Pro는 멀티미디어 콘텐츠 제작을 혁신하는 최첨단 웹 앱�
 ### `더빙 스튜디오` 탭: 전사, 번역 및 TTS
 <div aria-labelledby="studio-demo-description">
   <video src="https://github.com/user-attachments/assets/f18e7f54-7bc0-4c26-96f9-9f6b70c7114c" width="100%" style="max-width: 720px;" controls muted aria-describedby="studio-demo-description"></video>
+  <video src="https://github.com/user-attachments/assets/1cf084a4-3286-4055-86d2-238ed179560e"
+   width="100%" 
+   style="max-width: 720px;" 
+   controls="controls" 
+   muted="muted"
+   aria-describedby="studio-demo-description2">
+   </video>
+
   <p id="studio-demo-description">스튜디오 탭의 종합 미디어 처리 워크플로우 데모: YouTube 비디오 다운로드부터 AI 기반 음성 분리, Whisper 자동 자막, 다국어 번역, F5-TTS를 사용한 전문 더빙까지 원스톱 미디어 변환 과정을 보여줍니다.</p>
 </div>
 

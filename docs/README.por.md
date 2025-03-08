@@ -49,6 +49,14 @@ Como uma alternativa robusta ao **ElevenLabs**, o Voice-Pro capacita podcasters,
 ### Aba `Estúdio de Dublagem`: Transcrição, Tradução e TTS
 <div aria-labelledby="studio-demo-description">
   <video src="https://github.com/user-attachments/assets/f18e7f54-7bc0-4c26-96f9-9f6b70c7114c" width="100%" style="max-width: 720px;" controls muted aria-describedby="studio-demo-description"></video>
+  <video src="https://github.com/user-attachments/assets/1cf084a4-3286-4055-86d2-238ed179560e"
+   width="100%" 
+   style="max-width: 720px;" 
+   controls="controls" 
+   muted="muted"
+   aria-describedby="studio-demo-description2">
+   </video>
+
   <p id="studio-demo-description">Demonstração do fluxo de trabalho completo de processamento de mídia na aba Estúdio: Mostra um processo contínuo de transformação de mídia, desde o download de vídeos do YouTube até a separação de vozes por IA, legendas automáticas com Whisper, tradução multilíngue e dublagem profissional usando F5-TTS.</p>
 </div>
 

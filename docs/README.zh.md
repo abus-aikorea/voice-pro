@@ -50,6 +50,13 @@ Voice-Pro是一款革新多媒体内容制作的先进网页应用。它将YouTu
 ### `配音工作室`标签页：转录、翻译和TTS
 <div aria-labelledby="studio-demo-description">
   <video src="https://github.com/user-attachments/assets/f18e7f54-7bc0-4c26-96f9-9f6b70c7114c" width="100%" style="max-width: 720px;" controls muted aria-describedby="studio-demo-description"></video>
+  <video src="https://github.com/user-attachments/assets/1cf084a4-3286-4055-86d2-238ed179560e"
+   width="100%" 
+   style="max-width: 720px;" 
+   controls="controls" 
+   muted="muted"
+   aria-describedby="studio-demo-description2">
+  </video>   
   <p id="studio-demo-description">工作室标签页的综合媒体处理工作流程演示：从YouTube视频下载到AI语音分离、Whisper自动字幕、多语言翻译，再到使用F5-TTS进行专业配音的一站式媒体转换过程。</p>
 </div>
 

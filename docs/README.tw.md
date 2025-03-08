@@ -50,6 +50,13 @@ Voice-Pro是一款革新多媒體內容製作的先進網頁應用程式。它�
 ### `配音工作室`標籤頁：轉錄、翻譯和TTS
 <div aria-labelledby="studio-demo-description">
   <video src="https://github.com/user-attachments/assets/f18e7f54-7bc0-4c26-96f9-9f6b70c7114c" width="100%" style="max-width: 720px;" controls muted aria-describedby="studio-demo-description"></video>
+  <video src="https://github.com/user-attachments/assets/1cf084a4-3286-4055-86d2-238ed179560e"
+   width="100%" 
+   style="max-width: 720px;" 
+   controls="controls" 
+   muted="muted"
+   aria-describedby="studio-demo-description2">
+  </video>   
   <p id="studio-demo-description">工作室標籤頁的綜合媒體處理工作流程示範：從YouTube影片下載到AI語音分離、Whisper自動字幕、多語言翻譯，再到使用F5-TTS進行專業配音的一站式媒體轉換過程。</p>
 </div>
 

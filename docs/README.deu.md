@@ -50,7 +50,17 @@ Als starke Alternative zu **ElevenLabs** bietet Voice-Pro Podcastern, Entwickler
 ### `Dubbing-Studio`-Tab: Transkription, Übersetzung & TTS
 <div aria-labelledby="studio-demo-description">
   <video src="https://github.com/user-attachments/assets/f18e7f54-7bc0-4c26-96f9-9f6b70c7114c" width="100%" style="max-width: 720px;" controls muted aria-describedby="studio-demo-description"></video>
-  <p id="studio-demo-description">Demo des umfassenden Medienverarbeitungs-Workflows im Studio-Tab: Zeigt einen durchgehenden Prozess von YouTube-Video-Download über KI-basierte Stimmseparation, automatische Whisper-Untertitel, mehrsprachige Übersetzung bis hin zu professioneller Synchronisation mit F5-TTS.</p>
+  <video src="https://github.com/user-attachments/assets/1cf084a4-3286-4055-86d2-238ed179560e"
+   width="100%" 
+   style="max-width: 720px;" 
+   controls="controls" 
+   muted="muted"
+   aria-describedby="studio-demo-description2">
+   </video>
+  
+  <p id="studio-demo-description">
+  
+  Demo des umfassenden Medienverarbeitungs-Workflows im Studio-Tab: Zeigt einen durchgehenden Prozess von YouTube-Video-Download über KI-basierte Stimmseparation, automatische Whisper-Untertitel, mehrsprachige Übersetzung bis hin zu professioneller Synchronisation mit F5-TTS.</p>
 </div>
 
 ### `F5-TTS-Multi`-Tab: Podcast-Erstellung
