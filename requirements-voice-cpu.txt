@@ -84,3 +84,5 @@ kokoro
 misaki[en]
 misaki[ja]
 misaki[zh]
+# spaCy
+spacy==3.7.5

@@ -146,5 +146,6 @@
     "CRF(Constant Rate Factor)": "CRF (Factor de Tasa Constante)",
     "Adjust compression quality (0-51, lower is better quality. Default is 23)": "Ajusta la calidad de compresión (0-51, menor es mejor calidad. Predeterminado es 23)",
     "Preset": "Preajuste",
-    "Adjusting Compression Speed and Efficiency": "Ajustando Velocidad y Eficiencia de Compresión"
+    "Adjusting Compression Speed and Efficiency": "Ajustando Velocidad y Eficiencia de Compresión",
+    "Language Detection": "Detección de idioma"
 }
