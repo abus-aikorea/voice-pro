@@ -276,7 +276,7 @@ git clone https://github.com/abus-aikorea/voice-pro.git
 
 #### 浏览器没有自动启动时
 - 关闭Windows命令窗口，重新运行start.bat，或
-- 直接启动浏览器，在地址栏输入Windows命令窗口显示的地址（例如**http://127.0.0.1:7892**）
+- 直接启动浏览器，在地址栏输入Windows命令窗口显示的地址（例如**http://127.0.0.1:7870**）
 
 #### 出现CUDA内存不足错误时
 - 在Windows任务管理器-性能标签中检查GPU内存状态
@@ -358,10 +358,9 @@ Windows Defender可能会显示不受信任应用程序的警告，并阻止Voic
 
 
 ## 📬 联系方式
-- 电子邮件：<abus.aikorea@gmail.com>
-- 主页（韩语）：<https://abuskorea.imweb.me>
-- Amazon：[US](https://www.amazon.com/dp/B0DBR69JPL) | [Japan](https://www.amazon.co.jp/dp/B0DBVRJ542) | [Singapore](https://www.amazon.sg/dp/B0DCGKL8R4) | [UAE](https://www.amazon.ae/dp/B0DCGKM7FF)
-- 韩国Naver：[软件](https://smartstore.naver.com/abus/products/10385660040) | [解决方案](https://smartstore.naver.com/abus/products/10298346364)
+- Email: <abus.aikorea@gmail.com>
+- Homepage (Korean): <https://abuskorea.imweb.me>
+- Naver: [30-day subscription](https://smartstore.naver.com/abus/products/11308510267)
 
 ## 👍 YouTube
 - [产品信息](https://www.youtube.com/watch?v=z8g8LMhoh_o&list=PLwx5dnMDVC9Y7dAjm9r26CZUw1uU5VIeq)

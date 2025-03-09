@@ -279,7 +279,7 @@ git clone https://github.com/abus-aikorea/voice-pro.git
 
 #### Wenn der Browser nicht automatisch startet
 - Schließen Sie das Windows-Befehlsfenster und führen Sie **start.bat** erneut aus
-- Öffnen Sie den Browser manuell und geben Sie die im Befehlsfenster angezeigte Adresse ein (z. B. **http://127.0.0.1:7892**)
+- Öffnen Sie den Browser manuell und geben Sie die im Befehlsfenster angezeigte Adresse ein (z. B. **http://127.0.0.1:7870**)
 
 #### Bei einem CUDA-Out-of-Memory-Fehler
 - Überprüfen Sie den GPU-Speicherstatus im Windows Task-Manager – Reiter „Leistung“
@@ -355,10 +355,9 @@ Falls Windows Defender eine Batch-Datei fälschlicherweise als Trojaner erkennt,
 
 
 ## 📬 Kontakt
-- E-Mail: <abus.aikorea@gmail.com>
-- Homepage (Koreanisch): <https://abuskorea.imweb.me>
-- Amazon: [US](https://www.amazon.com/dp/B0DBR69JPL) | [Japan](https://www.amazon.co.jp/dp/B0DBVRJ542) | [Singapore](https://www.amazon.sg/dp/B0DCGKL8R4) | [UAE](https://www.amazon.ae/dp/B0DCGKM7FF)
-- Naver: [Software](https://smartstore.naver.com/abus/products/10385660040) | [Solution](https://smartstore.naver.com/abus/products/10298346364)
+- Email: <abus.aikorea@gmail.com>
+- Homepage (Korean): <https://abuskorea.imweb.me>
+- Naver: [30-day subscription](https://smartstore.naver.com/abus/products/11308510267)
 
 ## 👍 YouTube
 - [Produktinformationen](https://www.youtube.com/watch?v=z8g8LMhoh_o&list=PLwx5dnMDVC9Y7dAjm9r26CZUw1uU5VIeq)

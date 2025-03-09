@@ -276,7 +276,7 @@ git clone https://github.com/abus-aikorea/voice-pro.git
 
 #### Si el navegador no se abre automáticamente
 - Cierra la ventana de comandos de Windows y ejecuta **start.bat** nuevamente
-- Abre el navegador manualmente e introduce la dirección mostrada en la ventana de comandos (ej.: **http://127.0.0.1:7892**)
+- Abre el navegador manualmente e introduce la dirección mostrada en la ventana de comandos (ej.: **http://127.0.0.1:7870**)
 
 #### Si ocurre un error CUDA Out-of-Memory
 - Verifica el estado de la memoria GPU en el Administrador de Tareas de Windows - pestaña "Rendimiento"
@@ -352,10 +352,9 @@ Cuando Windows Defender reconoce erróneamente un archivo por lotes como un troy
 
 
 ## 📬 Contacto
-- Correo: <abus.aikorea@gmail.com>
-- Página principal (Coreano): <https://abuskorea.imweb.me>
-- Amazon: [US](https://www.amazon.com/dp/B0DBR69JPL) | [Japan](https://www.amazon.co.jp/dp/B0DBVRJ542) | [Singapore](https://www.amazon.sg/dp/B0DCGKL8R4) | [UAE](https://www.amazon.ae/dp/B0DCGKM7FF)
-- Naver: [Software](https://smartstore.naver.com/abus/products/10385660040) | [Solución](https://smartstore.naver.com/abus/products/10298346364)
+- Email: <abus.aikorea@gmail.com>
+- Homepage (Korean): <https://abuskorea.imweb.me>
+- Naver: [30-day subscription](https://smartstore.naver.com/abus/products/11308510267)
 
 ## 👍 YouTube
 - [Información del Producto](https://www.youtube.com/watch?v=z8g8LMhoh_o&list=PLwx5dnMDVC9Y7dAjm9r26CZUw1uU5VIeq)

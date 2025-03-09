@@ -279,7 +279,7 @@ git clone https://github.com/abus-aikorea/voice-pro.git
 
 #### ブラウザが自動起動しない場合
 - Windowsコマンドウィンドウを閉じ、**start.bat**を再実行するか
-- ブラウザを直接起動し、コマンドウィンドウに表示されるアドレス（例: **http://127.0.0.1:7892**）を入力
+- ブラウザを直接起動し、コマンドウィンドウに表示されるアドレス（例: **http://127.0.0.1:7870**）を入力
 
 #### CUDAメモリ不足エラーが出る場合
 - Windowsタスクマネージャーの「パフォーマンス」タブでGPUメモリを確認
@@ -354,10 +354,9 @@ Windows Defenderがバッチファイルをトロイの木馬と誤認識する�
 
 
 ## 📬 連絡先
-- メール: <abus.aikorea@gmail.com>
-- ホームページ（韓国語）: <https://abuskorea.imweb.me>
-- Amazon: [US](https://www.amazon.com/dp/B0DBR69JPL) | [Japan](https://www.amazon.co.jp/dp/B0DBVRJ542) | [Singapore](https://www.amazon.sg/dp/B0DCGKL8R4) | [UAE](https://www.amazon.ae/dp/B0DCGKM7FF)
-- ネイバー: [ソフトウェア](https://smartstore.naver.com/abus/products/10385660040) | [ソリューション](https://smartstore.naver.com/abus/products/10298346364)
+- Email: <abus.aikorea@gmail.com>
+- Homepage (Korean): <https://abuskorea.imweb.me>
+- Naver: [30-day subscription](https://smartstore.naver.com/abus/products/11308510267)
 
 ## 👍 YouTube
 - [製品情報](https://www.youtube.com/watch?v=z8g8LMhoh_o&list=PLwx5dnMDVC9Y7dAjm9r26CZUw1uU5VIeq)

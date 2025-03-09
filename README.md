@@ -338,7 +338,7 @@ git clone https://github.com/abus-aikorea/voice-pro.git
 
 #### If Browser does not run automatically
 - Close the Windows-Commnad window and run start.bat again.
-- Run the browser directly and enter the address displayed in the Windows-Command window (e.g. **http://127.0.0.1:7892**) in the address bar.
+- Run the browser directly and enter the address displayed in the Windows-Command window (e.g. **http://127.0.0.1:7870**) in the address bar.
 
 #### If a CUDA Out-Of-Memory error occurs
 - Check the GPU memory status in Windows Task Manager - Performance tab. 
@@ -427,8 +427,7 @@ When Windows Defender mistakenly recognizes a batch file as a Trojan, this is of
 ## 📬 Contact
 - Email: <abus.aikorea@gmail.com>
 - Homepage (Korean): <https://abuskorea.imweb.me>
-- Amazon: [US](https://www.amazon.com/dp/B0DBR69JPL) | [Japan](https://www.amazon.co.jp/dp/B0DBVRJ542) | [Singapore](https://www.amazon.sg/dp/B0DCGKL8R4) | [UAE](https://www.amazon.ae/dp/B0DCGKM7FF)
-- Naver: [Software](https://smartstore.naver.com/abus/products/10385660040) | [Solution](https://smartstore.naver.com/abus/products/10298346364)
+- Naver: [30-day subscription](https://smartstore.naver.com/abus/products/11308510267)
 
 ## 👍 YouTube
 - [Product Info](https://www.youtube.com/watch?v=z8g8LMhoh_o&list=PLwx5dnMDVC9Y7dAjm9r26CZUw1uU5VIeq)

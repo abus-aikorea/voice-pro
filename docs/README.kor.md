@@ -286,7 +286,7 @@ git clone https://github.com/abus-aikorea/voice-pro.git
 
 #### Browser가 자동으로 실행되지 않는 경우
 - Windows-Commnad 창을 종료하고, start.bat 을 다시 실행하거나
-- Browser를 직접 실행하고, Windows-Command 창에 표시된 주소(예, **http://127.0.0.1:7892** )를 주소창에 입력합니다.
+- Browser를 직접 실행하고, Windows-Command 창에 표시된 주소(예, **http://127.0.0.1:7870** )를 주소창에 입력합니다.
 
 #### CUDA Out-Of-Memory 오류가 발생하는 경우
 - 윈도우 작업관리자 - 성능 탭에서 GPU 메모리 상태를 확인하세요. 
@@ -371,10 +371,9 @@ Windows Defender가 실수로 batch 파일을 트로이 목마로 인식하는 �
 
 
 ## 📬 연락처
-- 이메일: <abus.aikorea@gmail.com>
-- 홈페이지 (한국어): <https://abuskorea.imweb.me>
-- Amazon: [US](https://www.amazon.com/dp/B0DBR69JPL) | [Japan](https://www.amazon.co.jp/dp/B0DBVRJ542) | [Singapore](https://www.amazon.sg/dp/B0DCGKL8R4) | [UAE](https://www.amazon.ae/dp/B0DCGKM7FF)
-- 네이버: [소프트웨어](https://smartstore.naver.com/abus/products/10385660040) | [솔루션](https://smartstore.naver.com/abus/products/10298346364)
+- Email: <abus.aikorea@gmail.com>
+- Homepage (Korean): <https://abuskorea.imweb.me>
+- Naver: [30-day subscription](https://smartstore.naver.com/abus/products/11308510267)
 
 ## 👍 YouTube
 - [제품 정보](https://www.youtube.com/watch?v=z8g8LMhoh_o&list=PLwx5dnMDVC9Y7dAjm9r26CZUw1uU5VIeq)
