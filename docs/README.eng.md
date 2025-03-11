@@ -421,7 +421,8 @@ When Windows Defender mistakenly recognizes a batch file as a Trojan, this is of
 ## 📬 Contact
 - Email: <abus.aikorea@gmail.com>
 - Homepage (Korean): <https://abuskorea.imweb.me>
-- Naver: [30-day subscription](https://smartstore.naver.com/abus/products/11308510267)
+- Naver (Korean): [30-day subscription](https://smartstore.naver.com/abus/products/11308510267)
+- Shopify (Global): [30-day subscription](https://r17wvy-t2.myshopify.com/?_ab=0&_fd=0&_sc=1)
 
 ## 👍 YouTube
 - [Product Info](https://www.youtube.com/watch?v=z8g8LMhoh_o&list=PLwx5dnMDVC9Y7dAjm9r26CZUw1uU5VIeq)

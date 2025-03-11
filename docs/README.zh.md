@@ -360,7 +360,8 @@ Windows Defender可能会显示不受信任应用程序的警告，并阻止Voic
 ## 📬 联系方式
 - Email: <abus.aikorea@gmail.com>
 - Homepage (Korean): <https://abuskorea.imweb.me>
-- Naver: [30-day subscription](https://smartstore.naver.com/abus/products/11308510267)
+- Naver (Korean): [30-day subscription](https://smartstore.naver.com/abus/products/11308510267)
+- Shopify (Global): [30-day subscription](https://r17wvy-t2.myshopify.com/zh-hans)
 
 ## 👍 YouTube
 - [产品信息](https://www.youtube.com/watch?v=z8g8LMhoh_o&list=PLwx5dnMDVC9Y7dAjm9r26CZUw1uU5VIeq)

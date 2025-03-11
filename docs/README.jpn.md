@@ -356,7 +356,8 @@ Windows Defenderがバッチファイルをトロイの木馬と誤認識する�
 ## 📬 連絡先
 - Email: <abus.aikorea@gmail.com>
 - Homepage (Korean): <https://abuskorea.imweb.me>
-- Naver: [30-day subscription](https://smartstore.naver.com/abus/products/11308510267)
+- Naver (Korean): [30-day subscription](https://smartstore.naver.com/abus/products/11308510267)
+- Shopify (Global): [30-day subscription](https://r17wvy-t2.myshopify.com/ja)
 
 ## 👍 YouTube
 - [製品情報](https://www.youtube.com/watch?v=z8g8LMhoh_o&list=PLwx5dnMDVC9Y7dAjm9r26CZUw1uU5VIeq)
