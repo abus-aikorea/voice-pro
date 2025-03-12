@@ -49,7 +49,6 @@ Voice-Pro는 멀티미디어 콘텐츠 제작을 혁신하는 최첨단 웹 앱�
 
 ### `더빙 스튜디오` 탭: 전사, 번역 및 TTS
 <div aria-labelledby="studio-demo-description">
-  <video src="https://github.com/user-attachments/assets/f18e7f54-7bc0-4c26-96f9-9f6b70c7114c" width="100%" style="max-width: 720px;" controls muted aria-describedby="studio-demo-description"></video>
   <video src="https://github.com/user-attachments/assets/1cf084a4-3286-4055-86d2-238ed179560e"
    width="100%" 
    style="max-width: 720px;" 
@@ -328,7 +327,7 @@ Windows Defender가 실수로 batch 파일을 트로이 목마로 인식하는 �
 ## 🚨 공지
 - 이 저장소는 Voice-Pro의 **무료 체험판**을 제공합니다.
 - Voice-Pro의 무료 체험판 버전은 최대 **60초**의 미디어를 처리할 수 있습니다.
-- Voice-Pro의 공식 버전은 ABUS 공식 웹사이트(<https://abuskorea.imweb.me>)를 통해 구매할 수 있습니다.
+- Subscription 버전은 Microsoft Azure TTS 와 Translator 를 지원합니다. [shopify](https://r17wvy-t2.myshopify.com/ko) 에서 구매하세요..
 
 <table>
   <tr>
@@ -392,6 +391,10 @@ Windows Defender가 실수로 batch 파일을 트로이 목마로 인식하는 �
 * whisper-timestamped: <https://github.com/linto-ai/whisper-timestamped>
 * RVC-Project: <https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI>
 * UVR5: <https://github.com/Anjok07/ultimatevocalremovergui>
+* CosyVoice: <https://github.com/FunAudioLLM/CosyVoice>
+* kokoro: <https://github.com/hexgrad/kokoro>
+* Deep-Translator: <https://github.com/nidhaloff/deep-translator>
+* spaCy: <https://github.com/explosion/spaCy>
 
 ## ©️ 저작권 정보
   <img src="images/ABUS-logo.jpg" width="100" height="100"> by [ABUS](https://abuskorea.imweb.me)

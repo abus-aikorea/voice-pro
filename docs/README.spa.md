@@ -49,7 +49,6 @@ Como una alternativa sólida a **ElevenLabs**, Voice-Pro empodera a podcasters, 
 
 ### Pestaña `Estudio de Doblaje`: Transcripción, Traducción y TTS
 <div aria-labelledby="studio-demo-description">
-  <video src="https://github.com/user-attachments/assets/f18e7f54-7bc0-4c26-96f9-9f6b70c7114c" width="100%" style="max-width: 720px;" controls muted aria-describedby="studio-demo-description"></video>
   <video src="https://github.com/user-attachments/assets/1cf084a4-3286-4055-86d2-238ed179560e"
    width="100%" 
    style="max-width: 720px;" 
@@ -310,7 +309,8 @@ Cuando Windows Defender reconoce erróneamente un archivo por lotes como un troy
 ## 🚨 Aviso
 - Este repositorio ofrece una **prueba gratuita** de Voice-Pro.
 - La versión de prueba gratuita de Voice-Pro le permite procesar hasta **60 segundos** de medios.
-- La versión oficial de Voice-Pro se puede comprar a través del sitio web oficial de ABUS (<https://abuskorea.imweb.me>).
+- La versión de suscripción es compatible con Microsoft Azure TTS y Translator. Cómprelo en [Shopify](https://r17wvy-t2.myshopify.com/es).
+
 
 <table>
   <tr>
@@ -340,6 +340,16 @@ Cuando Windows Defender reconoce erróneamente un archivo por lotes como un troy
 </table>
 
 ## ☕ Contribuciones
+
+Hola, soy David del equipo de Voice-Pro.
+Nuestro equipo descubre las mejores tecnologías de IA de la industria y las proporciona para que cualquiera pueda usarlas de manera fácil y conveniente.
+Somos una pequeña startup en Corea que solo lleva un año en funcionamiento. Estamos trabajando arduamente para ayudarlos a usted y a otros creadores a producir contenido excelente.
+
+Su reseña de ⭐⭐⭐⭐⭐ sería muy apreciada, ya que ayuda a que nuestro negocio crezca con usted. Por favor, ayude a apoyar a nuestro pequeño equipo.
+
+Gracias,
+Servicio al Cliente de ABUS
+
 - Si desea participar y ayudarnos con este proyecto, no dude en crear un [Issues](https://github.com/abus-aikorea/voice-pro/issues).
 - Si algo sale mal, envíe un [Pull requests](https://github.com/abus-aikorea/voice-pro/pulls) para mejorar este proyecto.
 - Cualquier tipo de contribución es bienvenida.
@@ -362,16 +372,20 @@ Cuando Windows Defender reconoce erróneamente un archivo por lotes como un troy
 - [Karaoke: Pop](https://www.youtube.com/watch?v=MqQP3ewvJUk&list=PLwx5dnMDVC9bVxfGo58U-R-w3fUHqwiD6) | [K-Pop](https://www.youtube.com/watch?v=v6qjf_ELsLA&list=PLwx5dnMDVC9Z8kB01tQKfzTysaCCxC3C8) | [J-Pop](https://www.youtube.com/watch?v=KKLzoWHFAxw&list=PLwx5dnMDVC9bd6y3wXs-bOas2cXIi-GAq)
 
 ## 🙏 Créditos
-- Demucs: <https://github.com/facebookresearch/demucs>
-- yt-dlp: <https://github.com/yt-dlp/yt-dlp>
-- gradio: <https://github.com/gradio-app/gradio>
-- edge-TTS: <https://github.com/rany2/edge-tts>
-- F5-TTS: <https://github.com/SWivid/F5-TTS.git>
-- openai-whisper: <https://github.com/openai/whisper>
-- faster-whisper: <https://github.com/SYSTRAN/faster-whisper>
-- whisper-timestamped: <https://github.com/linto-ai/whisper-timestamped>
-- RVC-Project: <https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI>
-- UVR5: <https://github.com/Anjok07/ultimatevocalremovergui>
+* Demucs: <https://github.com/facebookresearch/demucs>
+* yt-dlp: <https://github.com/yt-dlp/yt-dlp>
+* gradio: <https://github.com/gradio-app/gradio>
+* edge-TTS: <https://github.com/rany2/edge-tts>
+* F5-TTS: <https://github.com/SWivid/F5-TTS.git>
+* openai-whisper: <https://github.com/openai/whisper>
+* faster-whisper: <https://github.com/SYSTRAN/faster-whisper>
+* whisper-timestamped: <https://github.com/linto-ai/whisper-timestamped>
+* RVC-Project: <https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI>
+* UVR5: <https://github.com/Anjok07/ultimatevocalremovergui>
+* CosyVoice: <https://github.com/FunAudioLLM/CosyVoice>
+* kokoro: <https://github.com/hexgrad/kokoro>
+* Deep-Translator: <https://github.com/nidhaloff/deep-translator>
+* spaCy: <https://github.com/explosion/spaCy>
 
 ## ©️ Derechos de Autor
 <img src="images/ABUS-logo.jpg" width="100" height="100"> por [ABUS](https://abuskorea.imweb.me)

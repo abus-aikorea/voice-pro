@@ -51,14 +51,6 @@ A robust alternative to **ElevenLabs**, Voice-Pro empowers podcasters, developer
 
 ### `Dubbing Studio` Tab: Transcription, Translation & TTS
 <div aria-labelledby="studio-demo-description">
-  <video src="https://github.com/user-attachments/assets/f18e7f54-7bc0-4c26-96f9-9f6b70c7114c"
-   width="100%" 
-   style="max-width: 720px;" 
-   controls="controls" 
-   muted="muted"
-   aria-describedby="studio-demo-description">
-   </video>
-
   <video src="https://github.com/user-attachments/assets/1cf084a4-3286-4055-86d2-238ed179560e"
    width="100%" 
    style="max-width: 720px;" 
@@ -377,7 +369,7 @@ When Windows Defender mistakenly recognizes a batch file as a Trojan, this is of
 ## 🚨 Notice
 - This repository offers a **free trial** of Voice-Pro. 
 - The free trial version of Voice-Pro allows you to process up to **60 seconds** of media.
-- The official version of Voice-Pro can be purchased through the ABUS official website (<https://abuskorea.imweb.me>)
+- The subscription version supports Microsoft Azure TTS and Translator. Purchase it on [Shopify](https://r17wvy-t2.myshopify.com/?_ab=0&_fd=0&_sc=1).
 
 <table>
   <tr>
@@ -407,6 +399,16 @@ When Windows Defender mistakenly recognizes a batch file as a Trojan, this is of
 </table>
 
 ## ☕ Contributions
+
+Hello, I'm David from the Voice-Pro team.
+Our team discovers the best AI technologies in the industry and provides them for anyone to use easily and conveniently.
+We are a small startup in Korea that has only been around for a year. We are working hard to help you and other creators produce great content.
+
+Your ⭐⭐⭐⭐⭐ review would be greatly appreciated as it helps our business grow with you. Please help support our small team.
+
+Thank you,
+ABUS Customer Service
+
 - If you want to participate in and help us with this project, feel free to create an [Issues](https://github.com/abus-aikorea/voice-pro/issues) 
 - If something goes wrong, please submit a [Pull requests](https://github.com/abus-aikorea/voice-pro/pulls) to improve this project.
 - Any type of contribution is welcome.
@@ -442,6 +444,7 @@ When Windows Defender mistakenly recognizes a batch file as a Trojan, this is of
 * CosyVoice: <https://github.com/FunAudioLLM/CosyVoice>
 * kokoro: <https://github.com/hexgrad/kokoro>
 * Deep-Translator: <https://github.com/nidhaloff/deep-translator>
+* spaCy: <https://github.com/explosion/spaCy>
 
 
 

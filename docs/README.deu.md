@@ -49,7 +49,6 @@ Als starke Alternative zu **ElevenLabs** bietet Voice-Pro Podcastern, Entwickler
 
 ### `Dubbing-Studio`-Tab: Transkription, Übersetzung & TTS
 <div aria-labelledby="studio-demo-description">
-  <video src="https://github.com/user-attachments/assets/f18e7f54-7bc0-4c26-96f9-9f6b70c7114c" width="100%" style="max-width: 720px;" controls muted aria-describedby="studio-demo-description"></video>
   <video src="https://github.com/user-attachments/assets/1cf084a4-3286-4055-86d2-238ed179560e"
    width="100%" 
    style="max-width: 720px;" 
@@ -313,7 +312,8 @@ Falls Windows Defender eine Batch-Datei fälschlicherweise als Trojaner erkennt,
 ## 🚨 Hinweis
 - Dieses Repository bietet eine **kostenlose Testversion** von Voice-Pro.
 - Die kostenlose Testversion von Voice-Pro ermöglicht die Verarbeitung von Medien bis zu **60 Sekunden**.
-- Die offizielle Version von Voice-Pro kann über die offizielle ABUS-Website (<https://abuskorea.imweb.me>) erworben werden.
+- Die Abonnementversion unterstützt Microsoft Azure TTS und Translator. Kaufen Sie es auf [Shopify](https://r17wvy-t2.myshopify.com/de).
+
 
 <table>
   <tr>
@@ -343,6 +343,16 @@ Falls Windows Defender eine Batch-Datei fälschlicherweise als Trojaner erkennt,
 </table>
 
 ## ☕ Beiträge
+
+Hallo, ich bin David vom Voice-Pro-Team.
+Unser Team entdeckt die besten KI-Technologien der Branche und stellt sie jedem zur einfachen und bequemen Nutzung zur Verfügung.
+Wir sind ein kleines Startup in Korea, das erst seit einem Jahr existiert. Wir arbeiten hart daran, Ihnen und anderen Kreativen zu helfen, großartige Inhalte zu erstellen.
+
+Ihre ⭐⭐⭐⭐⭐ Bewertung wäre sehr willkommen, da sie unserem Unternehmen hilft, mit Ihnen zu wachsen. Bitte helfen Sie mit, unser kleines Team zu unterstützen.
+
+Vielen Dank,
+ABUS Kundenservice
+
 - Wenn Sie an diesem Projekt teilnehmen und uns helfen möchten, können Sie gerne ein [Issues](https://github.com/abus-aikorea/voice-pro/issues) erstellen.
 - Wenn etwas schief geht, senden Sie bitte einen [Pull Requests](https://github.com/abus-aikorea/voice-pro/pulls), um dieses Projekt zu verbessern.
 - Jede Art von Beitrag ist willkommen.
@@ -365,16 +375,20 @@ Falls Windows Defender eine Batch-Datei fälschlicherweise als Trojaner erkennt,
 - [Karaoke: Pop](https://www.youtube.com/watch?v=MqQP3ewvJUk&list=PLwx5dnMDVC9bVxfGo58U-R-w3fUHqwiD6) | [K-Pop](https://www.youtube.com/watch?v=v6qjf_ELsLA&list=PLwx5dnMDVC9Z8kB01tQKfzTysaCCxC3C8) | [J-Pop](https://www.youtube.com/watch?v=KKLzoWHFAxw&list=PLwx5dnMDVC9bd6y3wXs-bOas2cXIi-GAq)
 
 ## 🙏 Danksagung
-- Demucs: <https://github.com/facebookresearch/demucs>
-- yt-dlp: <https://github.com/yt-dlp/yt-dlp>
-- gradio: <https://github.com/gradio-app/gradio>
-- edge-TTS: <https://github.com/rany2/edge-tts>
-- F5-TTS: <https://github.com/SWivid/F5-TTS.git>
-- openai-whisper: <https://github.com/openai/whisper>
-- faster-whisper: <https://github.com/SYSTRAN/faster-whisper>
-- whisper-timestamped: <https://github.com/linto-ai/whisper-timestamped>
-- RVC-Project: <https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI>
-- UVR5: <https://github.com/Anjok07/ultimatevocalremovergui>
+* Demucs: <https://github.com/facebookresearch/demucs>
+* yt-dlp: <https://github.com/yt-dlp/yt-dlp>
+* gradio: <https://github.com/gradio-app/gradio>
+* edge-TTS: <https://github.com/rany2/edge-tts>
+* F5-TTS: <https://github.com/SWivid/F5-TTS.git>
+* openai-whisper: <https://github.com/openai/whisper>
+* faster-whisper: <https://github.com/SYSTRAN/faster-whisper>
+* whisper-timestamped: <https://github.com/linto-ai/whisper-timestamped>
+* RVC-Project: <https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI>
+* UVR5: <https://github.com/Anjok07/ultimatevocalremovergui>
+* CosyVoice: <https://github.com/FunAudioLLM/CosyVoice>
+* kokoro: <https://github.com/hexgrad/kokoro>
+* Deep-Translator: <https://github.com/nidhaloff/deep-translator>
+* spaCy: <https://github.com/explosion/spaCy>
 
 ## ©️ Urheberrecht
 <img src="images/ABUS-logo.jpg" width="100" height="100"> by [ABUS](https://abuskorea.imweb.me)

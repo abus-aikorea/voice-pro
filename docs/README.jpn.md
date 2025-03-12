@@ -49,8 +49,6 @@ Voice-Proは、マルチメディアコンテンツ制作に革新をもたら�
 
 ### `ダビングスタジオ`タブ: 文字起こし、翻訳、TTS
 <div aria-labelledby="studio-demo-description">
-  <video src="https://github.com/user-attachments/assets/f18e7f54-7bc0-4c26-96f9-9f6b70c7114c" width="100%" style="max-width: 720px;" controls muted aria-describedby="studio-demo-description"></video>
-
   <video src="https://github.com/user-attachments/assets/1cf084a4-3286-4055-86d2-238ed179560e"
    width="100%" 
    style="max-width: 720px;" 
@@ -313,7 +311,7 @@ Windows Defenderがバッチファイルをトロイの木馬と誤認識する�
 ## 🚨 お知らせ
 - このリポジトリはVoice-Proの**無料トライアル**を提供します。
 - Voice-Proの無料トライアル版では、最大**60秒**のメディアを処理できます。
-- Voice-Proの公式バージョンは、ABUS公式サイト(<https://abuskorea.imweb.me>)から購入できます。
+- サブスクリプションバージョンは、Microsoft Azure TTSとTranslatorをサポートしています。[Shopify](https://r17wvy-t2.myshopify.com/ja)で購入してください。
 
 <table>
   <tr>
@@ -343,6 +341,16 @@ Windows Defenderがバッチファイルをトロイの木馬と誤認識する�
 </table>
 
 ## ☕ 貢献
+
+こんにちは、Voice-Proチームのデイビッドです。
+私たちのチームは、業界最高の人工知能技術を発掘し、誰でも簡単かつ便利に利用できるように提供しています。
+私たちは創業からわずか1年の韓国の小さなスタートアップです。皆様や他のクリエイターが素晴らしいコンテンツを制作できるよう、日々努力しています。
+
+あなたの⭐⭐⭐⭐⭐レビューは、私たちのビジネスが皆様と共に成長する上で非常に役立ちますので、ぜひご協力をお願いいたします。私たちの小さなチームを支援してください。
+
+ありがとうございます。
+ABUSカスタマーサービス
+
 - このプロジェクトに参加して協力したい場合は、お気軽に[Issues](https://github.com/abus-aikorea/voice-pro/issues)を作成してください。
 - 問題が発生した場合は、このプロジェクトを改善するために[Pull requests](https://github.com/abus-aikorea/voice-pro/pulls)を提出してください。
 - どのような貢献も歓迎します。
@@ -364,16 +372,20 @@ Windows Defenderがバッチファイルをトロイの木馬と誤認識する�
 - [カラオケ: ポップ](https://www.youtube.com/watch?v=MqQP3ewvJUk&list=PLwx5dnMDVC9bVxfGo58U-R-w3fUHqwiD6) | [K-Pop](https://www.youtube.com/watch?v=v6qjf_ELsLA&list=PLwx5dnMDVC9Z8kB01tQKfzTysaCCxC3C8) | [J-Pop](https://www.youtube.com/watch?v=KKLzoWHFAxw&list=PLwx5dnMDVC9bd6y3wXs-bOas2cXIi-GAq)
 
 ## 🙏 クレジット
-- Demucs: <https://github.com/facebookresearch/demucs>
-- yt-dlp: <https://github.com/yt-dlp/yt-dlp>
-- gradio: <https://github.com/gradio-app/gradio>
-- edge-TTS: <https://github.com/rany2/edge-tts>
-- F5-TTS: <https://github.com/SWivid/F5-TTS.git>
-- openai-whisper: <https://github.com/openai/whisper>
-- faster-whisper: <https://github.com/SYSTRAN/faster-whisper>
-- whisper-timestamped: <https://github.com/linto-ai/whisper-timestamped>
-- RVC-Project: <https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI>
-- UVR5: <https://github.com/Anjok07/ultimatevocalremovergui>
+* Demucs: <https://github.com/facebookresearch/demucs>
+* yt-dlp: <https://github.com/yt-dlp/yt-dlp>
+* gradio: <https://github.com/gradio-app/gradio>
+* edge-TTS: <https://github.com/rany2/edge-tts>
+* F5-TTS: <https://github.com/SWivid/F5-TTS.git>
+* openai-whisper: <https://github.com/openai/whisper>
+* faster-whisper: <https://github.com/SYSTRAN/faster-whisper>
+* whisper-timestamped: <https://github.com/linto-ai/whisper-timestamped>
+* RVC-Project: <https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI>
+* UVR5: <https://github.com/Anjok07/ultimatevocalremovergui>
+* CosyVoice: <https://github.com/FunAudioLLM/CosyVoice>
+* kokoro: <https://github.com/hexgrad/kokoro>
+* Deep-Translator: <https://github.com/nidhaloff/deep-translator>
+* spaCy: <https://github.com/explosion/spaCy>
 
 ## ©️ 著作権情報
 <img src="images/ABUS-logo.jpg" width="100" height="100"> by [ABUS](https://abuskorea.imweb.me)

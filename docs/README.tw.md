@@ -49,7 +49,6 @@ Voice-Pro是一款革新多媒體內容製作的先進網頁應用程式。它�
 
 ### `配音工作室`標籤頁：轉錄、翻譯和TTS
 <div aria-labelledby="studio-demo-description">
-  <video src="https://github.com/user-attachments/assets/f18e7f54-7bc0-4c26-96f9-9f6b70c7114c" width="100%" style="max-width: 720px;" controls muted aria-describedby="studio-demo-description"></video>
   <video src="https://github.com/user-attachments/assets/1cf084a4-3286-4055-86d2-238ed179560e"
    width="100%" 
    style="max-width: 720px;" 
@@ -316,7 +315,8 @@ Windows Defender可能會顯示不受信任應用程式的警告，並阻止Voic
 ## 🚨 通知
 - 此儲存庫提供 Voice-Pro 的**免費試用版**。
 - Voice-Pro 的免費試用版允許您處理長達 **60 秒**的媒體。
-- Voice-Pro 的正式版本可透過 ABUS 官方網站 (<https://abuskorea.imweb.me>) 購買。
+- 訂閱版本支援 Microsoft Azure TTS 和 Translator。請在 [Shopify](https://r17wvy-t2.myshopify.com/zh-hant) 上購買。
+
 
 <table>
   <tr>
@@ -346,6 +346,17 @@ Windows Defender可能會顯示不受信任應用程式的警告，並阻止Voic
 </table>
 
 ## ☕ 貢獻
+
+您好，我是Voice-Pro團隊的戴維。
+我們的團隊致力於發掘業內頂尖的人工智慧技術，並提供給大家，讓大家都能輕鬆便捷地使用。
+我們是一家剛成立一年的韓國小型創業公司。我們努力工作，旨在幫助您和其他創作者製作出色的內容。
+
+您的⭐⭐⭐⭐⭐評價對我們的業務與您共同成長至關重要，我們對此深表感謝。請您支持我們這個小團隊。
+
+謝謝，
+ABUS客戶服務
+
+
 - 如果您想參與並幫助我們進行此專案，請隨時建立一個 [Issues](https://github.com/abus-aikorea/voice-pro/issues)。
 - 如果出現問題，請提交一個 [Pull requests](https://github.com/abus-aikorea/voice-pro/pulls) 以改進此專案。
 - 歡迎任何類型的貢獻。
@@ -377,6 +388,10 @@ Windows Defender可能會顯示不受信任應用程式的警告，並阻止Voic
 * whisper-timestamped: <https://github.com/linto-ai/whisper-timestamped>
 * RVC-Project: <https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI>
 * UVR5: <https://github.com/Anjok07/ultimatevocalremovergui>
+* CosyVoice: <https://github.com/FunAudioLLM/CosyVoice>
+* kokoro: <https://github.com/hexgrad/kokoro>
+* Deep-Translator: <https://github.com/nidhaloff/deep-translator>
+* spaCy: <https://github.com/explosion/spaCy>
 
 ## ©️ 版權資訊
   <img src="images/ABUS-logo.jpg" width="100" height="100"> by [ABUS](https://abuskorea.imweb.me)
