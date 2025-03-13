@@ -358,6 +358,15 @@ Windows Defender가 실수로 batch 파일을 트로이 목마로 인식하는 �
 
 
 ## ☕ 기여
+
+안녕하세요, 저는 Voice-Pro 팀의 David입니다.
+저희 팀은 업계 최고의 AI 기술을 발굴하여 누구나 쉽고 편리하게 사용할 수 있도록 제공하고 있습니다.
+저희는 설립된 지 1년밖에 되지 않은 한국의 작은 스타트업입니다. 여러분과 다른 창작자들이 훌륭한 콘텐츠를 제작할 수 있도록 열심히 노력하고 있습니다.
+여러분의 ⭐⭐⭐⭐⭐ 리뷰는 저희 비즈니스가 여러분과 함께 성장하는 데 큰 도움이 됩니다. 저희 작은 팀을 지원해 주시면 감사하겠습니다.
+
+감사합니다,
+ABUS 고객 서비스
+
 - 이 프로젝트에 참여하고 저희를 돕고 싶으시다면, 언제든지 [Issues](https://github.com/abus-aikorea/voice-pro/issues)를 생성해주세요.
 - 문제가 발생하면, 이 프로젝트를 개선하기 위해 [Pull requests](https://github.com/abus-aikorea/voice-pro/pulls)를 제출해주세요.
 - 모든 유형의 기여를 환영합니다.
@@ -376,7 +385,7 @@ Windows Defender가 실수로 batch 파일을 트로이 목마로 인식하는 �
 - Shopify (Global): [30-day subscription](https://r17wvy-t2.myshopify.com/ko)
 
 ## 👍 YouTube
-- [제품 정보](https://www.youtube.com/watch?v=z8g8LMhoh_o&list=PLwx5dnMDVC9Y7dAjm9r26CZUw1uU5VIeq)
+- [PlayList](https://www.youtube.com/watch?v=Tu2okoHY174&list=PLwx5dnMDVC9Y7dAjm9r26CZUw1uU5VIeq)
 - [가라오케: 팝](https://www.youtube.com/watch?v=MqQP3ewvJUk&list=PLwx5dnMDVC9bVxfGo58U-R-w3fUHqwiD6) | [K-Pop](https://www.youtube.com/watch?v=v6qjf_ELsLA&list=PLwx5dnMDVC9Z8kB01tQKfzTysaCCxC3C8) | [J-Pop](https://www.youtube.com/watch?v=KKLzoWHFAxw&list=PLwx5dnMDVC9bd6y3wXs-bOas2cXIi-GAq)
 
 
