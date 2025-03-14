@@ -31,21 +31,25 @@ Voice-Pro es una aplicación web de vanguardia que transforma la creación de co
 
 Como una alternativa sólida a **ElevenLabs**, Voice-Pro empodera a podcasters, desarrolladores y creadores con soluciones de voz avanzadas.
 
-## ⚠️ Notas
-- Voice-Pro se ha actualizado a la versión **v2.x** (Python 3.10.15, Torch 2.5.1+cu124, Gradio 5.14.0)
-- 🆓 La versión de prueba gratuita soporta hasta **60 segundos** de procesamiento de medios
-- 🔥 Nueva función **AI Cover** añadida
-- 🎤 Soporte para **CosyVoice** y **kokoro** incluido
-- ⏳ En la primera ejecución, se descargará **CozyVoice2-0.5B (9GB)**. Dependiendo de la velocidad de la red, puede tomar más de una hora
-- 🎧 Las muestras de voz para clonación se actualizarán continuamente
-- **Instrucciones:**
-  - Actualización de v1.x a v2.x: **Imposible**. Por lo tanto, se recomienda eliminar la carpeta installer_files y ejecutar la última versión de start.bat.
-  - Actualización de v2.x a v2.x: **Posible**. Descargue el código más reciente y ejecute update.bat.
-  - Usuarios nuevos: Consulte las instrucciones de instalación a continuación.
-  - Solución de problemas: En la mayoría de los casos, eliminar la carpeta **installer_files** y ejecutar configure.bat y start.bat secuencialmente resolverá el problema.
+## ⚠️ Tenga en cuenta
+  - Actualización de v1.x a v2.x: **No es posible**. Por lo tanto, se recomienda eliminar la carpeta installer_files y ejecutar la última versión de **start.bat**.
+  - Actualización de v2.x a v2.x: **Posible**. Después de descargar el código más reciente, ejecute **update.bat**.
+  - Usuarios por primera vez: Consulte las instrucciones de instalación a continuación.
+  - Solución de problemas: En la mayoría de los casos, los problemas se pueden resolver eliminando la carpeta **installer_files** y luego ejecutando **configure.bat** y **start.bat** en secuencia.
+
+## 📰 Noticias e historial
+- Voice-Pro se ha actualizado a **v2.x** (Python 3.10.15, Torch 2.5.1+cu124, Gradio 5.14.0)
+- 🆓 La versión de prueba gratuita admite medios de hasta **60 segundos** de duración.
+- 🔥 Se ha añadido la función de **Covers de IA**.
+- 🎤 Se ha añadido soporte para **CosyVoice** y **kokoro**.
+- ⏳ La primera ejecución descarga **CozyVoice2-0.5B (9GB)**. Puede tardar más de una hora dependiendo de la velocidad de la red.
+- 🎧 Las muestras de voz para clonación de voz se actualizarán continuamente.
+- Se ha introducido **spaCy** para traducción y TTS natural oración por oración.
+- ☁️ La versión de suscripción admite **Translator** y **TTS** de **Microsoft Azure**.
+- 🏪 La versión de suscripción ofrece **uso ilimitado** dentro del período de suscripción (sin límite de 60 segundos) y se puede comprar a través de [**Shopify**](https://r17wvy-t2.myshopify.com/es).
 
 
-## 🚄 Demostraciones
+## ▶️ Demostraciones
 
 ### Pestaña `Estudio de Doblaje`: Transcripción, Traducción y TTS
 <div aria-labelledby="studio-demo-description">

@@ -33,21 +33,26 @@ Voice-Pro is a state-of-the-art web app that transforms multimedia content creat
 
 A robust alternative to **ElevenLabs**, Voice-Pro empowers podcasters, developers, and creators with advanced voice solutions.
 
-## ⚠️ Heads-Up
-- Now updated to **v2.x** (Python 3.10.15, Torch 2.5.1+cu124, Gradio 5.14.0)
-- 🆓 Free trial processes up to **60 seconds** of media
-- 🔥 New **AI Cover** feature added
-- 🎤 **CosyVoice** and **kokoro** now supported
-- ⏳ Initial launch downloads **CozyVoice2-0.5B (9GB)**—may take over an hour based on your network
-- 🎧 **Celebrity voice** options for cloning expanding regularly
-- **Guidance:**
-  - Upgrade from v1.x to v2.x: **Impossible**. Therefore, it is recommended to delete the installer_files folder and run the latest version of start.bat.
-  - Upgrade from v2.x to v2.x: **Possible**. Download the latest code and run update.bat.
+## ⚠️ Please Note
+  - Upgrading from v1.x to v2.x: **Not possible**. Therefore, it is recommended to delete the installer_files folder and run the latest version of **start.bat**.
+  - Upgrading from v2.x to v2.x: **Possible**. After downloading the latest code, run **update.bat**.
   - First-time users: Please refer to the installation instructions below.
-  - Troubleshooting: In most cases, deleting the **installer_files** folder and running configure.bat and start.bat sequentially will solve the problem.
+  - Troubleshooting: In most cases, issues can be resolved by deleting the **installer_files** folder and then running **configure.bat** and **start.bat** in sequence.
+
+## 📰 News & History
+- Voice-Pro has been updated to **v2.x** (Python 3.10.15, Torch 2.5.1+cu124, Gradio 5.14.0)
+- 🆓 The free trial supports media up to **60 seconds** in length.
+- 🔥 **AI Cover** feature has been added.
+- 🎤 **CosyVoice** and **kokoro** support has been added.
+- ⏳ First run downloads **CozyVoice2-0.5B (9GB)**. May take more than an hour depending on network speed.
+- 🎧 Voice samples for voice cloning will be continuously updated.
+- Introduced **spaCy** for natural sentence-by-sentence translation and TTS.
+- ☁️ Subscription version supports **Microsoft Azure**'s **Translator** and **TTS**.
+- 🏪 Subscription version offers **unlimited usage** within the subscription period (no 60-second limit) and can be purchased through [**Shopify**](https://r17wvy-t2.myshopify.com).
 
 
-## 🚄 Demos
+
+## ▶️ Demos
 
 ### `Dubbing Studio` Tab: Transcription, Translation & TTS
 <div aria-labelledby="studio-demo-description">
@@ -369,7 +374,7 @@ When Windows Defender mistakenly recognizes a batch file as a Trojan, this is of
 ## 🚨 Notice
 - This repository offers a **free trial** of Voice-Pro. 
 - The free trial version of Voice-Pro allows you to process up to **60 seconds** of media.
-- The subscription version supports Microsoft Azure TTS and Translator. Purchase it on [Shopify](https://r17wvy-t2.myshopify.com/?_ab=0&_fd=0&_sc=1).
+- The subscription version supports Microsoft Azure TTS and Translator. Purchase it on [Shopify](https://r17wvy-t2.myshopify.com).
 
 <table>
   <tr>
@@ -424,7 +429,7 @@ ABUS Customer Service
 - Email: <abus.aikorea@gmail.com>
 - Homepage (Korean): <https://abuskorea.imweb.me>
 - Naver (Korean): [30-day subscription](https://smartstore.naver.com/abus/products/11308510267)
-- Shopify (Global): [30-day subscription](https://r17wvy-t2.myshopify.com/?_ab=0&_fd=0&_sc=1)
+- Shopify (Global): [30-day subscription](https://r17wvy-t2.myshopify.com)
 
 ## 👍 YouTube
 - [PlayList](https://www.youtube.com/watch?v=Tu2okoHY174&list=PLwx5dnMDVC9Y7dAjm9r26CZUw1uU5VIeq)

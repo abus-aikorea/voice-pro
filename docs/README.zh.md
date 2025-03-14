@@ -31,21 +31,25 @@ Voice-Pro是一款革新多媒体内容制作的先进网页应用。它将YouTu
 
 作为**ElevenLabs**的强大替代方案，Voice-Pro为播客主持人、开发者和创作者提供高级语音解决方案。
 
-## ⚠️ 注意事项
-- Voice-Pro已更新至**v2.x**版本（Python 3.10.15, Torch 2.5.1+cu124, Gradio 5.14.0）
-- 🆓 免费试用版支持最长**60秒**的媒体处理
-- 🔥 新增**AI翻唱**功能
-- 🎤 新增**CosyVoice**和**kokoro**支持
-- ⏳ 首次运行时需下载**CozyVoice2-0.5B (9GB)**，根据网络速度可能需要1小时以上
-- 🎧 声音克隆用的语音样本将持续更新
-- **提示：**
-  - 从 v1.x 升级到 v2.x：**不可能**。因此，建议删除 installer_files 文件夹并运行最新版本的 start.bat。
-  - 从 v2.x 升级到 v2.x：**可能**。下载最新代码后，运行 update.bat。
+## ⚠️ 请注意
+  - 从v1.x升级到v2.x：**不可能**。因此，建议删除installer_files文件夹，然后运行最新版本的**start.bat**。
+  - 从v2.x升级到v2.x：**可能**。下载最新代码后，运行**update.bat**。
   - 首次用户：请参考以下安装方法。
-  - 问题解决：在大多数情况下，删除 **installer_files** 文件夹并依次运行 configure.bat 和 start.bat 即可解决问题。
+  - 问题解决：在大多数情况下，删除**installer_files**文件夹后，依次运行**configure.bat**和**start.bat**即可解决。
+
+## 📰 新闻与历史
+- Voice-Pro已更新至**v2.x**（Python 3.10.15，Torch 2.5.1+cu124，Gradio 5.14.0）
+- 🆓 免费试用版支持最长**60秒**的媒体。
+- 🔥 添加了**AI翻唱**功能。
+- 🎤 添加了对**CosyVoice**和**kokoro**的支持。
+- ⏳ 首次运行将下载**CozyVoice2-0.5B（9GB）**。根据网络速度，可能需要1小时以上。
+- 🎧 用于语音克隆的语音样本将持续更新。
+- 引入了**spaCy**用于自然的句子级翻译和TTS。
+- ☁️ 订阅版支持**Microsoft Azure**的**Translator**和**TTS**。
+- 🏪 订阅版在订阅期限内提供**无限使用**（无60秒限制），可通过[**Shopify**](https://r17wvy-t2.myshopify.com/zh-hans)购买。
 
 
-## 🚄 演示
+## ▶️ 演示
 
 ### `配音工作室`标签页：转录、翻译和TTS
 <div aria-labelledby="studio-demo-description">

@@ -31,21 +31,28 @@ Voice-Pro는 멀티미디어 콘텐츠 제작을 혁신하는 최첨단 웹 앱�
 
 **ElevenLabs**의 강력한 대안으로, Voice-Pro는 팟캐스터, 개발자, 창작자들에게 고급 음성 솔루션을 제공합니다.
 
-## ⚠️ 주의사항
+
+## ⚠️ 알아두세요
+  - v1.x 에서 v2.x 로 업그레이드: **불가능**. 따라서, installer_files 폴더 삭제 후, 최신 버전의 **start.bat** 실행 권장.
+  - v2.x 에서 v2.x 로 업그레이드: **가능**. 최신 코드를 다운로드 받은 후, **update.bat** 실행.
+  - 처음 사용자: 아래 설치방법을 참고하세요.
+  - 문제해결: 대부분의 경우, **installer_files** 폴더 삭제 후, **configure.bat** 와 **start.bat** 를 차례로 실행하면 해결 됩니다.
+
+
+## 📰 뉴스 & 히스토리
 - Voice-Pro가 **v2.x**로 업데이트 되었습니다 (Python 3.10.15, Torch 2.5.1+cu124, Gradio 5.14.0)
 - 🆓 무료 체험판은 최대 **60초** 분량의 미디어를 지원합니다.
 - 🔥 **AI 커버** 기능이 추가 되었습니다.
 - 🎤 **CosyVoice** 및 **kokoro** 지원이 추가되었습니다.
 - ⏳ 첫 실행 시 **CozyVoice2-0.5B (9GB)** 를 다운로드합니다. 네트워크 속도에 따라 1시간 이상 소요될 수 있음
 - 🎧 음성 복제용 보이스 샘플은 지속적으로 업데이트 될 예정입니다.
-- **안내:**
-  - v1.x 에서 v2.x 로 업그레이드: **불가능**. 따라서, installer_files 폴더 삭제 후, 최신 버전의 start.bat 실행 권장.
-  - v2.x 에서 v2.x 로 업그레이드: **가능**. 최신 코드를 다운로드 받은 후, update.bat 실행.
-  - 처음 사용자: 아래 설치방법을 참고하세요.
-  - 문제해결: 대부분의 경우, **installer_files** 폴더 삭제 후, configure.bat 와 start.bat 를 차례로 실행하면 해결 됩니다.
+- 문장 단위의 자연스러운 번역과 TTS를 위해 **spaCy**를 도입하였습니다.
+- ☁️ Subscription 버전은 **Microsoft Azure**의 **Translator** 와 **TTS** 를 지원합니다. 
+- 🏪 Subscription 버전은 기한내 **무제한 이용** 가능하며(60초 제한 없음), [**Shopify**](https://r17wvy-t2.myshopify.com/ko) 를 통해 구매할 수 있습니다.
 
 
-## 🚄 데모
+
+## ▶️ 데모
 
 ### `더빙 스튜디오` 탭: 전사, 번역 및 TTS
 <div aria-labelledby="studio-demo-description">
