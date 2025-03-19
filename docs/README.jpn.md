@@ -11,13 +11,67 @@
     license: LGPL
 -->
 
-# Voice-Pro: 究極のAI音声変換＆多言語翻訳ツール 🔊
+<h1 align="center">
+Voice-Pro
+</h1>
 
-🌍 [한국어](README.kor.md) ∙ [English](README.eng.md) ∙ [中文简体](README.zh.md) ∙ [中文繁體](README.tw.md) ∙ [日本語](README.jpn.md) ∙ [Deutsch](README.deu.md) ∙ [Español](README.spa.md) ∙ [Português](README.por.md)
+<p align="center">
+  <i align="center">最高のAI音声認識、翻訳、多言語ダビングソリューション 🚀</i>
+</p>
 
-[![GitHub Release](https://img.shields.io/github/v/release/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/releases)
+<h4 align="center">
+  <a href="https://www.youtube.com/channel/UCbCBWXuVbk-OBp9T4H5JjAA">
+    <img src="https://img.shields.io/badge/youtube-d95652.svg?style=flat-square&logo=youtube" alt="youtube" style="height: 20px;">
+  </a>
+  <a href="https://www.amazon.com/dp/B0F1LQZ42T">
+    <img src="https://img.shields.io/badge/Amazon-f90.svg?style=flat-square&logo=amazon&logoColor=white" alt="Amazon" style="height: 20px;">
+  </a>
+  <a href="https://r17wvy-t2.myshopify.com">
+    <img src="https://img.shields.io/badge/Shopify-7ab55c.svg?style=flat-square&logo=shopify&logoColor=white" alt="Shopify" style="height: 20px;">
+  </a>
+    <a href="https://www.buymeacoffee.com/abus">
+    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me a Coffee" style="height: 20px;">
+  </a>
+  <a href="https://github.com/abus-aikorea/voice-pro/releases">
+    <img src="https://img.shields.io/github/v/release/abus-aikorea/voice-pro" alt="release" style="height: 20px;">
+  </a>
+</h4>
 
-## 🎙️ YouTubeビデオ処理、音声認識、翻訳、多言語サポートテキスト音声変換のための強力なAIベースWebアプリケーション
+<p align="center">
+    <img src="images/main_page_crop.jpn.jpg?raw=true" alt="Dubbing Studio"/>
+</p>
+<br />
+
+
+## 🎙️ 音声認識、翻訳、ダビングのためのAI搭載ウェブアプリケーション
+
+
+<p>  
+  <a href="README.kor.md">
+    <img src="https://flagcdn.com/16x12/kr.png" alt="South Korea Flag" style="vertical-align: middle;"> 한국어
+  </a> ∙ 
+  <a href="README.eng.md">
+    <img src="https://flagcdn.com/16x12/us.png" alt="United Kingdom Flag" style="vertical-align: middle;"> English
+  </a> ∙ 
+  <a href="README.zh.md">
+    <img src="https://flagcdn.com/16x12/cn.png" alt="China Flag" style="vertical-align: middle;"> 中文简体
+  </a> ∙ 
+  <a href="README.tw.md">
+    <img src="https://flagcdn.com/16x12/tw.png" alt="Taiwan Flag" style="vertical-align: middle;"> 中文繁體
+  </a> ∙ 
+  <a href="README.jpn.md">
+    <img src="https://flagcdn.com/16x12/jp.png" alt="Japan Flag" style="vertical-align: middle;"> 日本語
+  </a> ∙ 
+  <a href="README.deu.md">
+    <img src="https://flagcdn.com/16x12/de.png" alt="Germany Flag" style="vertical-align: middle;"> Deutsch
+  </a> ∙ 
+  <a href="README.spa.md">
+    <img src="https://flagcdn.com/16x12/es.png" alt="Spain Flag" style="vertical-align: middle;"> Español
+  </a> ∙ 
+  <a href="README.por.md">
+    <img src="https://flagcdn.com/16x12/pt.png" alt="Portugal Flag" style="vertical-align: middle;"> Português
+  </a>
+</p>
 
 Voice-Proは、マルチメディアコンテンツ制作に革新をもたらす最先端のウェブアプリです。YouTube動画のダウンロード、音声分離、音声認識、翻訳、テキストから音声への変換（TTS）を1つの強力なツールに統合し、クリエイター、研究者、多言語専門家にとって理想的なソリューションを提供します。
 
@@ -111,7 +165,7 @@ Voice-Proは、マルチメディアコンテンツ制作に革新をもたら�
 - 出力オプション: WAV, FLAC, MP3
 - 100以上の言語での字幕と認識
 - 速度、ボリューム、ピッチ調整可能なTTS
-<p align="center"><img style="width: 90%; height: 90%" src="images/main_page.jpn.png?raw=true" alt="多言語音声変換および字幕生成ウェブUIインターフェース"/></p>
+<p align="center"><img style="width: 90%; height: 90%" src="images/main_page.jpn.jpg?raw=true" alt="多言語音声変換および字幕生成ウェブUIインターフェース"/></p>
 
 ### `Whisper字幕`タブ
 - 字幕専用: 90以上の言語
@@ -122,18 +176,18 @@ Voice-Proは、マルチメディアコンテンツ制作に革新をもたら�
 - 100以上の言語翻訳
 - 字幕ファイル対応（ASS、SSA、SRTなど）
 - リアルタイム音声認識と翻訳
-<p align="center"><img style="width: 90%; height: 90%" src="images/live_translation_bbc.png?raw=true" alt="リアルタイム音声認識および翻訳ウェブUI"/></p>
+<p align="center"><img style="width: 90%; height: 90%" src="images/live_translation_bbc.jpg?raw=true" alt="リアルタイム音声認識および翻訳ウェブUI"/></p>
 
 ### `音声生成`タブ
 - オプション: **Edge-TTS**, **F5-TTS**, **CosyVoice**, **kokoro**
 - 有名人声でのポッドキャストと多言語サポート
-<p align="center"><img style="width: 90%; height: 90%" src="images/tts_f5_multi.png?raw=true" alt="音声クローニング技術を活用したポッドキャスト制作ウェブUI"/></p>
+<p align="center"><img style="width: 90%; height: 90%" src="images/tts_f5_multi.jpg?raw=true" alt="音声クローニング技術を活用したポッドキャスト制作ウェブUI"/></p>
 
 ### 🔥 `AIカバー`タブ
 - ボーカル除去: **MDX-Net**, **Demucs**
 - 音声変調: **RVC**
 - AIボイスは[Discord AI Hub](https://discord.com/channels/1159260121998827560/@home)でダウンロード、または<abus.aikorea@gmail.com>にリクエスト
-<p align="center"><img style="width: 90%; height: 90%" src="images/ai_cover.png?raw=true" alt="音声クローニング技術を活用したポッドキャスト制作ウェブUI"/></p>
+<p align="center"><img style="width: 90%; height: 90%" src="images/ai_cover.jpg?raw=true" alt="音声クローニング技術を活用したポッドキャスト制作ウェブUI"/></p>
 
 
 
@@ -142,99 +196,117 @@ Voice-Proは、マルチメディアコンテンツ制作に革新をもたら�
 
 - 追加したい音声はIssuesページでリクエストしてください。[Issues](https://github.com/abus-aikorea/voice-pro/issues/50)
 
-### English
+
+<details>
+<summary>
+English
+</summary> <br />
 
 <table>
   <tr>
-    <td align="center"><img src="celebrities30s/English/Andrew Bustamante.jpg" width="150"><br>Andrew Bustamante</td>
-    <td align="center"><img src="celebrities30s/English/Andrew Huberman.jpg" width="150"><br>Andrew Huberman</td>
-    <td align="center"><img src="celebrities30s/English/Avi Loeb.jpg" width="150"><br>Avi Loeb</td>
-    <td align="center"><img src="celebrities30s/English/Ben Shapiro.jpg" width="150"><br>Ben Shapiro</td>
-    <td align="center"><img src="celebrities30s/English/Brett Johnson.jpg" width="150"><br>Brett Johnson</td>
-    <td align="center"><img src="celebrities30s/English/Brian Keating.jpg" width="150"><br>Brian Keating</td>
+    <td align="center"><img src="celebrities30sREADME/English/Andrew Bustamante.jpg" width="150"><br>Andrew Bustamante</td>
+    <td align="center"><img src="celebrities30sREADME/English/Andrew Huberman.jpg" width="150"><br>Andrew Huberman</td>
+    <td align="center"><img src="celebrities30sREADME/English/Avi Loeb.jpg" width="150"><br>Avi Loeb</td>
+    <td align="center"><img src="celebrities30sREADME/English/Ben Shapiro.jpg" width="150"><br>Ben Shapiro</td>
+    <td align="center"><img src="celebrities30sREADME/English/Brett Johnson.jpg" width="150"><br>Brett Johnson</td>
+    <td align="center"><img src="celebrities30sREADME/English/Brian Keating.jpg" width="150"><br>Brian Keating</td>
   </tr>
   <tr>
-    <td align="center"><img src="celebrities30s/English/Coffeezilla.jpg" width="150"><br>Coffeezilla</td>
-    <td align="center"><img src="celebrities30s/English/Dan Carlin.jpg" width="150"><br>Dan Carlin</td>
-    <td align="center"><img src="celebrities30s/English/David Buss.jpg" width="150"><br>David Buss</td>
-    <td align="center"><img src="celebrities30s/English/David Fravor.jpg" width="150"><br>David Fravor</td>
-    <td align="center"><img src="celebrities30s/English/David Kipping.jpg" width="150"><br>David Kipping</td>
-    <td align="center"><img src="celebrities30s/English/Dennis Whyte.jpg" width="150"><br>Dennis Whyte</td>
+    <td align="center"><img src="celebrities30sREADME/English/Coffeezilla.jpg" width="150"><br>Coffeezilla</td>
+    <td align="center"><img src="celebrities30sREADME/English/Dan Carlin.jpg" width="150"><br>Dan Carlin</td>
+    <td align="center"><img src="celebrities30sREADME/English/David Buss.jpg" width="150"><br>David Buss</td>
+    <td align="center"><img src="celebrities30sREADME/English/David Fravor.jpg" width="150"><br>David Fravor</td>
+    <td align="center"><img src="celebrities30sREADME/English/David Kipping.jpg" width="150"><br>David Kipping</td>
+    <td align="center"><img src="celebrities30sREADME/English/Dennis Whyte.jpg" width="150"><br>Dennis Whyte</td>
   </tr>
   <tr>
-    <td align="center"><img src="celebrities30s/English/Donald Hoffman.jpg" width="150"><br>Donald Hoffman</td>
-    <td align="center"><img src="celebrities30s/English/Donald Trump.jpg" width="150"><br>Donald Trump</td>
-    <td align="center"><img src="celebrities30s/English/Douglas Murray.jpg" width="150"><br>Douglas Murray</td>
-    <td align="center"><img src="celebrities30s/English/Duncan Trussell.jpg" width="150"><br>Duncan Trussell</td>
-    <td align="center"><img src="celebrities30s/English/Elon Musk.jpg" width="150"><br>Elon Musk</td>
-    <td align="center"><img src="celebrities30s/English/Garry Nolan.jpg" width="150"><br>Garry Nolan</td>
+    <td align="center"><img src="celebrities30sREADME/English/Donald Hoffman.jpg" width="150"><br>Donald Hoffman</td>
+    <td align="center"><img src="celebrities30sREADME/English/Donald Trump.jpg" width="150"><br>Donald Trump</td>
+    <td align="center"><img src="celebrities30sREADME/English/Douglas Murray.jpg" width="150"><br>Douglas Murray</td>
+    <td align="center"><img src="celebrities30sREADME/English/Duncan Trussell.jpg" width="150"><br>Duncan Trussell</td>
+    <td align="center"><img src="celebrities30sREADME/English/Elon Musk.jpg" width="150"><br>Elon Musk</td>
+    <td align="center"><img src="celebrities30sREADME/English/Garry Nolan.jpg" width="150"><br>Garry Nolan</td>
   </tr>
   <tr>
-    <td align="center"><img src="celebrities30s/English/Jack Barsky.jpg" width="150"><br>Jack Barsky</td>
-    <td align="center"><img src="celebrities30s/English/James Sexton.jpg" width="150"><br>James Sexton</td>
-    <td align="center"><img src="celebrities30s/English/Jeff Bezos.jpg" width="150"><br>Jeff Bezos</td>
-    <td align="center"><img src="celebrities30s/English/Joe Rogan.jpg" width="150"><br>Joe Rogan</td>
-    <td align="center"><img src="celebrities30s/English/John Mearsheimer.jpg" width="150"><br>John Mearsheimer</td>
-    <td align="center"><img src="celebrities30s/English/Jordan Peterson.jpg" width="150"><br>Jordan Peterson</td>
+    <td align="center"><img src="celebrities30sREADME/English/Jack Barsky.jpg" width="150"><br>Jack Barsky</td>
+    <td align="center"><img src="celebrities30sREADME/English/James Sexton.jpg" width="150"><br>James Sexton</td>
+    <td align="center"><img src="celebrities30sREADME/English/Jeff Bezos.jpg" width="150"><br>Jeff Bezos</td>
+    <td align="center"><img src="celebrities30sREADME/English/Joe Rogan.jpg" width="150"><br>Joe Rogan</td>
+    <td align="center"><img src="celebrities30sREADME/English/John Mearsheimer.jpg" width="150"><br>John Mearsheimer</td>
+    <td align="center"><img src="celebrities30sREADME/English/Jordan Peterson.jpg" width="150"><br>Jordan Peterson</td>
   </tr>
   <tr>
-    <td align="center"><img src="celebrities30s/English/Kanye 'Ye' West.jpg" width="150"><br>Kanye 'Ye' West</td>
-    <td align="center"><img src="celebrities30s/English/Mark Zuckerberg.jpg" width="150"><br>Mark Zuckerberg</td>
-    <td align="center"><img src="celebrities30s/English/Michael Levin.jpg" width="150"><br>Michael Levin</td>
-    <td align="center"><img src="celebrities30s/English/Michael Saylor.jpg" width="150"><br>Michael Saylor</td>
-    <td align="center"><img src="celebrities30s/English/Michio Kaku.jpg" width="150"><br>Michio Kaku</td>
-    <td align="center"><img src="celebrities30s/English/MrBeast.jpg" width="150"><br>MrBeast</td>
+    <td align="center"><img src="celebrities30sREADME/English/Kanye 'Ye' West.jpg" width="150"><br>Kanye 'Ye' West</td>
+    <td align="center"><img src="celebrities30sREADME/English/Mark Zuckerberg.jpg" width="150"><br>Mark Zuckerberg</td>
+    <td align="center"><img src="celebrities30sREADME/English/Michael Levin.jpg" width="150"><br>Michael Levin</td>
+    <td align="center"><img src="celebrities30sREADME/English/Michael Saylor.jpg" width="150"><br>Michael Saylor</td>
+    <td align="center"><img src="celebrities30sREADME/English/Michio Kaku.jpg" width="150"><br>Michio Kaku</td>
+    <td align="center"><img src="celebrities30sREADME/English/MrBeast.jpg" width="150"><br>MrBeast</td>
   </tr>
   <tr>
-    <td align="center"><img src="celebrities30s/English/Nick Lane.jpg" width="150"><br>Nick Lane</td>
-    <td align="center"><img src="celebrities30s/English/Paul Rosolie.jpg" width="150"><br>Paul Rosolie</td>
-    <td align="center"><img src="celebrities30s/English/Ryan Graves.jpg" width="150"><br>Ryan Graves</td>
-    <td align="center"><img src="celebrities30s/English/Sam Altman.jpg" width="150"><br>Sam Altman</td>
-    <td align="center"><img src="celebrities30s/English/Sam Harris.jpg" width="150"><br>Sam Harris</td>
-    <td align="center"><img src="celebrities30s/English/Stephen Wolfram.jpg" width="150"><br>Stephen Wolfram</td>
+    <td align="center"><img src="celebrities30sREADME/English/Nick Lane.jpg" width="150"><br>Nick Lane</td>
+    <td align="center"><img src="celebrities30sREADME/English/Paul Rosolie.jpg" width="150"><br>Paul Rosolie</td>
+    <td align="center"><img src="celebrities30sREADME/English/Ryan Graves.jpg" width="150"><br>Ryan Graves</td>
+    <td align="center"><img src="celebrities30sREADME/English/Sam Altman.jpg" width="150"><br>Sam Altman</td>
+    <td align="center"><img src="celebrities30sREADME/English/Sam Harris.jpg" width="150"><br>Sam Harris</td>
+    <td align="center"><img src="celebrities30sREADME/English/Stephen Wolfram.jpg" width="150"><br>Stephen Wolfram</td>
   </tr>
   <tr>
-    <td align="center"><img src="celebrities30s/English/Tucker Carlson.jpg" width="150"><br>Tucker Carlson</td>
-    <td align="center"><img src="celebrities30s/English/Vitalik Buterin.jpg" width="150"><br>Vitalik Buterin</td>
-    <td align="center"><img src="celebrities30s/English/Yuval Harari.jpg" width="150"><br>Yuval Harari</td>
+    <td align="center"><img src="celebrities30sREADME/English/Tucker Carlson.jpg" width="150"><br>Tucker Carlson</td>
+    <td align="center"><img src="celebrities30sREADME/English/Vitalik Buterin.jpg" width="150"><br>Vitalik Buterin</td>
+    <td align="center"><img src="celebrities30sREADME/English/Yuval Harari.jpg" width="150"><br>Yuval Harari</td>
     <td></td>
     <td></td>
     <td></td>
   </tr>
 </table>
+</details>
 
 
-### Chinese
-
-<table>
-  <tr>
-    <td align="center"><img src="celebrities30s/Chinese/Dilraba Dilmurat.jpg" width="150"><br>迪丽热巴 (Dílì Rèbā)</td>
-    <td align="center"><img src="celebrities30s/Chinese/Jolin Tsai.jpg" width="150"><br>蔡依林 (Cài Yīlín)</td>
-    <td align="center"><img src="celebrities30s/Chinese/Kris Wu.jpg" width="150"><br>吴亦凡 (Wú Yìfán)</td>
-    <td align="center"><img src="celebrities30s/Chinese/Li Yifeng.jpg" width="150"><br>李易峰 (Lǐ Yìfēng)</td>
-    <td align="center"><img src="celebrities30s/Chinese/Yang Mi.jpg" width="150"><br>杨幂 (Yáng Mì)</td>
-    <td align="center"><img src="celebrities30s/Chinese/Zhao Liying.jpg" width="150"><br>赵丽颖 (Zhào Lìyǐng)</td>
-  </tr>
-</table>
-
-### Korean
+<details>
+<summary>
+Chinese
+</summary> <br />
 
 <table>
   <tr>
-    <td align="center"><img src="celebrities30s/Korean/BTS Jin.jpg" width="150"><br>BTS 진 (Jin)</td>
-    <td align="center"><img src="celebrities30s/Korean/BTS RM.jpg" width="150"><br>BTS RM</td>
-    <td align="center"><img src="celebrities30s/Korean/IU.jpg" width="150"><br>IU (아이유)</td>
-    <td align="center"><img src="celebrities30s/Korean/LeeByungHun.jpg" width="150"><br>이병헌</td>
-    <td align="center"><img src="celebrities30s/Korean/LeeJungJae.jpg" width="150"><br>이정재</td>
-    <td align="center"><img src="celebrities30s/Korean/YouJaeSuk.jpg" width="150"><br>유재석</td>
+    <td align="center"><img src="celebrities30sREADME/Chinese/Dilraba Dilmurat.jpg" width="150"><br>迪丽热巴 (Dílì Rèbā)</td>
+    <td align="center"><img src="celebrities30sREADME/Chinese/Jolin Tsai.jpg" width="150"><br>蔡依林 (Cài Yīlín)</td>
+    <td align="center"><img src="celebrities30sREADME/Chinese/Kris Wu.jpg" width="150"><br>吴亦凡 (Wú Yìfán)</td>
+    <td align="center"><img src="celebrities30sREADME/Chinese/Li Yifeng.jpg" width="150"><br>李易峰 (Lǐ Yìfēng)</td>
+    <td align="center"><img src="celebrities30sREADME/Chinese/Yang Mi.jpg" width="150"><br>杨幂 (Yáng Mì)</td>
+    <td align="center"><img src="celebrities30sREADME/Chinese/Zhao Liying.jpg" width="150"><br>赵丽颖 (Zhào Lìyǐng)</td>
   </tr>
 </table>
+</details>
 
-### Japanese
+
+<details>
+<summary>
+Korean
+</summary> <br />
 
 <table>
   <tr>
-    <td align="center"><img src="celebrities30s/Japanese/Ayase Haruka.jpg" width="150"><br>綾瀬はるか (Ayase Haruka)</td>
+    <td align="center"><img src="celebrities30sREADME/Korean/BTS Jin.jpg" width="150"><br>BTS 진 (Jin)</td>
+    <td align="center"><img src="celebrities30sREADME/Korean/BTS RM.jpg" width="150"><br>BTS RM</td>
+    <td align="center"><img src="celebrities30sREADME/Korean/IU.jpg" width="150"><br>IU (아이유)</td>
+    <td align="center"><img src="celebrities30sREADME/Korean/LeeByungHun.jpg" width="150"><br>이병헌</td>
+    <td align="center"><img src="celebrities30sREADME/Korean/LeeJungJae.jpg" width="150"><br>이정재</td>
+    <td align="center"><img src="celebrities30sREADME/Korean/YouJaeSuk.jpg" width="150"><br>유재석</td>
+  </tr>
+</table>
+</details>
+
+
+<details>
+<summary>
+Japanese
+</summary> <br />
+
+<table>
+  <tr>
+    <td align="center"><img src="celebrities30sREADME/Japanese/Ayase Haruka.jpg" width="150"><br>綾瀬はるか (Ayase Haruka)</td>
     <td></td>
     <td></td>
     <td></td>
@@ -242,6 +314,10 @@ Voice-Proは、マルチメディアコンテンツ制作に革新をもたら�
     <td></td>
   </tr>
 </table>
+</details>
+<br />
+
+
 
 
 ## 💻 システム要件
@@ -293,24 +369,6 @@ git clone https://github.com/abus-aikorea/voice-pro.git
 - 大きなWhisperモデルほど字幕品質が向上する傾向あり（large > medium > small > base > tiny）、ただし必ずしもそうではない
 - 計算タイプではfloatが優れた性能を発揮。intはモデル量子化でGPU使用量を減らし速度を向上させるが、性能は低下
 - ノイズ除去レベルを上げると背景音が除去され、残った音声のみが認識に使用されるが、常に良い結果を保証するわけではない
-
-## 📢 注意事項
-
-Windows DefenderがVoice-Proを信頼できないアプリとして警告し、実行を制限する場合があります。
-- **SmartScreen「警告」設定:** 「詳細情報」をクリックし、「それでも実行」を選択
-- **SmartScreen「ブロック」設定:** **start.bat**のプロパティで「ブロック解除」をチェックし、再実行
-<p align="center"><img style="width: 40%; height: 40%" src="images/windows_smartscreen_warning.png?raw=true" alt=""/></p>
-
-Windows Defenderがバッチファイルをトロイの木馬と誤認識する場合、これは「偽陽性（False Positive）」と呼ばれることが多いです。解決策は以下の通りです。
-1. **ファイル例外処理:**
-   - 「スタート」ボタンをクリックし、「設定」に移動
-   - 「更新とセキュリティ」をクリック
-   - 「Windowsセキュリティ」から「ウイルスと脅威の防止」に進む
-   - 「ウイルスと脅威の防止設定の管理」をクリック
-   - 「ウイルスと脅威の防止設定」で「例外の追加」を選択
-   - 「ファイルまたはフォルダ」を選び、対象のバッチファイルを追加
-2. **Windows Defenderの一時無効化:** 一時的な解決策。ただし、他の脅威にさらされる可能性があるため注意が必要
-3. **アンチウイルスソフトへの報告:** ファイルが安全と確信できる場合、Microsoftに偽陽性として報告可能。Microsoftが確認後対応
 
 
 ## 🚨 お知らせ

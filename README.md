@@ -11,17 +11,70 @@
     license: LGPL
 -->
 
+<h1 align="center">
+Voice-Pro
+</h1>
+
+<p align="center">
+  <i align="center">The best AI speech recognition, translation, and multilingual dubbing solution 🚀</i>
+</p>
+
+<h4 align="center">
+  <a href="https://www.youtube.com/channel/UCbCBWXuVbk-OBp9T4H5JjAA">
+    <img src="https://img.shields.io/badge/youtube-d95652.svg?style=flat-square&logo=youtube" alt="youtube" style="height: 20px;">
+  </a>
+  <a href="https://www.amazon.com/dp/B0F1LQZ42T">
+    <img src="https://img.shields.io/badge/Amazon-f90.svg?style=flat-square&logo=amazon&logoColor=white" alt="Amazon" style="height: 20px;">
+  </a>
+  <a href="https://r17wvy-t2.myshopify.com">
+    <img src="https://img.shields.io/badge/Shopify-7ab55c.svg?style=flat-square&logo=shopify&logoColor=white" alt="Shopify" style="height: 20px;">
+  </a>
+    <a href="https://www.buymeacoffee.com/abus">
+    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me a Coffee" style="height: 20px;">
+  </a>
+  <a href="https://github.com/abus-aikorea/voice-pro/releases">
+    <img src="https://img.shields.io/github/v/release/abus-aikorea/voice-pro" alt="release" style="height: 20px;">
+  </a>
+</h4>
+
+<p align="center">
+    <img src="docs/images/main_page_crop.eng.jpg?raw=true" alt="Dubbing Studio"/>
+</p>
 
 
-# Voice-Pro: Ultimate AI Voice Conversion and Multilingual Translation Tool 🔊
-
-🌍 [한국어](docs/README.kor.md) ∙ [English](docs/README.eng.md) ∙ [中文简体](docs/README.zh.md) ∙ [中文繁體](docs/README.tw.md) ∙ [日本語](docs/README.jpn.md)∙ [Deutsch](docs/README.deu.md) ∙ [Español](docs/README.spa.md) ∙ [Português](docs/README.por.md)
 
 
-[![GitHub Release](https://img.shields.io/github/v/release/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/releases )
+## 🎙️ An AI-powered web application for speech recognition, translation, and dubbing
 
 
-## 🎙️ Powerful AI-powered web application for YouTube video processing, speech recognition, translation, and text-to-speech with multilingual support
+<p>  
+  <a href="docs/README.kor.md">
+    <img src="https://flagcdn.com/16x12/kr.png" alt="South Korea Flag" style="vertical-align: middle;"> 한국어
+  </a> ∙ 
+  <a href="docs/README.eng.md">
+    <img src="https://flagcdn.com/16x12/us.png" alt="United Kingdom Flag" style="vertical-align: middle;"> English
+  </a> ∙ 
+  <a href="docs/README.zh.md">
+    <img src="https://flagcdn.com/16x12/cn.png" alt="China Flag" style="vertical-align: middle;"> 中文简体
+  </a> ∙ 
+  <a href="docs/README.tw.md">
+    <img src="https://flagcdn.com/16x12/tw.png" alt="Taiwan Flag" style="vertical-align: middle;"> 中文繁體
+  </a> ∙ 
+  <a href="docs/README.jpn.md">
+    <img src="https://flagcdn.com/16x12/jp.png" alt="Japan Flag" style="vertical-align: middle;"> 日本語
+  </a> ∙ 
+  <a href="docs/README.deu.md">
+    <img src="https://flagcdn.com/16x12/de.png" alt="Germany Flag" style="vertical-align: middle;"> Deutsch
+  </a> ∙ 
+  <a href="docs/README.spa.md">
+    <img src="https://flagcdn.com/16x12/es.png" alt="Spain Flag" style="vertical-align: middle;"> Español
+  </a> ∙ 
+  <a href="docs/README.por.md">
+    <img src="https://flagcdn.com/16x12/pt.png" alt="Portugal Flag" style="vertical-align: middle;"> Português
+  </a>
+</p>
+
+
 
 Voice-Pro is a state-of-the-art web app that transforms multimedia content creation. It integrates YouTube video downloading, voice separation, speech recognition, translation, and text-to-speech into a single, powerful tool for creators, researchers, and multilingual professionals.
 - 🔊 Top-tier speech recognition: **Whisper**, **Faster-Whisper**, **Whisper-Timestamped**
@@ -140,6 +193,7 @@ Demonstration of real-time multilingual translation feature: Showcasing an innov
 
 ## 🤖 WebUI
 
+
 ### `Dubbing Studio` Tab
 - All-in-one hub: YouTube downloads, noise removal, subtitles, translation, & TTS
 - Supports all ffmpeg-compatible formats
@@ -148,7 +202,7 @@ Demonstration of real-time multilingual translation feature: Showcasing an innov
 - TTS with speed, volume, & pitch controls
   
 <p align="center">
-  <img style="width: 90%; height: 90%" src="docs/images/main_page.eng.png?raw=true" alt="Multilingual Voice Conversion and Subtitle Generation Web UI Interface"/>
+  <img style="width: 90%; height: 90%" src="docs/images/main_page.eng.jpg?raw=true" alt="Multilingual Voice Conversion and Subtitle Generation Web UI Interface"/>
 </p>  
 
 
@@ -163,7 +217,7 @@ Demonstration of real-time multilingual translation feature: Showcasing an innov
 - Real-time voice recognition & translation
 
 <p align="center">
-  <img style="width: 90%; height: 90%" src="docs/images/live_translation_bbc.png?raw=true" alt="WebUI for Real-Time Speech Recognition and Translation"/>
+  <img style="width: 90%; height: 90%" src="docs/images/live_translation_bbc.jpg?raw=true" alt="WebUI for Real-Time Speech Recognition and Translation"/>
 </p>  
 
 ### `Speech Generation` Tab
@@ -171,7 +225,7 @@ Demonstration of real-time multilingual translation feature: Showcasing an innov
 - Celeb voice podcasts & multilingual support
 
 <p align="center">
-  <img style="width: 90%; height: 90%" src="docs/images/tts_f5_multi.png?raw=true" alt="Podcast Production WebUI Using Voice-Cloning Technology"/>
+  <img style="width: 90%; height: 90%" src="docs/images/tts_f5_multi.jpg?raw=true" alt="Podcast Production WebUI Using Voice-Cloning Technology"/>
 </p>  
 
 ### 🔥 `AI Cover` Tab
@@ -180,7 +234,7 @@ Demonstration of real-time multilingual translation feature: Showcasing an innov
 - Download AI voices from [Discord AI Hub](https://discord.com/channels/1159260121998827560/@home) or request via <abus.aikorea@gmail.com>
 
 <p align="center">
-  <img style="width: 90%; height: 90%" src="docs/images/ai_cover.png?raw=true" alt="Podcast Production WebUI Using Voice-Cloning Technology"/>
+  <img style="width: 90%; height: 90%" src="docs/images/ai_cover.jpg?raw=true" alt="Podcast Production WebUI Using Voice-Cloning Technology"/>
 </p>  
 
 
@@ -189,7 +243,11 @@ Demonstration of real-time multilingual translation feature: Showcasing an innov
 
 - Please request the voice you want to add on the Issues page. [Issues](https://github.com/abus-aikorea/voice-pro/issues/50)  
 
-### English
+
+<details>
+<summary>
+English
+</summary> <br />
 
 <table>
   <tr>
@@ -249,9 +307,13 @@ Demonstration of real-time multilingual translation feature: Showcasing an innov
     <td></td>
   </tr>
 </table>
+</details>
 
 
-### Chinese
+<details>
+<summary>
+Chinese
+</summary> <br />
 
 <table>
   <tr>
@@ -263,8 +325,13 @@ Demonstration of real-time multilingual translation feature: Showcasing an innov
     <td align="center"><img src="docs/celebrities30s/Chinese/Zhao Liying.jpg" width="150"><br>赵丽颖 (Zhào Lìyǐng)</td>
   </tr>
 </table>
+</details>
 
-### Korean
+
+<details>
+<summary>
+Korean
+</summary> <br />
 
 <table>
   <tr>
@@ -276,8 +343,13 @@ Demonstration of real-time multilingual translation feature: Showcasing an innov
     <td align="center"><img src="docs/celebrities30s/Korean/YouJaeSuk.jpg" width="150"><br>유재석</td>
   </tr>
 </table>
+</details>
 
-### Japanese
+
+<details>
+<summary>
+Japanese
+</summary> <br />
 
 <table>
   <tr>
@@ -289,7 +361,8 @@ Demonstration of real-time multilingual translation feature: Showcasing an innov
     <td></td>
   </tr>
 </table>
-
+</details>
+<br />
 
 ## 💻 System Requirements
 - **OS:** Windows 10/11 (64-bit) ※ Linux/Mac unsupported
@@ -347,29 +420,6 @@ git clone https://github.com/abus-aikorea/voice-pro.git
 - Among compute types, float type has good performance. The int type is a model that reduces GPU usage and increases speed through model quantization. On the other hand, performance decreases. 
 - If you increase the denoise level, more background sounds will be removed, and only the remaining voice will be used for voice recognition. It does not always guarantee good results.
   
-
-## 📢 caution
-
-Windows Defender may give a warning about untrusted application and disallow further execution of Voice-Pro.
-If SmartScreen security level is set to "Warn", just click "More info" and then click "Run anyway". 
-If SmartScreen is set to level "Block" there will be no button to run the installation. In this case, open the properties of the start.bat file, and check "Unblock", apply the change and run the start.bat again.
-
-<p align="center">
-  <img style="width: 60%; height: 60%" src="docs/images/windows_smartscreen_warning.png?raw=true" alt=""/>
-</p>  
-
-
-When Windows Defender mistakenly recognizes a batch file as a Trojan, this is often called a 'False Positive'. To solve this problem, you can go through the following steps:
-
-1. File exception handling: In Windows Defender, you can set certain files or processes to skip security scanning. To do this, follow the steps below:
-   * Click the ‘Start’ button and go to ‘Settings’.
-   * Click ‘Update & Security’.
-   * Select ‘Windows Security’ and go to ‘Virus & threat protection’.
-   * Click ‘Manage Virus & Threat Protection Settings’.
-   * Select 'Add exception' in 'Virus & threat protection settings'.
-   * Select 'File or Folder', find the batch file in question and add it as an exception.
-2. Temporarily disable Windows Defender: This may be a temporary solution. However, you must be careful when using this method as it may expose your computer to other threats.
-3. Report the problem to anti-virus software: If you are sure that the file is not a Trojan horse, you can report it to Microsoft as a False Positive. Microsoft will review this and take any necessary action.
 
 
 ## 🚨 Notice
