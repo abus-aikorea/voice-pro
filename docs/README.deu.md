@@ -75,32 +75,45 @@ Voice-Pro
 
 Voice-Pro ist eine hochmoderne Web-App, die die Erstellung von Multimedia-Inhalten revolutioniert. Sie kombiniert YouTube-Video-Downloads, Stimmseparation, Spracherkennung, Übersetzung und Text-to-Speech (TTS) in einem einzigen, leistungsstarken Tool und bietet so eine ideale Lösung für Kreative, Forscher und mehrsprachige Profis.
 
-- 🔊 Erstklassige Spracherkennung: **Whisper**, **Faster-Whisper**, **Whisper-Timestamped**
+- 🔊 Erstklassige Spracherkennung: **Whisper**, **Faster-Whisper**, **Whisper-Timestamped**, **WhisperX**
 - 🎤 Zero-Shot-Stimmklonierung: **F5-TTS**, **E2-TTS**, **CosyVoice**
 - 📢 Mehrsprachige Text-to-Speech: **Edge-TTS**, **kokoro**
 - 🎥 YouTube-Verarbeitung & Audioextraktion: **yt-dlp**
 - 🌍 Sofortige Übersetzung in über 100 Sprachen: **Deep-Translator**
-- 🔇 Professionelle Gesangsisolierung: **UVR5**
-- 🔥 AI-Cover-Erstellung: **RVC**
+
 
 Als starke Alternative zu **ElevenLabs** bietet Voice-Pro Podcastern, Entwicklern und Kreativen fortschrittliche Sprachlösungen.
 
 ## ⚠️ Bitte beachten
-  - Upgrade von v1.x auf v2.x: **Nicht möglich**. Daher wird empfohlen, den Ordner installer_files zu löschen und die neueste Version von **start.bat** auszuführen.
-  - Upgrade von v2.x auf v2.x: **Möglich**. Nach dem Herunterladen des neuesten Codes führen Sie **update.bat** aus.
-  - Erstbenutzer: Bitte beachten Sie die Installationsanweisungen unten.
-  - Problembehebung: In den meisten Fällen können Probleme durch Löschen des Ordners **installer_files** und anschließendes Ausführen von **configure.bat** und **start.bat** in dieser Reihenfolge behoben werden.
+- **Upgrade von v2.x auf v3.x**: Nicht möglich. Wir empfehlen, den Ordner `installer_files` zu löschen und die neueste Version von `start.bat` auszuführen.
+- **Upgrade von v3.x auf v3.x**: Möglich. Nach dem Herunterladen des neuesten Codes führen Sie `update.bat` aus.
+- **Erstbenutzer**: Bitte lesen Sie die Installationsanweisungen unten.
+- **Fehlerbehebung**: In den meisten Fällen können Probleme durch das Löschen des `installer_files`-Ordners und das anschließende Ausführen von `configure.bat` gefolgt von `start.bat` behoben werden.
 
 ## 📰 Neuigkeiten & Verlauf
-- Voice-Pro wurde auf **v2.x** aktualisiert (Python 3.10.15, Torch 2.5.1+cu124, Gradio 5.14.0)
-- 🆓 Die kostenlose Testversion unterstützt Medien mit einer Länge von bis zu **60 Sekunden**.
-- 🔥 Die Funktion **AI Cover** wurde hinzugefügt.
-- 🎤 Unterstützung für **CosyVoice** und **kokoro** wurde hinzugefügt.
-- ⏳ Beim ersten Start wird **CozyVoice2-0.5B (9GB)** heruntergeladen. Dies kann je nach Netzwerkgeschwindigkeit mehr als eine Stunde dauern.
-- 🎧 Sprachbeispiele für Stimmklonen werden kontinuierlich aktualisiert.
-- **spaCy** wurde für natürliche satzweise Übersetzung und TTS eingeführt.
-- ☁️ Die Abonnementversion unterstützt **Microsoft Azure**'s **Translator** und **TTS**.
-- 🏪 Die Abonnementversion bietet **unbegrenzte Nutzung** innerhalb des Abonnementzeitraums (keine 60-Sekunden-Begrenzung) und kann über [**Shopify**](https://r17wvy-t2.myshopify.com/de) erworben werden.
+
+<details>
+<summary>Version 3.0</summary>
+
+- 🔥 Die **AI Cover**-Funktion wurde entfernt.  
+- 🚀 Unterstützung für **m-main/whisperX** wurde hinzugefügt.  
+
+</details>
+
+<details>
+<summary>Version 2.0</summary>
+
+- 🐍 Mit Python 3.10.15, Torch 2.5.1+cu124 und Gradio 5.14.0 erstellt.  
+- 🆓 Die kostenlose Testversion unterstützt Medien bis zu **60 Sekunden** Länge.  
+- 🔥 Die **AI Cover**-Funktion wurde hinzugefügt.  
+- 🎤 Unterstützung für **CosyVoice** und **kokoro** wurde eingeführt.  
+- ⏳ Beim ersten Start wird **CozyVoice2-0.5B (9GB)** heruntergeladen, was je nach Netzwerkgeschwindigkeit über eine Stunde dauern kann.  
+- 🎧 Sprachproben für das Sprachklonen werden kontinuierlich aktualisiert.  
+- 📝 **spaCy** wurde für natürliche satzweise Übersetzung und TTS hinzugefügt.  
+- ☁️ Die Abonnement-Version umfasst den **Microsoft Azure**-Übersetzer und TTS.  
+- 🏪 Die Abonnement-Version bietet **unbegrenzte Nutzung** (keine 60-Sekunden-Beschränkung) während der Abonnementlaufzeit und kann über [**Shopify**](https://r17wvy-t2.myshopify.com) erworben werden.  
+
+</details>
 
 ## ▶️ Demos
 
@@ -139,23 +152,23 @@ Als starke Alternative zu **ElevenLabs** bietet Voice-Pro Podcastern, Entwickler
 
 ## ⭐ Hauptfunktionen
 
-### 1. Dubbing-Studio
+### 1. Synchronstudio
 - YouTube-Video-Downloads & Audioextraktion
-- Stimmseparation mit **MDX-Net** und **Demucs**
-- Unterstützung für Spracherkennung und Übersetzung in über 100 Sprachen
+- Stimmtrennung mit **Demucs**
+- Unterstützt über 100 Sprachen für Spracherkennung & Übersetzung
 
 ### 2. Sprachtechnologien
-- **Sprache-zu-Text:** **Whisper**, **Faster-Whisper**, **Whisper-Timestamped**
-- **Text-zu-Sprache:**
-  - **Edge-TTS**: Über 100 Sprachen, mehr als 400 Stimmen
-  - **E2-TTS**, **F5-TTS**, **CosyVoice**: Zero-Shot-Klonierung
-  - **kokoro**: Platz 2 im HuggingFace TTS Arena
-- 🔥 **AI-Cover (Sprache-zu-Sprache):** Gesangsentfernung mit **UVR5**, Modulation mit **RVC**
+- **Sprache-zu-Text:** **Whisper**, **Faster-Whisper**, **Whisper-Timestamped**, **WhisperX**
+- **Text-zu-Sprache:** 
+  - **Edge-TTS**: Über 100 Sprachen, 400+ Stimmen
+  - **E2-TTS**, **F5-TTS**, **CosyVoice**: Zero-Shot-Klonen
+  - **kokoro**: Platz 2 in der HuggingFace TTS-Arena
 
 ### 3. Echtzeit-Übersetzung
 - Sofortige Spracherkennung
 - Mehrsprachige Übersetzung in Echtzeit
 - Anpassbare Audioeingaben
+
 
 ## 🤖 WebUI
 
@@ -182,12 +195,6 @@ Als starke Alternative zu **ElevenLabs** bietet Voice-Pro Podcastern, Entwickler
 - Optionen: **Edge-TTS**, **F5-TTS**, **CosyVoice**, **kokoro**
 - Podcasts mit Promi-Stimmen & mehrsprachige Unterstützung
 <p align="center"><img style="width: 90%; height: 90%" src="images/tts_f5_multi.jpg?raw=true" alt="WebUI für Podcast-Erstellung mit Stimmklonierungstechnologie"/></p>
-
-### 🔥 `AI-Cover`-Tab
-- Gesangsentfernung: **MDX-Net**, **Demucs**
-- Stimmmodulation: **RVC**
-- AI-Stimmen können von [Discord AI Hub](https://discord.com/channels/1159260121998827560/@home) heruntergeladen oder über <abus.aikorea@gmail.com> angefordert werden
-<p align="center"><img style="width: 90%; height: 90%" src="images/ai_cover.jpg?raw=true" alt="WebUI für Podcast-Erstellung mit Stimmklonierungstechnologie"/></p>
 
 
 ## 🎤✨ Referenzstimme
@@ -443,8 +450,7 @@ ABUS Kundenservice
 * openai-whisper: <https://github.com/openai/whisper>
 * faster-whisper: <https://github.com/SYSTRAN/faster-whisper>
 * whisper-timestamped: <https://github.com/linto-ai/whisper-timestamped>
-* RVC-Project: <https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI>
-* UVR5: <https://github.com/Anjok07/ultimatevocalremovergui>
+* whisperX: <https://github.com/m-bain/whisperX>
 * CosyVoice: <https://github.com/FunAudioLLM/CosyVoice>
 * kokoro: <https://github.com/hexgrad/kokoro>
 * Deep-Translator: <https://github.com/nidhaloff/deep-translator>

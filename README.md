@@ -77,32 +77,45 @@ Voice-Pro
 
 
 Voice-Pro is a state-of-the-art web app that transforms multimedia content creation. It integrates YouTube video downloading, voice separation, speech recognition, translation, and text-to-speech into a single, powerful tool for creators, researchers, and multilingual professionals.
-- 🔊 Top-tier speech recognition: **Whisper**, **Faster-Whisper**, **Whisper-Timestamped**
+- 🔊 Top-tier speech recognition: **Whisper**, **Faster-Whisper**, **Whisper-Timestamped**, **WhisperX**
 - 🎤 Zero-shot voice cloning: **F5-TTS**, **E2-TTS**, **CosyVoice**
 - 📢 Multilingual text-to-speech: **Edge-TTS**, **kokoro**
 - 🎥 YouTube processing & audio extraction: **yt-dlp**
 - 🌍 Instant translation for 100+ languages: **Deep-Translator**
-- 🔇 Pro-grade vocal isolation: **UVR5**
-- 🔥 AI cover creation: **RVC**
+
 
 A robust alternative to **ElevenLabs**, Voice-Pro empowers podcasters, developers, and creators with advanced voice solutions.
 
 ## ⚠️ Please Note
-  - Upgrading from v1.x to v2.x: **Not possible**. Therefore, it is recommended to delete the installer_files folder and run the latest version of **start.bat**.
-  - Upgrading from v2.x to v2.x: **Possible**. After downloading the latest code, run **update.bat**.
-  - First-time users: Please refer to the installation instructions below.
-  - Troubleshooting: In most cases, issues can be resolved by deleting the **installer_files** folder and then running **configure.bat** and **start.bat** in sequence.
+- **Upgrading from v2.x to v3.x**: Not possible. We recommend deleting the `installer_files` folder and running the latest version of `start.bat`.
+- **Upgrading from v3.x to v3.x**: Possible. After downloading the latest code, run `update.bat`.
+- **First-time users**: Please refer to the installation instructions below.
+- **Troubleshooting**: In most cases, issues can be resolved by deleting the `installer_files` folder and then running `configure.bat` followed by `start.bat`.
 
 ## 📰 News & History
-- Voice-Pro has been updated to **v2.x** (Python 3.10.15, Torch 2.5.1+cu124, Gradio 5.14.0)
-- 🆓 The free trial supports media up to **60 seconds** in length.
-- 🔥 **AI Cover** feature has been added.
-- 🎤 **CosyVoice** and **kokoro** support has been added.
-- ⏳ First run downloads **CozyVoice2-0.5B (9GB)**. May take more than an hour depending on network speed.
-- 🎧 Voice samples for voice cloning will be continuously updated.
-- Introduced **spaCy** for natural sentence-by-sentence translation and TTS.
-- ☁️ Subscription version supports **Microsoft Azure**'s **Translator** and **TTS**.
-- 🏪 Subscription version offers **unlimited usage** within the subscription period (no 60-second limit) and can be purchased through [**Shopify**](https://r17wvy-t2.myshopify.com).
+
+<details>
+<summary>version 3.0</summary>
+
+- 🔥 Removed the **AI Cover** feature.  
+- 🚀 Added support for **m-main/whisperX**.
+  
+</details>
+
+<details>
+<summary>version 2.0</summary>
+
+- 🐍 Built with Python 3.10.15, Torch 2.5.1+cu124, and Gradio 5.14.0.  
+- 🆓 Free trial supports media up to **60 seconds** in length.  
+- 🔥 Added the **AI Cover** feature.  
+- 🎤 Introduced support for **CosyVoice** and **kokoro**.  
+- ⏳ Initial run downloads **CozyVoice2-0.5B (9GB)**, which may take over an hour depending on network speed.  
+- 🎧 Voice samples for cloning will be continuously updated.  
+- 📝 Added **spaCy** for natural sentence-by-sentence translation and TTS.  
+- ☁️ Subscription version includes **Microsoft Azure** Translator and TTS.  
+- 🏪 Subscription offers **unlimited usage** (no 60-second limit) during the subscription period, available via [**Shopify**](https://r17wvy-t2.myshopify.com).
+  
+</details>
 
 
 
@@ -138,20 +151,6 @@ Demonstration of F5-TTS's innovative AI voice cloning technology: Showcasing adv
   </p>
 </div>
 
-### `AI Cover` Tab
-<div aria-labelledby="ai-cover-description">
-  <video src="https://github.com/user-attachments/assets/88a47ab1-a18b-4779-97c8-7c1da84f5fc3"
-   width="100%" 
-   style="max-width: 720px;" 
-   controls="controls" 
-   muted="muted" 
-   aria-describedby="ai-cover-description">
-   </video>
-  <p id="ai-cover-description">
-Make a Trump version of IU's 'Cupid', Kim Kwang-seok's 'I Miss You', and 'Private's Letter'.
-  </p>
-</div>
-
 
 ### `Live Translation` Tab: Real-Time Recognition & Translation
 <div aria-labelledby="translate-demo-description">
@@ -173,16 +172,15 @@ Demonstration of real-time multilingual translation feature: Showcasing an innov
 
 ### 1. Dubbing Studio
 - YouTube video downloads & audio extraction
-- Voice separation with **MDX-Net** & **Demucs**
+- Voice separation with **Demucs**
 - Supports 100+ languages for speech recognition & translation
 
 ### 2. Speech Technologies
-- **Speech-to-Text:** **Whisper**, **Faster-Whisper**, **Whisper-Timestamped**
+- **Speech-to-Text:** **Whisper**, **Faster-Whisper**, **Whisper-Timestamped**, **WhisperX**
 - **Text-to-Speech:** 
   - **Edge-TTS**: 100+ languages, 400+ voices
   - **E2-TTS**, **F5-TTS**, **CosyVoice**: Zero-shot cloning
   - **kokoro**: Ranked #2 in HuggingFace TTS Arena
-- 🔥 **AI Cover (Speech-to-Speech):** Vocal removal via **UVR5**, modulation with **RVC**
 
 ### 3. Real-Time Translation
 - Instant speech recognition
@@ -226,15 +224,6 @@ Demonstration of real-time multilingual translation feature: Showcasing an innov
 
 <p align="center">
   <img style="width: 90%; height: 90%" src="docs/images/tts_f5_multi.jpg?raw=true" alt="Podcast Production WebUI Using Voice-Cloning Technology"/>
-</p>  
-
-### 🔥 `AI Cover` Tab
-- Vocal removal: **MDX-Net**, **Demucs**
-- Voice modulation: **RVC**
-- Download AI voices from [Discord AI Hub](https://discord.com/channels/1159260121998827560/@home) or request via <abus.aikorea@gmail.com>
-
-<p align="center">
-  <img style="width: 90%; height: 90%" src="docs/images/ai_cover.jpg?raw=true" alt="Podcast Production WebUI Using Voice-Cloning Technology"/>
 </p>  
 
 
@@ -500,8 +489,7 @@ ABUS Customer Service
 * openai-whisper: <https://github.com/openai/whisper>
 * faster-whisper: <https://github.com/SYSTRAN/faster-whisper>
 * whisper-timestamped: <https://github.com/linto-ai/whisper-timestamped>
-* RVC-Project: <https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI>
-* UVR5: <https://github.com/Anjok07/ultimatevocalremovergui>
+* whisperX: <https://github.com/m-bain/whisperX>
 * CosyVoice: <https://github.com/FunAudioLLM/CosyVoice>
 * kokoro: <https://github.com/hexgrad/kokoro>
 * Deep-Translator: <https://github.com/nidhaloff/deep-translator>

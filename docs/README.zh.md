@@ -74,33 +74,45 @@ Voice-Pro
 
 Voice-Pro是一款革新多媒体内容制作的先进网页应用。它将YouTube视频下载、音频分离、语音识别、翻译和文本转语音(TTS)集成到一个强大的工具中，为创作者、研究人员和多语言专家提供理想的解决方案。
 
-- 🔊 顶级语音识别：**Whisper**、**Faster-Whisper**、**Whisper-Timestamped**
+- 🔊 顶级语音识别：**Whisper**、**Faster-Whisper**、**Whisper-Timestamped**, **WhisperX**
 - 🎤 零样本声音克隆：**F5-TTS**、**E2-TTS**、**CosyVoice**
 - 📢 多语言文本转语音：**Edge-TTS**、**kokoro**
 - 🎥 YouTube处理和音频提取：**yt-dlp**
 - 🌍 100多种语言即时翻译：**Deep-Translator**
-- 🔇 专业级人声分离：**UVR5**
-- 🔥 AI翻唱制作：**RVC**
+
 
 作为**ElevenLabs**的强大替代方案，Voice-Pro为播客主持人、开发者和创作者提供高级语音解决方案。
 
 ## ⚠️ 请注意
-  - 从v1.x升级到v2.x：**不可能**。因此，建议删除installer_files文件夹，然后运行最新版本的**start.bat**。
-  - 从v2.x升级到v2.x：**可能**。下载最新代码后，运行**update.bat**。
-  - 首次用户：请参考以下安装方法。
-  - 问题解决：在大多数情况下，删除**installer_files**文件夹后，依次运行**configure.bat**和**start.bat**即可解决。
+- **从v2.x升级到v3.x**: 不可能。我们建议删除`installer_files`文件夹并运行最新版本的`start.bat`。
+- **从v3.x升级到v3.x**: 可以。下载最新代码后，运行`update.bat`。
+- **首次用户**: 请参阅下面的安装说明。
+- **故障排除**: 在大多数情况下，删除`installer_files`文件夹，然后依次运行`configure.bat`和`start.bat`即可解决问题。
 
 ## 📰 新闻与历史
-- Voice-Pro已更新至**v2.x**（Python 3.10.15，Torch 2.5.1+cu124，Gradio 5.14.0）
-- 🆓 免费试用版支持最长**60秒**的媒体。
-- 🔥 添加了**AI翻唱**功能。
-- 🎤 添加了对**CosyVoice**和**kokoro**的支持。
-- ⏳ 首次运行将下载**CozyVoice2-0.5B（9GB）**。根据网络速度，可能需要1小时以上。
-- 🎧 用于语音克隆的语音样本将持续更新。
-- 引入了**spaCy**用于自然的句子级翻译和TTS。
-- ☁️ 订阅版支持**Microsoft Azure**的**Translator**和**TTS**。
-- 🏪 订阅版在订阅期限内提供**无限使用**（无60秒限制），可通过[**Shopify**](https://r17wvy-t2.myshopify.com/zh-hans)购买。
 
+<details>
+<summary>版本 3.0</summary>
+
+- 🔥 **AI Cover**功能已移除。  
+- 🚀 添加了对**m-main/whisperX**的支持。  
+
+</details>
+
+<details>
+<summary>版本 2.0</summary>
+
+- 🐍 使用Python 3.10.15、Torch 2.5.1+cu124和Gradio 5.14.0构建。  
+- 🆓 免费试用支持最长**60秒**的媒体。  
+- 🔥 添加了**AI Cover**功能。  
+- 🎤 引入了对**CosyVoice**和**kokoro**的支持。  
+- ⏳ 首次运行时下载**CozyVoice2-0.5B (9GB)**，根据网络速度可能需要超过1小时。  
+- 🎧 用于语音克隆的语音样本将持续更新。  
+- 📝 添加了**spaCy**以实现自然逐句翻译和TTS。  
+- ☁️ 订阅版本包括**Microsoft Azure**的翻译和TTS。  
+- 🏪 订阅版本在订阅期间提供**无限制使用**（无60秒限制），可通过[**Shopify**](https://r17wvy-t2.myshopify.com)购买。  
+
+</details>
 
 ## ▶️ 演示
 
@@ -122,12 +134,6 @@ Voice-Pro是一款革新多媒体内容制作的先进网页应用。它将YouTu
   <p id="tts-demo-description">F5-TTS的创新AI声音克隆技术演示：精确模仿马克·扎克伯格和埃隆·马斯克的真实声音，创建全新内容的高级语音转换技术展示。</p>
 </div>
 
-### `AI翻唱`标签页
-<div aria-labelledby="ai-cover-description">
-  <video src="https://github.com/user-attachments/assets/88a47ab1-a18b-4779-97c8-7c1da84f5fc3" width="100%" style="max-width: 720px;" controls muted aria-describedby="ai-cover-description"></video>
-  <p id="ai-cover-description">制作特朗普版本的IU《Cupid》、金光石《想念的人》、《士兵的信》。</p>
-</div>
-
 ### `实时翻译`标签页：实时识别和翻译
 <div aria-labelledby="translate-demo-description">
   <video src="https://github.com/user-attachments/assets/eb53dd3a-df0a-4f7f-819c-cf92d477e2d1" width="100%" style="max-width: 720px;" controls muted aria-describedby="translate-demo-description"></video>
@@ -137,22 +143,23 @@ Voice-Pro是一款革新多媒体内容制作的先进网页应用。它将YouTu
 ## ⭐ 主要功能
 
 ### 1. 配音工作室
-- YouTube视频下载和音频提取
-- 使用**MDX-Net**和**Demucs**进行语音分离
-- 支持100多种语言的语音识别和翻译
+- YouTube视频下载与音频提取
+- 使用**Demucs**进行声音分离
+- 支持100多种语言的语音识别与翻译
 
 ### 2. 语音技术
-- **语音转文本：** **Whisper**、**Faster-Whisper**、**Whisper-Timestamped**
-- **文本转语音：**
-  - **Edge-TTS**：支持100多种语言，400多种声音
-  - **E2-TTS**、**F5-TTS**、**CosyVoice**：零样本克隆
-  - **kokoro**：在HuggingFace TTS Arena中排名第二
-- 🔥 **AI翻唱（语音转语音）：** 使用**UVR5**移除人声，使用**RVC**进行变声
+- **语音转文本:** **Whisper**, **Faster-Whisper**, **Whisper-Timestamped**, **WhisperX**
+- **文本转语音:** 
+  - **Edge-TTS**: 100多种语言，400多种声音
+  - **E2-TTS**, **F5-TTS**, **CosyVoice**: 零样本克隆
+  - **kokoro**: 在HuggingFace TTS竞技场中排名第2
 
 ### 3. 实时翻译
 - 即时语音识别
 - 实时多语言翻译
-- 可自定义音频输入
+- 可定制的音频输入
+
+
 
 ## 🤖 网页界面
 
@@ -179,12 +186,6 @@ Voice-Pro是一款革新多媒体内容制作的先进网页应用。它将YouTu
 - 选项：**Edge-TTS**、**F5-TTS**、**CosyVoice**、**kokoro**
 - 使用名人声音制作播客和多语言支持
 <p align="center"><img style="width: 90%; height: 90%" src="images/tts_f5_multi.jpg?raw=true" alt="使用语音克隆技术制作播客的网页界面"/></p>
-
-### 🔥 `AI翻唱`标签页
-- 人声移除：**MDX-Net**、**Demucs**
-- 语音变调：**RVC**
-- AI声音可从[Discord AI Hub](https://discord.com/channels/1159260121998827560/@home)下载或发邮件至<abus.aikorea@gmail.com>请求
-<p align="center"><img style="width: 90%; height: 90%" src="images/ai_cover.jpg?raw=true" alt="使用语音克隆技术制作播客的网页界面"/></p>
 
 
 
@@ -440,8 +441,7 @@ ABUS客户服务
 * openai-whisper: <https://github.com/openai/whisper>
 * faster-whisper: <https://github.com/SYSTRAN/faster-whisper>
 * whisper-timestamped: <https://github.com/linto-ai/whisper-timestamped>
-* RVC-Project: <https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI>
-* UVR5: <https://github.com/Anjok07/ultimatevocalremovergui>
+* whisperX: <https://github.com/m-bain/whisperX>
 * CosyVoice: <https://github.com/FunAudioLLM/CosyVoice>
 * kokoro: <https://github.com/hexgrad/kokoro>
 * Deep-Translator: <https://github.com/nidhaloff/deep-translator>

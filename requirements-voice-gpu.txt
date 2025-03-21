@@ -3,7 +3,8 @@ py-cpuinfo==9.0.0
 wget
 # for Whisper
 openai-whisper==20240930
-faster-whisper==1.1.1
+faster-whisper==1.1.0
+whisperx==3.3.1
 whisper-timestamped==1.15.8
 matplotlib
 ffmpeg-python==0.2.0
@@ -14,7 +15,7 @@ fonts
 font-roboto
 # gradio
 gradio==5.14.0
-numpy==1.26.4
+numpy<2
 pydantic==2.9.1
 yt-dlp==2025.01.15
 browser_cookie3
@@ -48,19 +49,20 @@ evaluate
 azure-ai-translation-text==1.0.0b1
 azure-cognitiveservices-speech
 uuid
-# ai cover
-deemix
-torchcrepe==0.0.22
-fairseq==0.12.2
-faiss-cpu==1.7.3
-lib==4.0.0
-praat-parselmouth>=0.4.2
-pedalboard==0.7.7
+#
 pydub==0.25.1
-pyworld==0.3.4
-Requests==2.31.0
-scipy==1.11.1
-tensorboardX
+# Requests==2.31.0
+# ai cover
+# deemix
+# torchcrepe==0.0.22
+# fairseq==0.12.2
+# faiss-cpu==1.7.3
+# lib==4.0.0
+# praat-parselmouth>=0.4.2
+# pedalboard==0.7.7
+# pyworld==0.3.4
+# scipy==1.11.1
+# tensorboardX
 # PyTorch 2.5.1
 --extra-index-url https://download.pytorch.org/whl/cu124
 torch==2.5.1+cu124
@@ -86,4 +88,4 @@ misaki[en]
 misaki[ja]
 misaki[zh]
 # spaCy
-spacy[cuda124]==3.7.5
+spacy[cuda12x]==3.7.5

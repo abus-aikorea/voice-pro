@@ -75,34 +75,45 @@ Voice-Pro
 
 Voice-Pro是一款革新多媒體內容製作的先進網頁應用程式。它將YouTube影片下載、音訊分離、語音辨識、翻譯和文字轉語音(TTS)整合到一個強大的工具中，為創作者、研究人員和多語言專家提供理想的解決方案。
 
-- 🔊 頂級語音辨識：**Whisper**、**Faster-Whisper**、**Whisper-Timestamped**
+- 🔊 頂級語音辨識：**Whisper**、**Faster-Whisper**、**Whisper-Timestamped**, **WhisperX**
 - 🎤 零樣本聲音克隆：**F5-TTS**、**E2-TTS**、**CosyVoice**
 - 📢 多語言文字轉語音：**Edge-TTS**、**kokoro**
 - 🎥 YouTube處理和音訊提取：**yt-dlp**
 - 🌍 100多種語言即時翻譯：**Deep-Translator**
-- 🔇 專業級人聲分離：**UVR5**
-- 🔥 AI翻唱製作：**RVC**
+
 
 作為**ElevenLabs**的強大替代方案，Voice-Pro為播客主持人、開發者和創作者提供進階語音解決方案。
 
 ## ⚠️ 請注意
-  - 從v1.x升級到v2.x：**不可能**。因此，建議刪除installer_files資料夾，然後運行最新版本的**start.bat**。
-  - 從v2.x升級到v2.x：**可能**。下載最新代碼後，運行**update.bat**。
-  - 首次使用者：請參考以下安裝方法。
-  - 問題解決：在大多數情況下，刪除**installer_files**資料夾後，依次運行**configure.bat**和**start.bat**即可解決。
+- **從v2.x升級到v3.x**: 不可能。我們建議刪除`installer_files`文件夾並運行最新版本的`start.bat`。
+- **從v3.x升級到v3.x**: 可以。下載最新代碼後，運行`update.bat`。
+- **首次用戶**: 請參閱下面的安裝說明。
+- **故障排除**: 在大多數情況下，刪除`installer_files`文件夾，然後依次運行`configure.bat`和`start.bat`即可解決問題。
 
 ## 📰 新聞與歷史
-- Voice-Pro已更新至**v2.x**（Python 3.10.15，Torch 2.5.1+cu124，Gradio 5.14.0）
-- 🆓 免費試用版支持最長**60秒**的媒體。
-- 🔥 添加了**AI翻唱**功能。
-- 🎤 添加了對**CosyVoice**和**kokoro**的支持。
-- ⏳ 首次運行將下載**CozyVoice2-0.5B（9GB）**。根據網絡速度，可能需要1小時以上。
-- 🎧 用於語音克隆的語音樣本將持續更新。
-- 引入了**spaCy**用於自然的句子級翻譯和TTS。
-- ☁️ 訂閱版支持**Microsoft Azure**的**Translator**和**TTS**。
-- 🏪 訂閱版在訂閱期限內提供**無限使用**（無60秒限制），可通過[**Shopify**](https://r17wvy-t2.myshopify.com/zh-hant)購買。
 
+<details>
+<summary>版本 3.0</summary>
 
+- 🔥 **AI Cover**功能已移除。  
+- 🚀 添加了對**m-main/whisperX**的支持。  
+
+</details>
+
+<details>
+<summary>版本 2.0</summary>
+
+- 🐍 使用Python 3.10.15、Torch 2.5.1+cu124和Gradio 5.14.0構建。  
+- 🆓 免費試用支持最長**60秒**的媒體。  
+- 🔥 添加了**AI Cover**功能。  
+- 🎤 引入了對**CosyVoice**和**kokoro**的支持。  
+- ⏳ 首次運行時下載**CozyVoice2-0.5B (9GB)**，根據網絡速度可能需要超過1小時。  
+- 🎧 用於語音克隆的語音樣本將持續更新。  
+- 📝 添加了**spaCy**以實現自然逐句翻譯和TTS。  
+- ☁️ 訂閱版本包括**Microsoft Azure**的翻譯和TTS。  
+- 🏪 訂閱版本在訂閱期間提供**無限制使用**（無60秒限制），可通過[**Shopify**](https://r17wvy-t2.myshopify.com)購買。  
+
+</details>
 ## ▶️ 示範
 
 ### `配音工作室`標籤頁：轉錄、翻譯和TTS
@@ -138,22 +149,23 @@ Voice-Pro是一款革新多媒體內容製作的先進網頁應用程式。它�
 ## ⭐ 主要功能
 
 ### 1. 配音工作室
-- YouTube影片下載和音訊提取
-- 使用**MDX-Net**和**Demucs**進行語音分離
-- 支援100多種語言的語音辨識和翻譯
+- YouTube視頻下載與音頻提取
+- 使用**Demucs**進行聲音分離
+- 支持100多種語言的語音識別與翻譯
 
 ### 2. 語音技術
-- **語音轉文字：** **Whisper**、**Faster-Whisper**、**Whisper-Timestamped**
-- **文字轉語音：**
-  - **Edge-TTS**：支援100多種語言，400多種聲音
-  - **E2-TTS**、**F5-TTS**、**CosyVoice**：零樣本克隆
-  - **kokoro**：在HuggingFace TTS Arena中排名第二
-- 🔥 **AI翻唱（語音轉語音）：** 使用**UVR5**移除人聲，使用**RVC**進行變聲
+- **語音轉文本:** **Whisper**, **Faster-Whisper**, **Whisper-Timestamped**, **WhisperX**
+- **文本轉語音:** 
+  - **Edge-TTS**: 100多種語言，400多種聲音
+  - **E2-TTS**, **F5-TTS**, **CosyVoice**: 零樣本克隆
+  - **kokoro**: 在HuggingFace TTS競技場中排名第2
 
-### 3. 即時翻譯
-- 即時語音辨識
-- 即時多語言翻譯
-- 可自訂音訊輸入
+### 3. 實時翻譯
+- 即時語音識別
+- 實時多語言翻譯
+- 可自定義的音頻輸入
+
+
 
 ## 🤖 網頁介面
 
@@ -180,13 +192,6 @@ Voice-Pro是一款革新多媒體內容製作的先進網頁應用程式。它�
 - 選項：**Edge-TTS**、**F5-TTS**、**CosyVoice**、**kokoro**
 - 使用名人聲音製作播客和多語言支援
 <p align="center"><img style="width: 90%; height: 90%" src="images/tts_f5_multi.jpg?raw=true" alt="使用語音克隆技術製作播客的網頁介面"/></p>
-
-### 🔥 `AI翻唱`標籤頁
-- 人聲移除：**MDX-Net**、**Demucs**
-- 語音變調：**RVC**
-- AI聲音可從[Discord AI Hub](https://discord.com/channels/1159260121998827560/@home)下載或發郵件至<abus.aikorea@gmail.com>請求
-<p align="center"><img style="width: 90%; height: 90%" src="images/ai_cover.jpg?raw=true" alt="使用語音克隆技術製作播客的網頁介面"/></p>
-
 
 
 ## 🎤✨ 參考聲音
@@ -442,8 +447,7 @@ ABUS客戶服務
 * openai-whisper: <https://github.com/openai/whisper>
 * faster-whisper: <https://github.com/SYSTRAN/faster-whisper>
 * whisper-timestamped: <https://github.com/linto-ai/whisper-timestamped>
-* RVC-Project: <https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI>
-* UVR5: <https://github.com/Anjok07/ultimatevocalremovergui>
+* whisperX: <https://github.com/m-bain/whisperX>
 * CosyVoice: <https://github.com/FunAudioLLM/CosyVoice>
 * kokoro: <https://github.com/hexgrad/kokoro>
 * Deep-Translator: <https://github.com/nidhaloff/deep-translator>

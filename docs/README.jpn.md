@@ -75,33 +75,45 @@ Voice-Pro
 
 Voice-Proは、マルチメディアコンテンツ制作に革新をもたらす最先端のウェブアプリです。YouTube動画のダウンロード、音声分離、音声認識、翻訳、テキストから音声への変換（TTS）を1つの強力なツールに統合し、クリエイター、研究者、多言語専門家にとって理想的なソリューションを提供します。
 
-- 🔊 最高レベルの音声認識: **Whisper**, **Faster-Whisper**, **Whisper-Timestamped**
+- 🔊 最高レベルの音声認識: **Whisper**, **Faster-Whisper**, **Whisper-Timestamped**, **WhisperX**
 - 🎤 ゼロショット音声クローニング: **F5-TTS**, **E2-TTS**, **CosyVoice**
 - 📢 多言語テキスト音声変換: **Edge-TTS**, **kokoro**
 - 🎥 YouTube処理＆オーディオ抽出: **yt-dlp**
 - 🌍 100以上の言語での即時翻訳: **Deep-Translator**
-- 🔇 プロ級ボーカル分離: **UVR5**
-- 🔥 AIカバー作成: **RVC**
+
 
 **ElevenLabs**の強力な代替として、Voice-Proはポッドキャスター、開発者、クリエイターに先進的な音声ソリューションを提供します。
 
-## ⚠️ ご注意ください
-  - v1.xからv2.xへのアップグレード：**不可能**。そのため、installer_filesフォルダを削除し、最新バージョンの**start.bat**を実行することをお勧めします。
-  - v2.xからv2.xへのアップグレード：**可能**。最新コードをダウンロードした後、**update.bat**を実行してください。
-  - 初めてのユーザー：以下のインストール方法を参照してください。
-  - トラブルシューティング：ほとんどの場合、**installer_files**フォルダを削除し、**configure.bat**と**start.bat**を順番に実行することで解決できます。
+## ⚠️ 注意事項
+- **v2.xからv3.xへのアップグレード**: 不可能です。`installer_files`フォルダを削除し、最新バージョンの`start.bat`を実行することをお勧めします。
+- **v3.xからv3.xへのアップグレード**: 可能です。最新コードをダウンロードした後、`update.bat`を実行してください。
+- **初めてのユーザー**: 以下のインストール手順を参照してください。
+- **トラブルシューティング**: ほとんどの場合、`installer_files`フォルダを削除し、`configure.bat`を実行した後に`start.bat`を実行することで問題が解決します。
 
-## 📰 ニュース＆履歴
-- Voice-Proが**v2.x**にアップデートされました（Python 3.10.15、Torch 2.5.1+cu124、Gradio 5.14.0）
-- 🆓 無料トライアルは最大**60秒**のメディアをサポートします。
-- 🔥 **AIカバー**機能が追加されました。
-- 🎤 **CosyVoice**および**kokoro**のサポートが追加されました。
-- ⏳ 初回実行時に**CozyVoice2-0.5B（9GB）**をダウンロードします。ネットワーク速度によっては1時間以上かかる場合があります。
-- 🎧 音声複製用のボイスサンプルは継続的に更新される予定です。
-- 文単位の自然な翻訳とTTSのために**spaCy**を導入しました。
-- ☁️ サブスクリプションバージョンは**Microsoft Azure**の**Translator**と**TTS**をサポートします。
-- 🏪 サブスクリプションバージョンは期間内**無制限利用**が可能であり（60秒制限なし）、[**Shopify**](https://r17wvy-t2.myshopify.com/ja)から購入できます。
+## 📰 ニュースと履歴
 
+<details>
+<summary>バージョン 3.0</summary>
+
+- 🔥 **AI Cover**機能が削除されました。  
+- 🚀 **m-main/whisperX**のサポートが追加されました。  
+
+</details>
+
+<details>
+<summary>バージョン 2.0</summary>
+
+- 🐍 Python 3.10.15、Torch 2.5.1+cu124、Gradio 5.14.0で構築されました。  
+- 🆓 無料トライアルは最大**60秒**のメディアをサポートします。  
+- 🔥 **AI Cover**機能が追加されました。  
+- 🎤 **CosyVoice**および**kokoro**のサポートが導入されました。  
+- ⏳ 初回実行時に**CozyVoice2-0.5B (9GB)**をダウンロードし、ネットワーク速度によっては1時間以上かかる場合があります。  
+- 🎧 ボイスクローニング用のボイスサンプルは継続的に更新されます。  
+- 📝 文ごとの自然な翻訳とTTSのために**spaCy**が追加されました。  
+- ☁️ サブスクリプション版には**Microsoft Azure**の翻訳およびTTSが含まれます。  
+- 🏪 サブスクリプション版は期間中の**無制限使用**（60秒制限なし）を提供し、[**Shopify**](https://r17wvy-t2.myshopify.com)で購入可能です。  
+
+</details>
 
 
 ## ▶️ デモ
@@ -125,12 +137,6 @@ Voice-Proは、マルチメディアコンテンツ制作に革新をもたら�
   <p id="tts-demo-description">F5-TTSの革新的なAI音声クローニング技術デモ: マーク・ザッカーバーグやイーロン・マスクの実際の声を精密に模倣し、まったく新しいコンテンツを作成する高度な音声変換技術を披露します。</p>
 </div>
 
-### `AIカバー`タブ
-<div aria-labelledby="ai-cover-description">
-  <video src="https://github.com/user-attachments/assets/88a47ab1-a18b-4779-97c8-7c1da84f5fc3" width="100%" style="max-width: 720px;" controls muted aria-describedby="ai-cover-description"></video>
-  <p id="ai-cover-description">トランプバージョンのIU『Cupid』、キム・グァンソク『恋しい人』、『二等兵の手紙』を制作します。</p>
-</div>
-
 ### `リアルタイム翻訳`タブ: リアルタイム認識と翻訳
 <div aria-labelledby="translate-demo-description">
   <video src="https://github.com/user-attachments/assets/eb53dd3a-df0a-4f7f-819c-cf92d477e2d1" width="100%" style="max-width: 720px;" controls muted aria-describedby="translate-demo-description"></video>
@@ -140,21 +146,20 @@ Voice-Proは、マルチメディアコンテンツ制作に革新をもたら�
 ## ⭐ 主な機能
 
 ### 1. ダビングスタジオ
-- YouTube動画ダウンロード＆オーディオ抽出
-- **MDX-Net**および**Demucs**による音声分離
-- 100以上の言語での音声認識と翻訳をサポート
+- YouTube動画のダウンロードとオーディオ抽出
+- **Demucs**による音声分離
+- 音声認識と翻訳のための100以上の言語に対応
 
 ### 2. 音声技術
-- **音声からテキスト:** **Whisper**, **Faster-Whisper**, **Whisper-Timestamped**
-- **テキストから音声:**
+- **音声からテキストへ:** **Whisper**, **Faster-Whisper**, **Whisper-Timestamped**, **WhisperX**
+- **テキストから音声へ:** 
   - **Edge-TTS**: 100以上の言語、400以上の声
   - **E2-TTS**, **F5-TTS**, **CosyVoice**: ゼロショットクローニング
-  - **kokoro**: HuggingFace TTS Arenaで2位
-- 🔥 **AIカバー（音声から音声）:** **UVR5**でボーカル除去、**RVC**で変調
+  - **kokoro**: HuggingFace TTSアリーナで2位
 
 ### 3. リアルタイム翻訳
 - 即時音声認識
-- リアルタイム多言語翻訳
+- その場での多言語翻訳
 - カスタマイズ可能なオーディオ入力
 
 ## 🤖 ウェブUI
@@ -182,13 +187,6 @@ Voice-Proは、マルチメディアコンテンツ制作に革新をもたら�
 - オプション: **Edge-TTS**, **F5-TTS**, **CosyVoice**, **kokoro**
 - 有名人声でのポッドキャストと多言語サポート
 <p align="center"><img style="width: 90%; height: 90%" src="images/tts_f5_multi.jpg?raw=true" alt="音声クローニング技術を活用したポッドキャスト制作ウェブUI"/></p>
-
-### 🔥 `AIカバー`タブ
-- ボーカル除去: **MDX-Net**, **Demucs**
-- 音声変調: **RVC**
-- AIボイスは[Discord AI Hub](https://discord.com/channels/1159260121998827560/@home)でダウンロード、または<abus.aikorea@gmail.com>にリクエスト
-<p align="center"><img style="width: 90%; height: 90%" src="images/ai_cover.jpg?raw=true" alt="音声クローニング技術を活用したポッドキャスト制作ウェブUI"/></p>
-
 
 
 
@@ -443,8 +441,7 @@ ABUSカスタマーサービス
 * openai-whisper: <https://github.com/openai/whisper>
 * faster-whisper: <https://github.com/SYSTRAN/faster-whisper>
 * whisper-timestamped: <https://github.com/linto-ai/whisper-timestamped>
-* RVC-Project: <https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI>
-* UVR5: <https://github.com/Anjok07/ultimatevocalremovergui>
+* whisperX: <https://github.com/m-bain/whisperX>
 * CosyVoice: <https://github.com/FunAudioLLM/CosyVoice>
 * kokoro: <https://github.com/hexgrad/kokoro>
 * Deep-Translator: <https://github.com/nidhaloff/deep-translator>

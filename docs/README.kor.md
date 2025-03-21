@@ -76,34 +76,47 @@ Voice-Pro
 
 Voice-Pro는 멀티미디어 콘텐츠 제작을 혁신하는 최첨단 웹 앱입니다. YouTube 비디오 다운로드, 음성 분리, 음성 인식, 번역, 텍스트-음성 변환(TTS)을 하나의 강력한 도구로 통합하여 창작자, 연구자, 다국어 전문가에게 이상적인 솔루션을 제공합니다.
 
-- 🔊 최고 수준의 음성 인식: **Whisper**, **Faster-Whisper**, **Whisper-Timestamped**
+- 🔊 최고 수준의 음성 인식: **Whisper**, **Faster-Whisper**, **Whisper-Timestamped**, **WhisperX**
 - 🎤 제로샷 음성 복제: **F5-TTS**, **E2-TTS**, **CosyVoice**
 - 📢 다국어 텍스트-음성 변환: **Edge-TTS**, **kokoro**
 - 🎥 YouTube 처리 및 오디오 추출: **yt-dlp**
 - 🌍 100개 이상 언어 즉시 번역: **Deep-Translator**
-- 🔇 전문가 수준의 보컬 분리: **UVR5**
-- 🔥 AI 커버 제작: **RVC**
+
 
 **ElevenLabs**의 강력한 대안으로, Voice-Pro는 팟캐스터, 개발자, 창작자들에게 고급 음성 솔루션을 제공합니다.
 
 
-## ⚠️ 알아두세요
-  - v1.x 에서 v2.x 로 업그레이드: **불가능**. 따라서, installer_files 폴더 삭제 후, 최신 버전의 **start.bat** 실행 권장.
-  - v2.x 에서 v2.x 로 업그레이드: **가능**. 최신 코드를 다운로드 받은 후, **update.bat** 실행.
-  - 처음 사용자: 아래 설치방법을 참고하세요.
-  - 문제해결: 대부분의 경우, **installer_files** 폴더 삭제 후, **configure.bat** 와 **start.bat** 를 차례로 실행하면 해결 됩니다.
+## ⚠️ 주의 사항
+- **v2.x에서 v3.x로 업그레이드**: 불가능합니다. `installer_files` 폴더를 삭제하고 최신 버전의 `start.bat`를 실행하는 것을 권장합니다.
+- **v3.x에서 v3.x로 업그레이드**: 가능합니다. 최신 코드를 다운로드한 후 `update.bat`를 실행하세요.
+- **최초 사용자**: 아래 설치 지침을 참조하세요.
+- **문제 해결**: 대부분의 경우, `installer_files` 폴더를 삭제한 후 `configure.bat`를 실행하고 이어서 `start.bat`를 실행하면 문제가 해결됩니다.
 
 
-## 📰 뉴스 & 히스토리
-- Voice-Pro가 **v2.x**로 업데이트 되었습니다 (Python 3.10.15, Torch 2.5.1+cu124, Gradio 5.14.0)
-- 🆓 무료 체험판은 최대 **60초** 분량의 미디어를 지원합니다.
-- 🔥 **AI 커버** 기능이 추가 되었습니다.
-- 🎤 **CosyVoice** 및 **kokoro** 지원이 추가되었습니다.
-- ⏳ 첫 실행 시 **CozyVoice2-0.5B (9GB)** 를 다운로드합니다. 네트워크 속도에 따라 1시간 이상 소요될 수 있음
-- 🎧 음성 복제용 보이스 샘플은 지속적으로 업데이트 될 예정입니다.
-- 문장 단위의 자연스러운 번역과 TTS를 위해 **spaCy**를 도입하였습니다.
-- ☁️ Subscription 버전은 **Microsoft Azure**의 **Translator** 와 **TTS** 를 지원합니다. 
-- 🏪 Subscription 버전은 기한내 **무제한 이용** 가능하며(60초 제한 없음), [**Shopify**](https://r17wvy-t2.myshopify.com/ko) 를 통해 구매할 수 있습니다.
+## 📰 뉴스 및 히스토리
+
+<details>
+<summary>버전 3.0</summary>
+
+- 🔥 **AI Cover** 기능이 제거되었습니다.  
+- 🚀 **m-main/whisperX** 지원이 추가되었습니다.  
+
+</details>
+
+<details>
+<summary>버전 2.0</summary>
+
+- 🐍 Python 3.10.15, Torch 2.5.1+cu124, Gradio 5.14.0으로 제작되었습니다.  
+- 🆓 무료 체험은 최대 **60초** 길이의 미디어를 지원합니다.  
+- 🔥 **AI Cover** 기능이 추가되었습니다.  
+- 🎤 **CosyVoice** 및 **kokoro** 지원이 도입되었습니다.  
+- ⏳ 초기 실행 시 **CozyVoice2-0.5B (9GB)**를 다운로드하며, 네트워크 속도에 따라 1시간 이상 걸릴 수 있습니다.  
+- 🎧 음성 복제를 위한 음성 샘플은 지속적으로 업데이트됩니다.  
+- 📝 문장별 자연스러운 번역 및 TTS를 위해 **spaCy**가 추가되었습니다.  
+- ☁️ 구독 버전은 **Microsoft Azure** 번역기 및 TTS를 포함합니다.  
+- 🏪 구독 버전은 구독 기간 동안 **무제한 사용** (60초 제한 없음)을 제공하며, [**Shopify**](https://r17wvy-t2.myshopify.com)에서 구매할 수 있습니다.  
+
+</details>
 
 
 
@@ -128,12 +141,6 @@ Voice-Pro는 멀티미디어 콘텐츠 제작을 혁신하는 최첨단 웹 앱�
   <p id="tts-demo-description">F5-TTS의 혁신적인 AI 음성 복제 기술 데모: 마크 저커버그와 일론 머스크의 실제 목소리를 정밀하게 모방하여 완전히 새로운 콘텐츠를 만드는 고급 음성 변환 기술을 보여줍니다.</p>
 </div>
 
-### `AI 커버` 탭
-<div aria-labelledby="ai-cover-description">
-  <video src="https://github.com/user-attachments/assets/88a47ab1-a18b-4779-97c8-7c1da84f5fc3" width="100%" style="max-width: 720px;" controls muted aria-describedby="ai-cover-description"></video>
-  <p id="ai-cover-description">트럼프 버전의 IU 'Cupid', 김광석 '그리운 사람', '이병의 편지'를 제작합니다.</p>
-</div>
-
 ### `실시간 번역` 탭: 실시간 인식 및 번역
 <div aria-labelledby="translate-demo-description">
   <video src="https://github.com/user-attachments/assets/eb53dd3a-df0a-4f7f-819c-cf92d477e2d1" width="100%" style="max-width: 720px;" controls muted aria-describedby="translate-demo-description"></video>
@@ -146,21 +153,20 @@ Voice-Pro는 멀티미디어 콘텐츠 제작을 혁신하는 최첨단 웹 앱�
 
 ### 1. 더빙 스튜디오
 - YouTube 비디오 다운로드 및 오디오 추출
-- **MDX-Net** 및 **Demucs**를 이용한 음성 분리
-- 100개 이상의 언어에 대한 음성 인식 및 번역 지원
+- **Demucs**를 사용한 음성 분리
+- 음성 인식 및 번역을 위한 100개 이상의 언어 지원
 
 ### 2. 음성 기술
-- **음성-텍스트:** **Whisper**, **Faster-Whisper**, **Whisper-Timestamped**
-- **텍스트-음성 변환:**
-  - **Edge-TTS**: 100개 이상 언어, 400개 이상 목소리
-  - **E2-TTS**, **F5-TTS**, **CosyVoice**: 제로샷 복제
-  - **kokoro**: HuggingFace TTS Arena에서 2위
-- 🔥 **AI 커버 (음성-음성):** **UVR5**로 보컬 제거, **RVC**로 변조
+- **음성을 텍스트로:** **Whisper**, **Faster-Whisper**, **Whisper-Timestamped**, **WhisperX**
+- **텍스트를 음성으로:** 
+  - **Edge-TTS**: 100개 이상의 언어, 400개 이상의 음성
+  - **E2-TTS**, **F5-TTS**, **CosyVoice**: 제로샷 클로닝
+  - **kokoro**: HuggingFace TTS 아레나에서 2위
 
 ### 3. 실시간 번역
 - 즉각적인 음성 인식
 - 실시간 다국어 번역
-- 사용자 지정 가능한 오디오 입력
+- 사용자 정의 가능한 오디오 입력
 
 
 
@@ -189,13 +195,6 @@ Voice-Pro는 멀티미디어 콘텐츠 제작을 혁신하는 최첨단 웹 앱�
 - 옵션: **Edge-TTS**, **F5-TTS**, **CosyVoice**, **kokoro**
 - 유명인 목소리로 팟캐스트 및 다국어 지원
 <p align="center"><img style="width: 90%; height: 90%" src="images/tts_f5_multi.jpg?raw=true" alt="음성 복제 기술을 활용한 팟캐스트 제작 웹UI"/></p>
-
-### 🔥 `AI 커버` 탭
-- 보컬 제거: **MDX-Net**, **Demucs**
-- 음성 변조: **RVC**
-- AI 목소리는 [Discord AI Hub](https://discord.com/channels/1159260121998827560/@home)에서 다운로드하거나 <abus.aikorea@gmail.com>으로 요청
-<p align="center"><img style="width: 90%; height: 90%" src="images/ai_cover.jpg?raw=true" alt="음성 복제 기술을 활용한 팟캐스트 제작 웹UI"/></p>
-
 
 
 ## 🎤✨ 참조 음성
@@ -453,8 +452,7 @@ ABUS 고객 서비스
 * openai-whisper: <https://github.com/openai/whisper>
 * faster-whisper: <https://github.com/SYSTRAN/faster-whisper>
 * whisper-timestamped: <https://github.com/linto-ai/whisper-timestamped>
-* RVC-Project: <https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI>
-* UVR5: <https://github.com/Anjok07/ultimatevocalremovergui>
+* whisperX: <https://github.com/m-bain/whisperX>
 * CosyVoice: <https://github.com/FunAudioLLM/CosyVoice>
 * kokoro: <https://github.com/hexgrad/kokoro>
 * Deep-Translator: <https://github.com/nidhaloff/deep-translator>
