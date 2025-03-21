@@ -96,7 +96,7 @@ Como uma alternativa robusta ao **ElevenLabs**, o Voice-Pro capacita podcasters,
 <summary>Versão 3.0</summary>
 
 - 🔥 A função **AI Cover** foi removida.  
-- 🚀 Suporte para **m-main/whisperX** foi adicionado.  
+- 🚀 Suporte para **m-bain/whisperX** foi adicionado.  
 
 </details>
 

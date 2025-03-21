@@ -96,7 +96,7 @@ Voice-Proは、マルチメディアコンテンツ制作に革新をもたら�
 <summary>バージョン 3.0</summary>
 
 - 🔥 **AI Cover**機能が削除されました。  
-- 🚀 **m-main/whisperX**のサポートが追加されました。  
+- 🚀 **m-bain/whisperX**のサポートが追加されました。  
 
 </details>
 

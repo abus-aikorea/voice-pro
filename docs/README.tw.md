@@ -96,7 +96,7 @@ Voice-Pro是一款革新多媒體內容製作的先進網頁應用程式。它�
 <summary>版本 3.0</summary>
 
 - 🔥 **AI Cover**功能已移除。  
-- 🚀 添加了對**m-main/whisperX**的支持。  
+- 🚀 添加了對**m-bain/whisperX**的支持。  
 
 </details>
 

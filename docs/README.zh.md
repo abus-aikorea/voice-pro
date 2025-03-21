@@ -95,7 +95,7 @@ Voice-Pro是一款革新多媒体内容制作的先进网页应用。它将YouTu
 <summary>版本 3.0</summary>
 
 - 🔥 **AI Cover**功能已移除。  
-- 🚀 添加了对**m-main/whisperX**的支持。  
+- 🚀 添加了对**m-bain/whisperX**的支持。  
 
 </details>
 

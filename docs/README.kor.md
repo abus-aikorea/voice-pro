@@ -99,7 +99,7 @@ Voice-Pro는 멀티미디어 콘텐츠 제작을 혁신하는 최첨단 웹 앱�
 <summary>버전 3.0</summary>
 
 - 🔥 **AI Cover** 기능이 제거되었습니다.  
-- 🚀 **m-main/whisperX** 지원이 추가되었습니다.  
+- 🚀 **m-bain/whisperX** 지원이 추가되었습니다.  
 
 </details>
 
