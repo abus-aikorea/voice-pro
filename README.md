@@ -94,7 +94,7 @@ A robust alternative to **ElevenLabs**, Voice-Pro empowers podcasters, developer
 
 ## 📰 News & History
 
-<details>
+<details open>
 <summary>version 3.0</summary>
 
 - 🔥 Removed the **AI Cover** feature.  

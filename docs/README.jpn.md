@@ -92,7 +92,7 @@ Voice-Proは、マルチメディアコンテンツ制作に革新をもたら�
 
 ## 📰 ニュースと履歴
 
-<details>
+<details open>
 <summary>バージョン 3.0</summary>
 
 - 🔥 **AI Cover**機能が削除されました。  

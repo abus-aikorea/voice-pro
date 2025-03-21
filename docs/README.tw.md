@@ -92,7 +92,7 @@ Voice-Pro是一款革新多媒體內容製作的先進網頁應用程式。它�
 
 ## 📰 新聞與歷史
 
-<details>
+<details open>
 <summary>版本 3.0</summary>
 
 - 🔥 **AI Cover**功能已移除。  

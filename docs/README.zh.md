@@ -91,7 +91,7 @@ Voice-Pro是一款革新多媒体内容制作的先进网页应用。它将YouTu
 
 ## 📰 新闻与历史
 
-<details>
+<details open>
 <summary>版本 3.0</summary>
 
 - 🔥 **AI Cover**功能已移除。  

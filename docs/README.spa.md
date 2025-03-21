@@ -92,7 +92,7 @@ Como una alternativa sólida a **ElevenLabs**, Voice-Pro empodera a podcasters, 
 
 ## 📰 Noticias e Historia
 
-<details>
+<details open>
 <summary>Versión 3.0</summary>
 
 - 🔥 Se eliminó la función **AI Cover**.  

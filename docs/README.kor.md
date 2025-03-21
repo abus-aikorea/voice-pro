@@ -95,7 +95,7 @@ Voice-Pro는 멀티미디어 콘텐츠 제작을 혁신하는 최첨단 웹 앱�
 
 ## 📰 뉴스 및 히스토리
 
-<details>
+<details open>
 <summary>버전 3.0</summary>
 
 - 🔥 **AI Cover** 기능이 제거되었습니다.  
