@@ -76,10 +76,10 @@ Voice-Pro
 Voice-Pro é um aplicativo web de ponta que transforma a criação de conteúdo multimídia. Ele integra download de vídeos do YouTube, separação de voz, reconhecimento de fala, tradução e conversão de texto em fala (TTS) em uma única ferramenta poderosa, oferecendo uma solução ideal para criadores, pesquisadores e profissionais multilíngues.
 
 - 🔊 Reconhecimento de fala de alto nível: **Whisper**, **Faster-Whisper**, **Whisper-Timestamped**, **WhisperX**
-- 🎤 Clonagem de voz Zero-Shot: **F5-TTS**, **E2-TTS**, **CosyVoice**
-- 📢 Conversão de texto em fala multilíngue: **Edge-TTS**, **kokoro**
-- 🎥 Processamento de vídeos do YouTube e extração de áudio: **yt-dlp**
-- 🌍 Tradução instantânea para mais de 100 idiomas: **Deep-Translator**
+- 🎤 Clonagem de voz sem treinamento: **F5-TTS**, **E2-TTS**, **CosyVoice**
+- 📢 Texto para fala multilíngue: **Edge-TTS**, **kokoro** (A versão paga inclui **Azure TTS**)
+- 🎥 Processamento de YouTube e extração de áudio: **yt-dlp**
+- 🌍 Tradução instantânea para mais de 100 idiomas: **Deep-Translator** (A versão paga inclui **Azure Translator**)
 
 
 Como uma alternativa robusta ao **ElevenLabs**, o Voice-Pro capacita podcasters, desenvolvedores e criadores com soluções de voz avançadas.
@@ -89,6 +89,9 @@ Como uma alternativa robusta ao **ElevenLabs**, o Voice-Pro capacita podcasters,
 - **Atualização de v3.x para v3.x**: Possível. Após baixar o código mais recente, execute `update.bat`.
 - **Usuários iniciantes**: Consulte as instruções de instalação abaixo.
 - **Resolução de problemas**: Na maioria dos casos, os problemas podem ser resolvidos excluindo a pasta `installer_files` e, em seguida, executando `configure.bat` seguido por `start.bat`.
+- 🎁 **Solicitação de chave de ativação gratuita**: Por favor, preencha este [formulário do Google](https://forms.gle/anMSmsR5dH9wxE6N6) para receber sua chave de ativação. As chaves de ativação são limitadas a uma por endereço de e-mail.
+- 🏆 **Solicitação de chaves de ativação adicionais**: Crie conteúdos incríveis usando o Voice-Pro. Por favor, compartilhe o link do seu post na [Discussão](https://github.com/abus-aikorea/voice-pro/discussions). Ficaremos felizes em recompensar suas contribuições。
+
 
 ## 📰 Notícias e Histórico
 

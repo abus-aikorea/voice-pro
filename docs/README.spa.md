@@ -76,10 +76,10 @@ Voice-Pro
 Voice-Pro es una aplicación web de vanguardia que transforma la creación de contenido multimedia. Integra la descarga de videos de YouTube, separación de voz, reconocimiento de voz, traducción y conversión de texto a voz (TTS) en una sola herramienta poderosa, ofreciendo una solución ideal para creadores, investigadores y profesionales multilingües.
 
 - 🔊 Reconocimiento de voz de primer nivel: **Whisper**, **Faster-Whisper**, **Whisper-Timestamped**, **WhisperX**
-- 🎤 Clonación de voz Zero-Shot: **F5-TTS**, **E2-TTS**, **CosyVoice**
-- 📢 Conversión de texto a voz multilingüe: **Edge-TTS**, **kokoro**
-- 🎥 Procesamiento de videos de YouTube y extracción de audio: **yt-dlp**
-- 🌍 Traducción instantánea a más de 100 idiomas: **Deep-Translator**
+- 🎤 Clonación de voz sin entrenamiento: **F5-TTS**, **E2-TTS**, **CosyVoice**
+- 📢 Texto a voz multilingüe: **Edge-TTS**, **kokoro** (La versión de pago incluye **Azure TTS**)
+- 🎥 Procesamiento de YouTube y extracción de audio: **yt-dlp**
+- 🌍 Traducción instantánea para más de 100 idiomas: **Deep-Translator** (La versión de pago incluye **Azure Translator**)
 
 
 Como una alternativa sólida a **ElevenLabs**, Voice-Pro empodera a podcasters, desarrolladores y creadores con soluciones de voz avanzadas.
@@ -89,6 +89,9 @@ Como una alternativa sólida a **ElevenLabs**, Voice-Pro empodera a podcasters, 
 - **Actualización de v3.x a v3.x**: Es posible. Después de descargar el código más reciente, ejecute `update.bat`.
 - **Usuarios nuevos**: Consulte las instrucciones de instalación a continuación.
 - **Solución de problemas**: En la mayoría de los casos, los problemas se pueden resolver eliminando la carpeta `installer_files` y luego ejecutando `configure.bat` seguido de `start.bat`.
+- 🎁 **Solicitud de clave de activación gratuita**: Por favor, complete este [formulario de Google](https://forms.gle/anMSmsR5dH9wxE6N6) para recibir su clave de activación. Las claves de activación están limitadas a una por dirección de correo electrónico.
+- 🏆 **Solicitud de claves de activación adicionales**: Cree contenido increíble usando Voice-Pro. Por favor, comparta el enlace a su publicación en la [Discusión](https://github.com/abus-aikorea/voice-pro/discussions). Con gusto recompensaremos sus contribuciones。
+
 
 ## 📰 Noticias e Historia
 

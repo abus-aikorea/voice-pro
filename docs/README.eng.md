@@ -79,9 +79,9 @@ Voice-Pro
 Voice-Pro is a state-of-the-art web app that transforms multimedia content creation. It integrates YouTube video downloading, voice separation, speech recognition, translation, and text-to-speech into a single, powerful tool for creators, researchers, and multilingual professionals.
 - 🔊 Top-tier speech recognition: **Whisper**, **Faster-Whisper**, **Whisper-Timestamped**, **WhisperX**
 - 🎤 Zero-shot voice cloning: **F5-TTS**, **E2-TTS**, **CosyVoice**
-- 📢 Multilingual text-to-speech: **Edge-TTS**, **kokoro**
+- 📢 Multilingual text-to-speech: **Edge-TTS**, **kokoro** (Paid version includes **Azure TTS**)
 - 🎥 YouTube processing & audio extraction: **yt-dlp**
-- 🌍 Instant translation for 100+ languages: **Deep-Translator**
+- 🌍 Instant translation for 100+ languages: **Deep-Translator** (Paid version includes **Azure Translator**)
 
 
 A robust alternative to **ElevenLabs**, Voice-Pro empowers podcasters, developers, and creators with advanced voice solutions.
@@ -91,7 +91,8 @@ A robust alternative to **ElevenLabs**, Voice-Pro empowers podcasters, developer
 - **Upgrading from v3.x to v3.x**: Possible. After downloading the latest code, run `update.bat`.
 - **First-time users**: Please refer to the installation instructions below.
 - **Troubleshooting**: In most cases, issues can be resolved by deleting the `installer_files` folder and then running `configure.bat` followed by `start.bat`.
-
+- 🎁 **Free Activation Key Request**: Please fill out this [Google Form](https://forms.gle/anMSmsR5dH9wxE6N6) to receive your activation key. Activation keys are limited to one per email address.
+- 🏆 **Request for Additional Activation Keys**: Create amazing content using Voice-Pro. Please share the link to your post in the [Discussion](https://github.com/abus-aikorea/voice-pro/discussions). We will gladly reward your contributions.
 
 ## 📰 News & History
 

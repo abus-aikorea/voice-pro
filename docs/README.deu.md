@@ -76,11 +76,11 @@ Voice-Pro
 Voice-Pro ist eine hochmoderne Web-App, die die Erstellung von Multimedia-Inhalten revolutioniert. Sie kombiniert YouTube-Video-Downloads, Stimmseparation, Spracherkennung, Übersetzung und Text-to-Speech (TTS) in einem einzigen, leistungsstarken Tool und bietet so eine ideale Lösung für Kreative, Forscher und mehrsprachige Profis.
 
 - 🔊 Erstklassige Spracherkennung: **Whisper**, **Faster-Whisper**, **Whisper-Timestamped**, **WhisperX**
-- 🎤 Zero-Shot-Stimmklonierung: **F5-TTS**, **E2-TTS**, **CosyVoice**
-- 📢 Mehrsprachige Text-to-Speech: **Edge-TTS**, **kokoro**
+- 🎤 Zero-Shot-Stimmenklonierung: **F5-TTS**, **E2-TTS**, **CosyVoice**
+- 📢 Mehrsprachige Text-to-Speech: **Edge-TTS**, **kokoro** (Die kostenpflichtige Version enthält **Azure TTS**)
 - 🎥 YouTube-Verarbeitung & Audioextraktion: **yt-dlp**
-- 🌍 Sofortige Übersetzung in über 100 Sprachen: **Deep-Translator**
-
+- 🌍 Sofortübersetzung für über 100 Sprachen: **Deep-Translator** (Die kostenpflichtige Version enthält **Azure Translator**)
+  
 
 Als starke Alternative zu **ElevenLabs** bietet Voice-Pro Podcastern, Entwicklern und Kreativen fortschrittliche Sprachlösungen.
 
@@ -89,6 +89,9 @@ Als starke Alternative zu **ElevenLabs** bietet Voice-Pro Podcastern, Entwickler
 - **Upgrade von v3.x auf v3.x**: Möglich. Nach dem Herunterladen des neuesten Codes führen Sie `update.bat` aus.
 - **Erstbenutzer**: Bitte lesen Sie die Installationsanweisungen unten.
 - **Fehlerbehebung**: In den meisten Fällen können Probleme durch das Löschen des `installer_files`-Ordners und das anschließende Ausführen von `configure.bat` gefolgt von `start.bat` behoben werden.
+- 🎁 **Anfrage für einen kostenlosen Aktivierungsschlüssel**: Bitte füllen Sie dieses [Google-Formular](https://forms.gle/anMSmsR5dH9wxE6N6) aus, um Ihren Aktivierungsschlüssel zu erhalten. Aktivierungsschlüssel sind auf einen pro E-Mail-Adresse beschränkt.
+- 🏆 **Anfrage für zusätzliche Aktivierungsschlüssel**: Erstellen Sie großartige Inhalte mit Voice-Pro. Bitte teilen Sie den Link zu Ihrem Beitrag in der [Diskussion](https://github.com/abus-aikorea/voice-pro/discussions). Wir belohnen Ihre Beiträge gerne。
+
 
 ## 📰 Neuigkeiten & Verlauf
 

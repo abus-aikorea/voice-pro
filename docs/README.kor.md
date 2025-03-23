@@ -78,9 +78,9 @@ Voice-Pro는 멀티미디어 콘텐츠 제작을 혁신하는 최첨단 웹 앱�
 
 - 🔊 최고 수준의 음성 인식: **Whisper**, **Faster-Whisper**, **Whisper-Timestamped**, **WhisperX**
 - 🎤 제로샷 음성 복제: **F5-TTS**, **E2-TTS**, **CosyVoice**
-- 📢 다국어 텍스트-음성 변환: **Edge-TTS**, **kokoro**
+- 📢 다국어 텍스트-음성 변환: **Edge-TTS**, **kokoro** (유료 버전에는 **Azure TTS** 포함)
 - 🎥 YouTube 처리 및 오디오 추출: **yt-dlp**
-- 🌍 100개 이상 언어 즉시 번역: **Deep-Translator**
+- 🌍 100개 이상의 언어에 대한 즉시 번역: **Deep-Translator** (유료 버전에는 **Azure Translator** 포함)
 
 
 **ElevenLabs**의 강력한 대안으로, Voice-Pro는 팟캐스터, 개발자, 창작자들에게 고급 음성 솔루션을 제공합니다.
@@ -91,6 +91,8 @@ Voice-Pro는 멀티미디어 콘텐츠 제작을 혁신하는 최첨단 웹 앱�
 - **v3.x에서 v3.x로 업그레이드**: 가능합니다. 최신 코드를 다운로드한 후 `update.bat`를 실행하세요.
 - **최초 사용자**: 아래 설치 지침을 참조하세요.
 - **문제 해결**: 대부분의 경우, `installer_files` 폴더를 삭제한 후 `configure.bat`를 실행하고 이어서 `start.bat`를 실행하면 문제가 해결됩니다.
+- 🎁 **무료 활성화 키 요청**: 활성화 키를 받으려면 이 [구글 폼](https://forms.gle/anMSmsR5dH9wxE6N6)을 작성해 주세요. 활성화 키는 이메일 주소당 하나로 제한됩니다.
+- 🏆 **추가 활성화 키 요청**: Voice-Pro를 사용하여 멋진 콘텐츠를 만드세요. [토론](https://github.com/abus-aikorea/voice-pro/discussions)에서 게시물 링크를 공유해 주세요. 여러분의 기여에 기꺼이 보답하겠습니다.
 
 
 ## 📰 뉴스 및 히스토리

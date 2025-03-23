@@ -75,11 +75,11 @@ Voice-Pro
 
 Voice-Pro是一款革新多媒體內容製作的先進網頁應用程式。它將YouTube影片下載、音訊分離、語音辨識、翻譯和文字轉語音(TTS)整合到一個強大的工具中，為創作者、研究人員和多語言專家提供理想的解決方案。
 
-- 🔊 頂級語音辨識：**Whisper**、**Faster-Whisper**、**Whisper-Timestamped**, **WhisperX**
-- 🎤 零樣本聲音克隆：**F5-TTS**、**E2-TTS**、**CosyVoice**
-- 📢 多語言文字轉語音：**Edge-TTS**、**kokoro**
-- 🎥 YouTube處理和音訊提取：**yt-dlp**
-- 🌍 100多種語言即時翻譯：**Deep-Translator**
+- 🔊 頂級語音識別: **Whisper**, **Faster-Whisper**, **Whisper-Timestamped**, **WhisperX**
+- 🎤 零樣本語音複製: **F5-TTS**, **E2-TTS**, **CosyVoice**
+- 📢 多語言文本轉語音: **Edge-TTS**, **kokoro** (付費版包括 **Azure TTS**)
+- 🎥 YouTube處理與音頻提取: **yt-dlp**
+- 🌍 超過100種語言的即時翻譯: **Deep-Translator** (付費版包括 **Azure Translator**)
 
 
 作為**ElevenLabs**的強大替代方案，Voice-Pro為播客主持人、開發者和創作者提供進階語音解決方案。
@@ -89,6 +89,9 @@ Voice-Pro是一款革新多媒體內容製作的先進網頁應用程式。它�
 - **從v3.x升級到v3.x**: 可以。下載最新代碼後，運行`update.bat`。
 - **首次用戶**: 請參閱下面的安裝說明。
 - **故障排除**: 在大多數情況下，刪除`installer_files`文件夾，然後依次運行`configure.bat`和`start.bat`即可解決問題。
+- 🎁 **免費激活密鑰請求**: 請填寫此[Google表單](https://forms.gle/anMSmsR5dH9wxE6N6)以獲取您的激活密鑰。激活密鑰每個電子郵件地址限領一個。
+- 🏆 **額外激活密鑰請求**: 使用Voice-Pro創建精彩內容。請在[討論區](https://github.com/abus-aikorea/voice-pro/discussions)中分享您的帖子鏈接。我們將樂意獎勵您的貢獻。
+
 
 ## 📰 新聞與歷史
 

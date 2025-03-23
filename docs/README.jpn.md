@@ -75,11 +75,11 @@ Voice-Pro
 
 Voice-Proは、マルチメディアコンテンツ制作に革新をもたらす最先端のウェブアプリです。YouTube動画のダウンロード、音声分離、音声認識、翻訳、テキストから音声への変換（TTS）を1つの強力なツールに統合し、クリエイター、研究者、多言語専門家にとって理想的なソリューションを提供します。
 
-- 🔊 最高レベルの音声認識: **Whisper**, **Faster-Whisper**, **Whisper-Timestamped**, **WhisperX**
+- 🔊 トップレベルの音声認識: **Whisper**, **Faster-Whisper**, **Whisper-Timestamped**, **WhisperX**
 - 🎤 ゼロショット音声クローニング: **F5-TTS**, **E2-TTS**, **CosyVoice**
-- 📢 多言語テキスト音声変換: **Edge-TTS**, **kokoro**
-- 🎥 YouTube処理＆オーディオ抽出: **yt-dlp**
-- 🌍 100以上の言語での即時翻訳: **Deep-Translator**
+- 📢 多言語テキスト読み上げ: **Edge-TTS**, **kokoro** (有料版には **Azure TTS** が含まれます)
+- 🎥 YouTube処理およびオーディオ抽出: **yt-dlp**
+- 🌍 100以上の言語に対応した即時翻訳: **Deep-Translator** (有料版には **Azure Translator** が含まれます)
 
 
 **ElevenLabs**の強力な代替として、Voice-Proはポッドキャスター、開発者、クリエイターに先進的な音声ソリューションを提供します。
@@ -89,6 +89,10 @@ Voice-Proは、マルチメディアコンテンツ制作に革新をもたら�
 - **v3.xからv3.xへのアップグレード**: 可能です。最新コードをダウンロードした後、`update.bat`を実行してください。
 - **初めてのユーザー**: 以下のインストール手順を参照してください。
 - **トラブルシューティング**: ほとんどの場合、`installer_files`フォルダを削除し、`configure.bat`を実行した後に`start.bat`を実行することで問題が解決します。
+- 🎁 **無料アクティベーションキー申請**: アクティベーションキーを受け取るには、この[Googleフォーム](https://forms.gle/anMSmsR5dH9wxE6N6)を記入してください。アクティベーションキーはメールアドレスごとに1つに制限されています。
+- 🏆 **追加アクティベーションキー申請**: Voice-Proを使用して素晴らしいコンテンツを作成してください。[ディスカッション](https://github.com/abus-aikorea/voice-pro/discussions)で投稿のリンクを共有してください。皆様の貢献に喜んで報酬をお贈りします。
+
+
 
 ## 📰 ニュースと履歴
 
