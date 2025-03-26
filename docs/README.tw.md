@@ -7,7 +7,7 @@
     last-updated: 2025-02-23
     product-type: AI多媒體處理軟體
     platforms: Windows
-    technology-stack: Whisper, Edge-TTS, Gradio, CUDA, Faster-Whisper, Whisper-Timestamped, E2-TTS, F5-TTS, YouTube Downloader, Demucs, MDX-Net, RVC, CosyVoice, kokoro
+    technology-stack: Whisper, Edge-TTS, Gradio, CUDA, Faster-Whisper, Whisper-Timestamped, WhisperX, E2-TTS, F5-TTS, YouTube Downloader, Demucs, MDX-Net, RVC, CosyVoice, kokoro
     license: LGPL
 -->
 
@@ -23,18 +23,21 @@ Voice-Pro
   <a href="https://www.youtube.com/channel/UCbCBWXuVbk-OBp9T4H5JjAA">
     <img src="https://img.shields.io/badge/youtube-d95652.svg?style=flat-square&logo=youtube" alt="youtube" style="height: 20px;">
   </a>
-  <a href="https://www.amazon.com/dp/B0F1LQZ42T">
+  <a href="https://www.amazon.sg/dp/B0F1LQZ42T">
     <img src="https://img.shields.io/badge/Amazon-f90.svg?style=flat-square&logo=amazon&logoColor=white" alt="Amazon" style="height: 20px;">
   </a>
   <a href="https://r17wvy-t2.myshopify.com">
     <img src="https://img.shields.io/badge/Shopify-7ab55c.svg?style=flat-square&logo=shopify&logoColor=white" alt="Shopify" style="height: 20px;">
   </a>
   <a href="https://www.buymeacoffee.com/abus">
-    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me a Coffee" style="height: 20px;">
+    <img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me a Coffee" style="height: 20px;">
   </a>  
   <a href="https://github.com/abus-aikorea/voice-pro/releases">
     <img src="https://img.shields.io/github/v/release/abus-aikorea/voice-pro" alt="release" style="height: 20px;">
   </a>
+  <a href="https://github.com/abus-aikorea/voice-pro/stargazers">
+    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/abus-aikorea/voice-pro">
+  </a>  
 </h4>
 
 <p align="center">
@@ -89,8 +92,8 @@ Voice-Pro是一款革新多媒體內容製作的先進網頁應用程式。它�
 - **從v3.x升級到v3.x**: 可以。下載最新代碼後，運行`update.bat`。
 - **首次用戶**: 請參閱下面的安裝說明。
 - **故障排除**: 在大多數情況下，刪除`installer_files`文件夾，然後依次運行`configure.bat`和`start.bat`即可解決問題。
-- 🎁 **免費激活密鑰請求**: 請填寫此[Google表單](https://forms.gle/anMSmsR5dH9wxE6N6)以獲取您的激活密鑰。激活密鑰每個電子郵件地址限領一個。
-- 🏆 **額外激活密鑰請求**: 使用Voice-Pro創建精彩內容。請在[討論區](https://github.com/abus-aikorea/voice-pro/discussions)中分享您的帖子鏈接。我們將樂意獎勵您的貢獻。
+- 🎁 **免費激活密鑰請求**: 請填寫此[Google 表單](https://forms.gle/anMSmsR5dH9wxE6N6)以獲取您的激活密鑰。激活密鑰每個電子郵件地址限領一個。
+- 🏆 **額外激活密鑰請求**: 使用Voice-Pro創建精彩內容。請在![GitHub Discussions](https://img.shields.io/github/discussions/abus-aikorea/voice-pro)中分享您的帖子鏈接。我們將樂意獎勵您的貢獻。
 
 
 ## 📰 新聞與歷史
@@ -114,40 +117,102 @@ Voice-Pro是一款革新多媒體內容製作的先進網頁應用程式。它�
 - 🎧 用於語音克隆的語音樣本將持續更新。  
 - 📝 添加了**spaCy**以實現自然逐句翻譯和TTS。  
 - ☁️ 訂閱版本包括**Microsoft Azure**的翻譯和TTS。  
-- 🏪 訂閱版本在訂閱期間提供**無限制使用**（無60秒限制），可通過[**Shopify**](https://r17wvy-t2.myshopify.com)購買。  
+- 🏪 訂閱版本在訂閱期間提供**無限制使用**（無60秒限制），可通過[![Shopify](https://img.shields.io/badge/Shopify-7ab55c.svg?style=flat-square&logo=shopify&logoColor=white)](https://r17wvy-t2.myshopify.com)購買。  
 
 </details>
-## ▶️ 示範
 
-### `配音工作室`標籤頁：轉錄、翻譯和TTS
-<div aria-labelledby="studio-demo-description">
-  <video src="https://github.com/user-attachments/assets/1cf084a4-3286-4055-86d2-238ed179560e"
-   width="100%" 
-   style="max-width: 720px;" 
-   controls="controls" 
-   muted="muted"
-   aria-describedby="studio-demo-description2">
-  </video>   
-  <p id="studio-demo-description">工作室標籤頁的綜合媒體處理工作流程示範：從YouTube影片下載到AI語音分離、Whisper自動字幕、多語言翻譯，再到使用F5-TTS進行專業配音的一站式媒體轉換過程。</p>
-</div>
 
-### `F5-TTS-Multi`標籤頁：播客製作
-<div aria-labelledby="tts-demo-description">
-  <video src="https://github.com/user-attachments/assets/2d4b7d84-ca19-4efd-a847-a66fa0db616e" width="100%" style="max-width: 720px;" controls muted aria-describedby="tts-demo-description"></video>
-  <p id="tts-demo-description">F5-TTS的創新AI聲音克隆技術示範：精確模仿馬克·祖克柏和伊隆·馬斯克的真實聲音，創建全新內容的進階語音轉換技術展示。</p>
-</div>
 
-### `AI翻唱`標籤頁
-<div aria-labelledby="ai-cover-description">
-  <video src="https://github.com/user-attachments/assets/88a47ab1-a18b-4779-97c8-7c1da84f5fc3" width="100%" style="max-width: 720px;" controls muted aria-describedby="ai-cover-description"></video>
-  <p id="ai-cover-description">製作川普版本的IU《Cupid》、金光石《想念的人》、《士兵的信》。</p>
-</div>
+## 🎥 YouTube Showcase
 
-### `即時翻譯`標籤頁：即時辨識和翻譯
-<div aria-labelledby="translate-demo-description">
-  <video src="https://github.com/user-attachments/assets/eb53dd3a-df0a-4f7f-819c-cf92d477e2d1" width="100%" style="max-width: 720px;" controls muted aria-describedby="translate-demo-description"></video>
-  <p id="translate-demo-description">即時多語言翻譯功能示範：即時擷取BBC新聞內容，產生即時字幕，並立即翻譯成其他語言的創新多語言媒體處理過程。</p>
-</div>
+<table style="border-collapse: collapse; width: 100%;">
+  <tr>
+    <td style="padding: 15px; border: none;" align="center">
+      <a href="https://youtu.be/scC5CicZ6G0" style="text-decoration: none; color: inherit;">
+        <div style="position: relative; display: inline-block;">
+          <img src="https://img.youtube.com/vi/scC5CicZ6G0/hqdefault.jpg" alt="Demo Video 1" width="200" style="border-radius: 8px;">
+          <img src="https://cdn-icons-png.flaticon.com/512/0/375.png" alt="Play" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 30px; opacity: 0.7;">
+        </div>
+        <br>
+        <span style="font-size: 14px; font-weight: bold; color: #333;">Demo for Voice-Pro (v2.0)</span>
+      </a>
+    </td>
+    <td style="padding: 15px; border: none;" align="center">
+      <a href="https://youtu.be/Wfo7vQCD4no" style="text-decoration: none; color: inherit;">
+        <div style="position: relative; display: inline-block;">
+          <img src="https://img.youtube.com/vi/Wfo7vQCD4no/hqdefault.jpg" alt="Demo Video 2" width="200" style="border-radius: 8px;">
+          <img src="https://cdn-icons-png.flaticon.com/512/0/375.png" alt="Play" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 30px; opacity: 0.7;">
+        </div>
+        <br>
+        <span style="font-size: 14px; font-weight: bold; color: #333;">F5-TTS: Voice Cloning</span>
+      </a>
+    </td>
+    <td style="padding: 15px; border: none;" align="center">
+      <a href="https://youtu.be/GOzCDj4MCpo" style="text-decoration: none; color: inherit;">
+        <div style="position: relative; display: inline-block;">
+          <img src="https://img.youtube.com/vi/GOzCDj4MCpo/hqdefault.jpg" alt="Demo Video 3" width="200" style="border-radius: 8px;">
+          <img src="https://cdn-icons-png.flaticon.com/512/0/375.png" alt="Play" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 30px; opacity: 0.7;">
+        </div>
+        <br>
+        <span style="font-size: 14px; font-weight: bold; color: #333;">Live Transcription & Translation</span>
+      </a>
+    </td>
+    <td style="padding: 15px; border: none;" align="center">
+      <a href="https://youtu.be/YdAq80wjtuQ" style="text-decoration: none; color: inherit;">
+        <div style="position: relative; display: inline-block;">
+          <img src="https://img.youtube.com/vi/YdAq80wjtuQ/hqdefault.jpg" alt="Demo Video 4" width="200" style="border-radius: 8px;">
+          <img src="https://cdn-icons-png.flaticon.com/512/0/375.png" alt="Play" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 30px; opacity: 0.7;">
+        </div>
+        <br>
+        <span style="font-size: 14px; font-weight: bold; color: #333;">Multi-Lingual Voice Cloning: Korean - German</span>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td style="padding: 15px; border: none;" align="center">
+      <a href="https://youtu.be/Tu2okoHY174" style="text-decoration: none; color: inherit;">
+        <div style="position: relative; display: inline-block;">
+          <img src="https://img.youtube.com/vi/Tu2okoHY174/hqdefault.jpg" alt="Demo Video 5" width="200" style="border-radius: 8px;">
+          <img src="https://cdn-icons-png.flaticon.com/512/0/375.png" alt="Play" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 30px; opacity: 0.7;">
+        </div>
+        <br>
+        <span style="font-size: 14px; font-weight: bold; color: #333;">Multi-Lingual Voice Cloning: English - Korean</span>
+      </a>
+    </td>
+    <td style="padding: 15px; border: none;" align="center">
+      <a href="https://youtu.be/dWCEwO56_7Y" style="text-decoration: none; color: inherit;">
+        <div style="position: relative; display: inline-block;">
+          <img src="https://img.youtube.com/vi/dWCEwO56_7Y/hqdefault.jpg" alt="Demo Video 6" width="200" style="border-radius: 8px;">
+          <img src="https://cdn-icons-png.flaticon.com/512/0/375.png" alt="Play" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 30px; opacity: 0.7;">
+        </div>
+        <br>
+        <span style="font-size: 14px; font-weight: bold; color: #333;">Multi-Lingual Voice Cloning: Korean - Japanese</span>
+      </a>
+    </td>
+    <td style="padding: 15px; border: none;" align="center">
+      <a href="https://youtu.be/HXomwoKS3V4" style="text-decoration: none; color: inherit;">
+        <div style="position: relative; display: inline-block;">
+          <img src="https://img.youtube.com/vi/HXomwoKS3V4/hqdefault.jpg" alt="Demo Video 7" width="200" style="border-radius: 8px;">
+          <img src="https://cdn-icons-png.flaticon.com/512/0/375.png" alt="Play" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 30px; opacity: 0.7;">
+        </div>
+        <br>
+        <span style="font-size: 14px; font-weight: bold; color: #333;">NVIDIA RTX Video Super-Resolution</span>
+      </a>
+    </td>
+    <td style="padding: 15px; border: none;" align="center">
+      <a href="https://youtu.be/lZK7pLJBHb4" style="text-decoration: none; color: inherit;">
+        <div style="position: relative; display: inline-block;">
+          <img src="https://img.youtube.com/vi/lZK7pLJBHb4/hqdefault.jpg" alt="Demo Video 8" width="200" style="border-radius: 8px;">
+          <img src="https://cdn-icons-png.flaticon.com/512/0/375.png" alt="Play" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 30px; opacity: 0.7;">
+        </div>
+        <br>
+        <span style="font-size: 14px; font-weight: bold; color: #333;">AI Karaoke</span>
+      </a>
+    </td>
+  </tr>
+</table>
+
+
 
 ## ⭐ 主要功能
 
@@ -379,7 +444,7 @@ git clone https://github.com/abus-aikorea/voice-pro.git
 ## 🚨 通知
 - 此儲存庫提供 Voice-Pro 的**免費試用版**。
 - Voice-Pro 的免費試用版允許您處理長達 **60 秒**的媒體。
-- 訂閱版本支援 Microsoft Azure TTS 和 Translator。請在 [Shopify](https://r17wvy-t2.myshopify.com/zh-hant) 上購買。
+- 訂閱版本支援 Microsoft Azure TTS 和 Translator。請在 [![Shopify](https://img.shields.io/badge/Shopify-7ab55c.svg?style=flat-square&logo=shopify&logoColor=white)](https://r17wvy-t2.myshopify.com) 上購買。
 
 
 <table>
@@ -426,20 +491,19 @@ ABUS客戶服務
 - 歡迎任何類型的貢獻。
 - 有關購買、商業夥伴關係、技術調整、投資和其他相關事宜的諮詢，請透過電子郵件 (<abus.aikorea@gmail.com>) 與我們聯繫。
 - 如果您喜歡這個專案，請給這個儲存庫加星號。我們將非常感謝。 ⭐⭐⭐
-- 您可以在這裡透過捐贈支持 Voice-Pro：
-
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/abus)
+- 您可以在這裡透過捐贈支持 Voice-Pro：    
+</a>
+  <a href="https://www.buymeacoffee.com/abus">
+  <img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me a Coffee" style="height: 20px;">
+</a>
 
 
 ## 📬 聯絡方式
 - Email: <abus.aikorea@gmail.com>
 - Homepage (Korean): <https://abuskorea.imweb.me>
-- Naver (Korean): [30-day subscription](https://smartstore.naver.com/abus/products/11308510267)
-- Shopify (Global): [30-day subscription](https://r17wvy-t2.myshopify.com/zh-hant)
+- 付費版本購買: [Shopify (Global)](https://r17wvy-t2.myshopify.com), [Naver (Korean)](https://smartstore.naver.com/abus)
 
-## 👍 YouTube
-- [PlayList](https://www.youtube.com/watch?v=Tu2okoHY174&list=PLwx5dnMDVC9Y7dAjm9r26CZUw1uU5VIeq)
-- [卡拉OK：流行音樂](https://www.youtube.com/watch?v=MqQP3ewvJUk&list=PLwx5dnMDVC9bVxfGo58U-R-w3fUHqwiD6) | [K-Pop](https://www.youtube.com/watch?v=v6qjf_ELsLA&list=PLwx5dnMDVC9Z8kB01tQKfzTysaCCxC3C8) | [J-Pop](https://www.youtube.com/watch?v=KKLzoWHFAxw&list=PLwx5dnMDVC9bd6y3wXs-bOas2cXIi-GAq)
+
 
 ## 🙏 鳴謝
 * Demucs: <https://github.com/facebookresearch/demucs>
