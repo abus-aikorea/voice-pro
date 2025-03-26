@@ -122,96 +122,70 @@ A robust alternative to **ElevenLabs**, Voice-Pro empowers podcasters, developer
   
 </details>
 
-
 ## 🎥 YouTube Showcase
 
 <table style="border-collapse: collapse; width: 100%;">
   <tr>
-    <td style="padding: 15px; border: none;" align="center">
+    <td style="padding: 10px; border: none;" align="center">
       <a href="https://youtu.be/scC5CicZ6G0" style="text-decoration: none; color: inherit;">
-        <div style="position: relative; display: inline-block;">
-          <img src="https://img.youtube.com/vi/scC5CicZ6G0/hqdefault.jpg" alt="Demo Video 1" width="200" style="border-radius: 8px;">
-          <img src="https://cdn-icons-png.flaticon.com/512/0/375.png" alt="Play" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 30px; opacity: 0.7;">
-        </div>
+        <img src="https://img.youtube.com/vi/scC5CicZ6G0/hqdefault.jpg" alt="Demo Video 1" width="240" height="135" style="border-radius: 4px;">
         <br>
-        <span style="font-size: 14px; font-weight: bold; color: #333;">Demo for Voice-Pro (v2.0)</span>
+        <span style="font-size: 16px; font-weight: 600; color: #0f0f0f; line-height: 1.2;">Demo for Voice-Pro (v2.0)</span>
       </a>
     </td>
-    <td style="padding: 15px; border: none;" align="center">
+    <td style="padding: 10px; border: none;" align="center">
       <a href="https://youtu.be/Wfo7vQCD4no" style="text-decoration: none; color: inherit;">
-        <div style="position: relative; display: inline-block;">
-          <img src="https://img.youtube.com/vi/Wfo7vQCD4no/hqdefault.jpg" alt="Demo Video 2" width="200" style="border-radius: 8px;">
-          <img src="https://cdn-icons-png.flaticon.com/512/0/375.png" alt="Play" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 30px; opacity: 0.7;">
-        </div>
+        <img src="https://img.youtube.com/vi/Wfo7vQCD4no/hqdefault.jpg" alt="Demo Video 2" width="240" height="135" style="border-radius: 4px;">
         <br>
-        <span style="font-size: 14px; font-weight: bold; color: #333;">F5-TTS: Voice Cloning</span>
+        <span style="font-size: 16px; font-weight: 600; color: #0f0f0f; line-height: 1.2;">F5-TTS: Voice Cloning</span>
       </a>
     </td>
-    <td style="padding: 15px; border: none;" align="center">
+    <td style="padding: 10px; border: none;" align="center">
       <a href="https://youtu.be/GOzCDj4MCpo" style="text-decoration: none; color: inherit;">
-        <div style="position: relative; display: inline-block;">
-          <img src="https://img.youtube.com/vi/GOzCDj4MCpo/hqdefault.jpg" alt="Demo Video 3" width="200" style="border-radius: 8px;">
-          <img src="https://cdn-icons-png.flaticon.com/512/0/375.png" alt="Play" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 30px; opacity: 0.7;">
-        </div>
+        <img src="https://img.youtube.com/vi/GOzCDj4MCpo/hqdefault.jpg" alt="Demo Video 3" width="240" height="135" style="border-radius: 4px;">
         <br>
-        <span style="font-size: 14px; font-weight: bold; color: #333;">Live Transcription & Translation</span>
+        <span style="font-size: 16px; font-weight: 600; color: #0f0f0f; line-height: 1.2;">Live Transcription & Translation</span>
       </a>
     </td>
-    <td style="padding: 15px; border: none;" align="center">
+    <td style="padding: 10px; border: none;" align="center">
       <a href="https://youtu.be/YdAq80wjtuQ" style="text-decoration: none; color: inherit;">
-        <div style="position: relative; display: inline-block;">
-          <img src="https://img.youtube.com/vi/YdAq80wjtuQ/hqdefault.jpg" alt="Demo Video 4" width="200" style="border-radius: 8px;">
-          <img src="https://cdn-icons-png.flaticon.com/512/0/375.png" alt="Play" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 30px; opacity: 0.7;">
-        </div>
+        <img src="https://img.youtube.com/vi/YdAq80wjtuQ/hqdefault.jpg" alt="Demo Video 4" width="240" height="135" style="border-radius: 4px;">
         <br>
-        <span style="font-size: 14px; font-weight: bold; color: #333;">Multi-Lingual Voice Cloning: Korean - German</span>
+        <span style="font-size: 16px; font-weight: 600; color: #0f0f0f; line-height: 1.2;">Multi-Lingual Voice Cloning: Korean - German</span>
       </a>
     </td>
   </tr>
   <tr>
-    <td style="padding: 15px; border: none;" align="center">
+    <td style="padding: 10px; border: none;" align="center">
       <a href="https://youtu.be/Tu2okoHY174" style="text-decoration: none; color: inherit;">
-        <div style="position: relative; display: inline-block;">
-          <img src="https://img.youtube.com/vi/Tu2okoHY174/hqdefault.jpg" alt="Demo Video 5" width="200" style="border-radius: 8px;">
-          <img src="https://cdn-icons-png.flaticon.com/512/0/375.png" alt="Play" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 30px; opacity: 0.7;">
-        </div>
+        <img src="https://img.youtube.com/vi/Tu2okoHY174/hqdefault.jpg" alt="Demo Video 5" width="240" height="135" style="border-radius: 4px;">
         <br>
-        <span style="font-size: 14px; font-weight: bold; color: #333;">Multi-Lingual Voice Cloning: English - Korean</span>
+        <span style="font-size: 16px; font-weight: 600; color: #0f0f0f; line-height: 1.2;">Multi-Lingual Voice Cloning: English - Korean</span>
       </a>
     </td>
-    <td style="padding: 15px; border: none;" align="center">
+    <td style="padding: 10px; border: none;" align="center">
       <a href="https://youtu.be/dWCEwO56_7Y" style="text-decoration: none; color: inherit;">
-        <div style="position: relative; display: inline-block;">
-          <img src="https://img.youtube.com/vi/dWCEwO56_7Y/hqdefault.jpg" alt="Demo Video 6" width="200" style="border-radius: 8px;">
-          <img src="https://cdn-icons-png.flaticon.com/512/0/375.png" alt="Play" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 30px; opacity: 0.7;">
-        </div>
+        <img src="https://img.youtube.com/vi/dWCEwO56_7Y/hqdefault.jpg" alt="Demo Video 6" width="240" height="135" style="border-radius: 4px;">
         <br>
-        <span style="font-size: 14px; font-weight: bold; color: #333;">Multi-Lingual Voice Cloning: Korean - Japanese</span>
+        <span style="font-size: 16px; font-weight: 600; color: #0f0f0f; line-height: 1.2;">Multi-Lingual Voice Cloning: Korean - Japanese</span>
       </a>
     </td>
-    <td style="padding: 15px; border: none;" align="center">
+    <td style="padding: 10px; border: none;" align="center">
       <a href="https://youtu.be/HXomwoKS3V4" style="text-decoration: none; color: inherit;">
-        <div style="position: relative; display: inline-block;">
-          <img src="https://img.youtube.com/vi/HXomwoKS3V4/hqdefault.jpg" alt="Demo Video 7" width="200" style="border-radius: 8px;">
-          <img src="https://cdn-icons-png.flaticon.com/512/0/375.png" alt="Play" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 30px; opacity: 0.7;">
-        </div>
+        <img src="https://img.youtube.com/vi/HXomwoKS3V4/hqdefault.jpg" alt="Demo Video 7" width="240" height="135" style="border-radius: 4px;">
         <br>
-        <span style="font-size: 14px; font-weight: bold; color: #333;">NVIDIA RTX Video Super-Resolution</span>
+        <span style="font-size: 16px; font-weight: 600; color: #0f0f0f; line-height: 1.2;">NVIDIA RTX Video Super-Resolution</span>
       </a>
     </td>
-    <td style="padding: 15px; border: none;" align="center">
+    <td style="padding: 10px; border: none;" align="center">
       <a href="https://youtu.be/lZK7pLJBHb4" style="text-decoration: none; color: inherit;">
-        <div style="position: relative; display: inline-block;">
-          <img src="https://img.youtube.com/vi/lZK7pLJBHb4/hqdefault.jpg" alt="Demo Video 8" width="200" style="border-radius: 8px;">
-          <img src="https://cdn-icons-png.flaticon.com/512/0/375.png" alt="Play" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 30px; opacity: 0.7;">
-        </div>
+        <img src="https://img.youtube.com/vi/lZK7pLJBHb4/hqdefault.jpg" alt="Demo Video 8" width="240" height="135" style="border-radius: 4px;">
         <br>
-        <span style="font-size: 14px; font-weight: bold; color: #333;">AI Karaoke</span>
+        <span style="font-size: 16px; font-weight: 600; color: #0f0f0f; line-height: 1.2;">AI Karaoke</span>
       </a>
     </td>
   </tr>
 </table>
-
 
 
 ## ⭐ Key Features
