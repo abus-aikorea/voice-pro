@@ -93,7 +93,7 @@ Voice-Proは、マルチメディアコンテンツ制作に革新をもたら�
 - **初めてのユーザー**: 以下のインストール手順を参照してください。
 - **トラブルシューティング**: ほとんどの場合、`installer_files`フォルダを削除し、`configure.bat`を実行した後に`start.bat`を実行することで問題が解決します。
 - 🎁 **無料アクティベーションキー申請**: アクティベーションキーを受け取るには、この[Google フォーム](https://forms.gle/anMSmsR5dH9wxE6N6)を記入してください。アクティベーションキーはメールアドレスごとに1つに制限されています。
-- 🏆 **追加アクティベーションキー申請**: Voice-Proを使用して素晴らしいコンテンツを作成してください。![GitHub Discussions](https://img.shields.io/github/discussions/abus-aikorea/voice-pro)で投稿のリンクを共有してください。皆様の貢献に喜んで報酬をお贈りします。
+- 🏆 **追加アクティベーションキー申請**: Voice-Proを使用して素晴らしいコンテンツを作成してください。[![GitHub Discussions](https://img.shields.io/github/discussions/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/discussions)で投稿のリンクを共有してください。皆様の貢献に喜んで報酬をお贈りします。
 
 
 

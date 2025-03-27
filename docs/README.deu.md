@@ -93,7 +93,7 @@ Als starke Alternative zu **ElevenLabs** bietet Voice-Pro Podcastern, Entwickler
 - **Erstbenutzer**: Bitte lesen Sie die Installationsanweisungen unten.
 - **Fehlerbehebung**: In den meisten Fällen können Probleme durch das Löschen des `installer_files`-Ordners und das anschließende Ausführen von `configure.bat` gefolgt von `start.bat` behoben werden.
 - 🎁 **Anfrage für einen kostenlosen Aktivierungsschlüssel**: Bitte füllen Sie dieses [Google Formulare](https://forms.gle/anMSmsR5dH9wxE6N6) aus, um Ihren Aktivierungsschlüssel zu erhalten. Aktivierungsschlüssel sind auf einen pro E-Mail-Adresse beschränkt.
-- 🏆 **Anfrage für zusätzliche Aktivierungsschlüssel**: Erstellen Sie großartige Inhalte mit Voice-Pro. Bitte teilen Sie den Link zu Ihrem Beitrag in der ![GitHub Discussions](https://img.shields.io/github/discussions/abus-aikorea/voice-pro). Wir belohnen Ihre Beiträge gerne。
+- 🏆 **Anfrage für zusätzliche Aktivierungsschlüssel**: Erstellen Sie großartige Inhalte mit Voice-Pro. Bitte teilen Sie den Link zu Ihrem Beitrag in der [![GitHub Discussions](https://img.shields.io/github/discussions/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/discussions). Wir belohnen Ihre Beiträge gerne。
 
 
 ## 📰 Neuigkeiten & Verlauf

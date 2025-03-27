@@ -95,7 +95,7 @@ Voice-Pro는 멀티미디어 콘텐츠 제작을 혁신하는 최첨단 웹 앱�
 - **최초 사용자**: 아래 설치 지침을 참조하세요.
 - **문제 해결**: 대부분의 경우, `installer_files` 폴더를 삭제한 후 `configure.bat`를 실행하고 이어서 `start.bat`를 실행하면 문제가 해결됩니다.
 - 🎁 **무료 활성화 키 요청**: 활성화 키를 받으려면 이 [Google 설문지](https://forms.gle/anMSmsR5dH9wxE6N6)을 작성해 주세요. 활성화 키는 이메일 주소당 하나로 제한됩니다.
-- 🏆 **추가 활성화 키 요청**: Voice-Pro를 사용하여 멋진 콘텐츠를 만드세요. ![GitHub Discussions](https://img.shields.io/github/discussions/abus-aikorea/voice-pro)에서 게시물 링크를 공유해 주세요. 여러분의 기여에 기꺼이 보답하겠습니다.
+- 🏆 **추가 활성화 키 요청**: Voice-Pro를 사용하여 멋진 콘텐츠를 만드세요. [![GitHub Discussions](https://img.shields.io/github/discussions/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/discussions)에서 게시물 링크를 공유해 주세요. 여러분의 기여에 기꺼이 보답하겠습니다.
 
 
 ## 📰 뉴스 및 히스토리

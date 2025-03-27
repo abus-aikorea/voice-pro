@@ -92,7 +92,7 @@ Voice-Pro是一款革新多媒体内容制作的先进网页应用。它将YouTu
 - **首次用户**: 请参阅下面的安装说明。
 - **故障排除**: 在大多数情况下，删除`installer_files`文件夹，然后依次运行`configure.bat`和`start.bat`即可解决问题。
 - 🎁 **免费激活密钥请求**: 请填写此[Google 表单](https://forms.gle/anMSmsR5dH9wxE6N6)以获取您的激活密钥。激活密钥每个电子邮件地址限领一个。
-- 🏆 **额外激活密钥请求**: 使用Voice-Pro创建精彩内容。请在![GitHub Discussions](https://img.shields.io/github/discussions/abus-aikorea/voice-pro)中分享您的帖子链接。我们将乐意奖励您的贡献。
+- 🏆 **额外激活密钥请求**: 使用Voice-Pro创建精彩内容。请在[![GitHub Discussions](https://img.shields.io/github/discussions/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/discussions)中分享您的帖子链接。我们将乐意奖励您的贡献。
 
 
 ## 📰 新闻与历史
