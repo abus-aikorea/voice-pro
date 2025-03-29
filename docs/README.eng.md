@@ -104,7 +104,7 @@ A robust alternative to **ElevenLabs**, Voice-Pro empowers podcasters, developer
 
 - 🪄 Support for fine-tuned models of **F5-TTS**
 - 🌍 Supported languages
-  - <img src="https://flagcdn.com/16x12/us.png" alt="United Kingdom Flag" style="vertical-align: middle;"> <img src="https://flagcdn.com/16x12/cn.png" alt="China Flag" style="vertical-align: middle;"> zh & en: <a href="https://huggingface.co/SWivid/F5-TTS/tree/main/F5TTS_v1_Base"> F5-TTS v1 </a> 
+  - <img src="https://flagcdn.com/16x12/us.png" alt="United Kingdom Flag" style="vertical-align: middle;"> English & <img src="https://flagcdn.com/16x12/cn.png" alt="China Flag" style="vertical-align: middle;"> Chinese: <a href="https://huggingface.co/SWivid/F5-TTS/tree/main/F5TTS_v1_Base"> SWivid/F5-TTS_v1 </a> 
   - <img src="https://flagcdn.com/16x12/fi.png" alt="Spain Flag" style="vertical-align: middle;"> Finnish: <a href="https://huggingface.co/AsmoKoskinen/F5-TTS_Finnish_Model"> AsmoKoskinen/F5-TTS_Finnish_Model </a> 
   - <img src="https://flagcdn.com/16x12/fr.png" alt="Spain Flag" style="vertical-align: middle;"> French: <a href="https://huggingface.co/RASPIAUDIO/F5-French-MixedSpeakers-reduced"> RASPIAUDIO/F5-French-MixedSpeakers-reduced </a> 
   - <img src="https://flagcdn.com/16x12/in.png" alt="Spain Flag" style="vertical-align: middle;"> Hindi: <a href="https://huggingface.co/SPRINGLab/F5-Hindi-24KHz"> SPRINGLab/F5-Hindi-24KHz </a>  
@@ -201,6 +201,15 @@ A robust alternative to **ElevenLabs**, Voice-Pro empowers podcasters, developer
       </a>
     </td>
   </tr>
+  <tr>
+    <td style="padding: 10px; border: none;" align="center">
+      <a href="https://youtu.be/Co70lh95EsQ" style="text-decoration: none; color: inherit;">
+        <img src="https://img.youtube.com/vi/Co70lh95EsQ/hqdefault.jpg" alt="Demo Video 5" width="240" height="135" style="border-radius: 4px;">
+        <br>
+        <span style="font-size: 16px; font-weight: 600; color: #0f0f0f; line-height: 1.2;">Multi-Lingual Voice Cloning: English - Korean</span>
+      </a>
+    </td>
+  </tr>    
 </table>
 
 
