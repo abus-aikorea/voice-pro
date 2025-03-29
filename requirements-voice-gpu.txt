@@ -63,6 +63,7 @@ pydub==0.25.1
 pyworld==0.3.4
 # scipy==1.11.1
 # tensorboardX
+f5-tts==1.0.8
 # PyTorch 2.5.1
 --extra-index-url https://download.pytorch.org/whl/cu124
 torch==2.5.1+cu124

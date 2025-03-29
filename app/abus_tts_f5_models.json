@@ -1,0 +1,47 @@
+{
+    "SWivid/F5-TTS": {
+        "model_path": "hf://SWivid/F5-TTS/F5TTS_Base/model_1200000.safetensors",
+        "vocab_path": "hf://SWivid/F5-TTS/F5TTS_Base/vocab.txt",        
+        "config": {"dim": 1024, "depth": 22, "heads": 16, "ff_mult": 2, "text_dim": 512, "text_mask_padding": false, "conv_layers": 4, "pe_attn_head": 1}
+    },
+    "SWivid/F5-TTS_v1": {
+        "model_path": "hf://SWivid/F5-TTS/F5TTS_v1_Base/model_1250000.safetensors",
+        "vocab_path": "hf://SWivid/F5-TTS/F5TTS_v1_Base/vocab.txt",        
+        "config": {"dim": 1024, "depth": 22, "heads": 16, "ff_mult": 2, "text_dim": 512, "conv_layers": 4}
+    },
+    "AsmoKoskinen/F5-TTS_Finnish": {
+        "model_path": "hf://AsmoKoskinen/F5-TTS_Finnish_Model/model_common_voice_fi_vox_populi_fi_20241206.safetensors",
+        "vocab_path": "hf://AsmoKoskinen/F5-TTS_Finnish_Model/vocab.txt",        
+        "config": {"dim": 1024, "depth": 22, "heads": 16, "ff_mult": 2, "text_dim": 512, "text_mask_padding": false, "conv_layers": 4, "pe_attn_head": 1}
+    },
+    "RASPIAUDIO/F5-French": {
+        "model_path": "hf://RASPIAUDIO/F5-French-MixedSpeakers-reduced/model_last_reduced.pt",
+        "vocab_path": "hf://RASPIAUDIO/F5-French-MixedSpeakers-reduced/vocab.txt",
+        "config": {"dim": 1024, "depth": 22, "heads": 16, "ff_mult": 2, "text_dim": 512, "text_mask_padding": false, "conv_layers": 4, "pe_attn_head": 1}
+    },
+    "SPRINGLab/F5-Hindi": {
+        "model_path": "hf://SPRINGLab/F5-Hindi-24KHz/model_2500000.safetensors",
+        "vocab_path": "hf://SPRINGLab/F5-Hindi-24KHz/vocab.txt",
+        "config": {"dim": 768, "depth": 18, "heads": 12, "ff_mult": 2, "text_dim": 512, "text_mask_padding": false, "conv_layers": 4, "pe_attn_head": 1}
+    },
+    "alien79/F5-TTS-italian": {
+        "model_path": "hf://alien79/F5-TTS-italian/model_159600.safetensors",
+        "vocab_path": "hf://alien79/F5-TTS-italian/vocab.txt",
+        "config": {"dim": 1024, "depth": 22, "heads": 16, "ff_mult": 2, "text_dim": 512, "text_mask_padding": false, "conv_layers": 4, "pe_attn_head": 1}
+    },
+    "Jmica/JA_21999120": {
+        "model_path": "hf://Jmica/F5TTS/JA_21999120/model_21999120.pt",
+        "vocab_path": "hf://Jmica/F5TTS/JA_21999120/vocab_japanese.txt",
+        "config": {"dim": 1024, "depth": 22, "heads": 16, "ff_mult": 2, "text_dim": 512, "text_mask_padding": false, "conv_layers": 4, "pe_attn_head": 1}
+    },
+    "hotstone228/F5-TTS-Russian": {
+        "model_path": "hf://hotstone228/F5-TTS-Russian/model_last.safetensors",
+        "vocab_path": "hf://hotstone228/F5-TTS-Russian/vocab.txt",
+        "config": {"dim": 1024, "depth": 22, "heads": 16, "ff_mult": 2, "text_dim": 512, "text_mask_padding": false, "conv_layers": 4, "pe_attn_head": 1}
+    },
+    "jpgallegoar/F5-Spanish": {
+        "model_path": "hf://jpgallegoar/F5-Spanish/model_1250000.safetensors",
+        "vocab_path": "hf://jpgallegoar/F5-Spanish/vocab.txt",
+        "config": {"dim": 1024, "depth": 22, "heads": 16, "ff_mult": 2, "text_dim": 512, "text_mask_padding": false, "conv_layers": 4, "pe_attn_head": 1}
+    }
+}

@@ -1,0 +1,10 @@
+[
+    {"file_type": "demucs", "repo_id": "ABUS-AI/AICover-v0.1", "subfolder": "", "file_name": "955717e8-8726e21a.th", "file_size": 84141911, "level": 0, "display_name": "htdemucs"},
+    {"file_type": "demucs", "repo_id": "ABUS-AI/AICover-v0.1", "subfolder": "", "file_name": "5c90dfd2-34c22ccb.th", "file_size": 54996327, "level": 1, "display_name": "htdemucs_6s"},
+    {"file_type": "demucs", "repo_id": "ABUS-AI/AICover-v0.1", "subfolder": "", "file_name": "htdemucs_ft.zip", "file_size": 311843957, "level": 0, "display_name": "htdemucs_ft"},
+    {"file_type": "cosyvoice", "repo_id": "ABUS-AI/CosyVoice", "subfolder": "", "file_name": "celebrities30s.zip", "file_size": 18467946, "level": 0, "display_name": ""},
+    {"file_type": "cosyvoice", "repo_id": "ABUS-AI/CosyVoice", "subfolder": "", "file_name": "CosyVoice2-0.5B.zip", "file_size": 9003318755, "level": 0, "display_name": ""},
+    {"file_type": "edge-tts", "repo_id": "ABUS-AI/CosyVoice", "subfolder": "", "file_name": "edge-tts-samples.zip", "file_size": 8050329, "level": 0, "display_name": ""},
+    {"file_type": "kokoro", "repo_id": "ABUS-AI/CosyVoice", "subfolder": "", "file_name": "kokoro-tts-samples.zip", "file_size": 5112515, "level": 0, "display_name": ""},
+    {"file_type": "kokoro", "repo_id": "ABUS-AI/CosyVoice", "subfolder": "", "file_name": "eSpeak NG.zip", "file_size": 12471777, "level": 0, "display_name": ""}
+]

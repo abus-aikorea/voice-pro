@@ -16,12 +16,14 @@ from app.abus_path import path_workspace_folder, path_gradio_folder
 
 # ABUS - start voice
 genuine_init()
-AbusHuggingFace.hf_download_models(file_type='mdxnet-model', level=0)
+AbusHuggingFace.initialize(app_name="voice")
+
+# AbusHuggingFace.hf_download_models(file_type='mdxnet-model', level=0)
 AbusHuggingFace.hf_download_models(file_type='demucs', level=0)
-AbusHuggingFace.hf_download_models(file_type='f5-tts', level=0)
-AbusHuggingFace.hf_download_models(file_type='vocos-mel-24khz', level=0)
-AbusHuggingFace.hf_download_models(file_type='rvc-model', level=0)
-AbusHuggingFace.hf_download_models(file_type='rvc-voice', level=0)
+# AbusHuggingFace.hf_download_models(file_type='f5-tts', level=0)
+# AbusHuggingFace.hf_download_models(file_type='vocos-mel-24khz', level=0)
+# AbusHuggingFace.hf_download_models(file_type='rvc-model', level=0)
+# AbusHuggingFace.hf_download_models(file_type='rvc-voice', level=0)
 AbusHuggingFace.hf_download_models(file_type='edge-tts', level=0)
 AbusHuggingFace.hf_download_models(file_type='kokoro', level=0)
 AbusHuggingFace.hf_download_models(file_type='cosyvoice', level=0)
