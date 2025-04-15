@@ -40,7 +40,7 @@ echo Current directory: %CD%
 echo Command line: %*
 
 
-:: LongPathsEnabled 값 설정
+:: check LongPathsEnabled
 echo Enabling long paths support...
 reg add "HKLM\SYSTEM\CurrentControlSet\Control\FileSystem" /v LongPathsEnabled /t REG_DWORD /d 1 /f
 if %ERRORLEVEL% == 0 (
@@ -55,7 +55,12 @@ if %ERRORLEVEL% == 0 (
 
 cd /D "%~dp0"
 SET "CHOCPATH=%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\powershell.exe"
+
+:: Install choco
 %CHOCPATH% -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
+
+:: Install uv
+@REM %CHOCPATH% -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 
 
 :: check NVIDIA GPU

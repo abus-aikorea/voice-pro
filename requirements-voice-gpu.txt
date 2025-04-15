@@ -51,18 +51,7 @@ azure-cognitiveservices-speech
 uuid
 #
 pydub==0.25.1
-# Requests==2.31.0
-# ai cover
-# deemix
-# torchcrepe==0.0.22
-# fairseq==0.12.2
-# faiss-cpu==1.7.3
-# lib==4.0.0
-# praat-parselmouth>=0.4.2
-# pedalboard==0.7.7
 pyworld==0.3.4
-# scipy==1.11.1
-# tensorboardX
 f5-tts==1.0.8
 # PyTorch 2.5.1
 --extra-index-url https://download.pytorch.org/whl/cu124
@@ -79,7 +68,6 @@ HyperPyYAML==1.2.2
 inflect==7.3.1
 lightning==2.2.4
 modelscope==1.15.0
-# onnx==1.16.0
 tensorboard==2.14.0
 fastapi-cli==0.0.4
 WeTextProcessing==1.0.3
@@ -90,3 +78,6 @@ misaki[ja]
 misaki[zh]
 # spaCy
 spacy[cuda12x]==3.7.5
+# etc
+onnxruntime-gpu==1.20.1
+nvidia-cudnn-cu12==8.9.7.29
