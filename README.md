@@ -513,13 +513,13 @@ The following table lists SaaS platforms supporting subtitling, translation, and
 
 ### Cost Calculation Details
 - **Maestra**: Premium Plan ($158/month, 1200 credits). 60-min video: 60 credits (subtitles) + 60 credits (translation) + 60 credits (dubbing) = 180 credits. Cost = (180/1200) * $158 = $23.70.[](https://maestra.ai/pricing)
-- **Kapwing**: Pro plan (~$24/month, limited minutes). Estimated $0.50~$0.67/min for subtitles+translation+dubbing (based on per-minute pricing trends). 60-min cost: $30~$40. Exact pricing requires confirmation.
-- **VEED.IO**: Pro plan (~$24/month). Subtitles+translation estimated at $0.40~$0.60/min. No TTS, so partial processing. 60-min cost: $24~$36. Confirm at [veed.io](https://veed.io).
-- **HappyScribe**: Pay-as-you-go (~$0.20/min transcription, $0.20/min translation, $0.20/min dubbing). 60-min cost: $36~$48 (assuming combined services). Confirm at [happyscribe.com](https://happyscribe.com).
-- **Sonix**: Standard plan (~$10/hour transcription, additional for translation/dubbing). Estimated $0.50~$0.67/min total. 60-min cost: $30~$40. Confirm at [sonix.ai](https://sonix.ai).
-- **Descript**: Creator plan (~$24/month, limited hours). Estimated $0.60~$0.80/min for subtitles+translation+dubbing. 60-min cost: $36~$48. Confirm at [descript.com](https://descript.com).
+- **Kapwing**: Pro plan (\~$24/month, limited minutes). Estimated $0.50\~$0.67/min for subtitles+translation+dubbing (based on per-minute pricing trends). 60-min cost: $30\~$40. Exact pricing requires confirmation.
+- **VEED.IO**: Pro plan (\~$24/month). Subtitles+translation estimated at $0.40\~$0.60/min. No TTS, so partial processing. 60-min cost: $24\~$36. Confirm at [veed.io](https://veed.io).
+- **HappyScribe**: Pay-as-you-go (\~$0.20/min transcription, $0.20/min translation, $0.20/min dubbing). 60-min cost: $36\~$48 (assuming combined services). Confirm at [happyscribe.com](https://happyscribe.com).
+- **Sonix**: Standard plan (\~$10/hour transcription, additional for translation/dubbing). Estimated $0.50\~$0.67/min total. 60-min cost: $30\~$40. Confirm at [sonix.ai](https://sonix.ai).
+- **Descript**: Creator plan (\~$24/month, limited hours). Estimated $0.60\~$0.80/min for subtitles+translation+dubbing. 60-min cost: $36\~$48. Confirm at [descript.com](https://descript.com).
 - **AppTek**: Custom pricing for enterprise. No public per-minute rates. Contact [apptek.ai](https://apptek.ai) for quotes.
-- **Transkriptor**: Pay-as-you-go ($0.05~$0.10/min transcription, similar for translation). No TTS, so partial processing. 60-min cost: $12~$18. Confirm at [transkriptor.com](https://transkriptor.com).
+- **Transkriptor**: Pay-as-you-go ($0.05\~$0.10/min transcription, similar for translation). No TTS, so partial processing. 60-min cost: $12\~$18. Confirm at [transkriptor.com](https://transkriptor.com).
 
 ### Notes
 - **Cost for 60-min Video**: Costs are approximate and assume processing a 60-minute Korean video for subtitles, English translation, and English dubbing (where available). Platforms without TTS (e.g., VEED.IO, Transkriptor) reflect partial processing costs.
