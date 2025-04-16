@@ -471,6 +471,50 @@ git clone https://github.com/abus-aikorea/voice-pro.git
   </tr>
 </table>
 
+<br />
+
+## ⏳ Plataformas SaaS para Subtitulado, Traducción y TTS
+
+La siguiente tabla enumera las plataformas SaaS que admiten funciones de subtitulado, traducción y conversión de texto a voz (TTS/doblaje). Los costos se calcularon para procesar un video en coreano de 60 minutos, incluyendo la generación de subtítulos, traducción al inglés y doblaje en inglés, basados en los datos de precios más recientes al 15 de abril de 2025.
+
+| Plataforma | Subtitulado | Traducción | TTS/Doblaje | Costo para Video de 60 min (USD, aprox.) | Características Principales |
+| --- | --- | --- | --- | --- | --- |
+| **Maestra** | ✅ | ✅ | ✅ | $23.70 | Más de 125 idiomas, subtítulos en tiempo real, extracción de palabras clave SEO, prueba gratuita de 15 min. |
+| **Kapwing** | ✅ | ✅ | ✅ | $30\~$40 (Plan Pro, por minuto) | Subtítulos por IA, traducción a más de 100 idiomas, doblaje con sincronización labial automática, nivel gratuito. |
+| **VEED.IO** | ✅ | ✅ | ❌ | $24\~$36 (Plan Pro, procesamiento parcial) | Subtítulos con 99.9% de precisión, subtítulos optimizados para Instagram, editor intuitivo. |
+| **HappyScribe** | ✅ | ✅ | ✅ | $36\~$48 (Pago por uso) | Más de 120 idiomas, opción de corrección profesional, seguro, transcripción de reuniones. |
+| **Sonix** | ✅ | ✅ | ✅ | $30\~$40 (Plan Estándar) | Más de 54 idiomas, 30 min de transcripción gratuita, integración con YouTube/Zoom. |
+| **Descript** | ✅ | ✅ | ✅ | $36\~$48 (Plan Creador) | Edición basada en texto, Overdub TTS, eliminación de palabras de relleno, 1 hora de transcripción gratuita. |
+| **AppTek** | ✅ | ✅ | ✅ | Precios personalizados (Contactar) | Enfocado en medios, modelos personalizados, generación de metadatos, Workbench basado en la nube. |
+| **Transkriptor** | ✅ | ✅ | ❌ | $12\~$18 (Pago por uso) | Más de 100 idiomas, transcripción desde enlaces de YouTube, 99% de precisión, editor simple. |
+
+### Detalles del Cálculo de Costos
+
+- **Maestra**: Plan Premium ($158/mes, 1200 créditos). Video de 60 min: 60 créditos (subtítulos) + 60 créditos (traducción) + 60 créditos (doblaje) = 180 créditos. Costo = (180/1200) \* $158 = $23.70.
+- **Kapwing**: Plan Pro (\~$24/mes, minutos limitados). Estimado $0.50\~$0.67/min para subtítulos+traducción+doblaje (basado en tendencias de precios por minuto). Costo de 60 min: $30\~$40. Se requiere confirmación de precios exactos.
+- **VEED.IO**: Plan Pro (\~$24/mes). Subtítulos+traducción estimados en $0.40\~$0.60/min. Sin TTS, procesamiento parcial. Costo de 60 min: $24\~$36. Confirme en veed.io.
+- **HappyScribe**: Pago por uso (\~$0.20/min transcripción, $0.20 traducción, $0.20 doblaje). Costo de 60 min: $36\~$48 (suponiendo servicios combinados). Confirme en happyscribe.com.
+- **Sonix**: Plan Estándar (\~$10/hora transcripción, adicional para traducción/doblaje). Estimado $0.50\~$0.67/min total. Costo de 60 min: $30\~$40. Confirme en sonix.ai.
+- **Descript**: Plan Creador (\~$24/mes, horas limitadas). Estimado $0.60\~$0.80/min para subtítulos+traducción+doblaje. Costo de 60 min: $36\~$48. Confirme en descript.com.
+- **AppTek**: Precios personalizados para empresas. Sin tarifas públicas por minuto. Contacte a apptek.ai para cotizaciones.
+- **Transkriptor**: Pago por uso ($0.05\~$0.10/min transcripción, similar para traducción). Sin TTS, procesamiento parcial. Costo de 60 min: $12\~$18. Confirme en transkriptor.com.
+
+### Notas
+
+- **Costo para Video de 60 min**: Los costos son aproximados y asumen el procesamiento de un video en coreano de 60 minutos para subtítulos, traducción al inglés y doblaje en inglés (donde esté disponible). Las plataformas sin TTS (p. ej., VEED.IO, Transkriptor) reflejan costos de procesamiento parcial.
+- **Soporte de Idiomas**: La mayoría de las plataformas admiten coreano e inglés. Verifique la disponibilidad de idiomas específicos en sus sitios web.
+- **Casos de Uso**:
+  - Medios/Entretenimiento: AppTek, Maestra
+  - Redes Sociales: Kapwing, VEED.IO
+  - Podcasts/Entrevistas: Sonix, Descript
+  - E-learning/Contenido Global: Transkriptor, HappyScribe
+- **Actualizaciones de Precios**: Los precios pueden variar debido a cambios en los planes o promociones. Consulte los sitios web oficiales para obtener detalles actualizados.
+- Para contribuciones o recomendaciones de casos de uso específicos, abra un issue o envíe un pull request en este repositorio.
+
+<br />
+
+
+
 ## ☕ Contribuciones
 
 Hola, soy David del equipo de Voice-Pro.

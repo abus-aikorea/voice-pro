@@ -473,6 +473,48 @@ git clone https://github.com/abus-aikorea/voice-pro.git
   </tr>
 </table>
 
+<br />
+
+## ⏳ SaaS-Plattformen für Untertitelung, Übersetzung und TTS
+
+Die folgende Tabelle listet SaaS-Plattformen auf, die Untertitelung, Übersetzung und Text-to-Speech (TTS/Synchronisation) unterstützen. Die Kosten wurden basierend auf den neuesten verfügbaren Preisdaten vom 15. April 2025 berechnet und beinhalten die Verarbeitung eines 60-minütigen koreanischen Videos mit Untertitelgenerierung, englischer Übersetzung und englischer Synchronisation.
+
+| Plattform | Untertitelung | Übersetzung | TTS/Synchronisation | Kosten für 60-min Video (USD, ca.) | Hauptmerkmale |
+| --- | --- | --- | --- | --- | --- |
+| **Maestra** | ✅ | ✅ | ✅ | $23.70 | Über 125 Sprachen, Echtzeit-Untertitel, SEO-Keyword-Extraktion, 15-min kostenlose Testversion. |
+| **Kapwing** | ✅ | ✅ | ✅ | $30\~$40 (Pro-Plan, pro Minute) | KI-Untertitel, Übersetzung in über 100 Sprachen, automatische Lip-Sync-Synchronisation, kostenloser Tarif. |
+| **VEED.IO** | ✅ | ✅ | ❌ | $24\~$36 (Pro-Plan, teilweise) | 99,9 % genaue Untertitel, Instagram-optimierte Untertitel, intuitiver Editor. |
+| **HappyScribe** | ✅ | ✅ | ✅ | $36\~$48 (Pay-as-you-go) | Über 120 Sprachen, professionelle Korrekturoption, sicher, Transkription von Meetings. |
+| **Sonix** | ✅ | ✅ | ✅ | $30\~$40 (Standard-Plan) | Über 54 Sprachen, 30-min kostenlose Transkription, YouTube/Zoom-Integration. |
+| **Descript** | ✅ | ✅ | ✅ | $36\~$48 (Creator-Plan) | Textbasierte Bearbeitung, Overdub TTS, Entfernung von Füllwörtern, 1-Stunde kostenlose Transkription. |
+| **AppTek** | ✅ | ✅ | ✅ | Individuelle Preisgestaltung (Kontakt) | Medienfokussiert, individuelle Modelle, Metadatengenerierung, cloudbasierte Workbench. |
+| **Transkriptor** | ✅ | ✅ | ❌ | $12\~$18 (Pay-as-you-go) | Über 100 Sprachen, YouTube-Link-Transkription, 99 % Genauigkeit, einfacher Editor. |
+
+### Details zur Kostenberechnung
+
+- **Maestra**: Premium-Plan ($158/Monat, 1200 Credits). 60-min Video: 60 Credits (Untertitel) + 60 Credits (Übersetzung) + 60 Credits (Synchronisation) = 180 Credits. Kosten = (180/1200) \* $158 = $23.70.
+- **Kapwing**: Pro-Plan (\~$24/Monat, begrenzte Minuten). Geschätzt $0.50\~$0.67/Minute für Untertitel+Übersetzung+Synchronisation (basierend auf Preistrends). 60-min Kosten: $30\~$40. Exakte Preise erfordern Bestätigung.
+- **VEED.IO**: Pro-Plan (\~$24/Monat). Untertitel+Übersetzung geschätzt $0.40\~$0.60/Minute. Kein TTS, daher teilweise Verarbeitung. 60-min Kosten: $24\~$36. Bestätigen Sie auf veed.io.
+- **HappyScribe**: Pay-as-you-go (\~$0.20/Minute Transkription, $0.20 Übersetzung, $0.20 Synchronisation). 60-min Kosten: $36\~$48 (unter Annahme kombinierter Dienste). Bestätigen Sie auf happyscribe.com.
+- **Sonix**: Standard-Plan (\~$10/Stunde Transkription, zusätzlich für Übersetzung/Synchronisation). Geschätzt $0.50\~$0.67/Minute gesamt. 60-min Kosten: $30\~$40. Bestätigen Sie auf sonix.ai.
+- **Descript**: Creator-Plan (\~$24/Monat, begrenzte Stunden). Geschätzt $0.60\~$0.80/Minute für Untertitel+Übersetzung+Synchronisation. 60-min Kosten: $36\~$48. Bestätigen Sie auf descript.com.
+- **AppTek**: Individuelle Preisgestaltung für Unternehmen. Keine öffentlichen Minutenpreise. Kontaktieren Sie apptek.ai für Angebote.
+- **Transkriptor**: Pay-as-you-go ($0.05\~$0.10/Minute Transkription, ähnlich für Übersetzung). Kein TTS, daher teilweise Verarbeitung. 60-min Kosten: $12\~$18. Bestätigen Sie auf transkriptor.com.
+
+### Hinweise
+
+- **Kosten für 60-min Video**: Die Kosten sind Näherungswerte und basieren auf der Verarbeitung eines 60-minütigen koreanischen Videos für Untertitel, englische Übersetzung und englische Synchronisation (falls verfügbar). Plattformen ohne TTS (z. B. VEED.IO, Transkriptor) berücksichtigen teilweise Verarbeitungskosten.
+- **Sprachunterstützung**: Die meisten Plattformen unterstützen Koreanisch und Englisch. Überprüfen Sie die Verfügbarkeit spezifischer Sprachen auf den jeweiligen Websites.
+- **Anwendungsfälle**:
+  - Medien/Unterhaltung: AppTek, Maestra
+  - Soziale Medien: Kapwing, VEED.IO
+  - Podcasts/Interviews: Sonix, Descript
+  - E-Learning/globale Inhalte: Transkriptor, HappyScribe
+- **Preisaktualisierungen**: Preise können aufgrund von Planänderungen oder Aktionen variieren. Überprüfen Sie die offiziellen Websites für aktuelle Details.
+- Für Beiträge oder Empfehlungen zu spezifischen Anwendungsfällen öffnen Sie ein Issue oder reichen Sie einen Pull Request in diesem Repository ein!
+
+<br />
+
 ## ☕ Beiträge
 
 Hallo, ich bin David vom Voice-Pro-Team.
