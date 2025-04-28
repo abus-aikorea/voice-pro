@@ -20,6 +20,9 @@ Voice-Pro
 </p>
 
 <h4 align="center">
+  <a href="https://deepwiki.com/abus-aikorea/voice-pro">
+    <img alt="Ask DeepWiki.com" src="https://devin.ai/assets/deepwiki-badge.png" style="height: 20px;">
+  </a>
   <a href="https://www.youtube.com/channel/UCbCBWXuVbk-OBp9T4H5JjAA">
     <img src="https://img.shields.io/badge/youtube-d95652.svg?style=flat-square&logo=youtube" alt="youtube" style="height: 20px;">
   </a>
@@ -479,25 +482,25 @@ La siguiente tabla enumera las plataformas SaaS que admiten funciones de subtitu
 
 | Plataforma | Subtitulado | Traducción | TTS/Doblaje | Costo para Video de 60 min (USD, aprox.) | Características Principales |
 | --- | --- | --- | --- | --- | --- |
-| **Maestra** | ✅ | ✅ | ✅ | $23.70 | Más de 125 idiomas, subtítulos en tiempo real, extracción de palabras clave SEO, prueba gratuita de 15 min. |
-| **Kapwing** | ✅ | ✅ | ✅ | $30\~$40 (Plan Pro, por minuto) | Subtítulos por IA, traducción a más de 100 idiomas, doblaje con sincronización labial automática, nivel gratuito. |
-| **VEED.IO** | ✅ | ✅ | ❌ | $24\~$36 (Plan Pro, procesamiento parcial) | Subtítulos con 99.9% de precisión, subtítulos optimizados para Instagram, editor intuitivo. |
-| **HappyScribe** | ✅ | ✅ | ✅ | $36\~$48 (Pago por uso) | Más de 120 idiomas, opción de corrección profesional, seguro, transcripción de reuniones. |
-| **Sonix** | ✅ | ✅ | ✅ | $30\~$40 (Plan Estándar) | Más de 54 idiomas, 30 min de transcripción gratuita, integración con YouTube/Zoom. |
-| **Descript** | ✅ | ✅ | ✅ | $36\~$48 (Plan Creador) | Edición basada en texto, Overdub TTS, eliminación de palabras de relleno, 1 hora de transcripción gratuita. |
-| **AppTek** | ✅ | ✅ | ✅ | Precios personalizados (Contactar) | Enfocado en medios, modelos personalizados, generación de metadatos, Workbench basado en la nube. |
-| **Transkriptor** | ✅ | ✅ | ❌ | $12\~$18 (Pago por uso) | Más de 100 idiomas, transcripción desde enlaces de YouTube, 99% de precisión, editor simple. |
+| **[Maestra](https://maestra.ai)** | ✅ | ✅ | ✅ | $23.70 | Más de 125 idiomas, subtítulos en tiempo real, extracción de palabras clave SEO, prueba gratuita de 15 min. |
+| **[Kapwing](https://www.kapwing.com)** | ✅ | ✅ | ✅ | $30\~$40 (Plan Pro, por minuto) | Subtítulos por IA, traducción a más de 100 idiomas, doblaje con sincronización labial automática, nivel gratuito. |
+| **[VEED.IO](https://www.veed.io)** | ✅ | ✅ | ❌ | $24\~$36 (Plan Pro, procesamiento parcial) | Subtítulos con 99.9% de precisión, subtítulos optimizados para Instagram, editor intuitivo. |
+| **[HappyScribe](https://happyscribe.com)** | ✅ | ✅ | ✅ | $36\~$48 (Pago por uso) | Más de 120 idiomas, opción de corrección profesional, seguro, transcripción de reuniones. |
+| **[Sonix](https://sonix.ai)** | ✅ | ✅ | ✅ | $30\~$40 (Plan Estándar) | Más de 54 idiomas, 30 min de transcripción gratuita, integración con YouTube/Zoom. |
+| **[Descript](https://descript.com)** | ✅ | ✅ | ✅ | $36\~$48 (Plan Creador) | Edición basada en texto, Overdub TTS, eliminación de palabras de relleno, 1 hora de transcripción gratuita. |
+| **[AppTek](https://apptek.ai)** | ✅ | ✅ | ✅ | Precios personalizados (Contactar) | Enfocado en medios, modelos personalizados, generación de metadatos, Workbench basado en la nube. |
+| **[Transkriptor](https://transkriptor.com)** | ✅ | ✅ | ❌ | $12\~$18 (Pago por uso) | Más de 100 idiomas, transcripción desde enlaces de YouTube, 99% de precisión, editor simple. |
 
 ### Detalles del Cálculo de Costos
 
-- **Maestra**: Plan Premium ($158/mes, 1200 créditos). Video de 60 min: 60 créditos (subtítulos) + 60 créditos (traducción) + 60 créditos (doblaje) = 180 créditos. Costo = (180/1200) \* $158 = $23.70.
-- **Kapwing**: Plan Pro (\~$24/mes, minutos limitados). Estimado $0.50\~$0.67/min para subtítulos+traducción+doblaje (basado en tendencias de precios por minuto). Costo de 60 min: $30\~$40. Se requiere confirmación de precios exactos.
-- **VEED.IO**: Plan Pro (\~$24/mes). Subtítulos+traducción estimados en $0.40\~$0.60/min. Sin TTS, procesamiento parcial. Costo de 60 min: $24\~$36. Confirme en veed.io.
-- **HappyScribe**: Pago por uso (\~$0.20/min transcripción, $0.20 traducción, $0.20 doblaje). Costo de 60 min: $36\~$48 (suponiendo servicios combinados). Confirme en happyscribe.com.
-- **Sonix**: Plan Estándar (\~$10/hora transcripción, adicional para traducción/doblaje). Estimado $0.50\~$0.67/min total. Costo de 60 min: $30\~$40. Confirme en sonix.ai.
-- **Descript**: Plan Creador (\~$24/mes, horas limitadas). Estimado $0.60\~$0.80/min para subtítulos+traducción+doblaje. Costo de 60 min: $36\~$48. Confirme en descript.com.
-- **AppTek**: Precios personalizados para empresas. Sin tarifas públicas por minuto. Contacte a apptek.ai para cotizaciones.
-- **Transkriptor**: Pago por uso ($0.05\~$0.10/min transcripción, similar para traducción). Sin TTS, procesamiento parcial. Costo de 60 min: $12\~$18. Confirme en transkriptor.com.
+- **[Maestra](https://maestra.ai)**: Plan Premium ($158/mes, 1200 créditos). Video de 60 min: 60 créditos (subtítulos) + 60 créditos (traducción) + 60 créditos (doblaje) = 180 créditos. Costo = (180/1200) \* $158 = $23.70.
+- **[Kapwing](https://www.kapwing.com)**: Plan Pro (\~$24/mes, minutos limitados). Estimado $0.50\~$0.67/min para subtítulos+traducción+doblaje (basado en tendencias de precios por minuto). Costo de 60 min: $30\~$40. Se requiere confirmación de precios exactos.
+- **[VEED.IO](https://www.veed.io)**: Plan Pro (\~$24/mes). Subtítulos+traducción estimados en $0.40\~$0.60/min. Sin TTS, procesamiento parcial. Costo de 60 min: $24\~$36. Confirme en veed.io.
+- **[HappyScribe](https://happyscribe.com)**: Pago por uso (\~$0.20/min transcripción, $0.20 traducción, $0.20 doblaje). Costo de 60 min: $36\~$48 (suponiendo servicios combinados). Confirme en happyscribe.com.
+- **[Sonix](https://sonix.ai)**: Plan Estándar (\~$10/hora transcripción, adicional para traducción/doblaje). Estimado $0.50\~$0.67/min total. Costo de 60 min: $30\~$40. Confirme en sonix.ai.
+- **[Descript](https://descript.com)**: Plan Creador (\~$24/mes, horas limitadas). Estimado $0.60\~$0.80/min para subtítulos+traducción+doblaje. Costo de 60 min: $36\~$48. Confirme en descript.com.
+- **[AppTek](https://apptek.ai)**: Precios personalizados para empresas. Sin tarifas públicas por minuto. Contacte a apptek.ai para cotizaciones.
+- **[Transkriptor](https://transkriptor.com)**: Pago por uso ($0.05\~$0.10/min transcripción, similar para traducción). Sin TTS, procesamiento parcial. Costo de 60 min: $12\~$18. Confirme en transkriptor.com.
 
 ### Notas
 

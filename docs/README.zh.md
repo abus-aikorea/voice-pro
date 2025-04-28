@@ -20,6 +20,9 @@ Voice-Pro
 </p>
 
 <h4 align="center">
+  <a href="https://deepwiki.com/abus-aikorea/voice-pro">
+    <img alt="Ask DeepWiki.com" src="https://devin.ai/assets/deepwiki-badge.png" style="height: 20px;">
+  </a>
   <a href="https://www.youtube.com/channel/UCbCBWXuVbk-OBp9T4H5JjAA">
     <img src="https://img.shields.io/badge/youtube-d95652.svg?style=flat-square&logo=youtube" alt="youtube" style="height: 20px;">
   </a>
@@ -479,25 +482,25 @@ git clone https://github.com/abus-aikorea/voice-pro.git
 
 | 平台 | 字幕制作 | 翻译 | TTS/配音 | 60分钟视频处理成本 (美元, 约) | 主要功能 |
 | --- | --- | --- | --- | --- | --- |
-| **Maestra** | ✅ | ✅ | ✅ | $23.70 | 支持125+语言，实时字幕，SEO关键词提取，15分钟免费试用。 |
-| **Kapwing** | ✅ | ✅ | ✅ | $30\~$40 (Pro计划，按分钟) | AI字幕，100+语言翻译，自动唇同步配音，提供免费层。 |
-| **VEED.IO** | ✅ | ✅ | ❌ | $24\~$36 (Pro计划，部分处理) | 99.9%准确字幕，Instagram优化字幕，直观编辑器。 |
-| **HappyScribe** | ✅ | ✅ | ✅ | $36\~$48 (按需付费) | 120+语言，专业校对选项，安全，会议转录。 |
-| **Sonix** | ✅ | ✅ | ✅ | $30\~$40 (Standard计划) | 54+语言，30分钟免费转录，YouTube/Zoom集成。 |
-| **Descript** | ✅ | ✅ | ✅ | $36\~$48 (Creator计划) | 文本编辑，Overdub TTS，填充词移除，1小时免费转录。 |
-| **AppTek** | ✅ | ✅ | ✅ | 定制定价 (联系) | 媒体专用，定制模型，元数据生成，基于云的Workbench。 |
-| **Transkriptor** | ✅ | ✅ | ❌ | $12\~$18 (按需付费) | 100+语言，YouTube链接转录，99%准确度，简单编辑器。 |
+| **[Maestra](https://maestra.ai)** | ✅ | ✅ | ✅ | $23.70 | 支持125+语言，实时字幕，SEO关键词提取，15分钟免费试用。 |
+| **[Kapwing](https://www.kapwing.com)** | ✅ | ✅ | ✅ | $30\~$40 (Pro计划，按分钟) | AI字幕，100+语言翻译，自动唇同步配音，提供免费层。 |
+| **[VEED.IO](https://www.veed.io)** | ✅ | ✅ | ❌ | $24\~$36 (Pro计划，部分处理) | 99.9%准确字幕，Instagram优化字幕，直观编辑器。 |
+| **[HappyScribe](https://happyscribe.com)** | ✅ | ✅ | ✅ | $36\~$48 (按需付费) | 120+语言，专业校对选项，安全，会议转录。 |
+| **[Sonix](https://sonix.ai)** | ✅ | ✅ | ✅ | $30\~$40 (Standard计划) | 54+语言，30分钟免费转录，YouTube/Zoom集成。 |
+| **[Descript](https://descript.com)** | ✅ | ✅ | ✅ | $36\~$48 (Creator计划) | 文本编辑，Overdub TTS，填充词移除，1小时免费转录。 |
+| **[AppTek](https://apptek.ai)** | ✅ | ✅ | ✅ | 定制定价 (联系) | 媒体专用，定制模型，元数据生成，基于云的Workbench。 |
+| **[Transkriptor](https://transkriptor.com)** | ✅ | ✅ | ❌ | $12\~$18 (按需付费) | 100+语言，YouTube链接转录，99%准确度，简单编辑器。 |
 
 ### 成本计算详情
 
-- **Maestra**: Premium计划 ($158/月，1200积分)。60分钟视频：字幕60积分 + 翻译60积分 + 配音60积分 = 180积分。成本 = (180/1200) \* $158 = $23.70。
-- **Kapwing**: Pro计划 (\~$24/月，分钟限制)。字幕+翻译+配音每分钟$0.50\~$0.67估算（基于分钟定价趋势）。60分钟成本：$30\~$40。需确认准确价格。
-- **VEED.IO**: Pro计划 (\~$24/月)。字幕+翻译每分钟$0.40\~$0.60估算。无TTS，部分处理。60分钟成本：$24\~$36。请在veed.io确认。
-- **HappyScribe**: 按需付费 (转录每分钟\~$0.20，翻译$0.20，配音$0.20)。60分钟成本：$36\~$48（假设组合服务）。请在happyscribe.com确认。
-- **Sonix**: Standard计划 (转录每小时\~$10，翻译/配音额外)。总计每分钟$0.50\~$0.67估算。60分钟成本：$30\~$40。请在sonix.ai确认。
-- **Descript**: Creator计划 (\~$24/月，时间限制)。字幕+翻译+配音每分钟$0.60\~$0.80估算。60分钟成本：$36\~$48。请在descript.com确认。
-- **AppTek**: 企业定制定价。无公开分钟费率。请联系apptek.ai获取报价。
-- **Transkriptor**: 按需付费 (转录每分钟$0.05\~$0.10，翻译类似)。无TTS，部分处理。60分钟成本：$12\~$18。请在transkriptor.com确认。
+- **[Maestra](https://maestra.ai)**: Premium计划 ($158/月，1200积分)。60分钟视频：字幕60积分 + 翻译60积分 + 配音60积分 = 180积分。成本 = (180/1200) \* $158 = $23.70。
+- **[Kapwing](https://www.kapwing.com)**: Pro计划 (\~$24/月，分钟限制)。字幕+翻译+配音每分钟$0.50\~$0.67估算（基于分钟定价趋势）。60分钟成本：$30\~$40。需确认准确价格。
+- **[VEED.IO](https://www.veed.io)**: Pro计划 (\~$24/月)。字幕+翻译每分钟$0.40\~$0.60估算。无TTS，部分处理。60分钟成本：$24\~$36。请在veed.io确认。
+- **[HappyScribe](https://happyscribe.com)**: 按需付费 (转录每分钟\~$0.20，翻译$0.20，配音$0.20)。60分钟成本：$36\~$48（假设组合服务）。请在happyscribe.com确认。
+- **[Sonix](https://sonix.ai)**: Standard计划 (转录每小时\~$10，翻译/配音额外)。总计每分钟$0.50\~$0.67估算。60分钟成本：$30\~$40。请在sonix.ai确认。
+- **[Descript](https://descript.com)**: Creator计划 (\~$24/月，时间限制)。字幕+翻译+配音每分钟$0.60\~$0.80估算。60分钟成本：$36\~$48。请在descript.com确认。
+- **[AppTek](https://apptek.ai)**: 企业定制定价。无公开分钟费率。请联系apptek.ai获取报价。
+- **[Transkriptor](https://transkriptor.com)**: 按需付费 (转录每分钟$0.05\~$0.10，翻译类似)。无TTS，部分处理。60分钟成本：$12\~$18。请在transkriptor.com确认。
 
 ### 备注
 

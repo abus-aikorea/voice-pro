@@ -20,6 +20,9 @@ Voice-Pro
 </p>
 
 <h4 align="center">
+  <a href="https://deepwiki.com/abus-aikorea/voice-pro">
+    <img alt="Ask DeepWiki.com" src="https://devin.ai/assets/deepwiki-badge.png" style="height: 20px;">
+  </a>
   <a href="https://www.youtube.com/channel/UCbCBWXuVbk-OBp9T4H5JjAA">
     <img src="https://img.shields.io/badge/youtube-d95652.svg?style=flat-square&logo=youtube" alt="youtube" style="height: 20px;">
   </a>
@@ -480,25 +483,25 @@ git clone https://github.com/abus-aikorea/voice-pro.git
 
 | プラットフォーム | 字幕作成 | 翻訳 | TTS/ダビング | 60分ビデオ処理コスト (USD, 約) | 主な特徴 |
 | --- | --- | --- | --- | --- | --- |
-| **Maestra** | ✅ | ✅ | ✅ | $23.70 | 125以上の言語、リアルタイム字幕、SEOキーワード抽出、15分無料トライアル。 |
-| **Kapwing** | ✅ | ✅ | ✅ | $30\~$40 (Proプラン、分単位) | AI字幕、100以上の言語翻訳、自動リップシンクダビング、無料ティア提供。 |
-| **VEED.IO** | ✅ | ✅ | ❌ | $24\~$36 (Proプラン、部分処理) | 99.9%正確な字幕、Instagram最適化字幕、直感的なエディター。 |
-| **HappyScribe** | ✅ | ✅ | ✅ | $36\~$48 (従量制) | 120以上の言語、プロの校正オプション、セキュア、会議文字起こし。 |
-| **Sonix** | ✅ | ✅ | ✅ | $30\~$40 (Standardプラン) | 54以上の言語、30分無料文字起こし、YouTube/Zoom統合。 |
-| **Descript** | ✅ | ✅ | ✅ | $36\~$48 (Creatorプラン) | テキストベース編集、Overdub TTS、フィラー単語除去、1時間無料文字起こし。 |
-| **AppTek** | ✅ | ✅ | ✅ | カスタム価格 (要問い合わせ) | メディア特化、カスタムモデル、メタデータ生成、クラウドベースWorkbench。 |
-| **Transkriptor** | ✅ | ✅ | ❌ | $12\~$18 (従量制) | 100以上の言語、YouTubeリンク文字起こし、99%正確度、シンプルなエディター。 |
+| **[Maestra](https://maestra.ai)** | ✅ | ✅ | ✅ | $23.70 | 125以上の言語、リアルタイム字幕、SEOキーワード抽出、15分無料トライアル。 |
+| **[Kapwing](https://www.kapwing.com)** | ✅ | ✅ | ✅ | $30\~$40 (Proプラン、分単位) | AI字幕、100以上の言語翻訳、自動リップシンクダビング、無料ティア提供。 |
+| **[VEED.IO](https://www.veed.io)** | ✅ | ✅ | ❌ | $24\~$36 (Proプラン、部分処理) | 99.9%正確な字幕、Instagram最適化字幕、直感的なエディター。 |
+| **[HappyScribe](https://happyscribe.com)** | ✅ | ✅ | ✅ | $36\~$48 (従量制) | 120以上の言語、プロの校正オプション、セキュア、会議文字起こし。 |
+| **[Sonix](https://sonix.ai)** | ✅ | ✅ | ✅ | $30\~$40 (Standardプラン) | 54以上の言語、30分無料文字起こし、YouTube/Zoom統合。 |
+| **[Descript](https://descript.com)** | ✅ | ✅ | ✅ | $36\~$48 (Creatorプラン) | テキストベース編集、Overdub TTS、フィラー単語除去、1時間無料文字起こし。 |
+| **[AppTek](https://apptek.ai)** | ✅ | ✅ | ✅ | カスタム価格 (要問い合わせ) | メディア特化、カスタムモデル、メタデータ生成、クラウドベースWorkbench。 |
+| **[Transkriptor](https://transkriptor.com)** | ✅ | ✅ | ❌ | $12\~$18 (従量制) | 100以上の言語、YouTubeリンク文字起こし、99%正確度、シンプルなエディター。 |
 
 ### コスト計算詳細
 
-- **Maestra**: Premiumプラン ($158/月、1200クレジット)。60分ビデオ：字幕60クレジット + 翻訳60クレジット + ダビング60クレジット = 180クレジット。コスト = (180/1200) \* $158 = $23.70。
-- **Kapwing**: Proプラン (\~$24/月、制限付き分数)。字幕+翻訳+ダビングで分あたり$0.50\~$0.67と推定 (分単位価格トレンドに基づく)。60分コスト：$30\~$40。正確な価格は要確認。
-- **VEED.IO**: Proプラン (\~$24/月)。字幕+翻訳で分あたり$0.40\~$0.60と推定。TTSなし、部分処理。60分コスト：$24\~$36。veed.ioで確認。
-- **HappyScribe**: 従量制 (文字起こし分あたり\~$0.20、翻訳$0.20、ダビング$0.20)。60分コスト：$36\~$48 (結合サービスを仮定)。happyscribe.comで確認。
-- **Sonix**: Standardプラン (文字起こし時間あたり\~$10、翻訳/ダビング追加)。合計分あたり$0.50\~$0.67と推定。60分コスト：$30\~$40。sonix.aiで確認。
-- **Descript**: Creatorプラン (\~$24/月、制限付き時間)。字幕+翻訳+ダビングで分あたり$0.60\~$0.80と推定。60分コスト：$36\~$48。descript.comで確認。
-- **AppTek**: 企業向けカスタム価格。公開分単位料金なし。apptek.aiに問い合わせ。
-- **Transkriptor**: 従量制 (文字起こし分あたり$0.05\~$0.10、翻訳同等)。TTSなし、部分処理。60分コスト：$12\~$18。transkriptor.comで確認。
+- **[Maestra](https://maestra.ai)**: Premiumプラン ($158/月、1200クレジット)。60分ビデオ：字幕60クレジット + 翻訳60クレジット + ダビング60クレジット = 180クレジット。コスト = (180/1200) \* $158 = $23.70。
+- **[Kapwing](https://www.kapwing.com)**: Proプラン (\~$24/月、制限付き分数)。字幕+翻訳+ダビングで分あたり$0.50\~$0.67と推定 (分単位価格トレンドに基づく)。60分コスト：$30\~$40。正確な価格は要確認。
+- **[VEED.IO](https://www.veed.io)**: Proプラン (\~$24/月)。字幕+翻訳で分あたり$0.40\~$0.60と推定。TTSなし、部分処理。60分コスト：$24\~$36。veed.ioで確認。
+- **[HappyScribe](https://happyscribe.com)**: 従量制 (文字起こし分あたり\~$0.20、翻訳$0.20、ダビング$0.20)。60分コスト：$36\~$48 (結合サービスを仮定)。happyscribe.comで確認。
+- **[Sonix](https://sonix.ai)**: Standardプラン (文字起こし時間あたり\~$10、翻訳/ダビング追加)。合計分あたり$0.50\~$0.67と推定。60分コスト：$30\~$40。sonix.aiで確認。
+- **[Descript](https://descript.com)**: Creatorプラン (\~$24/月、制限付き時間)。字幕+翻訳+ダビングで分あたり$0.60\~$0.80と推定。60分コスト：$36\~$48。descript.comで確認。
+- **[AppTek](https://apptek.ai)**: 企業向けカスタム価格。公開分単位料金なし。apptek.aiに問い合わせ。
+- **[Transkriptor](https://transkriptor.com)**: 従量制 (文字起こし分あたり$0.05\~$0.10、翻訳同等)。TTSなし、部分処理。60分コスト：$12\~$18。transkriptor.comで確認。
 
 ### 注記
 

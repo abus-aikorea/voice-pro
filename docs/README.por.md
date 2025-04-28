@@ -20,6 +20,9 @@ Voice-Pro
 </p>
 
 <h4 align="center">
+  <a href="https://deepwiki.com/abus-aikorea/voice-pro">
+    <img alt="Ask DeepWiki.com" src="https://devin.ai/assets/deepwiki-badge.png" style="height: 20px;">
+  </a>
   <a href="https://www.youtube.com/channel/UCbCBWXuVbk-OBp9T4H5JjAA">
     <img src="https://img.shields.io/badge/youtube-d95652.svg?style=flat-square&logo=youtube" alt="youtube" style="height: 20px;">
   </a>
@@ -477,25 +480,25 @@ A tabela a seguir lista plataformas SaaS que suportam funcionalidades de legenda
 
 | Plataforma | Legendagem | Tradução | TTS/Dublagem | Custo para Vídeo de 60 min (USD, aprox.) | Principais Características |
 | --- | --- | --- | --- | --- | --- |
-| **Maestra** | ✅ | ✅ | ✅ | $23.70 | Mais de 125 idiomas, legendas em tempo real, extração de palavras-chave SEO, teste gratuito de 15 min. |
-| **Kapwing** | ✅ | ✅ | ✅ | $30\~$40 (Plano Pro, por minuto) | Legendas por IA, tradução para mais de 100 idiomas, dublagem com sincronização labial automática, nível gratuito. |
-| **VEED.IO** | ✅ | ✅ | ❌ | $24\~$36 (Plano Pro, processamento parcial) | Legendas com 99,9% de precisão, legendas otimizadas para Instagram, editor intuitivo. |
-| **HappyScribe** | ✅ | ✅ | ✅ | $36\~$48 (Pagamento por uso) | Mais de 120 idiomas, opção de revisão profissional, seguro, transcrição de reuniões. |
-| **Sonix** | ✅ | ✅ | ✅ | $30\~$40 (Plano Standard) | Mais de 54 idiomas, 30 min de transcrição gratuita, integração com YouTube/Zoom. |
-| **Descript** | ✅ | ✅ | ✅ | $36\~$48 (Plano Criador) | Edição baseada em texto, Overdub TTS, remoção de palavras de preenchimento, 1 hora de transcrição gratuita. |
-| **AppTek** | ✅ | ✅ | ✅ | Preços personalizados (Contato) | Focado em mídia, modelos personalizados, geração de metadados, Workbench baseado na nuvem. |
-| **Transkriptor** | ✅ | ✅ | ❌ | $12\~$18 (Pagamento por uso) | Mais de 100 idiomas, transcrição de links do YouTube, 99% de precisão, editor simples. |
+| **[Maestra](https://maestra.ai)** | ✅ | ✅ | ✅ | $23.70 | Mais de 125 idiomas, legendas em tempo real, extração de palavras-chave SEO, teste gratuito de 15 min. |
+| **[Kapwing](https://www.kapwing.com)** | ✅ | ✅ | ✅ | $30\~$40 (Plano Pro, por minuto) | Legendas por IA, tradução para mais de 100 idiomas, dublagem com sincronização labial automática, nível gratuito. |
+| **[VEED.IO](https://www.veed.io)** | ✅ | ✅ | ❌ | $24\~$36 (Plano Pro, processamento parcial) | Legendas com 99,9% de precisão, legendas otimizadas para Instagram, editor intuitivo. |
+| **[HappyScribe](https://happyscribe.com)** | ✅ | ✅ | ✅ | $36\~$48 (Pagamento por uso) | Mais de 120 idiomas, opção de revisão profissional, seguro, transcrição de reuniões. |
+| **[Sonix](https://sonix.ai)** | ✅ | ✅ | ✅ | $30\~$40 (Plano Standard) | Mais de 54 idiomas, 30 min de transcrição gratuita, integração com YouTube/Zoom. |
+| **[Descript](https://descript.com)** | ✅ | ✅ | ✅ | $36\~$48 (Plano Criador) | Edição baseada em texto, Overdub TTS, remoção de palavras de preenchimento, 1 hora de transcrição gratuita. |
+| **[AppTek](https://apptek.ai)** | ✅ | ✅ | ✅ | Preços personalizados (Contato) | Focado em mídia, modelos personalizados, geração de metadados, Workbench baseado na nuvem. |
+| **[Transkriptor](https://transkriptor.com)** | ✅ | ✅ | ❌ | $12\~$18 (Pagamento por uso) | Mais de 100 idiomas, transcrição de links do YouTube, 99% de precisão, editor simples. |
 
 ### Detalhes do Cálculo de Custos
 
-- **Maestra**: Plano Premium ($158/mês, 1200 créditos). Vídeo de 60 min: 60 créditos (legendas) + 60 créditos (tradução) + 60 créditos (dublagem) = 180 créditos. Custo = (180/1200) \* $158 = $23.70.
-- **Kapwing**: Plano Pro (\~$24/mês, minutos limitados). Estimado $0.50\~$0.67/min para legendas+tradução+dublagem (com base em tendências de preços por minuto). Custo de 60 min: $30\~$40. Confirmação de preços exatos necessária.
-- **VEED.IO**: Plano Pro (\~$24/mês). Legendas+tradução estimadas em $0.40\~$0.60/min. Sem TTS, processamento parcial. Custo de 60 min: $24\~$36. Confirme em veed.io.
-- **HappyScribe**: Pagamento por uso (\~$0.20/min transcrição, $0.20 tradução, $0.20 dublagem). Custo de 60 min: $36\~$48 (assumindo serviços combinados). Confirme em happyscribe.com.
-- **Sonix**: Plano Standard (\~$10/hora transcrição, adicional para tradução/dublagem). Estimado $0.50\~$0.67/min total. Custo de 60 min: $30\~$40. Confirme em sonix.ai.
-- **Descript**: Plano Criador (\~$24/mês, horas limitadas). Estimado $0.60\~$0.80/min para legendas+tradução+dublagem. Custo de 60 min: $36\~$48. Confirme em descript.com.
-- **AppTek**: Preços personalizados para empresas. Sem taxas públicas por minuto. Contate apptek.ai para cotações.
-- **Transkriptor**: Pagamento por uso ($0.05\~$0.10/min transcrição, similar para tradução). Sem TTS, processamento parcial. Custo de 60 min: $12\~$18. Confirme em transkriptor.com.
+- **[Maestra](https://maestra.ai)**: Plano Premium ($158/mês, 1200 créditos). Vídeo de 60 min: 60 créditos (legendas) + 60 créditos (tradução) + 60 créditos (dublagem) = 180 créditos. Custo = (180/1200) \* $158 = $23.70.
+- **[Kapwing](https://www.kapwing.com)**: Plano Pro (\~$24/mês, minutos limitados). Estimado $0.50\~$0.67/min para legendas+tradução+dublagem (com base em tendências de preços por minuto). Custo de 60 min: $30\~$40. Confirmação de preços exatos necessária.
+- **[VEED.IO](https://www.veed.io)**: Plano Pro (\~$24/mês). Legendas+tradução estimadas em $0.40\~$0.60/min. Sem TTS, processamento parcial. Custo de 60 min: $24\~$36. Confirme em veed.io.
+- **[HappyScribe](https://happyscribe.com)**: Pagamento por uso (\~$0.20/min transcrição, $0.20 tradução, $0.20 dublagem). Custo de 60 min: $36\~$48 (assumindo serviços combinados). Confirme em happyscribe.com.
+- **[Sonix](https://sonix.ai)**: Plano Standard (\~$10/hora transcrição, adicional para tradução/dublagem). Estimado $0.50\~$0.67/min total. Custo de 60 min: $30\~$40. Confirme em sonix.ai.
+- **[Descript](https://descript.com)**: Plano Criador (\~$24/mês, horas limitadas). Estimado $0.60\~$0.80/min para legendas+tradução+dublagem. Custo de 60 min: $36\~$48. Confirme em descript.com.
+- **[AppTek](https://apptek.ai)**: Preços personalizados para empresas. Sem taxas públicas por minuto. Contate apptek.ai para cotações.
+- **[Transkriptor](https://transkriptor.com)**: Pagamento por uso ($0.05\~$0.10/min transcrição, similar para tradução). Sem TTS, processamento parcial. Custo de 60 min: $12\~$18. Confirme em transkriptor.com.
 
 ### Notas
 

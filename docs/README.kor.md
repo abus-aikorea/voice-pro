@@ -21,6 +21,9 @@ Voice-Pro
 </p>
 
 <h4 align="center">
+  <a href="https://deepwiki.com/abus-aikorea/voice-pro">
+    <img alt="Ask DeepWiki.com" src="https://devin.ai/assets/deepwiki-badge.png" style="height: 20px;">
+  </a>
   <a href="https://www.youtube.com/channel/UCbCBWXuVbk-OBp9T4H5JjAA">
     <img src="https://img.shields.io/badge/youtube-d95652.svg?style=flat-square&logo=youtube" alt="youtube" style="height: 20px;">
   </a>
@@ -486,25 +489,25 @@ git clone https://github.com/abus-aikorea/voice-pro.git
 
 | 플랫폼 | 자막 제작 | 번역 | TTS/더빙 | 60분 영상 처리 비용 (USD, 약) | 주요 기능 |
 | --- | --- | --- | --- | --- | --- |
-| **Maestra** | ✅ | ✅ | ✅ | $23.70 | 125+ 언어, 실시간 자막, SEO 키워드 추출, 15분 무료 체험. |
-| **Kapwing** | ✅ | ✅ | ✅ | $30\~$40 (Pro 플랜, 분당) | AI 자막, 100+ 언어 번역, 자동 립싱크 더빙, 무료 티어 제공. |
-| **VEED.IO** | ✅ | ✅ | ❌ | $24\~$36 (Pro 플랜, 부분 처리) | 99.9% 정확도 자막, 인스타그램 최적화 자막, 직관적인 편집기. |
-| **HappyScribe** | ✅ | ✅ | ✅ | $36\~$48 (종량제) | 120+ 언어, 전문 교정 옵션, 보안, 회의 전사. |
-| **Sonix** | ✅ | ✅ | ✅ | $30\~$40 (Standard 플랜) | 54+ 언어, 30분 무료 전사, YouTube/Zoom 통합. |
-| **Descript** | ✅ | ✅ | ✅ | $36\~$48 (Creator 플랜) | 텍스트 기반 편집, Overdub TTS, 필러 단어 제거, 1시간 무료 전사. |
-| **AppTek** | ✅ | ✅ | ✅ | 맞춤 가격 (문의) | 미디어 특화, 맞춤 모델, 메타데이터 생성, 클라우드 기반 Workbench. |
-| **Transkriptor** | ✅ | ✅ | ❌ | $12\~$18 (종량제) | 100+ 언어, YouTube 링크 전사, 99% 정확도, 간단한 편집기. |
+| **[Maestra](https://maestra.ai)** | ✅ | ✅ | ✅ | $23.70 | 125+ 언어, 실시간 자막, SEO 키워드 추출, 15분 무료 체험. |
+| **[Kapwing](https://www.kapwing.com)** | ✅ | ✅ | ✅ | $30\~$40 (Pro 플랜, 분당) | AI 자막, 100+ 언어 번역, 자동 립싱크 더빙, 무료 티어 제공. |
+| **[VEED.IO](https://www.veed.io)** | ✅ | ✅ | ❌ | $24\~$36 (Pro 플랜, 부분 처리) | 99.9% 정확도 자막, 인스타그램 최적화 자막, 직관적인 편집기. |
+| **[HappyScribe](https://happyscribe.com)** | ✅ | ✅ | ✅ | $36\~$48 (종량제) | 120+ 언어, 전문 교정 옵션, 보안, 회의 전사. |
+| **[Sonix](https://sonix.ai)** | ✅ | ✅ | ✅ | $30\~$40 (Standard 플랜) | 54+ 언어, 30분 무료 전사, YouTube/Zoom 통합. |
+| **[Descript](https://descript.com)** | ✅ | ✅ | ✅ | $36\~$48 (Creator 플랜) | 텍스트 기반 편집, Overdub TTS, 필러 단어 제거, 1시간 무료 전사. |
+| **[AppTek](https://apptek.ai)** | ✅ | ✅ | ✅ | 맞춤 가격 (문의) | 미디어 특화, 맞춤 모델, 메타데이터 생성, 클라우드 기반 Workbench. |
+| **[Transkriptor](https://transkriptor.com)** | ✅ | ✅ | ❌ | $12\~$18 (종량제) | 100+ 언어, YouTube 링크 전사, 99% 정확도, 간단한 편집기. |
 
 ### 비용 계산 상세
 
-- **Maestra**: Premium 플랜 ($158/월, 1200 크레딧). 60분 영상: 자막 60 크레딧 + 번역 60 크레딧 + 더빙 60 크레딧 = 180 크레딧. 비용 = (180/1200) \* $158 = $23.70.
-- **Kapwing**: Pro 플랜 (\~$24/월, 제한된 분량). 자막+번역+더빙 분당 $0.50\~$0.67 추정 (분당 가격 트렌드 기반). 60분 비용: $30\~$40. 정확한 가격은 확인 필요.
-- **VEED.IO**: Pro 플랜 (\~$24/월). 자막+번역 분당 $0.40\~$0.60 추정. TTS 없음, 부분 처리. 60분 비용: $24\~$36. veed.io에서 확인.
-- **HappyScribe**: 종량제 (전사 분당 \~$0.20, 번역 $0.20, 더빙 $0.20). 60분 비용: $36\~$48 (결합 서비스 가정). happyscribe.com에서 확인.
-- **Sonix**: Standard 플랜 (전사 시간당 \~$10, 번역/더빙 추가). 총 분당 $0.50\~$0.67 추정. 60분 비용: $30\~$40. sonix.ai에서 확인.
-- **Descript**: Creator 플랜 (\~$24/월, 제한된 시간). 자막+번역+더빙 분당 $0.60\~$0.80 추정. 60분 비용: $36\~$48. descript.com에서 확인.
-- **AppTek**: 기업용 맞춤 가격. 공개 분당 요금 없음. apptek.ai로 문의.
-- **Transkriptor**: 종량제 (전사 분당 $0.05\~$0.10, 번역 유사). TTS 없음, 부분 처리. 60분 비용: $12\~$18. transkriptor.com에서 확인.
+- **[Maestra](https://maestra.ai)**: Premium 플랜 ($158/월, 1200 크레딧). 60분 영상: 자막 60 크레딧 + 번역 60 크레딧 + 더빙 60 크레딧 = 180 크레딧. 비용 = (180/1200) \* $158 = $23.70.
+- **[Kapwing](https://www.kapwing.com)**: Pro 플랜 (\~$24/월, 제한된 분량). 자막+번역+더빙 분당 $0.50\~$0.67 추정 (분당 가격 트렌드 기반). 60분 비용: $30\~$40. 정확한 가격은 확인 필요.
+- **[VEED.IO](https://www.veed.io)**: Pro 플랜 (\~$24/월). 자막+번역 분당 $0.40\~$0.60 추정. TTS 없음, 부분 처리. 60분 비용: $24\~$36. veed.io에서 확인.
+- **[HappyScribe](https://happyscribe.com)**: 종량제 (전사 분당 \~$0.20, 번역 $0.20, 더빙 $0.20). 60분 비용: $36\~$48 (결합 서비스 가정). happyscribe.com에서 확인.
+- **[Sonix](https://sonix.ai)**: Standard 플랜 (전사 시간당 \~$10, 번역/더빙 추가). 총 분당 $0.50\~$0.67 추정. 60분 비용: $30\~$40. sonix.ai에서 확인.
+- **[Descript](https://descript.com)**: Creator 플랜 (\~$24/월, 제한된 시간). 자막+번역+더빙 분당 $0.60\~$0.80 추정. 60분 비용: $36\~$48. descript.com에서 확인.
+- **[AppTek](https://apptek.ai)**: 기업용 맞춤 가격. 공개 분당 요금 없음. apptek.ai로 문의.
+- **[Transkriptor](https://transkriptor.com)**: 종량제 (전사 분당 $0.05\~$0.10, 번역 유사). TTS 없음, 부분 처리. 60분 비용: $12\~$18. transkriptor.com에서 확인.
 
 ### 참고
 

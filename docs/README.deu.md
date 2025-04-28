@@ -20,6 +20,9 @@ Voice-Pro
 </p>
 
 <h4 align="center">
+  <a href="https://deepwiki.com/abus-aikorea/voice-pro">
+    <img alt="Ask DeepWiki.com" src="https://devin.ai/assets/deepwiki-badge.png" style="height: 20px;">
+  </a>
   <a href="https://www.youtube.com/channel/UCbCBWXuVbk-OBp9T4H5JjAA">
     <img src="https://img.shields.io/badge/youtube-d95652.svg?style=flat-square&logo=youtube" alt="youtube" style="height: 20px;">
   </a>
@@ -481,25 +484,25 @@ Die folgende Tabelle listet SaaS-Plattformen auf, die Untertitelung, Übersetzun
 
 | Plattform | Untertitelung | Übersetzung | TTS/Synchronisation | Kosten für 60-min Video (USD, ca.) | Hauptmerkmale |
 | --- | --- | --- | --- | --- | --- |
-| **Maestra** | ✅ | ✅ | ✅ | $23.70 | Über 125 Sprachen, Echtzeit-Untertitel, SEO-Keyword-Extraktion, 15-min kostenlose Testversion. |
-| **Kapwing** | ✅ | ✅ | ✅ | $30\~$40 (Pro-Plan, pro Minute) | KI-Untertitel, Übersetzung in über 100 Sprachen, automatische Lip-Sync-Synchronisation, kostenloser Tarif. |
-| **VEED.IO** | ✅ | ✅ | ❌ | $24\~$36 (Pro-Plan, teilweise) | 99,9 % genaue Untertitel, Instagram-optimierte Untertitel, intuitiver Editor. |
-| **HappyScribe** | ✅ | ✅ | ✅ | $36\~$48 (Pay-as-you-go) | Über 120 Sprachen, professionelle Korrekturoption, sicher, Transkription von Meetings. |
-| **Sonix** | ✅ | ✅ | ✅ | $30\~$40 (Standard-Plan) | Über 54 Sprachen, 30-min kostenlose Transkription, YouTube/Zoom-Integration. |
-| **Descript** | ✅ | ✅ | ✅ | $36\~$48 (Creator-Plan) | Textbasierte Bearbeitung, Overdub TTS, Entfernung von Füllwörtern, 1-Stunde kostenlose Transkription. |
-| **AppTek** | ✅ | ✅ | ✅ | Individuelle Preisgestaltung (Kontakt) | Medienfokussiert, individuelle Modelle, Metadatengenerierung, cloudbasierte Workbench. |
-| **Transkriptor** | ✅ | ✅ | ❌ | $12\~$18 (Pay-as-you-go) | Über 100 Sprachen, YouTube-Link-Transkription, 99 % Genauigkeit, einfacher Editor. |
+| **[Maestra](https://maestra.ai)** | ✅ | ✅ | ✅ | $23.70 | Über 125 Sprachen, Echtzeit-Untertitel, SEO-Keyword-Extraktion, 15-min kostenlose Testversion. |
+| **[Kapwing](https://www.kapwing.com)** | ✅ | ✅ | ✅ | $30\~$40 (Pro-Plan, pro Minute) | KI-Untertitel, Übersetzung in über 100 Sprachen, automatische Lip-Sync-Synchronisation, kostenloser Tarif. |
+| **[VEED.IO](https://www.veed.io)** | ✅ | ✅ | ❌ | $24\~$36 (Pro-Plan, teilweise) | 99,9 % genaue Untertitel, Instagram-optimierte Untertitel, intuitiver Editor. |
+| **[HappyScribe](https://happyscribe.com)** | ✅ | ✅ | ✅ | $36\~$48 (Pay-as-you-go) | Über 120 Sprachen, professionelle Korrekturoption, sicher, Transkription von Meetings. |
+| **[Sonix](https://sonix.ai)** | ✅ | ✅ | ✅ | $30\~$40 (Standard-Plan) | Über 54 Sprachen, 30-min kostenlose Transkription, YouTube/Zoom-Integration. |
+| **[Descript](https://descript.com)** | ✅ | ✅ | ✅ | $36\~$48 (Creator-Plan) | Textbasierte Bearbeitung, Overdub TTS, Entfernung von Füllwörtern, 1-Stunde kostenlose Transkription. |
+| **[AppTek](https://apptek.ai)** | ✅ | ✅ | ✅ | Individuelle Preisgestaltung (Kontakt) | Medienfokussiert, individuelle Modelle, Metadatengenerierung, cloudbasierte Workbench. |
+| **[Transkriptor](https://transkriptor.com)** | ✅ | ✅ | ❌ | $12\~$18 (Pay-as-you-go) | Über 100 Sprachen, YouTube-Link-Transkription, 99 % Genauigkeit, einfacher Editor. |
 
 ### Details zur Kostenberechnung
 
-- **Maestra**: Premium-Plan ($158/Monat, 1200 Credits). 60-min Video: 60 Credits (Untertitel) + 60 Credits (Übersetzung) + 60 Credits (Synchronisation) = 180 Credits. Kosten = (180/1200) \* $158 = $23.70.
-- **Kapwing**: Pro-Plan (\~$24/Monat, begrenzte Minuten). Geschätzt $0.50\~$0.67/Minute für Untertitel+Übersetzung+Synchronisation (basierend auf Preistrends). 60-min Kosten: $30\~$40. Exakte Preise erfordern Bestätigung.
-- **VEED.IO**: Pro-Plan (\~$24/Monat). Untertitel+Übersetzung geschätzt $0.40\~$0.60/Minute. Kein TTS, daher teilweise Verarbeitung. 60-min Kosten: $24\~$36. Bestätigen Sie auf veed.io.
-- **HappyScribe**: Pay-as-you-go (\~$0.20/Minute Transkription, $0.20 Übersetzung, $0.20 Synchronisation). 60-min Kosten: $36\~$48 (unter Annahme kombinierter Dienste). Bestätigen Sie auf happyscribe.com.
-- **Sonix**: Standard-Plan (\~$10/Stunde Transkription, zusätzlich für Übersetzung/Synchronisation). Geschätzt $0.50\~$0.67/Minute gesamt. 60-min Kosten: $30\~$40. Bestätigen Sie auf sonix.ai.
-- **Descript**: Creator-Plan (\~$24/Monat, begrenzte Stunden). Geschätzt $0.60\~$0.80/Minute für Untertitel+Übersetzung+Synchronisation. 60-min Kosten: $36\~$48. Bestätigen Sie auf descript.com.
-- **AppTek**: Individuelle Preisgestaltung für Unternehmen. Keine öffentlichen Minutenpreise. Kontaktieren Sie apptek.ai für Angebote.
-- **Transkriptor**: Pay-as-you-go ($0.05\~$0.10/Minute Transkription, ähnlich für Übersetzung). Kein TTS, daher teilweise Verarbeitung. 60-min Kosten: $12\~$18. Bestätigen Sie auf transkriptor.com.
+- **[Maestra](https://maestra.ai)**: Premium-Plan ($158/Monat, 1200 Credits). 60-min Video: 60 Credits (Untertitel) + 60 Credits (Übersetzung) + 60 Credits (Synchronisation) = 180 Credits. Kosten = (180/1200) \* $158 = $23.70.
+- **[Kapwing](https://www.kapwing.com)**: Pro-Plan (\~$24/Monat, begrenzte Minuten). Geschätzt $0.50\~$0.67/Minute für Untertitel+Übersetzung+Synchronisation (basierend auf Preistrends). 60-min Kosten: $30\~$40. Exakte Preise erfordern Bestätigung.
+- **[VEED.IO](https://www.veed.io)**: Pro-Plan (\~$24/Monat). Untertitel+Übersetzung geschätzt $0.40\~$0.60/Minute. Kein TTS, daher teilweise Verarbeitung. 60-min Kosten: $24\~$36. Bestätigen Sie auf veed.io.
+- **[HappyScribe](https://happyscribe.com)**: Pay-as-you-go (\~$0.20/Minute Transkription, $0.20 Übersetzung, $0.20 Synchronisation). 60-min Kosten: $36\~$48 (unter Annahme kombinierter Dienste). Bestätigen Sie auf happyscribe.com.
+- **[Sonix](https://sonix.ai)**: Standard-Plan (\~$10/Stunde Transkription, zusätzlich für Übersetzung/Synchronisation). Geschätzt $0.50\~$0.67/Minute gesamt. 60-min Kosten: $30\~$40. Bestätigen Sie auf sonix.ai.
+- **[Descript](https://descript.com)**: Creator-Plan (\~$24/Monat, begrenzte Stunden). Geschätzt $0.60\~$0.80/Minute für Untertitel+Übersetzung+Synchronisation. 60-min Kosten: $36\~$48. Bestätigen Sie auf descript.com.
+- **[AppTek](https://apptek.ai)**: Individuelle Preisgestaltung für Unternehmen. Keine öffentlichen Minutenpreise. Kontaktieren Sie apptek.ai für Angebote.
+- **[Transkriptor](https://transkriptor.com)**: Pay-as-you-go ($0.05\~$0.10/Minute Transkription, ähnlich für Übersetzung). Kein TTS, daher teilweise Verarbeitung. 60-min Kosten: $12\~$18. Bestätigen Sie auf transkriptor.com.
 
 ### Hinweise
 
