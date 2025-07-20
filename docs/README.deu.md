@@ -91,12 +91,12 @@ Voice-Pro ist eine hochmoderne Web-App, die die Erstellung von Multimedia-Inhalt
 Als starke Alternative zu **ElevenLabs** bietet Voice-Pro Podcastern, Entwicklern und Kreativen fortschrittliche Sprachlösungen.
 
 ## ⚠️ Bitte beachten
+- Fürs Erste sind keine Updates geplant. Bitte hinterlassen Sie Ihre Anfragen auf den [![GitHub Issues](https://img.shields.io/github/issues/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/issues)- oder [![GitHub Discussions](https://img.shields.io/github/discussions/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/discussions)-Seiten.
 - **Upgrade von v2.x auf v3.x**: Nicht möglich. Wir empfehlen, den Ordner `installer_files` zu löschen und die neueste Version von `start.bat` auszuführen.
 - **Upgrade von v3.x auf v3.x**: Möglich. Nach dem Herunterladen des neuesten Codes führen Sie `update.bat` aus.
 - **Erstbenutzer**: Bitte lesen Sie die Installationsanweisungen unten.
 - **Fehlerbehebung**: In den meisten Fällen können Probleme durch das Löschen des `installer_files`-Ordners und das anschließende Ausführen von `configure.bat` gefolgt von `start.bat` behoben werden.
-- 🎁 **Anfrage für einen kostenlosen Aktivierungsschlüssel**: Bitte füllen Sie dieses [Google Formulare](https://forms.gle/anMSmsR5dH9wxE6N6) aus, um Ihren Aktivierungsschlüssel zu erhalten. Aktivierungsschlüssel sind auf einen pro E-Mail-Adresse beschränkt.
-- 🏆 **Anfrage für zusätzliche Aktivierungsschlüssel**: Erstellen Sie großartige Inhalte mit Voice-Pro. Bitte teilen Sie den Link zu Ihrem Beitrag in der [![GitHub Discussions](https://img.shields.io/github/discussions/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/discussions). Wir belohnen Ihre Beiträge gerne。
+
 
 
 ## 📰 Neuigkeiten & Verlauf

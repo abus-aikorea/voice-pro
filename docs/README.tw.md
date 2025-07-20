@@ -91,12 +91,12 @@ Voice-Pro是一款革新多媒體內容製作的先進網頁應用程式。它�
 作為**ElevenLabs**的強大替代方案，Voice-Pro為播客主持人、開發者和創作者提供進階語音解決方案。
 
 ## ⚠️ 請注意
+- 目前暫無更新計畫。請將您的請求留在 [![GitHub Issues](https://img.shields.io/github/issues/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/issues)  或 [![GitHub Discussions](https://img.shields.io/github/discussions/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/discussions)  頁面。
 - **從v2.x升級到v3.x**: 不可能。我們建議刪除`installer_files`文件夾並運行最新版本的`start.bat`。
 - **從v3.x升級到v3.x**: 可以。下載最新代碼後，運行`update.bat`。
 - **首次用戶**: 請參閱下面的安裝說明。
 - **故障排除**: 在大多數情況下，刪除`installer_files`文件夾，然後依次運行`configure.bat`和`start.bat`即可解決問題。
-- 🎁 **免費激活密鑰請求**: 請填寫此[Google 表單](https://forms.gle/anMSmsR5dH9wxE6N6)以獲取您的激活密鑰。激活密鑰每個電子郵件地址限領一個。
-- 🏆 **額外激活密鑰請求**: 使用Voice-Pro創建精彩內容。請在[![GitHub Discussions](https://img.shields.io/github/discussions/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/discussions)中分享您的帖子鏈接。我們將樂意獎勵您的貢獻。
+
 
 
 ## 📰 新聞與歷史

@@ -94,12 +94,12 @@ Voice-Pro is a state-of-the-art web app that transforms multimedia content creat
 A robust alternative to **ElevenLabs**, Voice-Pro empowers podcasters, developers, and creators with advanced voice solutions.
 
 ## ⚠️ Please Note
+- There are no plans for updates for the time being. Please leave your requests on the [![GitHub Issues](https://img.shields.io/github/issues/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/issues)  or  [![GitHub Discussions](https://img.shields.io/github/discussions/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/discussions) pages.
 - **Upgrading from v2.x to v3.x**: Not possible. We recommend deleting the `installer_files` folder and running the latest version of `start.bat`.
 - **Upgrading from v3.x to v3.x**: Possible. After downloading the latest code, run `update.bat`.
 - **First-time users**: Please refer to the installation instructions below.
 - **Troubleshooting**: In most cases, issues can be resolved by deleting the `installer_files` folder and then running `configure.bat` followed by `start.bat`.
-- 🎁 **Free Activation Key Request**: Please fill out this [Google Forms](https://forms.gle/anMSmsR5dH9wxE6N6) to receive your activation key. Activation keys are limited to one per email address.
-- 🏆 **Request for Additional Activation Keys**: Create amazing content using Voice-Pro. Please share the link to your post in the [![GitHub Discussions](https://img.shields.io/github/discussions/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/discussions). We will gladly reward your contributions.
+
 
 ## 📰 News & History
 
