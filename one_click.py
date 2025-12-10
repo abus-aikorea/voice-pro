@@ -330,7 +330,7 @@ class OneClick():
         # Add conda-forge channel (idempotent operation)
         # The command will fail if channel already exists, which is fine
         print("Adding conda-forge channel...")
-        cls.oc_run_cmd("conda config --add channels conda-forge 2>&1 | grep -v 'already exists' || true", environment=True)
+        cls.oc_run_cmd("conda config --add channels conda-forge", environment=True)
         
         # Set channel priority to flexible (allows packages from multiple channels)
         # This is recommended for better package resolution
