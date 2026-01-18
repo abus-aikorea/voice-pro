@@ -85,30 +85,44 @@ if %errorlevel% neq 0 (
 @REM %CHOCPATH% -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 
 
-:: check NVIDIA GPU
+:: check NVIDIA GPU - check all GPU entries, not just 0000
 set IS_NVIDIA_GPU=0
-set "registry_path=HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\0000"
+set "registry_base=HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}"
 set "search_key=DriverDesc"
-for /f "tokens=2*" %%a in ('reg query "%registry_path%" /v "%search_key%" 2^>nul ^| findstr /i /c:"%search_key%"') do (
-    set "value=%%b"
-)
 
-if not "!value!"=="" (
-    echo DriverDesc is "!value!"
-    set "substring=nvidia"
-    echo "!value!" | findstr /I /C:"!substring!" >nul 2>&1
-    if !errorlevel! equ 0 (
-        echo NVIDIA
-        set IS_NVIDIA_GPU=1
-    ) else (
-        set "substring=tesla"
+:: Loop through all GPU entries (0000-0099) - most systems won't have more than 10 GPUs
+for /l %%i in (0,1,99) do (
+    :: Format entry number with leading zeros using string manipulation
+    set "num=0000%%i"
+    set "num=!num:~-4!"
+    set "registry_path=!registry_base!\!num!"
+    
+    set "value="
+    for /f "tokens=2*" %%a in ('reg query "!registry_path!" /v "%search_key%" 2^>nul ^| findstr /i /c:"%search_key%"') do (
+        set "value=%%b"
+    )
+    
+    if not "!value!"=="" (
+        echo Checking GPU %%i: DriverDesc is "!value!"
+        set "substring=nvidia"
         echo "!value!" | findstr /I /C:"!substring!" >nul 2>&1
         if !errorlevel! equ 0 (
-            echo TESLA
+            echo NVIDIA GPU found at entry %%i
             set IS_NVIDIA_GPU=1
+            goto :nvidia_found
+        ) else (
+            set "substring=tesla"
+            echo "!value!" | findstr /I /C:"!substring!" >nul 2>&1
+            if !errorlevel! equ 0 (
+                echo TESLA GPU found at entry %%i
+                set IS_NVIDIA_GPU=1
+                goto :nvidia_found
+            )
         )
     )
 )
+
+:nvidia_found
 
 :: install CUDA
 if !IS_NVIDIA_GPU! equ 1 (
