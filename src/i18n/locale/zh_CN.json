@@ -15,7 +15,7 @@
     "Whisper Model": "Whisper 模型",
     "Audio Language": "音频语言",
     "Translated Language": "翻译语言",
-    "Source Language": "源语言",     
+    "Source Language": "源语言",
     "Highlight Words": "高亮显示词语",
     "🧹Clear": "🧹清除",
     "Submit": "提交",
@@ -147,7 +147,7 @@
     "Adjust compression quality (0-51, lower is better quality. Default is 23)": "Adjust compression quality (0-51, lower is better quality. Default is 23)",
     "Preset": "Preset",
     "Adjusting Compression Speed and Efficiency": "Adjusting Compression Speed and Efficiency",
-    "Language Detection": "语言检测"
-
-    
+    "Language Detection": "语言检测",
+    "MiniMax": "MiniMax",
+    "Model": "模型"
 }

@@ -310,7 +310,6 @@ class TestMiniMaxTTSRequestPayload(unittest.TestCase):
             self.assertIn('speed', payload['voice_setting'])
             self.assertIn('vol', payload['voice_setting'])
             self.assertIn('pitch', payload['voice_setting'])
-            self.assertEqual(payload['audio_setting']['sample_rate'], 48000)
             self.assertEqual(payload['audio_setting']['format'], 'mp3')
         finally:
             if os.path.exists(output_file):

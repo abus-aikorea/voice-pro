@@ -8,8 +8,22 @@ import os
 import sys
 import tempfile
 import unittest
+from unittest.mock import MagicMock
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
+
+# Mock heavy dependencies that may not be installed in test env
+for mod_name in ['pysubs2', 'pydub', 'pydub.AudioSegment', 'pydub.silence',
+                 'gradio', 'structlog', 'dotenv',
+                 'app.abus_genuine', 'app.abus_path',
+                 'app.abus_ffmpeg', 'app.abus_text', 'app.abus_nlp_spacy',
+                 'app.abus_audio', 'app.abus_files', 'app.abus_voice_ms',
+                 'src.config', 'src.ui', 'src.i18n', 'src.i18n.i18n']:
+    if mod_name not in sys.modules:
+        sys.modules[mod_name] = MagicMock()
+
+sys.modules['gradio'].Progress = MagicMock(return_value=MagicMock())
+sys.modules['src.config'].UserConfig = MagicMock
 
 MINIMAX_API_KEY = os.environ.get('MINIMAX_API_KEY')
 SKIP_REASON = "MINIMAX_API_KEY not set"

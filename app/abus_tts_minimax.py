@@ -64,8 +64,6 @@ class MiniMaxTTS:
                 "pitch": pitch_val,
             },
             "audio_setting": {
-                "sample_rate": 48000,
-                "bitrate": 192000,
                 "format": "mp3",
             },
         }

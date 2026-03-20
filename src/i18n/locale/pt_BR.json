@@ -147,5 +147,7 @@
     "Adjust compression quality (0-51, lower is better quality. Default is 23)": "Ajusta a qualidade de compressão (0-51, menor é melhor qualidade. Padrão é 23)",
     "Preset": "Predefinição",
     "Adjusting Compression Speed and Efficiency": "Ajustando Velocidade e Eficiência de Compressão",
-    "Language Detection": "Detecção de idioma"
+    "Language Detection": "Detecção de idioma",
+    "MiniMax": "MiniMax",
+    "Model": "Modelo"
 }
