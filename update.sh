@@ -51,6 +51,17 @@ fi
 source "$CONDA_SH_PATH"
 conda activate "$INSTALL_ENV_DIR"
 
+# Auto-detect GPU if GPU_CHOICE is not already set
+if [ -z "$GPU_CHOICE" ]; then
+    if command -v nvidia-smi >/dev/null 2>&1; then
+        export GPU_CHOICE="G"
+        echo "NVIDIA GPU detected. Setting GPU_CHOICE=G"
+    else
+        export GPU_CHOICE="C"
+        echo "No NVIDIA GPU detected. Setting GPU_CHOICE=C (CPU mode)"
+    fi
+fi
+
 cd "$SCRIPT_DIR"
 
 export LOG_LEVEL=DEBUG
