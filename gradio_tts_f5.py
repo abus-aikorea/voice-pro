@@ -1,0 +1,108 @@
+from src.config import UserConfig
+from app.abus_path import *
+from app.abus_genuine import *
+from app.abus_files import *
+from app.abus_ffmpeg import *
+from app.abus_tts_f5 import *
+
+import gradio as gr
+
+import src.ui as ui
+from src.i18n.i18n import I18nAuto
+i18n = I18nAuto()
+
+import structlog
+logger = structlog.get_logger()
+
+
+
+class GradioF5TTS:
+    def __init__(self, user_config: UserConfig):
+        self.user_config = user_config
+        
+        self.tts = F5TTS()
+
+            
+    def gradio_workspace_folder(self):
+        cmd_open_explorer(path_workspace_folder())
+    
+    def gradio_temp_folder(self):
+        cmd_open_explorer(path_gradio_folder())
+    
+    def gradio_upload_file(self, file_obj):
+        if file_obj is not None:
+            text = self._read_file(gradio_file_path(file_obj))
+            return text
+        return "No file uploaded"   
+    
+    
+    def gradio_available_models(self):
+        return self.tts.available_models()
+    
+    
+    def gradio_f5_default(self):
+        return ["SWivid/F5-TTS_v1", 1.0, "mp3"]
+    
+    def gradio_tts_dubbing_single(self, dubbing_text:str, celeb_audio, celeb_transcript, model_choice, speed_factor, audio_format: str):
+        if not (dubbing_text and dubbing_text.strip()):
+            message = i18n("Input error")
+            gr.Warning(message)
+            return None, None           
+       
+        input_text = dubbing_text
+        logger.debug(f"[gradio_tts_f5.py] gradio_tts_dubbing_single - input_text: {input_text}")                  
+        
+        try:
+            dubbing_file = os.path.join(path_dubbing_folder(), path_new_filename(f".{audio_format}"))
+            self.tts.infer_single(input_text.strip(), dubbing_file, celeb_audio, celeb_transcript, model_choice, speed_factor, audio_format)
+            return dubbing_file, dubbing_file
+        except Exception as e:
+            logger.error(f"[gradio_tts_f5.py] gradio_tts_dubbing_single - error: {e}")
+            gr.Warning(f'{e}')
+            return None, None
+
+
+    def gradio_add_label_spk1(self, text):
+        text += '{spk1} \n'
+        return text
+
+    def gradio_add_label_spk2(self, text):
+        text += '{spk2} \n'
+        return text
+
+
+
+
+    def gradio_tts_dubbing_multi(self, dubbing_text:str, celeb_audio1, celeb_transcript1, celeb_audio2, celeb_transcript2, model_choice, speed_factor, audio_format: str):
+        if not (dubbing_text and dubbing_text.strip()):
+            message = i18n("Input error")
+            gr.Warning(message)
+            return None, None        
+        
+        input_text = dubbing_text
+        logger.debug(f"[gradio_tts_f5.py] gradio_tts_dubbing_multi - input_text: {input_text}")           
+        
+        try:
+            dubbing_file = os.path.join(path_dubbing_folder(), path_new_filename(f".{audio_format}"))
+            self.tts.infer_multi(input_text.strip(), dubbing_file, celeb_audio1, celeb_transcript1, celeb_audio2, celeb_transcript2, model_choice, speed_factor, audio_format)
+            return dubbing_file, dubbing_file
+        except Exception as e:
+            logger.error(f"[gradio_tts_f5.py] gradio_tts_dubbing_multi - error: {e}")
+            gr.Warning(f'{e}')
+            return None, None
+                
+
+   
+    def _read_file(self, filepath):    
+        try:
+            with open(filepath, 'r', encoding='utf-8') as file:
+                content = file.read()
+            return content
+        except UnicodeDecodeError:
+            return "Error: The file is not a valid text file or uses an unsupported encoding."
+        except IOError:
+            return "Error: Unable to read the file."
+        
+  
+        
+
