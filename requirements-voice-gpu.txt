@@ -79,5 +79,5 @@ misaki[zh]
 spacy[cuda12x]==3.7.5
 # etc
 onnxruntime-gpu==1.20.1
-nvidia-cudnn-cu12==8.9.7.29
+nvidia-cudnn-cu12>=9.1.0.70
 python-dotenv
