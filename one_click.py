@@ -309,9 +309,51 @@ class OneClick():
         requirements_file = f'requirements-{app_name}-gpu.txt' if selected_gpu=="NVIDIA" else f'requirements-{app_name}-cpu.txt'
         cls.oc_print_big_message(f"Install/Update webui requirements from file: {requirements_file}")
         
+        # openai-whisper (and some other sdists) import pkg_resources during build.
+        # Recent setuptools versions (>=80) have removed pkg_resources, so downgrade
+        # to a known-compatible version before installing requirements.
+        cls.oc_print_big_message("Ensuring compatible setuptools for legacy builds")
+        cls.oc_run_cmd('python -m pip install "setuptools<70" wheel', assert_success=False, environment=True)
+        
+        # openai-whisper is only available as sdist and its setup.py imports pkg_resources.
+        # Even with compatible setuptools in the main env, pip's isolated build environment
+        # may pull in a newer setuptools that lacks pkg_resources. Build without isolation
+        # so the main env's setuptools is used.
+        whisper_pkg = "openai-whisper==20240930"
+        cls.oc_print_big_message(f"Pre-installing {whisper_pkg} without build isolation")
+        cls.oc_run_cmd(f"python -m pip install --no-build-isolation {whisper_pkg}", assert_success=False, environment=True)
+        
         cmd = f"python -m pip install -r {requirements_file}"
         cmd = cmd + " --upgrade" if is_update else cmd
         cls.oc_run_cmd(cmd, assert_success=True, environment=True)
+        
+        # Fix: ctranslate2 bundles a renamed cuDNN 8 library but omits the split
+        # .so files (e.g. libcudnn_ops_infer.so.8) that it dlopen's at runtime.
+        # Extract the missing libs from the official cuDNN 8 wheel so CUDA ops work.
+        cls.oc_print_big_message("Checking ctranslate2 cuDNN 8 library compatibility")
+        fix_script = """import os, site, subprocess, sys, zipfile, glob, shutil
+sp = next((p for p in site.getsitepackages() if sys.prefix in p), None)
+libs = os.path.join(sp, "ctranslate2.libs") if sp else ""
+needed = os.path.join(libs, "libcudnn_ops_infer.so.8") if libs else ""
+if libs and os.path.isdir(libs) and not os.path.exists(needed):
+    print("ctranslate2 cuDNN 8 split libs missing - extracting...")
+    os.makedirs("/tmp/cudnn8_fix", exist_ok=True)
+    subprocess.check_output([sys.executable, "-m", "pip", "download", "--no-deps", "-d", "/tmp/cudnn8_fix", "nvidia-cudnn-cu12==8.9.7.29"])
+    whl_path = glob.glob("/tmp/cudnn8_fix/nvidia_cudnn_cu12-8.9.7.29*.whl")[0]
+    with zipfile.ZipFile(whl_path, "r") as z:
+        for name in ["nvidia/cudnn/lib/libcudnn.so.8", "nvidia/cudnn/lib/libcudnn_ops_infer.so.8", "nvidia/cudnn/lib/libcudnn_cnn_infer.so.8", "nvidia/cudnn/lib/libcudnn_adv_infer.so.8"]:
+            z.extract(name, "/tmp/cudnn8_fix")
+            src = os.path.join("/tmp/cudnn8_fix", name)
+            dst = os.path.join(libs, os.path.basename(name))
+            shutil.move(src, dst)
+    print("cuDNN 8 split libs installed in", libs)
+else:
+    print("ctranslate2 cuDNN 8 libs OK or not applicable")
+"""
+        fix_script_path = "/tmp/fix_cudnn8.py"
+        with open(fix_script_path, "w") as f:
+            f.write(fix_script)
+        cls.oc_run_cmd(f'python "{fix_script_path}"', assert_success=False, environment=True)
         
         # Install PyTorch via pip for non-macOS systems (CPU builds)
         # On macOS, PyTorch is installed via conda in install_conda_packages

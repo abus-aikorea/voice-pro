@@ -1,5 +1,6 @@
 import os
 import subprocess
+import sys
 
 from app.abus_ffmpeg import *
 from app.abus_path import *
@@ -28,7 +29,7 @@ def demucs_split_file(input_path: str, output_dir, demucs_model: str, audio_form
     demucs_inst_file = os.path.join(temp_directory, demucs_model, file_name, "no_vocals.wav")
     demucs_vocal_file = os.path.join(temp_directory, demucs_model, file_name, "vocals.wav")
 
-    command = f'python -m demucs.separate -n {demucs_model} --two-stems=vocals "{input_path}" -o "{temp_directory}" {output_option}'
+    command = f'{sys.executable} -m demucs.separate -n {demucs_model} --two-stems=vocals "{input_path}" -o "{temp_directory}" {output_option}'
     command += f' --repo model/demucs'
     logger.debug(f'[abus:demucs_split_file] {command}')
     

@@ -64,6 +64,11 @@ class YoutubeDownloader:
         ydl_opts['progress_hooks'] = [self.dl_progress_hook]
         ydl_opts['playlist_items'] = '1'
         
+        # Enable Node.js JS runtime for YouTube challenge solving
+        # (yt-dlp 2026+ only enables Deno by default)
+        ydl_opts['js_runtimes'] = {'node': {}}
+        ydl_opts['remote_components'] = ['ejs:github']
+        
         # User Agent 설정 추가
         ydl_opts['http_headers'] = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36',
@@ -87,8 +92,11 @@ class YoutubeDownloader:
 
         filename_collector = FilenameCollectorPP()
         with YoutubeDL(ydl_opts) as ydl:
+            # Extract metadata once, then download from the same result
+            # to avoid redundant HTTP requests and rate-limiting
+            info = ydl.extract_info(url, download=False)
+            
             if maxDuration and maxDuration > 0:
-                info = ydl.extract_info(url, download=False)
                 entries = "entries" in info and info["entries"] or [info]
                 total_duration = 0
 
@@ -100,7 +108,7 @@ class YoutubeDownloader:
                     raise ExceededMaximumDuration(videoDuration=total_duration, maxDuration=maxDuration, message="Video is too long")
 
             ydl.add_post_processor(filename_collector)
-            ydl.download([url])
+            ydl.process_ie_result(info, download=True)
 
         if len(filename_collector.filenames) <= 0:
             raise Exception("Cannot download " + url)

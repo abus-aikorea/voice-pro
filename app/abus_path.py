@@ -435,4 +435,20 @@ def cmd_select_folder(default_path='.'):
         logger.error(f"[abus_path.py] cmd_select_folder - Error: {e}")
         sys.stderr.flush()
         return default_path
+
+
+def gradio_file_path(file_obj):
+    """Safely extract a file path from a Gradio file component input.
+    
+    In Gradio 4/5, gr.File(type='filepath') returns a NamedString (str subclass
+    with .name). gr.Audio(type='filepath') returns a plain str. This helper
+    handles all cases robustly, including legacy file-like objects.
+    """
+    if file_obj is None:
+        return None
+    if isinstance(file_obj, str):
+        return file_obj
+    if hasattr(file_obj, 'name'):
+        return file_obj.name
+    return str(file_obj)
         

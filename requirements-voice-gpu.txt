@@ -17,7 +17,7 @@ font-roboto
 gradio==5.14.0
 numpy<2
 pydantic==2.9.1
-yt-dlp==2025.11.12
+yt-dlp>=2026.3.17
 browser_cookie3
 json5
 more_itertools
@@ -79,5 +79,5 @@ misaki[zh]
 spacy[cuda12x]==3.7.5
 # etc
 onnxruntime-gpu==1.20.1
-nvidia-cudnn-cu12==8.9.7.29
+nvidia-cudnn-cu12>=9.1.0.70
 python-dotenv

@@ -54,7 +54,7 @@ class GradioVSR:
     def _upload(self,
                 file_obj, youtube_url: str, video_quality: str, audio_format: str):
         if (file_obj is not None):
-            uploaded_file = cmd_copy_file_to(file_obj.name, path_workspace_subfolder(file_obj.name))
+            uploaded_file = cmd_copy_file_to(gradio_file_path(file_obj), path_workspace_subfolder(gradio_file_path(file_obj)))
         elif youtube_url and youtube_url.strip():
             youtube_file = self.downloader.yt_download(youtube_url, path_youtube_folder(), video_quality)
             uploaded_file = cmd_copy_file_to(youtube_file, path_workspace_subfolder(youtube_file))

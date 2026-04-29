@@ -52,7 +52,7 @@ elif [[ "$OSTYPE" == "linux-gnu"* ]]; then
         # Debian/Ubuntu
         echo "Detected apt package manager"
         sudo apt-get update
-        sudo apt-get install -y git ffmpeg build-essential
+        sudo apt-get install -y git ffmpeg build-essential cmake
     elif command -v yum &> /dev/null; then
         # RHEL/CentOS
         echo "Detected yum package manager"

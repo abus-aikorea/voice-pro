@@ -14,8 +14,32 @@ logger = structlog.get_logger()
 class VoiceActivityDetection():
 
     def __init__(self, force_onnx_cpu=True):
-        path = os.path.join(os.getcwd(), 'model', 'vad', 'silero_vad.onnx')
+        # Determine project root relative to this file (src/vad.py -> project root)
+        project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        # Primary: project-local model path (for offline bundles)
+        primary_path = os.path.join(project_root, 'model', 'vad', 'silero_vad.onnx')
+        # Fallback: legacy cache location
+        fallback_path = os.path.expanduser("~/.cache/whisper-live/silero_vad.onnx")
 
+        if os.path.exists(primary_path):
+            path = primary_path
+        elif os.path.exists(fallback_path):
+            path = fallback_path
+        else:
+            print("\n" + "="*70)
+            print("[ERROR] VAD model 'silero_vad.onnx' not found.")
+            print("-"*70)
+            print("[INFO] Manual sourcing instructions:")
+            print("  1. Download from: https://github.com/snakers4/silero-vad/blob/master/files/silero_vad.onnx")
+            print(f"  2. Copy to:       {primary_path}")
+            print(f"  3. Or copy to:    {fallback_path}")
+            print("="*70 + "\n")
+            raise FileNotFoundError(
+                f"silero_vad.onnx not found. Expected at:\n"
+                f"  {primary_path}\n"
+                f"or:\n"
+                f"  {fallback_path}"
+            )
 
         opts = onnxruntime.SessionOptions()
         opts.log_severity_level = 3

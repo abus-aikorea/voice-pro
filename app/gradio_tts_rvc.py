@@ -43,7 +43,7 @@ class GradioTTSRVC:
     
     def gradio_upload_file(self, file_obj):
         if file_obj is not None:
-            text = self._read_file(file_obj.name)
+            text = self._read_file(gradio_file_path(file_obj))
             languageName = AbusText.detect_language_name(text[:200])
             return languageName, text
         return "English", "No file uploaded"   

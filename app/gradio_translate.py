@@ -35,7 +35,7 @@ class GradioTranslate:
     
     def gradio_upload_file(self, file_obj):
         if file_obj is not None:
-            text = self._read_file(file_obj.name)
+            text = self._read_file(gradio_file_path(file_obj))
             languageName = AbusText.detect_language_name(text[:200])
             return languageName, text
         return "English", "No file uploaded"   
@@ -47,7 +47,7 @@ class GradioTranslate:
         gr.Info(message)
         
         if file_obj is not None:
-            source_file = cmd_copy_file_to(file_obj.name, path_workspace_subfolder(file_obj.name))
+            source_file = cmd_copy_file_to(gradio_file_path(file_obj), path_workspace_subfolder(gradio_file_path(file_obj)))
             source_text_file = path_add_postfix(source_file, f'translate-{time.time()}-{source_lang}.txt')   
             target_text_file = path_add_postfix(source_file, f'translate-{time.time()}-{target_lang}.txt')  
         
