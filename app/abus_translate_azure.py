@@ -5,7 +5,16 @@ import re
 
 import os, requests, uuid, json
 from azure.core.exceptions import HttpResponseError
-from azure.ai.translation.text import TextTranslationClient, TranslatorCredential
+
+try:
+    # azure-ai-translation-text 1.0.0b1 (legacy)
+    from azure.ai.translation.text import TextTranslationClient, TranslatorCredential
+    _LEGACY_AZURE_SDK = True
+except ImportError:
+    # azure-ai-translation-text 1.0.0+ (stable) removed TranslatorCredential
+    from azure.ai.translation.text import TextTranslationClient
+    from azure.core.credentials import AzureKeyCredential
+    _LEGACY_AZURE_SDK = False
 
 from app.abus_genuine import *
 from app.abus_path import *
@@ -27,20 +36,28 @@ class AzureTranslator:
         apikey = get_azure_translator_key()
         endpoint = get_azure_translator_endpoint()
         region = get_azure_translator_region()
-        credential = TranslatorCredential(apikey, region)
-        
-        self.text_translator = TextTranslationClient(credential=credential, endpoint=endpoint)
+
+        if _LEGACY_AZURE_SDK:
+            credential = TranslatorCredential(apikey, region)
+            self.text_translator = TextTranslationClient(credential=credential, endpoint=endpoint)
+        else:
+            credential = AzureKeyCredential(apikey)
+            self.text_translator = TextTranslationClient(credential=credential, endpoint=endpoint, region=region)
+
         self.native_names = []
         self.language_names = []
         self.languages_dict = {}
-        
+
         try:
-            response = self.text_translator.get_languages()
+            if _LEGACY_AZURE_SDK:
+                response = self.text_translator.get_languages()
+            else:
+                response = self.text_translator.get_supported_languages()
             if response.translation is not None:
                 self.languages_dict = response.translation
                 for key, value in response.translation.items():
                     self.native_names.append(value.native_name)
-                    self.language_names.append(value.name)                    
+                    self.language_names.append(value.name)
         except HttpResponseError as exception:
             if exception.error is not None:
                 logger.error(f"Translation : {exception.error.message} ({exception.error.code})")
@@ -67,13 +84,18 @@ class AzureTranslator:
 
     def request_translate(self, source_lang: str, target_lang: str, text: str) -> str:
         try:
-            azure_source = self.get_language_code(source_lang)            
-            azure_target = self.get_language_code(target_lang)            
+            azure_source = self.get_language_code(source_lang)
+            azure_target = self.get_language_code(target_lang)
             body = [{'text': text}]
 
-            response = self.text_translator.translate(
-                content=body, to=[azure_target], from_parameter=azure_source
-            )
+            if _LEGACY_AZURE_SDK:
+                response = self.text_translator.translate(
+                    content=body, to=[azure_target], from_parameter=azure_source
+                )
+            else:
+                response = self.text_translator.translate(
+                    body=body, to_language=[azure_target], from_language=azure_source
+                )
             translation = response[0] if response else None
 
             if translation:
