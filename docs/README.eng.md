@@ -540,6 +540,7 @@ The following table lists SaaS platforms supporting subtitling, translation, and
 | **[Descript](https://descript.com)**    | ✅         | ✅          | ✅          | $36~$48 (Creator plan)             | Text-based editing, Overdub TTS, filler word removal, 1-hour free transcription. |
 | **[AppTek](https://apptek.ai)**      | ✅         | ✅          | ✅          | Custom pricing (Contact)            | Media-focused, custom models, metadata generation, cloud-based Workbench.     |
 | **[Transkriptor](https://transkriptor.com)**| ✅         | ✅          | ❌          | $12~$18 (Pay-as-you-go)            | 100+ languages, YouTube link transcription, 99% accuracy, simple editor.      |
+| **[Perso.ai](https://perso.ai)** | ✅ | ✅ | ✅ | $73~$99 (Pro plan) | 33+ languages, AI voice cloning, auto lip-sync, professional proofreading, REST API. |
 
 ### Cost Calculation Details
 - **[Maestra](https://maestra.ai/)**: Premium Plan ($158/month, 1200 credits). 60-min video: 60 credits (subtitles) + 60 credits (translation) + 60 credits (dubbing) = 180 credits. Cost = (180/1200) * $158 = $23.70.[](https://maestra.ai/pricing)
@@ -550,6 +551,7 @@ The following table lists SaaS platforms supporting subtitling, translation, and
 - **[Descript](https://descript.com)**: Creator plan (\~$24/month, limited hours). Estimated $0.60\~$0.80/min for subtitles+translation+dubbing. 60-min cost: $36\~$48. Confirm at [descript.com](https://descript.com).
 - **[AppTek](https://apptek.ai)**: Custom pricing for enterprise. No public per-minute rates. Contact [apptek.ai](https://apptek.ai) for quotes.
 - **[Transkriptor](https://transkriptor.com)**: Pay-as-you-go ($0.05\~$0.10/min transcription, similar for translation). No TTS, so partial processing. 60-min cost: $12\~$18. Confirm at [transkriptor.com](https://transkriptor.com).
+- **[Perso.ai](https://perso.ai)**: Pro plan ($73~$99/month, 6,000 credits). 60-min video: 720 credits (STT, 0.2/sec) + 3,600 credits (dubbing, 1/sec) = 4,320 credits. Pro caps single video at 30 min, so 60-min content requires two segments. Confirm at [perso.ai/pricing](https://perso.ai/pricing).
 
 ### Notes
 - **Cost for 60-min Video**: Costs are approximate and assume processing a 60-minute Korean video for subtitles, English translation, and English dubbing (where available). Platforms without TTS (e.g., VEED.IO, Transkriptor) reflect partial processing costs.

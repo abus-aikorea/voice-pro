@@ -527,6 +527,7 @@ git clone https://github.com/abus-aikorea/voice-pro.git
 | **[Descript](https://descript.com)** | ✅ | ✅ | ✅ | $36\~$48 (Creatorプラン) | テキストベース編集、Overdub TTS、フィラー単語除去、1時間無料文字起こし。 |
 | **[AppTek](https://apptek.ai)** | ✅ | ✅ | ✅ | カスタム価格 (要問い合わせ) | メディア特化、カスタムモデル、メタデータ生成、クラウドベースWorkbench。 |
 | **[Transkriptor](https://transkriptor.com)** | ✅ | ✅ | ❌ | $12\~$18 (従量制) | 100以上の言語、YouTubeリンク文字起こし、99%正確度、シンプルなエディター。 |
+| **[Perso.ai](https://perso.ai)** | ✅ | ✅ | ✅ | $73~$99 (Proプラン) | 33+言語、AIボイスクローニング、自動リップシンク、プロの校正、REST API。 |
 
 ### コスト計算詳細
 
@@ -538,6 +539,7 @@ git clone https://github.com/abus-aikorea/voice-pro.git
 - **[Descript](https://descript.com)**: Creatorプラン (\~$24/月、制限付き時間)。字幕+翻訳+ダビングで分あたり$0.60\~$0.80と推定。60分コスト：$36\~$48。descript.comで確認。
 - **[AppTek](https://apptek.ai)**: 企業向けカスタム価格。公開分単位料金なし。apptek.aiに問い合わせ。
 - **[Transkriptor](https://transkriptor.com)**: 従量制 (文字起こし分あたり$0.05\~$0.10、翻訳同等)。TTSなし、部分処理。60分コスト：$12\~$18。transkriptor.comで確認。
+- **[Perso.ai](https://perso.ai)**: Proプラン ($73~$99/月、6,000クレジット)。60分ビデオ：720クレジット (STT、0.2/秒) + 3,600クレジット (ダビング、1/秒) = 4,320クレジット。Proは単一ビデオ30分制限のため、60分コンテンツは2つのセグメントに分割が必要。perso.ai/pricingで確認。
 
 ### 注記
 

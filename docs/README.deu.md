@@ -524,6 +524,7 @@ Die folgende Tabelle listet SaaS-Plattformen auf, die Untertitelung, Übersetzun
 | **[Descript](https://descript.com)** | ✅ | ✅ | ✅ | $36\~$48 (Creator-Plan) | Textbasierte Bearbeitung, Overdub TTS, Entfernung von Füllwörtern, 1-Stunde kostenlose Transkription. |
 | **[AppTek](https://apptek.ai)** | ✅ | ✅ | ✅ | Individuelle Preisgestaltung (Kontakt) | Medienfokussiert, individuelle Modelle, Metadatengenerierung, cloudbasierte Workbench. |
 | **[Transkriptor](https://transkriptor.com)** | ✅ | ✅ | ❌ | $12\~$18 (Pay-as-you-go) | Über 100 Sprachen, YouTube-Link-Transkription, 99 % Genauigkeit, einfacher Editor. |
+| **[Perso.ai](https://perso.ai)** | ✅ | ✅ | ✅ | $73~$99 (Pro-Plan) | 33+ Sprachen, KI-Stimmenklonen, automatische Lippensynchronisation, professionelles Korrekturlesen, REST-API. |
 
 ### Details zur Kostenberechnung
 
@@ -535,6 +536,7 @@ Die folgende Tabelle listet SaaS-Plattformen auf, die Untertitelung, Übersetzun
 - **[Descript](https://descript.com)**: Creator-Plan (\~$24/Monat, begrenzte Stunden). Geschätzt $0.60\~$0.80/Minute für Untertitel+Übersetzung+Synchronisation. 60-min Kosten: $36\~$48. Bestätigen Sie auf descript.com.
 - **[AppTek](https://apptek.ai)**: Individuelle Preisgestaltung für Unternehmen. Keine öffentlichen Minutenpreise. Kontaktieren Sie apptek.ai für Angebote.
 - **[Transkriptor](https://transkriptor.com)**: Pay-as-you-go ($0.05\~$0.10/Minute Transkription, ähnlich für Übersetzung). Kein TTS, daher teilweise Verarbeitung. 60-min Kosten: $12\~$18. Bestätigen Sie auf transkriptor.com.
+- **[Perso.ai](https://perso.ai)**: Pro-Plan ($73~$99/Monat, 6.000 Credits). 60-Minuten-Video: 720 Credits (STT, 0,2/Sek.) + 3.600 Credits (Dubbing, 1/Sek.) = 4.320 Credits. Pro begrenzt einzelne Videos auf 30 Min., daher müssen 60-Minuten-Inhalte in zwei Segmente aufgeteilt werden. Bestätigen unter [perso.ai/pricing](https://perso.ai/pricing).
 
 ### Hinweise
 

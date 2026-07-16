@@ -525,6 +525,7 @@ Voice-Pro預設使用**免費**服務：翻譯使用Deep-Translator（Google的�
 | **[Descript](https://descript.com)** | ✅ | ✅ | ✅ | $36\~$48 (Creator計劃) | 文字編輯，Overdub TTS，填充詞移除，1小時免費轉錄。 |
 | **[AppTek](https://apptek.ai)** | ✅ | ✅ | ✅ | 客製化定價 (聯繫) | 媒體專用，客製化模型，元數據生成，基於雲的Workbench。 |
 | **[Transkriptor](https://transkriptor.com)** | ✅ | ✅ | ❌ | $12\~$18 (按需付費) | 100+語言，YouTube連結轉錄，99%精準度，簡單編輯器。 |
+| **[Perso.ai](https://perso.ai)** | ✅ | ✅ | ✅ | $73~$99 (Pro 計劃) | 33+ 種語言，AI 語音克隆，自動唇同步，專業校對，REST API。 |
 
 ### 成本計算詳情
 
@@ -536,6 +537,7 @@ Voice-Pro預設使用**免費**服務：翻譯使用Deep-Translator（Google的�
 - **[Descript](https://descript.com)**: Creator計劃 (\~$24/月，時間限制)。字幕+翻譯+配音每分鐘$0.60\~$0.80估算。60分鐘成本：$36\~$48。請在descript.com確認。
 - **[AppTek](https://apptek.ai)**: 企業客製化定價。無公開分鐘費率。請聯繫apptek.ai獲取報價。
 - **[Transkriptor](https://transkriptor.com)**: 按需付費 (轉錄每分鐘$0.05\~$0.10，翻譯類似)。無TTS，部分處理。60分鐘成本：$12\~$18。請在transkriptor.com確認。
+- **[Perso.ai](https://perso.ai)**: Pro 計劃 ($73~$99/月，6,000 積分)。60 分鐘影片：720 積分 (STT，0.2/秒) + 3,600 積分 (配音，1/秒) = 4,320 積分。Pro 限制單個影片 30 分鐘，60 分鐘內容需要分成兩段。請在 perso.ai/pricing 確認。
 
 ### 備註
 

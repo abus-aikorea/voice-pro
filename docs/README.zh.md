@@ -526,6 +526,7 @@ git clone https://github.com/abus-aikorea/voice-pro.git
 | **[Descript](https://descript.com)** | ✅ | ✅ | ✅ | $36\~$48 (Creator计划) | 文本编辑，Overdub TTS，填充词移除，1小时免费转录。 |
 | **[AppTek](https://apptek.ai)** | ✅ | ✅ | ✅ | 定制定价 (联系) | 媒体专用，定制模型，元数据生成，基于云的Workbench。 |
 | **[Transkriptor](https://transkriptor.com)** | ✅ | ✅ | ❌ | $12\~$18 (按需付费) | 100+语言，YouTube链接转录，99%准确度，简单编辑器。 |
+| **[Perso.ai](https://perso.ai)** | ✅ | ✅ | ✅ | $73~$99 (Pro计划) | 33+种语言，AI语音克隆，自动唇同步，专业校对，REST API。 |
 
 ### 成本计算详情
 
@@ -537,6 +538,7 @@ git clone https://github.com/abus-aikorea/voice-pro.git
 - **[Descript](https://descript.com)**: Creator计划 (\~$24/月，时间限制)。字幕+翻译+配音每分钟$0.60\~$0.80估算。60分钟成本：$36\~$48。请在descript.com确认。
 - **[AppTek](https://apptek.ai)**: 企业定制定价。无公开分钟费率。请联系apptek.ai获取报价。
 - **[Transkriptor](https://transkriptor.com)**: 按需付费 (转录每分钟$0.05\~$0.10，翻译类似)。无TTS，部分处理。60分钟成本：$12\~$18。请在transkriptor.com确认。
+- **[Perso.ai](https://perso.ai)**: Pro计划 ($73~$99/月，6,000积分)。60分钟视频：720积分 (STT，0.2/秒) + 3,600积分 (配音，1/秒) = 4,320积分。Pro限制单个视频30分钟，60分钟内容需要分成两段。请在perso.ai/pricing确认。
 
 ### 备注
 

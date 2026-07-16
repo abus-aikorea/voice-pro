@@ -524,6 +524,7 @@ A tabela a seguir lista plataformas SaaS que suportam funcionalidades de legenda
 | **[Descript](https://descript.com)** | ✅ | ✅ | ✅ | $36\~$48 (Plano Criador) | Edição baseada em texto, Overdub TTS, remoção de palavras de preenchimento, 1 hora de transcrição gratuita. |
 | **[AppTek](https://apptek.ai)** | ✅ | ✅ | ✅ | Preços personalizados (Contato) | Focado em mídia, modelos personalizados, geração de metadados, Workbench baseado na nuvem. |
 | **[Transkriptor](https://transkriptor.com)** | ✅ | ✅ | ❌ | $12\~$18 (Pagamento por uso) | Mais de 100 idiomas, transcrição de links do YouTube, 99% de precisão, editor simples. |
+| **[Perso.ai](https://perso.ai)** | ✅ | ✅ | ✅ | $73~$99 (Plano Pro) | 33+ idiomas, clonagem de voz com IA, sincronização labial automática, revisão profissional, API REST. |
 
 ### Detalhes do Cálculo de Custos
 
@@ -535,6 +536,7 @@ A tabela a seguir lista plataformas SaaS que suportam funcionalidades de legenda
 - **[Descript](https://descript.com)**: Plano Criador (\~$24/mês, horas limitadas). Estimado $0.60\~$0.80/min para legendas+tradução+dublagem. Custo de 60 min: $36\~$48. Confirme em descript.com.
 - **[AppTek](https://apptek.ai)**: Preços personalizados para empresas. Sem taxas públicas por minuto. Contate apptek.ai para cotações.
 - **[Transkriptor](https://transkriptor.com)**: Pagamento por uso ($0.05\~$0.10/min transcrição, similar para tradução). Sem TTS, processamento parcial. Custo de 60 min: $12\~$18. Confirme em transkriptor.com.
+- **[Perso.ai](https://perso.ai)**: Plano Pro ($73~$99/mês, 6.000 créditos). Vídeo de 60 min: 720 créditos (STT, 0,2/s) + 3.600 créditos (dublagem, 1/s) = 4.320 créditos. Pro limita vídeos individuais a 30 min, portanto conteúdo de 60 min requer dois segmentos. Confirmar em [perso.ai/pricing](https://perso.ai/pricing).
 
 ### Notas
 
