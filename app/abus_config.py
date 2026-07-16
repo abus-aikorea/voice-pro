@@ -86,3 +86,19 @@ def azure_translator_available() -> bool:
     )
 
 
+def get_minimax_api_key() -> str:
+    """Get MiniMax TTS API key from environment."""
+    key = get_env('MINIMAX_API_KEY')
+    if not key:
+        raise ValueError(
+            "MINIMAX_API_KEY environment variable is required. "
+            "Please set it in your .env file or environment."
+        )
+    return key
+
+
+def minimax_tts_available() -> bool:
+    """Check if MiniMax TTS is available via environment variables."""
+    return get_env('MINIMAX_API_KEY') is not None
+
+

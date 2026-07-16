@@ -50,6 +50,7 @@ from app.tab_tts_f5_single import tts_f5_single_tab
 from app.tab_tts_f5_multi import tts_f5_multi_tab
 from app.tab_tts_cosyvoice import tts_cosyvoice_tab
 from app.tab_tts_kokoro import tts_kokoro_tab
+from app.tab_tts_minimax import tts_minimax_tab
 from app.tab_translate import translate_tab
 from app.tab_live_translate import live_translate_tab
 from app.tab_vsr import vsr_tab
@@ -98,8 +99,10 @@ def create_ui(user_config: UserConfig):
                 with gr.Tab(i18n("CosyVoice")):
                     tts_cosyvoice_tab(user_config)                           
                 with gr.Tab(i18n("kokoro")):
-                    tts_kokoro_tab(user_config)       
-                    
+                    tts_kokoro_tab(user_config)
+                with gr.Tab(i18n("MiniMax")):
+                    tts_minimax_tab(user_config)
+
         with gr.Tab(i18n("AI Cover")):
             with gr.Tabs():                      
                 with gr.Tab(i18n("Cover Studio")):
