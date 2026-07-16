@@ -1,0 +1,30 @@
+# Example URL List for Batch Processing
+# Voice-Pro Batch URL Processor
+#
+# Format:
+# - Mỗi dòng 1 URL
+# - Dòng bắt đầu bằng # là comment (bỏ qua)
+# - Dòng trống bỏ qua
+#
+# Usage:
+#   python batch_url_processor.py --file example_urls.txt --workers 4
+
+# === Example YouTube URLs ===
+# Replace these with your actual URLs
+
+# Video 1: Tutorial
+https://www.youtube.com/watch?v=dQw4w9WgXcQ
+
+# Video 2: Music
+https://www.youtube.com/watch?v=9bZkp7q19f0
+
+# Video 3: Presentation
+https://youtu.be/jNQXAC9IVRw
+
+# === Hoặc sử dụng Playlist ===
+# https://www.youtube.com/playlist?list=PLrAXtmErZgOeiKm4sgNOknGvNjby9efdf
+
+# === Tips ===
+# - Không nên download quá 10 videos cùng lúc (tránh IP bị block)
+# - Workers nên để 3-5 để optimal
+# - Check network speed trước khi chạy batch lớn

@@ -1,0 +1,190 @@
+// Watermark Configuration for Voice-Pro
+// Cấu hình watermark cho bảo vệ bản quyền
+{
+    // ========================================
+    // TEXT WATERMARK
+    // ========================================
+    text_watermark: {
+        enabled: true,
+
+        // Nội dung text
+        text: "© 2025 Voice-Pro | Made with AI",
+
+        // Vị trí: top_left, top_right, top_center, bottom_left, bottom_right, bottom_center, center
+        position: "bottom_right",
+
+        // Font settings
+        font_size: 24,
+        font_color: "white",
+        font_file: null,  // Path to custom .ttf font (null = default)
+
+        // Opacity (0.0 - 1.0)
+        opacity: 0.5,
+
+        // Margin from edge (pixels)
+        margin_x: 10,
+        margin_y: 10,
+
+        // Shadow effect
+        shadow: true,
+
+        // Background box
+        background_color: null,  // "black", "white", "#FF0000", null = no background
+        background_opacity: 0.3,
+
+        // Dynamic text (optional)
+        dynamic_text: {
+            enabled: false,
+            include_timestamp: true,
+            include_filename: false,
+            template: "© {year} {company} | {timestamp}"
+        }
+    },
+
+    // ========================================
+    // LOGO/IMAGE WATERMARK
+    // ========================================
+    logo_watermark: {
+        enabled: true,
+
+        // Logo image path
+        image_path: "./assets/logo.png",
+
+        // Vị trí
+        position: "top_right",
+
+        // Opacity (0.0 - 1.0)
+        opacity: 0.7,
+
+        // Scale (0.1 - 2.0)
+        // 1.0 = original size, 0.5 = half size, 2.0 = double size
+        scale: 0.15,
+
+        // Margin from edge (pixels)
+        margin_x: 10,
+        margin_y: 10,
+
+        // Animation (optional - advanced)
+        animation: {
+            enabled: false,
+            type: "fade",  // fade, slide, pulse
+            duration: 2.0  // seconds
+        }
+    },
+
+    // ========================================
+    // AUDIO WATERMARK (Invisible)
+    // ========================================
+    audio_watermark: {
+        enabled: false,
+
+        // Watermark text (embedded invisibly)
+        watermark_text: "VoicePro_Audio_Copyright_2025",
+
+        // Method: lsb (Least Significant Bit), phase, spread_spectrum
+        method: "lsb",
+
+        // Strength (0.0 - 1.0)
+        // Higher = more robust but more audible
+        strength: 0.1
+    },
+
+    // ========================================
+    // BATCH SETTINGS
+    // ========================================
+    batch: {
+        // Apply watermark to all videos in batch
+        enabled: true,
+
+        // Skip if output already exists
+        skip_existing: true,
+
+        // Output directory
+        output_dir: "./watermarked"
+    },
+
+    // ========================================
+    // OUTPUT SETTINGS
+    // ========================================
+    output: {
+        // Output filename template
+        // {original} = original filename
+        // {timestamp} = current timestamp
+        // {date} = current date
+        filename_template: "{original}_watermarked_{timestamp}",
+
+        // Output format (auto = same as input)
+        format: "auto",  // auto, mp4, mkv, avi
+
+        // Video quality
+        video_quality: "high",  // low, medium, high, lossless
+
+        // Preserve metadata
+        preserve_metadata: true
+    },
+
+    // ========================================
+    // PRESETS
+    // ========================================
+    presets: {
+        // Subtle watermark
+        subtle: {
+            text: {enabled: true, opacity: 0.3, font_size: 18},
+            logo: {enabled: true, opacity: 0.5, scale: 0.1}
+        },
+
+        // Strong watermark
+        strong: {
+            text: {enabled: true, opacity: 0.8, font_size: 32},
+            logo: {enabled: true, opacity: 0.9, scale: 0.2}
+        },
+
+        // Professional
+        professional: {
+            text: {
+                enabled: true,
+                text: "© {year} Your Company",
+                position: "bottom_right",
+                opacity: 0.6,
+                font_size: 20,
+                background_color: "black",
+                background_opacity: 0.4
+            },
+            logo: {
+                enabled: true,
+                position: "top_left",
+                opacity: 0.7,
+                scale: 0.12
+            }
+        },
+
+        // YouTube safe
+        youtube: {
+            text: {
+                enabled: true,
+                position: "bottom_center",
+                opacity: 0.5,
+                font_size: 24,
+                margin_y: 80  // Avoid YouTube controls
+            },
+            logo: {
+                enabled: false
+            }
+        }
+    },
+
+    // ========================================
+    // INTEGRATION
+    // ========================================
+    integration: {
+        // Auto apply watermark after processing
+        auto_apply: false,
+
+        // Apply to which outputs
+        apply_to: {
+            dubbed_video: true,
+            extracted_audio: false,
+            subtitle_burn: true
+        }
+    }
+}
