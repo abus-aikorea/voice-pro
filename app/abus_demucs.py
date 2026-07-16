@@ -45,6 +45,18 @@ def demucs_split_file(input_path: str, output_dir, demucs_model: str, audio_form
             if len(tokens) < 2:
                 continue
             progress(float(tokens[0]) / 100.0, desc="Demucs")
+
+    if sp.returncode != 0:
+        raise RuntimeError(
+            f"Demucs separation failed with exit code {sp.returncode}. "
+            f"Check the console output above for details."
+        )
+
+    if not os.path.exists(demucs_vocal_file) or not os.path.exists(demucs_inst_file):
+        raise FileNotFoundError(
+            f"Demucs did not produce expected output files in: "
+            f"{os.path.dirname(demucs_vocal_file)}"
+        )
             
             
     inst_audio_file = os.path.join(output_dir, file_name + f"_{demucs_model}_inst." + audio_format)
