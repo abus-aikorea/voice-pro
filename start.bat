@@ -62,6 +62,15 @@ set UV_VERSION=0.11.28
 set UV_DIR=%INSTALL_DIR%\uv
 set UV_EXE=%UV_DIR%\uv.exe
 
+if not exist "%INSTALL_DIR%" (
+	mkdir "%INSTALL_DIR%" 2>nul || ( echo. && echo Cannot create "%INSTALL_DIR%". Check folder permissions. && goto end )
+)
+
+call :CheckWritable "%INSTALL_DIR%" || goto end
+if exist "%INSTALL_ENV_DIR%" (
+	call :CheckWritable "%INSTALL_ENV_DIR%" || goto end
+)
+
 :: keep everything project-local (no global uv/python/cache pollution)
 set UV_PYTHON_INSTALL_DIR=%INSTALL_DIR%\python
 set UV_CACHE_DIR=%INSTALL_DIR%\uv-cache
@@ -159,6 +168,19 @@ for %%M in (%*) do echo * %%~M
 echo *******************************************************************
 echo. && echo.
 exit /b
+
+:CheckWritable
+set "CHECK_DIR=%~1"
+set "WRITE_TEST=%CHECK_DIR%\.write-test-%RANDOM%.tmp"
+> "%WRITE_TEST%" echo writable 2>nul
+if errorlevel 1 (
+	echo.
+	echo "%CHECK_DIR%" is not writable by the current user.
+	echo If a previous install was run as Administrator, restore folder ownership or delete installer_files and run start.bat again.
+	exit /b 1
+)
+del "%WRITE_TEST%" >nul 2>&1
+exit /b 0
 
 :end
 pause
