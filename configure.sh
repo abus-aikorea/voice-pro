@@ -41,6 +41,11 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
         echo "Installing git..."
         brew install git
     fi
+
+    if ! command -v cmake &> /dev/null; then
+        echo "Installing cmake..."
+        brew install cmake
+    fi
     
     echo "macOS configuration complete."
     
@@ -52,21 +57,22 @@ elif [[ "$OSTYPE" == "linux-gnu"* ]]; then
         # Debian/Ubuntu
         echo "Detected apt package manager"
         sudo apt-get update
-        sudo apt-get install -y git ffmpeg build-essential
+        sudo apt-get install -y git ffmpeg build-essential cmake pkg-config python3-dev
     elif command -v yum &> /dev/null; then
         # RHEL/CentOS
         echo "Detected yum package manager"
-        sudo yum install -y git ffmpeg gcc gcc-c++ make
+        sudo yum install -y git ffmpeg gcc gcc-c++ make cmake pkgconfig python3-devel
     elif command -v dnf &> /dev/null; then
         # Fedora
         echo "Detected dnf package manager"
-        sudo dnf install -y git ffmpeg gcc gcc-c++ make
+        sudo dnf install -y git ffmpeg gcc gcc-c++ make cmake pkgconf-pkg-config python3-devel
     elif command -v pacman &> /dev/null; then
         # Arch Linux
         echo "Detected pacman package manager"
-        sudo pacman -S --noconfirm git ffmpeg base-devel
+        sudo pacman -S --noconfirm git ffmpeg base-devel cmake pkgconf python
     else
-        echo "Unsupported Linux distribution. Please install git and ffmpeg manually."
+        echo "Unsupported Linux distribution."
+        echo "Please install git, ffmpeg, a C/C++ build toolchain, cmake, pkg-config, and Python development headers manually."
         exit 1
     fi
     
@@ -85,4 +91,3 @@ fi
 echo ""
 echo "ABUS configure.sh finished."
 echo ""
-
