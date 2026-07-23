@@ -89,8 +89,7 @@ class TTSRVC:
                 combined_tts_audio += silence
                 combined_rvc_audio += silence
             elif next_line:
-                next_line.start = len(combined_rvc_audio)
-                next_line.end = next_line.start + (next_line.end - next_line.start)
+                AbusAudio.move_subtitle_start_preserve_duration(next_line, len(combined_rvc_audio))
 
         combined_tts_audio.export(tts_audio_file, format=audio_format)
         combined_rvc_audio.export(rvc_audio_file, format=audio_format)     

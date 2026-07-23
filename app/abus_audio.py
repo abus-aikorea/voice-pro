@@ -9,6 +9,12 @@ logger = structlog.get_logger()
 class AbusAudio():
     def __init__(self):
         pass
+
+    @staticmethod
+    def move_subtitle_start_preserve_duration(subtitle_event, start_ms):
+        duration = max(0, subtitle_event.end - subtitle_event.start)
+        subtitle_event.start = start_ms
+        subtitle_event.end = subtitle_event.start + duration
     
     
     @staticmethod

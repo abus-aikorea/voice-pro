@@ -155,8 +155,7 @@ class KokoroTTS:
                 silence = AudioSegment.silent(duration=silence_length)
                 combined_audio += silence
             elif next_line:
-                next_line.start = len(combined_audio)
-                next_line.end = next_line.start + (next_line.end - next_line.start)
+                AbusAudio.move_subtitle_start_preserve_duration(next_line, len(combined_audio))
                 
         combined_audio.export(output_file, format=audio_format)                 
         cmd_delete_file(tts_subtitle_file)    
@@ -194,4 +193,3 @@ class KokoroTTS:
         else:
             self.text_to_voice(text, output_file, kokoro_voice, speed_factor, audio_format, progress)
             
-
