@@ -30,6 +30,23 @@ UV_VERSION="0.11.28"
 UV_DIR="$INSTALL_DIR/uv"
 UV_EXE="$UV_DIR/uv"
 
+if ! mkdir -p "$INSTALL_DIR"; then
+    echo ""
+    echo "Cannot create $INSTALL_DIR"
+    echo "Check the parent folder permissions and try again."
+    exit 1
+fi
+
+for CHECK_DIR in "$INSTALL_DIR" "$INSTALL_ENV_DIR"; do
+    if [ -e "$CHECK_DIR" ] && [ ! -w "$CHECK_DIR" ]; then
+        echo ""
+        echo "$CHECK_DIR is not writable by the current user."
+        echo "If a previous install was run with sudo, restore ownership with:"
+        echo "  sudo chown -R \"$(id -un)\" \"$INSTALL_DIR\""
+        exit 1
+    fi
+done
+
 # Set temp directories
 export TMP="$INSTALL_DIR"
 export TEMP="$INSTALL_DIR"
