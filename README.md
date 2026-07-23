@@ -443,6 +443,8 @@ Japanese
 
 Install Voice-Pro with ease using **configure.bat** and **start.bat** (use configure.sh and start.sh on Mac/Linux).
 
+Prefer containers? See [Docker setup](docs/DOCKER.md) for the CPU image.
+
 
 ### 1. Get the Package
 
@@ -612,4 +614,3 @@ ABUS Customer Service
 
 ## ©️ Copyright
   <img src="docs/images/ABUS-logo.jpg" width="100" height="100"> by [ABUS](https://www.wctokyoseoul.com)
-

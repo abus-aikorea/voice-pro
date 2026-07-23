@@ -115,17 +115,22 @@ def create_ui(user_config: UserConfig):
         gradio_interface.load(None, None, None, js=f"() => {{{js}}}")
                     
 
+    launch_kwargs = {"css": css, "theme": ui.theme}
+    server_name = os.getenv("GRADIO_SERVER_NAME")
+    server_port = os.getenv("GRADIO_SERVER_PORT")
+    if server_name:
+        launch_kwargs["server_name"] = server_name
+    if server_port:
+        launch_kwargs["server_port"] = int(server_port)
+
     if system == "Windows":
-        gradio_interface.launch(
-            share=False,
-            server_name=None,
-            server_port=7870,
-            inbrowser=True,
-            css=css,
-            theme=ui.theme
-        )
+        launch_kwargs.setdefault("share", False)
+        launch_kwargs.setdefault("server_name", None)
+        launch_kwargs.setdefault("server_port", 7870)
+        launch_kwargs["inbrowser"] = os.getenv("GRADIO_INBROWSER", "1").lower() not in ("0", "false", "no")
+        gradio_interface.launch(**launch_kwargs)
     elif system == "Linux" or system == "Darwin":  # Linux or macOS
-        gradio_interface.launch(css=css, theme=ui.theme)
+        gradio_interface.launch(**launch_kwargs)
     else:
         print(f"Unsupported systems: {system}")
 

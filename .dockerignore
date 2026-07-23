@@ -1,0 +1,16 @@
+.git
+.github
+.venv
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+installer_files
+workspace
+model
+*.log
+*.tmp
+*.zip
+*.tar
+*.tar.gz
