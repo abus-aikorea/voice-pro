@@ -116,6 +116,7 @@ if not defined GPU_CHOICE (
 )
 if not defined GPU_CHOICE (
 	set GPU_CHOICE=C
+	where nvidia-smi >nul 2>&1 && set GPU_CHOICE=G
 	set "registry_path=HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\0000"
 	for /f "tokens=2*" %%a in ('reg query "!registry_path!" /v "DriverDesc" 2^>nul ^| findstr /i /c:"DriverDesc"') do (
 		set "value=%%b"
@@ -130,6 +131,11 @@ echo !GPU_CHOICE!>"%SAVED_CHOICE_FILE%"
 if /i "!GPU_CHOICE!"=="G" (
 	set SYNC_EXTRA=gpu
 	echo GPU mode: NVIDIA ^(CUDA 12.8^)
+	where nvidia-smi >nul 2>&1 && (
+		echo Detected NVIDIA GPU:
+		nvidia-smi --query-gpu=name,driver_version --format=csv,noheader 2>nul
+	)
+	echo RTX 50-series / Blackwell GPUs require a recent NVIDIA driver; version 570 or newer is recommended.
 ) else (
 	set SYNC_EXTRA=cpu
 	echo GPU mode: CPU

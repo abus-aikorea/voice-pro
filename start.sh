@@ -95,6 +95,11 @@ echo "$GPU_CHOICE" > "$SAVED_CHOICE_FILE"
 if [ "$GPU_CHOICE" == "G" ]; then
     SYNC_EXTRA="gpu"
     echo "GPU mode: NVIDIA (CUDA 12.8)"
+    if command -v nvidia-smi >/dev/null 2>&1; then
+        echo "Detected NVIDIA GPU:"
+        nvidia-smi --query-gpu=name,driver_version --format=csv,noheader 2>/dev/null || true
+    fi
+    echo "RTX 50-series / Blackwell GPUs require a recent NVIDIA driver; version 570 or newer is recommended."
 else
     SYNC_EXTRA="cpu"
     echo "GPU mode: CPU"
