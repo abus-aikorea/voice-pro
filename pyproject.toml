@@ -17,6 +17,9 @@ dependencies = [
     "tqdm",
     "markdown",
     "rich",
+    # ctranslate2 still imports pkg_resources at runtime; setuptools 81+ removes
+    # that compatibility module, causing faster-whisper startup failures.
+    "setuptools<81",
     "ntplib",
     "python-dotenv",
     "browser_cookie3",
