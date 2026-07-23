@@ -12,15 +12,16 @@ logger = structlog.get_logger()
 
 
 
-def ffmpeg_replace_audio(input_path: str, audio_path: str, output_path: str, progress = gr.Progress()):
+def ffmpeg_replace_audio(input_path: str, audio_path: str, output_path: str, progress = gr.Progress(), shortest: bool = True):
     _, file_extension = os.path.splitext(os.path.basename(input_path))
+    shortest_option = " -shortest" if shortest else ""
     
     if file_extension == ".mp4":
-        command = f'ffmpeg -y -i "{input_path}" -i "{audio_path}" -c:v copy -map 0:v:0 -map 1:a:0 -c:a aac -shortest "{output_path}" -nostdin'
+        command = f'ffmpeg -y -i "{input_path}" -i "{audio_path}" -c:v copy -map 0:v:0 -map 1:a:0 -c:a aac{shortest_option} "{output_path}" -nostdin'
     elif file_extension == ".webm":
-        command = f'ffmpeg -y -i "{input_path}" -i "{audio_path}" -c:v copy -map 0:v:0 -map 1:a:0 -c:a libopus -shortest "{output_path}" -nostdin'
+        command = f'ffmpeg -y -i "{input_path}" -i "{audio_path}" -c:v copy -map 0:v:0 -map 1:a:0 -c:a libopus{shortest_option} "{output_path}" -nostdin'
     else:
-        command = f'ffmpeg -y -i "{input_path}" -i "{audio_path}" -c:v copy -map 0:v:0 -map 1:a:0 -c:a aac -shortest "{output_path}" -nostdin'        
+        command = f'ffmpeg -y -i "{input_path}" -i "{audio_path}" -c:v copy -map 0:v:0 -map 1:a:0 -c:a aac{shortest_option} "{output_path}" -nostdin'        
         
     logger.debug(f'[abus:ffmpeg_replace_audio] {command}')
     os.system(command)

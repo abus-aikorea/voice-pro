@@ -395,7 +395,7 @@ class GradioGulliver:
                 source_video_file = self.fm.get_split("Source.video")
                 aidub_video_file = path_add_postfix(source_video_file, f"_{target_language}")
                 
-                ffmpeg_replace_audio(source_video_file, mixed_audio_file, aidub_video_file)
+                ffmpeg_replace_audio(source_video_file, mixed_audio_file, aidub_video_file, shortest=False)
                 
                 self.fm.set_dubbing(f'{voice_name}.video', aidub_video_file)
                 return aidub_video_file, mixed_audio_file
@@ -435,7 +435,7 @@ class GradioGulliver:
                 source_video_file = self.fm.get_split("Source.video")
                 aidub_video_file = path_add_postfix(source_video_file, f"_{target_language}")
                 
-                ffmpeg_replace_audio(source_video_file, mixed_audio_file, aidub_video_file)
+                ffmpeg_replace_audio(source_video_file, mixed_audio_file, aidub_video_file, shortest=False)
                 
                 self.fm.set_dubbing(f'{voice_name}.video', aidub_video_file)
                 return aidub_video_file, mixed_audio_file
@@ -514,7 +514,7 @@ class GradioGulliver:
                 source_video_file = self.fm.get_split("Source.video")
                 aidub_video_file = path_add_postfix(source_video_file, f"_{celeb_name}")
                 
-                ffmpeg_replace_audio(source_video_file, mixed_audio_file, aidub_video_file)
+                ffmpeg_replace_audio(source_video_file, mixed_audio_file, aidub_video_file, shortest=False)
                 self.fm.set_dubbing(f'{celeb_name}.video', aidub_video_file)
                 return aidub_video_file, mixed_audio_file
             else:
@@ -583,7 +583,7 @@ class GradioGulliver:
                 source_video_file = self.fm.get_split("Source.video")
                 aidub_video_file = path_add_postfix(source_video_file, f"_{celeb_name}")
                 
-                ffmpeg_replace_audio(source_video_file, mixed_audio_file, aidub_video_file)
+                ffmpeg_replace_audio(source_video_file, mixed_audio_file, aidub_video_file, shortest=False)
                 self.fm.set_dubbing(f'{celeb_name}.video', aidub_video_file)
                 return aidub_video_file, mixed_audio_file
             else:
@@ -661,7 +661,7 @@ class GradioGulliver:
                 source_video_file = self.fm.get_split("Source.video")
                 aidub_video_file = path_add_postfix(source_video_file, f"_{voice_name}")
                 
-                ffmpeg_replace_audio(source_video_file, mixed_audio_file, aidub_video_file)
+                ffmpeg_replace_audio(source_video_file, mixed_audio_file, aidub_video_file, shortest=False)
                 
                 self.fm.set_dubbing(f'{voice_name}.video', aidub_video_file)
                 return aidub_video_file, mixed_audio_file
@@ -701,7 +701,7 @@ class GradioGulliver:
                 source_video_file = self.fm.get_split("Source.video")
                 aidub_video_file = path_add_postfix(source_video_file, f"_{voice_name}")
                 
-                ffmpeg_replace_audio(source_video_file, mixed_audio_file, aidub_video_file)
+                ffmpeg_replace_audio(source_video_file, mixed_audio_file, aidub_video_file, shortest=False)
                 
                 self.fm.set_dubbing(f'{voice_name}.video', aidub_video_file)
                 return aidub_video_file, mixed_audio_file
