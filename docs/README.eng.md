@@ -92,6 +92,7 @@ A robust alternative to **ElevenLabs**, Voice-Pro empowers podcasters, developer
 - It works well on Windows with NVIDIA GPU. Operation on Mac and Linux has not been verified.
 - Please leave your requests on the [![GitHub Issues](https://img.shields.io/github/issues/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/issues)  or  [![GitHub Discussions](https://img.shields.io/github/discussions/abus-aikorea/voice-pro)](https://github.com/abus-aikorea/voice-pro/discussions) pages.
 - **Troubleshooting**: In most cases, issues can be resolved by deleting the `installer_files` folder and then running `start.bat` again (a clean reinstall takes only a few minutes; downloaded AI models in `model/` are kept). Errors are shown in the WebUI as red toasts that stay until closed.
+- See the [support matrix](SUPPORT_MATRIX.md) for platform status and language coverage.
 
 
 ## 📰 News & History
@@ -610,4 +611,3 @@ ABUS Customer Service
 
 ## ©️ Copyright
   <img src="images/ABUS-logo.jpg" width="100" height="100"> by [ABUS](https://www.wctokyoseoul.com)
-
