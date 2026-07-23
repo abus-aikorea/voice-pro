@@ -38,13 +38,32 @@ def demucs_split_file(input_path: str, output_dir, demucs_model: str, audio_form
     demucs_env = dict(os.environ)
     demucs_env["TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD"] = "1"
 
+    stderr_tail = []
     with subprocess.Popen(command, text=True, shell=True, stderr=subprocess.PIPE, bufsize=1, universal_newlines=True, env=demucs_env) as sp:
         for line in sp.stderr:
             print(f'{line}', end='', flush=True)
+            stderr_tail.append(line.strip())
+            stderr_tail = stderr_tail[-20:]
             tokens = [item for item in line.split("%|") if item]
             if len(tokens) < 2:
                 continue
             progress(float(tokens[0]) / 100.0, desc="Demucs")
+        return_code = sp.wait()
+
+    if return_code != 0:
+        last_log = "\n".join(stderr_tail)
+        raise RuntimeError(f"Demucs failed with exit code {return_code}.\n{last_log}")
+
+    missing_outputs = [
+        output_path
+        for output_path in (demucs_inst_file, demucs_vocal_file)
+        if not os.path.exists(output_path)
+    ]
+    if missing_outputs:
+        missing_list = ", ".join(missing_outputs)
+        raise FileNotFoundError(
+            f"Demucs finished but did not create the expected stem file(s): {missing_list}"
+        )
             
             
     inst_audio_file = os.path.join(output_dir, file_name + f"_{demucs_model}_inst." + audio_format)
@@ -56,4 +75,3 @@ def demucs_split_file(input_path: str, output_dir, demucs_model: str, audio_form
     os.remove(demucs_vocal_file)
 
     return inst_audio_file, vocal_audio_file
-
