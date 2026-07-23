@@ -5,7 +5,18 @@ import re
 
 import os, requests, uuid, json
 from azure.core.exceptions import HttpResponseError
-from azure.ai.translation.text import TextTranslationClient, TranslatorCredential
+try:
+    from azure.ai.translation.text import TextTranslationClient
+except ImportError:
+    TextTranslationClient = None
+
+try:
+    from azure.ai.translation.text import TranslatorCredential
+except ImportError:
+    try:
+        from azure.ai.translation.text._patch import TranslatorCredential
+    except ImportError:
+        TranslatorCredential = None
 
 from app.abus_genuine import *
 from app.abus_path import *
@@ -24,26 +35,68 @@ logger = structlog.get_logger()
 
 class AzureTranslator:
     def __init__(self) -> None:
-        apikey = get_azure_translator_key()
-        endpoint = get_azure_translator_endpoint()
-        region = get_azure_translator_region()
-        credential = TranslatorCredential(apikey, region)
-        
-        self.text_translator = TextTranslationClient(credential=credential, endpoint=endpoint)
+        self.apikey = get_azure_translator_key()
+        self.endpoint = get_azure_translator_endpoint()
+        self.region = get_azure_translator_region()
+        self.text_translator = None
         self.native_names = []
         self.language_names = []
         self.languages_dict = {}
+
+        if TextTranslationClient is not None and TranslatorCredential is not None:
+            try:
+                credential = TranslatorCredential(self.apikey, self.region)
+                self.text_translator = TextTranslationClient(credential=credential, endpoint=self.endpoint)
+            except Exception as exception:
+                logger.warning(f"[abus_translate_azure.py] Azure SDK client unavailable, falling back to REST API: {exception}")
+        else:
+            logger.warning("[abus_translate_azure.py] Azure Translator SDK credential is unavailable, falling back to REST API.")
         
+        self._load_languages()
+
+    def _load_languages(self):
         try:
-            response = self.text_translator.get_languages()
-            if response.translation is not None:
-                self.languages_dict = response.translation
-                for key, value in response.translation.items():
-                    self.native_names.append(value.native_name)
-                    self.language_names.append(value.name)                    
+            if self.text_translator is not None:
+                response = self.text_translator.get_languages()
+                if response.translation is not None:
+                    self._set_languages(response.translation)
+                    return
+
+            response = requests.get(
+                self._rest_url('/languages'),
+                params={'api-version': '3.0', 'scope': 'translation'},
+                timeout=20,
+            )
+            response.raise_for_status()
+            self._set_languages(response.json().get('translation', {}))
         except HttpResponseError as exception:
             if exception.error is not None:
                 logger.error(f"Translation : {exception.error.message} ({exception.error.code})")
+        except Exception as exception:
+            logger.error(f"[abus_translate_azure.py] _load_languages - error: {exception}")
+
+    def _set_languages(self, languages_dict):
+        self.languages_dict = languages_dict
+        self.native_names = []
+        self.language_names = []
+        for value in languages_dict.values():
+            native_name = self._language_attr(value, 'native_name')
+            name = self._language_attr(value, 'name')
+            if native_name:
+                self.native_names.append(native_name)
+            if name:
+                self.language_names.append(name)
+
+    def _language_attr(self, value, attr):
+        if isinstance(value, dict):
+            return value.get(attr) or value.get('nativeName' if attr == 'native_name' else attr)
+        return getattr(value, attr, None)
+
+    def _rest_url(self, path):
+        endpoint = self.endpoint.rstrip('/')
+        if 'cognitiveservices' in endpoint and '/translator/text/v' not in endpoint:
+            endpoint = f'{endpoint}/translator/text/v3.0'
+        return f'{endpoint}{path}'
             
     
     def get_languages(self) -> list:
@@ -53,19 +106,26 @@ class AzureTranslator:
     def get_language_code(self, language_name) -> str:
         search_name = language_name.lower()
         for key, value in self.languages_dict.items():
-            if value.name.lower() == search_name or value.native_name.lower() == search_name:
+            name = self._language_attr(value, 'name')
+            native_name = self._language_attr(value, 'native_name')
+            if (name and name.lower() == search_name) or (native_name and native_name.lower() == search_name):
                 return key
         return "en"
     
     def get_language_value(self, language_name):
         search_name = language_name.lower()
         for key, value in self.languages_dict.items():
-            if value.name.lower() == search_name or value.native_name.lower() == search_name:
-                return value.name
+            name = self._language_attr(value, 'name')
+            native_name = self._language_attr(value, 'native_name')
+            if (name and name.lower() == search_name) or (native_name and native_name.lower() == search_name):
+                return name
         return None
            
 
     def request_translate(self, source_lang: str, target_lang: str, text: str) -> str:
+        if self.text_translator is None:
+            return self.translate_text_webapi(source_lang, target_lang, text)
+
         try:
             azure_source = self.get_language_code(source_lang)            
             azure_target = self.get_language_code(target_lang)            
@@ -149,14 +209,6 @@ class AzureTranslator:
        
     
     def translate_text_webapi(self, source_lang: str, target_lang: str, text: str) -> str:
-        # Use environment variables for Azure Translator
-        key = get_azure_translator_key()
-        endpoint = get_azure_translator_endpoint()
-        location = get_azure_translator_region()
-
-        path = '/translate'
-        constructed_url = endpoint + path
-
         azure_source = self.get_language_code(source_lang)
         logger.debug(f'azure_source = {azure_source}')
         
@@ -170,9 +222,9 @@ class AzureTranslator:
         }
 
         headers = {
-            'Ocp-Apim-Subscription-Key': key,
+            'Ocp-Apim-Subscription-Key': self.apikey,
             # location required if you're using a multi-service or regional (not global) resource.
-            'Ocp-Apim-Subscription-Region': location,
+            'Ocp-Apim-Subscription-Region': self.region,
             'Content-type': 'application/json',
             'X-ClientTraceId': str(uuid.uuid4())
         }
@@ -184,7 +236,7 @@ class AzureTranslator:
 
 
         try:
-            response = requests.post(constructed_url, params=params, headers=headers, json=body)
+            response = requests.post(self._rest_url('/translate'), params=params, headers=headers, json=body)
             response_data = response.json()
             # logger.debug(f'==> response_data = {response_data}')
             # logger.debug(f'==> response.status_code = {response.status_code}')
