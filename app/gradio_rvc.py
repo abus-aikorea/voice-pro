@@ -184,7 +184,7 @@ class GradioRVC:
                 source_video_file = self.fm.get_split("Source.video")
                 aidub_video_file = path_add_postfix(source_video_file, f"_{rvc_voice}")
                 
-                ffmpeg_replace_audio(source_video_file, mixed_audio_file, aidub_video_file)
+                ffmpeg_replace_audio(source_video_file, mixed_audio_file, aidub_video_file, shortest=False)
                 return aidub_video_file, mixed_audio_file, self.fm.get_all_files()
             else:
                 return None, mixed_audio_file, self.fm.get_all_files()       
@@ -210,4 +210,3 @@ class GradioRVC:
     def gradio_voice_folder(self):
         rvc_voice_folder = os.path.join(os.getcwd(), 'model', 'rvc-voice')
         cmd_open_explorer(rvc_voice_folder)       
-
