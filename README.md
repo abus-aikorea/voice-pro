@@ -528,9 +528,9 @@ By default Voice-Pro uses **free** services: Deep-Translator (Google's free web 
 <br />
 
 
-## ⏳ SaaS Platforms for Subtitling, Translation, and TTS
+## ⏳ SaaS and Desktop Platforms for Subtitling, Translation, and TTS
 
-The following table lists SaaS platforms supporting subtitling, translation, and text-to-speech (TTS/dubbing) functionalities. Costs are calculated for processing a 60-minute Korean video, including subtitle generation, English translation, and English dubbing, based on the latest available pricing data as of April 15, 2025.
+The following table lists SaaS and desktop platforms supporting subtitling, translation, and text-to-speech (TTS/dubbing) functionalities. Costs are calculated for processing a 60-minute Korean video, including subtitle generation, English translation, and English dubbing, based on the latest available pricing data as of April 15, 2025.
 
 | Platform        | Subtitling | Translation | TTS/Dubbing | Cost for 60-min Video (USD, Approx.) | Key Features                                                                 |
 |-----------------|------------|-------------|-------------|-------------------------------------|------------------------------------------------------------------------------|
@@ -542,6 +542,7 @@ The following table lists SaaS platforms supporting subtitling, translation, and
 | **[Descript](https://descript.com)**    | ✅         | ✅          | ✅          | $36~$48 (Creator plan)             | Text-based editing, Overdub TTS, filler word removal, 1-hour free transcription. |
 | **[AppTek](https://apptek.ai)**      | ✅         | ✅          | ✅          | Custom pricing (Contact)            | Media-focused, custom models, metadata generation, cloud-based Workbench.     |
 | **[Transkriptor](https://transkriptor.com)**| ✅         | ✅          | ❌          | $12~$18 (Pay-as-you-go)            | 100+ languages, YouTube link transcription, 99% accuracy, simple editor.      |
+| **[GeekLink](https://geeklink.dev/subtitle-translator/?utm_source=github&utm_medium=comment&utm_campaign=translation_backlink_outreach&utm_content=voice_pro_saas_table)** | ✅ | ✅ | ❌ | From $12.99/month (partial) | Mac/Windows desktop workflow, 40+ translation languages, bilingual SRT export, video stays local. |
 
 ### Cost Calculation Details
 - **[Maestra](https://maestra.ai/)**: Premium Plan ($158/month, 1200 credits). 60-min video: 60 credits (subtitles) + 60 credits (translation) + 60 credits (dubbing) = 180 credits. Cost = (180/1200) * $158 = $23.70.[](https://maestra.ai/pricing)
@@ -552,9 +553,10 @@ The following table lists SaaS platforms supporting subtitling, translation, and
 - **[Descript](https://descript.com)**: Creator plan (\~$24/month, limited hours). Estimated $0.60\~$0.80/min for subtitles+translation+dubbing. 60-min cost: $36\~$48. Confirm at [descript.com](https://descript.com).
 - **[AppTek](https://apptek.ai)**: Custom pricing for enterprise. No public per-minute rates. Contact [apptek.ai](https://apptek.ai) for quotes.
 - **[Transkriptor](https://transkriptor.com)**: Pay-as-you-go ($0.05\~$0.10/min transcription, similar for translation). No TTS, so partial processing. 60-min cost: $12\~$18. Confirm at [transkriptor.com](https://transkriptor.com).
+- **[GeekLink](https://geeklink.dev/subtitle-translator/?utm_source=github&utm_medium=comment&utm_campaign=translation_backlink_outreach&utm_content=voice_pro_saas_table)**: Monthly Pro starts at $12.99 with 1,000 AI credits. Actual translation usage varies by model. No TTS/dubbing, so this is a partial workflow cost.
 
 ### Notes
-- **Cost for 60-min Video**: Costs are approximate and assume processing a 60-minute Korean video for subtitles, English translation, and English dubbing (where available). Platforms without TTS (e.g., VEED.IO, Transkriptor) reflect partial processing costs.
+- **Cost for 60-min Video**: Costs are approximate and assume processing a 60-minute Korean video for subtitles, English translation, and English dubbing (where available). Platforms without TTS (e.g., VEED.IO, Transkriptor, GeekLink) reflect partial processing costs.
 - **Language Support**: Most platforms support Korean and English. Verify specific language availability on their websites.
 - **Use Cases**:
   - Media/Entertainment: AppTek, Maestra
@@ -612,4 +614,3 @@ ABUS Customer Service
 
 ## ©️ Copyright
   <img src="docs/images/ABUS-logo.jpg" width="100" height="100"> by [ABUS](https://www.wctokyoseoul.com)
-
