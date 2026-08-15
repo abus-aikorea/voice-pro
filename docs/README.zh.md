@@ -69,6 +69,9 @@ Voice-Pro
   </a> ∙ 
   <a href="README.por.md">
     <img src="https://flagcdn.com/16x12/pt.png" alt="Portugal Flag" style="vertical-align: middle;"> Português
+  </a> ∙ 
+  <a href="README.fas.md">
+    <img src="https://flagcdn.com/16x12/ir.png" alt="Iran Flag" style="vertical-align: middle;"> فارسی
   </a>
 </p>
 
