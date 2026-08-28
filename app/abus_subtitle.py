@@ -51,7 +51,7 @@ def get_srt_wordlevel(segments):
 
 
 def get_vtt(segments):
-    output = "WebVTT\n\n"
+    output = "WEBVTT\n\n"
     for i, segment in enumerate(segments):
         output += f"{i + 1}\n"
         output += f"{timeformat_vtt(segment['start'])} --> {timeformat_vtt(segment['end'])}\n"
@@ -107,14 +107,19 @@ def parse_srt(file_path):
 
 def parse_vtt(file_path):
     """Reads WebVTT file and returns as dict"""
-    with open(file_path, 'r', encoding='utf-8') as file:
+    with open(file_path, 'r', encoding='utf-8-sig') as file:
         webvtt_data = file.read()
 
     data = []
     blocks = webvtt_data.split('\n\n')
 
+    # The magic is uppercase in the standard; retain support for old exports.
+    # Only the first block is a header, since cue IDs can also start with WEBVTT.
+    if blocks and re.match(r'^(?:WEBVTT|WebVTT)(?:[ \t].*)?(?:\n|$)', blocks[0]):
+        blocks = blocks[1:]
+
     for block in blocks:
-        if block.strip() != '' and not block.strip().startswith("WebVTT"):
+        if block.strip() != '':
             lines = block.strip().split('\n')
             index = lines[0]
             timestamp = lines[1]
@@ -139,7 +144,7 @@ def get_serialized_srt(dicts):
 
 
 def get_serialized_vtt(dicts):
-    output = "WebVTT\n\n"
+    output = "WEBVTT\n\n"
     for dic in dicts:
         output += f'{dic["index"]}\n'
         output += f'{dic["timestamp"]}\n'
