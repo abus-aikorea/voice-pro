@@ -202,11 +202,11 @@ class ParallelTextGenerator:
         
         
     def save(self):
-        self.vtt_source = "WebVTT\n\n" + self.vtt_source        
+        self.vtt_source = "WEBVTT\n\n" + self.vtt_source
         vtt_source_path = os.path.join(path_live_folder(), f'live-{time.time()}-{self.source_language}.vtt')        
         write_file(self.vtt_source, vtt_source_path)
 
-        self.vtt_target = "WebVTT\n\n" + self.vtt_target
+        self.vtt_target = "WEBVTT\n\n" + self.vtt_target
         vtt_target_path = os.path.join(path_live_folder(), f'live-{time.time()}-{self.target_language}.vtt')        
         write_file(self.vtt_target, vtt_target_path)
         
